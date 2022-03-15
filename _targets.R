@@ -72,7 +72,11 @@ tar_plan(
   
   # A table of genotype BLUPs for each trait/test
   tar_target(genotype_BLUEs, 
-             make_blue_table(fit_models = mixed_models_two_years))
+             make_blue_table(fit_models = mixed_models_two_years)),
+  
+  # Plots of the genotype blues
+  tar_target(BLUE_plots_two_years, 
+             make_genotype_blue_plots(fit_models = mixed_models_two_years))
 
   
 )
