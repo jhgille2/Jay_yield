@@ -1,2 +1,2 @@
-# Jay_yield
-ANalysis of the "Jay" yield trials conducted between 2019-2021
+# Jay yield
+Analysis of the "Jay" yield trials conducted between 2019-2021. This is a "rework" of the analysis I laid out in the YieldAnalysis_2022 repository. The overall analysis and objectives are still the same but in the couple of years since the project began, I've cleaned up the data considerably and decided to move this relatively clean data into thjis new repository so that this workflow can be focused more on analysis and summarization and less on the cleaning steps that were necessary and laid out in the other repository. I've also taken steps to make the workflow more streamlined and made a heavier use of the functions from the metan package as I've gotten more comfortable with the package. 
