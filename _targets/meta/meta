@@ -7,14 +7,26 @@ nir_2020_file|stem|92890efedd19efda|68d01334ca094b21|c793b87d5821f57c|-200846982
 yield_2019_file|stem|dfd6fcb73b482d8e|44cb8f6a5f61693a|4e3739ef91745af0|-1091127393|C:/Users/Jay/Documents/R/Projects/Jay_yield/data/season_2019/YieldData_2019.xlsx|t19065.6786306424s|c792026e8d8e9dbc|132008|file|vector|||0||
 mixed_models_two_year|stem|3e0c5a0174a2feb2|ddf159e7b0adebdd|e25d7ec82cb4fb7d|1237877458||t19065.8086796665s|92cc0cc40a62ad9d|10980450|rds|vector|||11.5|Rows 63, 64, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140, 142, 144, 148, 152, 156, 160, 164, 168, 172, 176, 180, 183, 184, 187, 188, 191, 192, 195, 196, 199, 200, 203, 204, 207, 208, 211, 212, 215, 216, 219, 220, 223, 224, 227, 228, 231, 232, 235, 236, 239, 240, 243, 244, 247, 248, 251, 252, 255, 256, 259, 260, 263, 264, 267, 268, 271, 272, 275, 276, 279, 280, 283, 284, 287, 288, 291, 292, 295, 296, 299, 300, 303, 304, 307, 308, 311, 312, 315, 316, 319, 320, 323, 324, 327, 328, 331, 332, 335, 336, 339, 340 with NA values deleted.|
 genotype_BLUPs|stem|7497160353902fcd|c3ae7a7db7d210bc|5d9a96cae1cf1387|1953138485||t19065.809409666s|44df3f8f32bb000f|2692|rds|vector|||0.62||
-gge_models_two_years|stem|677f0c0053ff76a4|479c5f021f3d1b3a|343f4d417abc269f|678441554||t19065.8445408167s|768cc37789c053c2|25851|rds|vector|||1.72|Data imputation used to fill the GxE matrix|
-mixed_models_two_years|stem|3e0c5a0174a2feb2|ddf159e7b0adebdd|e25d7ec82cb4fb7d|2000630376||t19065.854776497s|92cc0cc40a62ad9d|10980450|rds|vector|||11.27|Rows 63, 64, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140, 142, 144, 148, 152, 156, 160, 164, 168, 172, 176, 180, 183, 184, 187, 188, 191, 192, 195, 196, 199, 200, 203, 204, 207, 208, 211, 212, 215, 216, 219, 220, 223, 224, 227, 228, 231, 232, 235, 236, 239, 240, 243, 244, 247, 248, 251, 252, 255, 256, 259, 260, 263, 264, 267, 268, 271, 272, 275, 276, 279, 280, 283, 284, 287, 288, 291, 292, 295, 296, 299, 300, 303, 304, 307, 308, 311, 312, 315, 316, 319, 320, 323, 324, 327, 328, 331, 332, 335, 336, 339, 340 with NA values deleted.|
-gyt_model_two_years|stem|89540f0e8ef91dad|785a3e6de37a4b61|c3643b3a986670ce|-149027634||t19065.8551909621s|d5a8880d2780c405|13844|rds|vector|||0.12|Nonnumeric variables GEN will not be selected.Use find_text_in_num to see rows with nonnumeric characteres.|
 genotype_BLUEs|stem|1ad30f36589e28e6|972de3987c0cd291|0c5fc312c54c7f41|-1998599105||t19065.8552173452s|1c3d7793c7504859|9087|rds|vector|||2.09||
-merge_yield_data|function|aeb198547446aaa3||||||||||||||
+BLUE_plots_two_years|stem|7675c80b59ca7a4a|ceab36cace931fbe|f9e82d893aa871ca|397652647||t19067.6107200943s|3bd8f66805fd112b|45|rds|vector|||0||
+analysis_writeup|stem|4b829b0860f973c7|7eadeeb97860e2ad|4745aa592080ea1d|505953392|doc/analysis_writeup.html*doc/analysis_writeup.Rmd|t19067.6799273796s|58d08bfd0501566a|1630648|file|vector|||1.09|MathJax doesnt work with self_contained when not using the rmarkdown default template.|
+gge_models_two_years|stem|677f0c0053ff76a4|479c5f021f3d1b3a|5a677e323e0bf206|678441554||t19067.8356801216s|768cc37789c053c2|25851|rds|vector|||1.64|Data imputation used to fill the GxE matrix|
+mixed_models_two_years|stem|3e0c5a0174a2feb2|ddf159e7b0adebdd|6ff7fdd7325ec5ee|2000630376||t19067.8358220859s|92cc0cc40a62ad9d|10980450|rds|vector|||11.58|Rows 63, 64, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140, 142, 144, 148, 152, 156, 160, 164, 168, 172, 176, 180, 183, 184, 187, 188, 191, 192, 195, 196, 199, 200, 203, 204, 207, 208, 211, 212, 215, 216, 219, 220, 223, 224, 227, 228, 231, 232, 235, 236, 239, 240, 243, 244, 247, 248, 251, 252, 255, 256, 259, 260, 263, 264, 267, 268, 271, 272, 275, 276, 279, 280, 283, 284, 287, 288, 291, 292, 295, 296, 299, 300, 303, 304, 307, 308, 311, 312, 315, 316, 319, 320, 323, 324, 327, 328, 331, 332, 335, 336, 339, 340 with NA values deleted.|
+gyt_model_two_years|stem|89540f0e8ef91dad|785a3e6de37a4b61|9373f0056b15413b|-149027634||t19067.8358233359s|d5a8880d2780c405|13844|rds|vector|||0.08|Nonnumeric variables GEN will not be selected.Use find_text_in_num to see rows with nonnumeric characteres.|
+genotype_conversion|stem|7e5bcc82d1f5616c|7f2e7989354c7704|4e3739ef91745af0|1698414592|C:/Users/Jay/Documents/R/Projects/Jay_yield/data/utils/genotype_name_conversion.xlsx|t19067.8697233918s|9c72b0897c30c10a|9072|file|vector|||0.02||
+yield_check_genotypes|stem|3f4f13ca25867d8e|b89d2f2ee52d44d4|4e3739ef91745af0|952746019|C:/Users/Jay/Documents/R/Projects/Jay_yield/data/utils/check_genotypes.xlsx|t19067.8695365648s|6e0960da932458b7|8937|file|vector|||0||
+util_tables|stem|855460badbb52359|8c4992828d8e8409|dca3695332a10913|-1856776404||t19067.8733150405s|ae8fc52791e5984a|318|rds|vector|||0.03||
+test_name_colors|stem|3b12ace9c633b928|47ffe0ab99d4bfc6|4a7e835e47c87f3f|306515319||t19067.8831775s|7af061f2ef9eeab5|151|rds|vector|||0||
+make_genotype_blue_plots|function|f20416feeee250a8||||||||||||||
+gg_color_hue|function|d98b8de153055dde||||||||||||||
+.Random.seed|object|4cad82f0d53cae97||||||||||||||
+convert_from_table|function|bc71bdd76e302212||||||||||||||
 fit_gyt_model|function|cd83da3d5cf7c6b0||||||||||||||
 fit_mixed_models|function|76b53bc3e04aa0ad||||||||||||||
 make_blup_table|function|dba92ad773ddb24f||||||||||||||
 fit_gge_models|function|b00f671568f41bbd||||||||||||||
+read_util_tables|function|16b608cae7b5f921||||||||||||||
 make_blue_table|function|b4c49e322c3666f4||||||||||||||
-all_yield_data|stem|3f09b239adc03cc7|e8e81de647b07875|dfb62a2fe1fa3f8f|61897294||t19065.8670570697s|870b418850399328|62393|rds|vector|||0.28|NAs introduced by coercion|
+set_test_colors|function|56e3603ca9791960||||||||||||||
+merge_yield_data|function|d2ff027996379903||||||||||||||
+all_yield_data|stem|7ca0efe30c3e89d2|5fddda492c903e20|90d42bac494c8f70|61897294||t19067.9259711676s|c159ec92c4900489|62290|rds|vector|||0.33|NAs introduced by coercion|

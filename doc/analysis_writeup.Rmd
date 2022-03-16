@@ -1,0 +1,66 @@
+---
+title: "Analysis writeup"
+author: "Jay Gillenwater"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: rmdformats::readthedown
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+## target knits Rmds in their own session, so load libraries here.
+source(here::here("packages.R"))
+```
+
+```{r load-targets, include=FALSE}
+# tar_load(c(target_1, target_2, target_3))
+
+# # If your chunk output is shown in-line, then you'll need to wrap tar_load()
+# # like so:
+# 
+# withr::with_dir(here::here(), {
+#   tar_load(c(target_1, target_2, target_3))
+# })
+# 
+# # This is not needed when using tar_make() to render the document.
+```
+
+## Introduction
+This document is a (relatively) brief overview of the analysis performed by this workflow and my reasoning + thoughts for the techniques I used.
+
+## Overall goals
+The main objective of this experiment is to identify soybean lines with yield and agronomic traits comparable to existing high-yielding checks that also have seed protein and oil contents that are superior to the high-yielding checks. 
+
+## Population description
+### Population development history 
+In 2018, oil mapping populations 201 and 202 were grown at the Central Crops Research Station in Clayton, NC. These populations consisted of 273 and 237 recombinant inbred lines (RILs) respectively. Several agronomic traits were scored in the field for each population. These included height, lodging, maturity date, and a composite agronomic score. Lodging was scored on a scale of 1-5 where 5indicates that all plants in a plot are on the ground, and a score of 1 indicates that all plants are erect[Feh87]. The agronomic score aimed to capture other traits of value such as visual estimation of pod load and plot uniformity to provide a general score of a line’s agronomic desirability. Agronomic score was recorded on a scale of 1-5 aswell, with 1 identifying the best lines of a population, and 5 the worst. Maturity was recorded at the R8 maturity date. Height was measured in centimeters from the soil to the top of the plant. Following harvest, yield, seed weight, protein, and oil content were measured after seed was air dried to approximately 7% moisture content in a greenhouse. Protein and oil contents were measured on a dry basis using a Perten DA 7250 NIR®instrument. Yield and seed weight were measured after seed had been sifted and cleaned of debris and cracked seed. To select lines for the 2019 growing season, lines with abnormally low bulk weights or extreme maturity dates from 2018 were first removed from consideration. Two yield trials were then developed for each mapping population. The maturity data of RILs were considered when forming tests such that the lines of each test would have a maturity data range approximately half that of the total mapping population from which it was derived. RILs were selected for each test which were also representative of the distribution of seed protein and seed oil traits for each population. Eighty unique lines were selected from each population which satisfied these criteria, and each yield test was comprised of 40 RILs. Three high-yielding check cultivars and the two parents of the respective population were also included in each test. Yield check cultivars Dunphy, Osage, and Roy were used in tests 1 and 2, while Dunphy, Dilday, and N.C. Raleigh were used for tests 3 and 4. These lines were selected to represent the estimated maturities of the RILs in each test. The parents for tests 1 and 2 were cultivars LMN09-119 and N09-09, and the parents for tests 3 and 4 were LMN09-19 and N13-47. 
+
+These four tests were grown in two locations in 2019: the Tidewater Research Station in Plymouth, NC (PLY) and the Caswell Research Farm in Kinston, NC (CAS). The same data was collected for each test in this season that was collected in the previous season. Selections were done using this data by first identifying the lines with a yield within or above a least significant difference (LSD) of the average yield of the checks for each test. Further selection was done using the seed composition traits by identifying the thirty lines with the highest protein + oil content.
+
+These thirty lines were then grouped into two new tests of 15 RILs each which were then grown in both the 2020 and 2021 seasons. Thesew tests were grown in CLA and CAS in 2020 and CAS and PLY in 2021.
+
+
+
+
+## Reproducibility
+
+<details><summary>Reproducibility receipt</summary>
+
+```{r}
+## datetime
+Sys.time()
+
+## repository
+if(requireNamespace('git2r', quietly = TRUE)) {
+  git2r::repository()
+} else {
+  c(
+    system2("git", args = c("log", "--name-status", "-1"), stdout = TRUE),
+    system2("git", args = c("remote", "-v"), stdout = TRUE)
+  )
+}
+
+## session info
+sessionInfo()
+```
+
+</details>

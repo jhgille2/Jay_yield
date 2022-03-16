@@ -11,7 +11,8 @@
 #' @param yield_2021_file
 merge_yield_data <- function(yield_2019_file, cas_maturity_file,
                              cla_maturity_file, nir_2020_file, yield_2020_file,
-                             yield_2021_file) {
+                             yield_2021_file, 
+                             util_tables) {
   
   # Read in the 2019 yield data and rename some of the columns
   yield_2019 <- read_excel(yield_2019_file, col_types = "text") %>%
@@ -23,7 +24,7 @@ merge_yield_data <- function(yield_2019_file, cas_maturity_file,
            ht               = height, 
            lod              = lodging, 
            protein_plus_oil = oil_protein) %>% 
-    mutate(loc = toupper(loc))
+    mutate(loc = toupper(loc)) # Convert from kg/ha to bu/acre
 
   # Read in the 2020 maturity date data
   md_cas <- read_excel(cas_maturity_file, col_types = "text")
@@ -105,9 +106,14 @@ merge_yield_data <- function(yield_2019_file, cas_maturity_file,
     reduce(bind_rows) %>% 
     mutate(across(any_of(num_cols), as.numeric), 
            protein_plus_oil = protein + oil, 
-           yield = ifelse(year %in% c("2019", "2020"), yield*0.033, 
-                          ifelse(loc %in% c("PLY", "SAN"), yield*0.0252, yield*0.0228)), 
+           yield = ifelse(year %in% c("2020"), yield*0.033, 
+                          ifelse(year == "2019", yield/67.2510693716674, 
+                            ifelse(loc %in% c("PLY", "SAN"), yield*0.0252, yield*0.0228))), 
            ENV = paste(loc, year, sep = " - "))
+  
+  # Standardize genotype names so that each genotype is identified with
+  # only name. See the function definition in the utils.R script.
+  all_merged <- convert_from_table(all_merged, "genotype", util_tables$genotype_conversion_table)
   
   # Split this data into two tables: One with all the data
   # and one with just the data from 2020 and 2021, split up by test

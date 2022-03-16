@@ -39,8 +39,23 @@ tar_plan(
              list.files(here("data", "season_2021"), full.names = TRUE), 
              format = "file"), 
   
+  # Check genotypes
+  tar_target(yield_check_genotypes, 
+             here("data", "utils", "check_genotypes.xlsx"), 
+             format = "file"),
+  
+  # A table to convert between genotype names that are coded 
+  # differently between years
+  tar_target(genotype_conversion, 
+             here("data", "utils", "genotype_name_conversion.xlsx"), 
+             format = "file"), 
+  
   ## Section: Data cleaning
   ##################################################
+  
+  # Read in the utility tables
+  tar_target(util_tables, 
+             read_util_tables(yield_check_genotypes, genotype_conversion)),
   
   # Cleaning up and merging the data from the three seasons
   tar_target(all_yield_data, 
@@ -49,7 +64,12 @@ tar_plan(
                               cla_maturity_file, 
                               nir_2020_file,
                               yield_2020_file, 
-                              yield_2021_file)),
+                              yield_2021_file, 
+                              util_tables)),
+  
+  # Assign a color to each test name to use for plotting
+  tar_target(test_name_colors, 
+             set_test_colors(color_ids = names(all_yield_data$all))),
   
   ## Section: Analysis
   ##################################################
@@ -76,7 +96,10 @@ tar_plan(
   
   # Plots of the genotype blues
   tar_target(BLUE_plots_two_years, 
-             make_genotype_blue_plots(fit_models = mixed_models_two_years))
-
+             make_genotype_blue_plots(fit_models = mixed_models_two_years)),
+  
+  ## Section: Writeup documents
+  ##################################################
+  tar_render(analysis_writeup, "doc/analysis_writeup.Rmd")
   
 )

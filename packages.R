@@ -12,7 +12,21 @@ pacman::p_load(conflicted,
                here, 
                readxl, 
                janitor, 
-               metan)
+               metan, 
+               rmdformats, 
+               openxlsx, 
+               ggthemes, 
+               lattice, 
+               ggpubr, 
+               ggcorrplot, 
+               extrafont, 
+               GGally, 
+               agricolae, 
+               lme4, 
+               emmeans, 
+               kableExtra, 
+               pander)
 
 # Function preference
 conflicted::conflict_prefer("filter", "dplyr", "base")
+

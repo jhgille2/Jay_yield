@@ -1,0 +1,18 @@
+#' .. content for \description{} (no empty lines) ..
+#'
+#' .. content for \details{} ..
+#'
+#' @title
+#' @param yield_check_genotypes
+#' @param genotype_conversion
+read_util_tables <- function(yield_check_genotypes, genotype_conversion) {
+
+  # Read in each file and return the dataframes in a list
+  yield_checks        <- read_excel(yield_check_genotypes)
+  genotype_conversion <- read_excel(genotype_conversion)
+  
+  res <- list("check_table"               = yield_checks, 
+              "genotype_conversion_table" = genotype_conversion)
+  
+  return(res)
+}
