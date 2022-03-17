@@ -16,10 +16,25 @@ gg_color_hue <- function(n) {
 # this table to recode a given variable in some dataframe
 convert_from_table <- function(data, var, conversiontable){
   
-  all_matches   <- match(data[, var], conversiontable[, 1])
+  all_matches   <- match(unlist(data[, var]), unlist(conversiontable[, 1]))
   match_indices <- which(!is.na(all_matches))
   
-  data[, var][match_indices] <- conversiontable[, 2][all_matches[match_indices]]
+  new_var <- as.character(unlist(data[, var]))
+  
+  new_var[match_indices] <- unlist(conversiontable[, 2])[all_matches[match_indices]]
+  
+  data[, var] <- new_var
   
   return(data)
 }
+
+# A simple version of the above, just returns the value of the first match
+match_from_table <- function(old_name, conversiontable){
+  
+  all_matches   <- match(old_name, unlist(conversiontable[, 1]))
+  
+  converted_name <- as.character(unlist(conversiontable[, 2])[all_matches])
+  
+  return(converted_name)
+}
+

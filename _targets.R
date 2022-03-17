@@ -26,12 +26,12 @@ tar_plan(
   
   # NIR data from 2020
   tar_target(nir_2020_file, 
-             list.files(here("data", "season_2020", "nir"), full.names = TRUE), 
+             here("data", "season_2020", "nir", "NIRData_2020.xlsx"), 
              format = "file"),
   
   # Yield data from 2020
   tar_target(yield_2020_file, 
-             list.files(here("data", "season_2020", "yield"), full.names = TRUE), 
+             here("data", "season_2020", "yield", "YieldData_2020.xlsx"), 
              format = "file"),
   
   # Yield data from 2021
@@ -50,12 +50,17 @@ tar_plan(
              here("data", "utils", "genotype_name_conversion.xlsx"), 
              format = "file"), 
   
+  # A table to convert short phenotype names to publication-ready names
+  tar_target(trait_conversion, 
+             here("data", "utils", "trait_name_lookup.xlsx"), 
+             format = "file"),
+  
   ## Section: Data cleaning
   ##################################################
   
   # Read in the utility tables
   tar_target(util_tables, 
-             read_util_tables(yield_check_genotypes, genotype_conversion)),
+             read_util_tables(yield_check_genotypes, genotype_conversion, trait_conversion)),
   
   # Cleaning up and merging the data from the three seasons
   tar_target(all_yield_data, 
