@@ -79,6 +79,10 @@ tar_plan(
   ## Section: Analysis
   ##################################################
   
+  # ANOVA (fixed effects)
+  tar_target(anova_two_years, 
+             calc_anova(df = all_yield_data$two_year)),
+  
   # Mixed effects models
   tar_target(mixed_models_two_years, 
              fit_mixed_models(df = all_yield_data$two_year)),
@@ -102,6 +106,10 @@ tar_plan(
   # Plots of the genotype blues
   tar_target(BLUE_plots_two_years, 
              make_genotype_blue_plots(fit_models = mixed_models_two_years)),
+  
+  # Cleaner ANOVA tables
+  tar_target(anova_tables, 
+             make_anova_tables(anova_data = anova_two_years)),
   
   ## Section: Writeup documents
   ##################################################

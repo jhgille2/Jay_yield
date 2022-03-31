@@ -27,7 +27,7 @@ convert_from_table(all_yield, "genotype", util_tables$genotype_conversion_table)
 tar_load(genotype_BLUEs)
 
 # A function to make a labelled histogram
-labelled_histogram <- function(blue_data, test_colors, trait_name, check_genotypes, trait_name_lookup){
+labelled_histogram <- function(blue_data, test_colors, trait_name, check_genotypes, trait_name_lookup, label_genotypes){
   
   # Use the lookup table to convert the trait name to its fancy counterpart
   fancy_trait_name <- match_from_table(trait_name, trait_name_lookup)
@@ -51,6 +51,11 @@ labelled_histogram <- function(blue_data, test_colors, trait_name, check_genotyp
   CheckParents <- CheckParents[, c("genotype", trait_name)]
   colnames(CheckParents) <- c("genotype", "value")  
   
+  # Get data for the other genotypes to label
+  LabelGenotypes <- blue_data %>% dplyr::filter(genotype %in% label_genotypes)
+  LabelGenotypes <- LabelGenotypes[, c("genotype", trait_name)]
+  colnames(LabelGenotypes) <- c("genotype", "value") 
+  
   # Data from the initial plot (I want the bin heights)
   PlotData <- ggplot_build(Plot.init)$data[[1]]
   
@@ -61,6 +66,12 @@ labelled_histogram <- function(blue_data, test_colors, trait_name, check_genotyp
     CheckParents$yval[[i]] <- PlotData$count[[max(which(PlotData$xmin < CheckParents$value[[i]]))]]
   }
   
+  if(nrow(LabelGenotypes) > 0){
+    LabelGenotypes$yval <- NA
+    for(i in 1:nrow(LabelGenotypes)){
+      LabelGenotypes$yval[[i]] <- PlotData$count[[max(which(PlotData$xmin < LabelGenotypes$value[[i]]))]]
+    }
+  }
   
   # Add labels w/arrows for the parents/checks using this new data
   # c(max(PlotData$count) + max(PlotData$count)/5)
@@ -75,6 +86,17 @@ labelled_histogram <- function(blue_data, test_colors, trait_name, check_genotyp
     coord_cartesian(xlim = c(min(unlist(blue_data[, trait_name])) - 2, max(unlist(blue_data[, trait_name])) + 2), expand = FALSE) + 
     scale_fill_manual(values = test_colors) + 
     theme(legend.position = "none")
+  
+  # Add additional genotypes if requested
+  if(nrow(LabelGenotypes) > 0){
+    Plot.Final <- Plot.Final +
+      ggrepel::geom_label_repel(data = LabelGenotypes,
+                                aes(x = value, y = yval, label = genotype),
+                                nudge_y = max(PlotData$count)/3,
+                                arrow = arrow(length = unit(0.015, "npc")),
+                                min.segment.length = 0,
+                                size = 8)
+  }
   
   Plot.Final
   
