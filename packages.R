@@ -3,7 +3,7 @@ if(!require(pacman)){
   install.packages("pacman")
 }
 
-# Use pacman to load/install packaged
+# Use pacman to load/install packages
 pacman::p_load(conflicted, 
                dotenv, 
                targets, 
@@ -19,13 +19,16 @@ pacman::p_load(conflicted,
                lattice, 
                ggpubr, 
                ggcorrplot, 
+               patchwork,
                extrafont, 
                GGally, 
                agricolae, 
                lme4, 
                emmeans, 
                kableExtra, 
-               pander)
+               pander, 
+               visNetwork,
+               kableExtra)
 
 # Function preference
 conflicted::conflict_prefer("filter", "dplyr", "base")

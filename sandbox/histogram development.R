@@ -1,13 +1,23 @@
+##################################################
+## Project: Jay Yield
+## Script purpose: Development of function(s) for annotated histograms
+## Date: 2022-04-01
+## Author: Jay Gillenwater
+##################################################
+
+# Load in the data to use in the histograms
 tar_load(util_tables)
 tar_load(genotype_BLUEs)
 tar_load(all_yield_data)
 tar_load(test_name_colors)
 
+# Combine all the yield data into a single data frame
 all_yield <- reduce(all_yield_data$all, bind_rows)
 
-util_tables$genotype_conversion_table$genotype[match(all_yield$genotype, util_tables$genotype_conversion_table$old_genotype)]
-
-
+# A function to replace values in a column with their match from a 
+# conversion table. The current value in the data column should be one of 
+# the values in the first column of the conversion table and the second
+# column should hold what the value should be converted to
 convert_from_table <- function(data, var, conversiontable){
   
   all_matches   <- match(unlist(data[, var]), unlist(conversiontable[, 1]))
@@ -22,12 +32,13 @@ convert_from_table <- function(data, var, conversiontable){
   return(data)
 }
 
+# Use the genotype conversion utility table to standardize the check genotype names
 convert_from_table(all_yield, "genotype", util_tables$genotype_conversion_table)
 
 tar_load(genotype_BLUEs)
 
 # A function to make a labelled histogram
-labelled_histogram <- function(blue_data, test_colors, trait_name, check_genotypes, trait_name_lookup){
+labelled_histogram <- function(blue_data, test_colors, trait_name, check_genotypes, trait_name_lookup, label_genotypes = NULL){
   
   # Use the lookup table to convert the trait name to its fancy counterpart
   fancy_trait_name <- match_from_table(trait_name, trait_name_lookup)
@@ -36,7 +47,7 @@ labelled_histogram <- function(blue_data, test_colors, trait_name, check_genotyp
   # The initial plot (need bin heights)
   Plot.init <- ggplot(blue_data, aes_string(x = trait_name, fill = test_name)) + 
     geom_histogram(bins = 9, col = 'black') + 
-    theme_bw() + 
+    theme_calc() + 
     theme(axis.text = element_text(size = 20, face = 'bold'),
           axis.title = element_text(size = 30)) + 
     ylab("Count") + 
@@ -47,7 +58,7 @@ labelled_histogram <- function(blue_data, test_colors, trait_name, check_genotyp
   #   geom_vline(xintercept = LSDLine, linetype = 2, colour = 'red', size = 1.25)
   
   # Get data for the parents/checks
-  CheckParents <- blue_data %>% dplyr::filter(genotype %in% check_genotypes$genotype)
+  CheckParents <- blue_data %>% dplyr::filter(genotype %in% c(check_genotypes$genotype, label_genotypes))
   CheckParents <- CheckParents[, c("genotype", trait_name)]
   colnames(CheckParents) <- c("genotype", "value")  
   
@@ -71,8 +82,9 @@ labelled_histogram <- function(blue_data, test_colors, trait_name, check_genotyp
                               nudge_y = max(PlotData$count)/3,
                               arrow = arrow(length = unit(0.015, "npc")),
                               min.segment.length = 0,
-                              size = 8) +
-    coord_cartesian(xlim = c(min(unlist(blue_data[, trait_name])) - 2, max(unlist(blue_data[, trait_name])) + 2), expand = FALSE) + 
+                              size = 8, 
+                              fill = "white") +
+    coord_cartesian(xlim = c(min(unlist(blue_data[, trait_name])) - 2, max(unlist(blue_data[, trait_name])) + 2)) + 
     scale_fill_manual(values = test_colors) + 
     theme(legend.position = "none")
   
@@ -80,10 +92,31 @@ labelled_histogram <- function(blue_data, test_colors, trait_name, check_genotyp
   
 }
 
+# See the ./R/utils.R file for this function definition.
+# Basically uses a table to convert short variable names to more
+# publication ready names
 match_from_table("md", util_tables$trait_lookup)
 
-ggplot(genotype_BLUEs$BLUEs$`Jay Test 1`, aes_string(x = "yield", fill = "test_name")) + 
-  theme_bw() + 
-  geom_histogram(color = "black", bins = 10) + 
-  scale_fill_manual(values = test_name_colors) + 
-  theme(legend.position = "none") 
+
+test_1_oil <- labelled_histogram(genotype_BLUEs$BLUEs$`Jay Test 1`, 
+                                 test_colors       = test_name_colors, 
+                                 trait_name        = "oil", 
+                                 check_genotypes   = util_tables$check_table, 
+                                 trait_name_lookup = util_tables$trait_lookup, 
+                                 label_genotypes   = c("N18-1620", "N18-1632-1"))
+
+test_1_pro <- labelled_histogram(genotype_BLUEs$BLUEs$`Jay Test 1`, 
+                                 test_colors       = test_name_colors, 
+                                 trait_name        = "protein", 
+                                 check_genotypes   = util_tables$check_table, 
+                                 trait_name_lookup = util_tables$trait_lookup, 
+                                 label_genotypes   = c("N18-1620", "N18-1632-1"))
+
+test_1_yield <- labelled_histogram(genotype_BLUEs$BLUEs$`Jay Test 1`, 
+                                   test_colors       = test_name_colors, 
+                                   trait_name        = "yield", 
+                                   check_genotypes   = util_tables$check_table, 
+                                   trait_name_lookup = util_tables$trait_lookup, 
+                                   label_genotypes   = c("N18-1620", "N18-1632-1"))
+
+(test_1_oil | test_1_pro)/test_1_yield

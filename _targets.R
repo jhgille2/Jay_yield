@@ -55,12 +55,21 @@ tar_plan(
              here("data", "utils", "trait_name_lookup.xlsx"), 
              format = "file"),
   
+  # A table to convert short phenotype names to longer names that don't 
+  # have units included
+  tar_target(trait_shortname_conversion, 
+             here("data", "utils", "trait_shortname_lookup.xlsx"), 
+             format = "file"),
+  
   ## Section: Data cleaning
   ##################################################
   
   # Read in the utility tables
   tar_target(util_tables, 
-             read_util_tables(yield_check_genotypes, genotype_conversion, trait_conversion)),
+             read_util_tables(yield_check_genotypes, 
+                              genotype_conversion, 
+                              trait_conversion, 
+                              trait_shortname_conversion)),
   
   # Cleaning up and merging the data from the three seasons
   tar_target(all_yield_data, 
@@ -103,8 +112,18 @@ tar_plan(
   tar_target(BLUE_plots_two_years, 
              make_genotype_blue_plots(fit_models = mixed_models_two_years)),
   
+  tar_target(example_table, 
+             make_example_table()),
+  
+  # A example plot to use for testing manuscript markdown rendering
+  tar_target(example_plot, 
+             make_example_plot(all_yield_data, test_name_colors, dir = here("exports", "plots", "example_plot.pdf")), 
+             format = "file"),
+  
   ## Section: Writeup documents
   ##################################################
-  tar_render(analysis_writeup, "doc/analysis_writeup.Rmd")
+  tar_render(analysis_writeup, "doc/analysis_writeup.Rmd"), 
+  
+  tar_render(manuscript_document, here("doc", "manuscript", "manuscript.Rmd"))
   
 )

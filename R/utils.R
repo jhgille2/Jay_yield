@@ -38,3 +38,23 @@ match_from_table <- function(old_name, conversiontable){
   return(converted_name)
 }
 
+
+# A function to replace the names of a dataframe by using a lookup table
+rename_with_lookup <- function(df, lookup){
+  
+  index_match <- function(vec, convert_table){
+    matches     <- match(vec, unlist(convert_table[, 1]))
+    matches_ind <- which(!is.na(matches))
+    
+    replacement <- unlist(convert_table[, 2])[matches[matches_ind]]
+    
+    return(list("index" = matches_ind, 
+                "replacement" = replacement))
+  }
+  
+  replacement_names <- index_match(names(df), lookup)
+  
+  names(df)[replacement_names$index] <- replacement_names$replacement
+  
+  return(df)
+}
