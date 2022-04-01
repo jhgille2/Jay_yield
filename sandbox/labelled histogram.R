@@ -1,4 +1,4 @@
-
+conflict_prefer("filter", "dplyr")
 
 TraitHist.facet <- function(TraitData, Name = names(YieldData_melt_TestTrait)[[1]], FillCol = TestColours[[1]]){
   

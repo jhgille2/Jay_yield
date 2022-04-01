@@ -88,6 +88,10 @@ tar_plan(
   ## Section: Analysis
   ##################################################
   
+  # ANOVA (fixed effects)
+  tar_target(anova_two_years, 
+             calc_anova(df = all_yield_data$two_year)),
+  
   # Mixed effects models
   tar_target(mixed_models_two_years, 
              fit_mixed_models(df = all_yield_data$two_year)),
@@ -112,6 +116,7 @@ tar_plan(
   tar_target(BLUE_plots_two_years, 
              make_genotype_blue_plots(fit_models = mixed_models_two_years)),
   
+# A example latex table to use for testing targets with the manuscript template
   tar_target(example_table, 
              make_example_table()),
   
@@ -119,6 +124,11 @@ tar_plan(
   tar_target(example_plot, 
              make_example_plot(all_yield_data, test_name_colors, dir = here("exports", "plots", "example_plot.pdf")), 
              format = "file"),
+
+  # Cleaner ANOVA tables
+  tar_target(anova_tables, 
+             make_anova_tables(anova_data = anova_two_years)),
+
   
   ## Section: Writeup documents
   ##################################################
