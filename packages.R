@@ -28,7 +28,9 @@ pacman::p_load(conflicted,
                kableExtra, 
                pander, 
                visNetwork,
-               kableExtra)
+               kableExtra, 
+               agricolae, 
+               magrittr)
 
 # Function preference
 conflicted::conflict_prefer("filter", "dplyr", "base")
