@@ -104,6 +104,10 @@ tar_plan(
   tar_target(gyt_model_two_years, 
              fit_gyt_model(df = all_yield_data$two_year)),
   
+  # LSD/MSD tests
+  tar_target(least_sig_differences, 
+             get_lsd_values(df = all_yield_data$two_year)),
+  
   
   ## Section: Analysis summaries
   ##################################################

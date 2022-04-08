@@ -4,34 +4,44 @@ if(!require(pacman)){
 }
 
 # Use pacman to load/install packages
+
+# Workflow/organization
 pacman::p_load(conflicted, 
                dotenv, 
                targets, 
-               tarchetypes, 
-               tidyverse, 
+               tarchetypes)
+
+# Data wrangling
+pacman::p_load(tidyverse, 
                here, 
                readxl, 
                janitor, 
-               metan, 
-               rmdformats, 
-               openxlsx, 
-               ggthemes, 
-               lattice, 
+               magrittr,
+               openxlsx)
+
+# Visualization
+pacman::p_load(ggthemes, 
+               lattice,
+               visNetwork,
                ggpubr, 
                ggcorrplot, 
                patchwork,
                extrafont, 
-               GGally, 
+               GGally)
+
+# Analysis
+pacman::p_load(metan,
                agricolae, 
                lme4, 
-               emmeans, 
+               emmeans,
+               agricolae)
+
+# Writeup
+pacman::p_load(rmdformats, 
                kableExtra, 
                pander, 
-               visNetwork,
-               kableExtra, 
-               agricolae, 
-               magrittr)
+               kableExtra)
 
-# Function preference
+# Function conflict preferences
 conflicted::conflict_prefer("filter", "dplyr", "base")
 

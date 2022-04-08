@@ -14,7 +14,7 @@ fit_mixed_models <- function(df = all_yield_data$two_year) {
                            gen     = genotype, 
                            rep     = rep, 
                            resp    = everything(), 
-                           random  = "gen",
+                           random  = "env",
                            verbose = FALSE)
     
     return(model_fit)
