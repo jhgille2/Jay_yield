@@ -1,5 +1,16 @@
-tar_load(least_sig_differences)
+##################################################
+## Project: Jay Yield
+## Script purpose: Testing out functions to make summary tables of the 
+## phenotype BLUEs/MSD tables
+## Date: 2022-04-08
+## Author: Jay Gillenwater
+##################################################
 
+
+# Load in the BLUEs, utility tables, and MSDs
+tar_load(genotype_BLUEs)
+tar_load(util_tables)
+tar_load(least_sig_differences)
 
 # A function to get the minimum significant difference from the lsd results list
 get_msd <- function(fit_model){
@@ -17,30 +28,36 @@ get_msd <- function(fit_model){
   return(msd)
 }
 
+# A helper function for identifying the column indices of some phenotype
+# when multiple variables are recorded for multiple phenotypes. The specific
+# issue this function resolves is overlaps in matches for oil/protein with
+# oil_plus_protein
+get_pheno_indices <- function(column_names, pheno_name, name_conversion = util_tables$trait_shortnames){
+  
+  # Get all the string matches and then exclude protein_plus_oil if the pheno_name
+  # is either protein or oil
+  all_matches <- str_detect(column_names, pheno_name)
+  
+  if(pheno_name %in% c("protein", "oil")){
+    p_o_matches <- str_detect(column_names, "protein_plus_oil")
+    final_matches <- (all_matches & !p_o_matches) %>% 
+      which()
+  }else{
+    final_matches <- which(all_matches)
+  }
+  
+  # Get cleaned up names for the column indices
+  return(final_matches)
+}
 
-
-##################################################
-## Project: Jay Yield
-## Script purpose: Testing out functions to make sumamry tables of the 
-## phenotype BLUEs/MSD tables
-## Date: 2022-04-08
-## Author: Jay Gillenwater
-##################################################
-
-# Load in the BLUEs, utility tables, and MSDs
-tar_load(genotype_BLUEs)
-tar_load(util_tables)
-tar_load(least_sig_differences)
 
 # A function that takes the phenotype BLUEs table and calculates some summary
 # information for each phenotype: 
 #
 # 1. The overall test average, 
 # 2. The average for the checks
-# 3. The rank of each genoype
-make_pheno_comparison <- function(test_data){
-  
-  keep_phenos <- c("yield", "protein", "oil", "protein_plus_oil")
+# 3. The rank of each genotype
+make_pheno_comparison <- function(test_data, keep_phenos = c("yield", "protein", "oil", "protein_plus_oil")){
   
   genotype_ranks <- test_data %>% 
     pivot_longer(cols = util_tables$trait_shortnames$name, 
@@ -52,7 +69,7 @@ make_pheno_comparison <- function(test_data){
     group_by(pheno) %>% 
     mutate(test_avg = mean(value, na.rm = TRUE)) %>% 
     dplyr::filter(pheno %in% keep_phenos) %>% 
-    mutate(pheno = ordered(pheno, keep_phenos)) %>%
+    mutate(pheno = factor(pheno, levels = keep_phenos)) %>%
     mutate(value = round(value, 2), 
            test_avg = round(test_avg, 2))
   
@@ -71,7 +88,7 @@ make_pheno_comparison <- function(test_data){
 # This function joins the augmented test summary data to the MSD table
 # to add the MSD for each phenotype onto the table and then pivot back to 
 # a wider format
-full_comparison_table <- function(blue_data, lsd_data){
+full_comparison_table <- function(blue_data, lsd_data, keep_phenos = c("yield", "protein", "oil", "protein_plus_oil")){
   
   # Get just the MSD from the msd dataframe
   just_msd <- lsd_data %>% 
@@ -80,7 +97,7 @@ full_comparison_table <- function(blue_data, lsd_data){
   
   # Apply the phenotype comparison function to the BLUE data to make 
   # a summary table for each test
-  test_comparisons <- map(blue_data, make_pheno_comparison)
+  test_comparisons <- map(blue_data, make_pheno_comparison, keep_phenos = keep_phenos)
   
   # Now join each summary table to the correspnding MSD table for each test
   # and then pivot to a wide format using the phenotypes to name columns
@@ -88,12 +105,20 @@ full_comparison_table <- function(blue_data, lsd_data){
   full_comparisons <- map2(test_comparisons, just_msd, function(x, y) left_join(x, y, by = c("pheno" = "trait")) %>% 
                              pivot_wider(id_cols = c("genotype"), names_from = "pheno", values_from = c("value", "rank", "test_avg", "check_avg_value", "msd"), names_vary = "slowest"))
   
-  return(full_comparisons)
+  
+  pheno_indices <- map(full_comparisons, 
+                       function(x) map(keep_phenos, 
+                                       function(y) get_pheno_indices(colnames(x), y)) %>% 
+                         set_names(map_chr(keep_phenos, function(y) match_from_table(y, util_tables$trait_shortnames))))
+  
+  res <- map2(full_comparisons, pheno_indices, function(x, y) list(x, y) %>% 
+                set_names(c("comparison_table", "phenotype_indices")))
+  
+  return(res)
 }
 
 # Testing the functions together
-comparison_tables <- full_comparison_table(blue_data = genotype_BLUEs$BLUEs, least_sig_differences) %>% 
-  map2(., names(.), function(x, y) mutate(x, test_name = y) %>% relocate(test_name, 1))
+comparison_tables <- full_comparison_table(blue_data = genotype_BLUEs$BLUEs, least_sig_differences)
 
 # TODO:
 # Need to make a function that takes this data and converts it to a more 
@@ -127,4 +152,63 @@ comparison_tables <- full_comparison_table(blue_data = genotype_BLUEs$BLUEs, lea
 # by kable so that I won't have to change multiple functions later on so that
 # the labels for the tables can be directly tied to how they're generated. 
 
+# A function to remove phenotype names from the column names so that simpler
+# variable names can be used under the phenotype group name headers
+# This is necessary because I have to remove protein_plus_oil from the 
+# names before protein or oil
+remove_phenotype_names <- function(column_names, pheno_names = c("yield", "protein", "oil", "protein_plus_oil")){
+  column_names %>% 
+    str_remove_all("protein_plus_oil") %>% 
+    str_remove_all(., paste(pheno_names, collapse = "|")) %>% 
+    str_remove(., "_$")
+}
+
+
+# A function to make a kable table with group headings to match phenotypes
+make_phenotype_comparison_table <- function(comparison_table_output, pheno_names = c("yield", "protein", "oil", "protein_plus_oil")){
+  
+  # First, sort the indices of the phenotypes by the order in which they appear 
+  # in the comparison table
+  phenotypes_ordered <- pluck(comparison_table_output, "phenotype_indices") %>% 
+    map_dbl(., min) %>% 
+    order() 
+  
+  phenotype_indices <- pluck(comparison_table_output, "phenotype_indices")[phenotypes_ordered]
+  
+  # What column do the phenotype measurements start on?
+  pheno_start_col <- min(unlist(phenotype_indices))
+  
+  # How many columns of summary data do each phenotype have?
+  phenotype_widths <- phenotype_indices %>%
+    map_dbl(., length) %>% 
+    unlist()
+  
+  # Create a vector that can be passed to kable to add grouped headings
+  # to the table
+  column_groups <- c(rep("", pheno_start_col-1), phenotype_widths)
+  
+  current_table <- pluck(comparison_table_output, "comparison_table")
+  
+  # variables that can have their rows collapsed
+  collapse_cols <- c("test_avg", 
+                     "check_avg_value", 
+                     "msd")
+  
+  # The indices of these columns
+  collapse_indices <- map(collapse_cols, function(x) which(str_detect(colnames(current_table), x))) %>% 
+    unlist() %>% 
+    unique()
+  
+  # Convert these columns to character variables
+  current_table %<>% 
+    mutate(across(collapse_indices, as.character))
+  
+  colnames(current_table) <- remove_phenotype_names(colnames(current_table), pheno_names = pheno_names)
+  
+  knitr::kable(current_table, "html") %>% 
+    kable_classic() %>% 
+    collapse_rows(columns = 4) %>%
+    add_header_above(column_groups)
+  
+}
 

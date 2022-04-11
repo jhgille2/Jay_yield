@@ -113,7 +113,7 @@ These four tests were grown in two locations in 2019: the Tidewater Research Sta
 These thirty lines were then grouped into two new tests of 15 RILs each which were then grown in both the 2020 and 2021 seasons. These tests were grown in CLA and CAS in 2020 and CAS and PLY in 2021.
 
 ## Statistical Analysis
-The data for seed yield, seed oil, and seed protein contents were analyzed using a mixed model with the metan[@r_metan] R package. Environment, replication nested with environment, and the interaction of genotype with environment were considered to be random effects while genotype was considered to be a fixed effect. 
+The data for seed yield, seed oil, and seed protein contents were analyzed using a mixed model with the metan[@olivotoMetanPackageMultienvironment2020] R package. Environment, replication nested with environment, and the interaction of genotype with environment were considered to be random effects while genotype was considered to be a fixed effect. 
 
 Materials and Methods should be described with sufficient details to allow others to replicate and build on published results. Please note that publication of your manuscript implicates that you must make all materials, data, computer code, and protocols associated with the publication available to readers. Please disclose at the submission stage any restrictions on the availability of materials or information. New methods and protocols should be described in detail while well-established methods can be briefly described and appropriately cited.
 
