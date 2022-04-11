@@ -197,7 +197,8 @@ make_phenotype_comparison_table <- function(comparison_table_output, pheno_names
   # The indices of these columns
   collapse_indices <- map(collapse_cols, function(x) which(str_detect(colnames(current_table), x))) %>% 
     unlist() %>% 
-    unique()
+    unique() %>% 
+    sort()
   
   # Convert these columns to character variables
   current_table %<>% 
@@ -205,9 +206,11 @@ make_phenotype_comparison_table <- function(comparison_table_output, pheno_names
   
   colnames(current_table) <- remove_phenotype_names(colnames(current_table), pheno_names = pheno_names)
   
+  current_table <- as.data.frame(current_table)
+  
   knitr::kable(current_table, "html") %>% 
     kable_classic() %>% 
-    collapse_rows(columns = 4) %>%
+    collapse_rows(columns = collapse_indices) %>%
     add_header_above(column_groups)
   
 }

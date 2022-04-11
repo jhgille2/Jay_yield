@@ -61,6 +61,12 @@ tar_plan(
              here("data", "utils", "trait_shortname_lookup.xlsx"), 
              format = "file"),
   
+  # A table to convert short column names in sumamry tables to longer, 
+  # more descriptive names
+  tar_target(column_shortname_conversion, 
+             here("data", "utils", "summary_column_names.xlsx"), 
+             format = "file"),
+  
   ## Section: Data cleaning
   ##################################################
   
@@ -69,7 +75,8 @@ tar_plan(
              read_util_tables(yield_check_genotypes, 
                               genotype_conversion, 
                               trait_conversion, 
-                              trait_shortname_conversion)),
+                              trait_shortname_conversion, 
+                              column_shortname_conversion)),
   
   # Cleaning up and merging the data from the three seasons
   tar_target(all_yield_data, 
