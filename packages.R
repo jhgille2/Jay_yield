@@ -19,7 +19,7 @@ pacman::p_load(tidyverse,
                magrittr,
                openxlsx)
 
-# Visualization
+# VC:\Users\jhgille2\Documents\SAS\field trial analysis macros\04142022HIF6CASPLYPRG.sasisualization
 pacman::p_load(ggthemes, 
                lattice,
                visNetwork,
@@ -27,7 +27,8 @@ pacman::p_load(ggthemes,
                ggcorrplot, 
                patchwork,
                extrafont, 
-               GGally)
+               GGally, 
+               scales)
 
 # Analysis
 pacman::p_load(metan,

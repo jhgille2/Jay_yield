@@ -38,33 +38,33 @@ convert_from_table(all_yield, "genotype", util_tables$genotype_conversion_table)
 tar_load(genotype_BLUEs)
 
 # A function to make a labelled histogram
-<<<<<<< HEAD
 labelled_histogram <- function(blue_data, test_colors, trait_name, check_genotypes, trait_name_lookup, label_genotypes = NULL){
-=======
-labelled_histogram <- function(blue_data, test_colors, trait_name, check_genotypes, trait_name_lookup, label_genotypes){
->>>>>>> b2ac9991b18b7dda610fba75c40b9e8b3e7fd0ff
   
   # Use the lookup table to convert the trait name to its fancy counterpart
   fancy_trait_name <- match_from_table(trait_name, trait_name_lookup)
-  test_name <- "test_name"
-  
-  # The initial plot (need bin heights)
-  Plot.init <- ggplot(blue_data, aes_string(x = trait_name, fill = test_name)) + 
-    geom_histogram(bins = 9, col = 'black') + 
-    theme_calc() + 
-    theme(axis.text = element_text(size = 20, face = 'bold'),
-          axis.title = element_text(size = 30)) + 
-    ylab("Count") + 
-    xlab(fancy_trait_name)
-  
-  # + 
-  #   geom_vline(xintercept = CheckAvg, linetype = 'dotted', colour = 'black', size = 1.25) + 
-  #   geom_vline(xintercept = LSDLine, linetype = 2, colour = 'red', size = 1.25)
+  test_name        <- "test_name"
   
   # Get data for the parents/checks
   CheckParents <- blue_data %>% dplyr::filter(genotype %in% c(check_genotypes$genotype, label_genotypes))
   CheckParents <- CheckParents[, c("genotype", trait_name)]
   colnames(CheckParents) <- c("genotype", "value")  
+  
+  CheckAvg <- mean(CheckParents$value, na.rm = TRUE)
+  TestAvg  <- mean(unlist(blue_data[, trait_name]), na.rm = TRUE)
+  
+  # The initial plot (need bin heights).
+  # Add a black dotted line for check average, a red dashed line for the test average
+  Plot.init <- ggplot(blue_data, aes_string(x = trait_name, fill = test_name)) + 
+    geom_histogram(bins = 9, col = 'black') + 
+    theme_calc() + 
+    theme(axis.text  = element_text(size = 20, face = 'bold'),
+          axis.title = element_text(size = 30)) + 
+    ylab("Count") + 
+    xlab(fancy_trait_name) + 
+    geom_vline(xintercept = CheckAvg, linetype = 'dotted', colour = 'black', size = 1.25) + 
+    geom_vline(xintercept = TestAvg, linetype = 2, colour = 'red', size = 1.25)
+  
+  
   
   # Get data for the other genotypes to label
   LabelGenotypes <- blue_data %>% dplyr::filter(genotype %in% label_genotypes)
@@ -76,43 +76,56 @@ labelled_histogram <- function(blue_data, test_colors, trait_name, check_genotyp
   
   # Using the bin counts from the plot, find the y-value where the labels for each
   # check/parent genotype shoud start
-  CheckParents$yval <- NA
-  for(i in 1:nrow(CheckParents)){
-    CheckParents$yval[[i]] <- PlotData$count[[max(which(PlotData$xmin < CheckParents$value[[i]]))]]
-  }
+  # CheckParents$yval <- NA
+  # for(i in 1:nrow(CheckParents)){
+  #   CheckParents$yval[[i]] <- PlotData$count[[max(which(PlotData$xmin < CheckParents$value[[i]]))]]
+  # }
   
   if(nrow(LabelGenotypes) > 0){
     LabelGenotypes$yval <- NA
     for(i in 1:nrow(LabelGenotypes)){
       LabelGenotypes$yval[[i]] <- PlotData$count[[max(which(PlotData$xmin < LabelGenotypes$value[[i]]))]]
     }
-  }
-  
-  # Add labels w/arrows for the parents/checks using this new data
-  # c(max(PlotData$count) + max(PlotData$count)/5)
-  Plot.Final <- Plot.init + 
-    ylim(c(0, 12)) + 
-    ggrepel::geom_label_repel(data = CheckParents,
-                              aes(x = value, y = yval, label = genotype),
-                              nudge_y = max(PlotData$count)/3,
-                              arrow = arrow(length = unit(0.015, "npc")),
-                              min.segment.length = 0,
-                              size = 8, 
-                              fill = "white") +
-    coord_cartesian(xlim = c(min(unlist(blue_data[, trait_name])) - 2, max(unlist(blue_data[, trait_name])) + 2)) + 
-    scale_fill_manual(values = test_colors) + 
-    theme(legend.position = "none")
-  
-  # Add additional genotypes if requested
-  if(nrow(LabelGenotypes) > 0){
-    Plot.Final <- Plot.Final +
-      ggrepel::geom_label_repel(data = LabelGenotypes,
+    # CheckParents <- bind_rows(CheckParents, LabelGenotypes)
+    CheckParents <- LabelGenotypes
+    
+    Plot.Final <- Plot.init + 
+      ylim(c(0, 12)) + 
+      ggrepel::geom_label_repel(data = CheckParents,
                                 aes(x = value, y = yval, label = genotype),
                                 nudge_y = max(PlotData$count)/3,
                                 arrow = arrow(length = unit(0.015, "npc")),
                                 min.segment.length = 0,
-                                size = 8)
+                                size = 5, 
+                                fill = "white") +
+      coord_cartesian(xlim = c(min(unlist(blue_data[, trait_name])) - 2, max(unlist(blue_data[, trait_name])) + 2), expand = FALSE) + 
+      scale_fill_manual(values = test_colors) + 
+      theme(legend.position = "none") + 
+      theme(plot.margin = margin(0.5,0.5,0.75,0.6, "cm"))
+  }else{
+    Plot.Final <- Plot.init + 
+      ylim(c(0, 12)) + 
+      coord_cartesian(xlim = c(min(unlist(blue_data[, trait_name])) - 2, max(unlist(blue_data[, trait_name])) + 2), expand = FALSE) + 
+      scale_fill_manual(values = test_colors) + 
+      theme(legend.position = "none") + 
+      theme(plot.margin = margin(0.5,0.5,0.75,0.6, "cm"))
   }
+  
+  # Add labels w/arrows for the parents/checks using this new data
+  # c(max(PlotData$count) + max(PlotData$count)/5)
+
+
+  
+  # Add additional genotypes if requested
+  # if(nrow(LabelGenotypes) > 0){
+  #   Plot.Final <- Plot.Final +
+  #     ggrepel::geom_label_repel(data = LabelGenotypes,
+  #                               aes(x = value, y = yval, label = genotype),
+  #                               nudge_y = max(PlotData$count)/3,
+  #                               arrow = arrow(length = unit(0.015, "npc")),
+  #                               min.segment.length = 0,
+  #                               size = 8)
+  # }
   
   Plot.Final
   
@@ -124,25 +137,34 @@ labelled_histogram <- function(blue_data, test_colors, trait_name, check_genotyp
 match_from_table("md", util_tables$trait_lookup)
 
 
-test_1_oil <- labelled_histogram(genotype_BLUEs$BLUEs$`Jay Test 1`, 
+test_1_oil <- labelled_histogram(linear_means$`Jay Test 1`, 
                                  test_colors       = test_name_colors, 
                                  trait_name        = "oil", 
                                  check_genotypes   = util_tables$check_table, 
                                  trait_name_lookup = util_tables$trait_lookup, 
                                  label_genotypes   = c("N18-1620", "N18-1632-1"))
 
-test_1_pro <- labelled_histogram(genotype_BLUEs$BLUEs$`Jay Test 1`, 
+test_1_pro <- labelled_histogram(linear_means$`Jay Test 1`, 
                                  test_colors       = test_name_colors, 
                                  trait_name        = "protein", 
                                  check_genotypes   = util_tables$check_table, 
                                  trait_name_lookup = util_tables$trait_lookup, 
                                  label_genotypes   = c("N18-1620", "N18-1632-1"))
 
-test_1_yield <- labelled_histogram(genotype_BLUEs$BLUEs$`Jay Test 1`, 
+test_1_yield <- labelled_histogram(linear_means$`Jay Test 1`, 
                                    test_colors       = test_name_colors, 
                                    trait_name        = "yield", 
                                    check_genotypes   = util_tables$check_table, 
                                    trait_name_lookup = util_tables$trait_lookup, 
                                    label_genotypes   = c("N18-1620", "N18-1632-1"))
 
-(test_1_oil | test_1_pro)/test_1_yield
+test_1_po <- labelled_histogram(linear_means$`Jay Test 1`, 
+                                   test_colors       = test_name_colors, 
+                                   trait_name        = "protein_plus_oil", 
+                                   check_genotypes   = util_tables$check_table, 
+                                   trait_name_lookup = util_tables$trait_lookup, 
+                                   label_genotypes   = c("N18-1620", "N18-1632-1"))
+
+test_1_yield/test_1_po
+
+(test_1_oil | test_1_pro)/(test_1_po | test_1_yield)

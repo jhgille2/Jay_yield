@@ -26,30 +26,30 @@ get_lsd_values <- function(df = all_yield_data$two_year) {
     # the data is perfectly balanced (as all things should be) and these genotypes
     # were included multiple times in the tests.
     clean_data <- function(pheno_data){
-      
+
       pheno_data %<>%
         dplyr::filter(!is.na(value), !genotype %in% c("LMN09-119", "N09-09"))
-      
+
       genotype_reps <- pheno_data %>%
-        group_by(genotype) %>% 
+        group_by(genotype) %>%
         count(name = "num_reps")
-      
-      rep_counts <- genotype_reps %>% 
-        group_by(num_reps) %>% 
+
+      rep_counts <- genotype_reps %>%
+        group_by(num_reps) %>%
         count(name = "rep_count")
-      
+
       max_rep_count <- rep_counts$num_reps[[which(rep_counts$rep_count == max(rep_counts$rep_count))]]
-      
+
       keep_genos <- genotype_reps %>%
         dplyr::filter(num_reps == max_rep_count)
-      
+
       keep_genos <- as.character(keep_genos$genotype)
-      
-      pheno_data %<>% 
+
+      pheno_data %<>%
         dplyr::filter(genotype %in% keep_genos)
-      
+
       return(pheno_data)
-      
+
     }
     
     # Pivot the data by these phenotypes and then nest by each phenotype
@@ -57,8 +57,12 @@ get_lsd_values <- function(df = all_yield_data$two_year) {
       pivot_longer(cols = all_of(measure_vars), names_to = "trait") %>%
       group_by(trait) %>% 
       nest() %>% 
-      ungroup() %>%
+      ungroup()  %>%
       mutate(data = map(data, clean_data))
+    
+    # I took this part out to test using the HSD test function with the unbalanced
+    # data
+    #
     
     model_fn <- function(pheno_data) {
       
@@ -68,12 +72,22 @@ get_lsd_values <- function(df = all_yield_data$two_year) {
       model_aov <- aov(model)
       trait_lsd <- agricolae::LSD.test(model_aov, 
                                        trt   = "genotype", 
-                                       p.adj = "bonferroni")
+                                       p.adj = "none")
+      
+      trait_hsd <- agricolae::HSD.test(model_aov, 
+                                       trt = "genotype")
+      
+      trait_hsd_metan <- metan::tukey_hsd(model_aov, 
+                                          which = "genotype")
+      
+      trait_hsd_stats <- TukeyHSD(model_aov, 
+                                  which = "genotype")
       
       # Group the model, aov, and lsd test into a list and return this list
       res <- list("model"     = model, 
                   "model_aov" = model_aov, 
-                  "lsd"       = trait_lsd)
+                  "lsd"       = trait_lsd, 
+                  "hsd"       = trait_hsd)
       
       return(res)
     }

@@ -119,13 +119,17 @@ tar_plan(
   ## Section: Analysis summaries
   ##################################################
   
+  # Marginal means derived from linear models
+  tar_target(linear_means, 
+             map2(anova_two_years, names(anova_two_years), make_emmean_table)),
+  
   # A table of genotype BLUPs for each trait/test
   tar_target(genotype_BLUEs, 
              make_blue_table(fit_models = mixed_models_two_years)),
   
   # Plots of the genotype blues
   tar_target(BLUE_plots_two_years, 
-             make_genotype_blue_plots(fit_models = mixed_models_two_years)),
+             make_genotype_blue_plots(fit_models = mixed_models_two_years, all_data = all_yield_data$two_year)),
   
 # A example latex table to use for testing targets with the manuscript template
   tar_target(example_table, 

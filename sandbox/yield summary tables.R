@@ -11,11 +11,12 @@
 tar_load(genotype_BLUEs)
 tar_load(util_tables)
 tar_load(least_sig_differences)
+tar_load(linear_means)
 
 # A function to get the minimum significant difference from the lsd results list
 get_msd <- function(fit_model){
   msd <- fit_model %>% 
-    pluck("lsd") %>% 
+    pluck("hsd") %>% 
     pluck("statistics") %>% 
     pluck("MSD")
   
@@ -99,7 +100,7 @@ full_comparison_table <- function(blue_data, lsd_data, keep_phenos = c("yield", 
   # a summary table for each test
   test_comparisons <- map(blue_data, make_pheno_comparison, keep_phenos = keep_phenos)
   
-  # Now join each summary table to the correspnding MSD table for each test
+  # Now join each summary table to the corresponding MSD table for each test
   # and then pivot to a wide format using the phenotypes to name columns
   # and all the columns that have been added to fill the values
   full_comparisons <- map2(test_comparisons, just_msd, function(x, y) left_join(x, y, by = c("pheno" = "trait")) %>% 
@@ -117,8 +118,29 @@ full_comparison_table <- function(blue_data, lsd_data, keep_phenos = c("yield", 
   return(res)
 }
 
+# The same function from above, but keep the dat ain a long format
+# that is more helpful for plotting and other data management
+full_comparison_long <- function(blue_data, lsd_data, keep_phenos = c("yield", "protein", "oil", "protein_plus_oil")){
+  
+  # Get just the MSD from the msd dataframe
+  just_msd <- lsd_data %>% 
+    map(., function(x) mutate(x, msd = map_dbl(fit_model, get_msd)) %>%
+          select(trait, msd))
+  
+  # Apply the phenotype comparison function to the BLUE data to make 
+  # a summary table for each test
+  test_comparisons <- map(blue_data, make_pheno_comparison, keep_phenos = keep_phenos)
+  
+  # Now join each summary table to the corresponding MSD table for each test
+  # and then pivot to a wide format using the phenotypes to name columns
+  # and all the columns that have been added to fill the values
+  full_comparisons <- map2(test_comparisons, just_msd, function(x, y) left_join(x, y, by = c("pheno" = "trait")))
+  
+  return(full_comparisons)
+}
+
 # Testing the functions together
-comparison_tables <- full_comparison_table(blue_data = genotype_BLUEs$BLUEs, least_sig_differences)
+comparison_tables <- full_comparison_table(blue_data = linear_means, least_sig_differences)
 
 # TODO:
 # Need to make a function that takes this data and converts it to a more 
@@ -206,7 +228,12 @@ make_phenotype_comparison_table <- function(comparison_table_output, pheno_names
   
   colnames(current_table) <- remove_phenotype_names(colnames(current_table), pheno_names = pheno_names)
   
+  # Rename the columns in the dataframe using the summary table rename
+  # helper table
+  current_table <- rename_with_lookup(current_table, util_tables$column_shortnames)
+  
   current_table <- as.data.frame(current_table)
+  
   
   knitr::kable(current_table, "html") %>% 
     kable_classic() %>% 
