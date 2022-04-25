@@ -1,0 +1,67 @@
+---
+title: "Untitled Draft"
+author: "Report Author"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+## target knits Rmds in their own session, so load libraries here.
+## source("here::here(packages.R"))
+```
+
+```{r load-targets, include=FALSE}
+# tar_load(c(target_1, target_2, target_3))
+
+# # If your chunk output is shown in-line, then you'll need to wrap tar_load()
+# # like so:
+# 
+# withr::with_dir(here::here(), {
+#   tar_load(c(target_1, target_2, target_3))
+# })
+# 
+# # This is not needed when using tar_make() to render the document.
+```
+## Introduction
+This document is a high-level overview of the experimental design and objectives of the "Jay" yield tests. 
+
+## Objectives
+The overall objective of this experiment is to identify recombinant inbred lines (RILs) that have yield and agronomic qualities comparable to existing check cultivars, and have a protein + oil content that is greater than the check cultivars. 
+
+## Experimental design
+The experiment consists of two tests, names test 1 and test 2, that are comprised of 15 RILs, and 5 check cultivars. These two tests were grown in a RCBD in 2020 and 2021, in two locations for each year. In 2020, each test was grown at the Clayton (CLA) and Caswell (CAS) research stations, while in 2021 each test was grown at the Plymouth (PLY) research station and CAS. Each test was grown in four replications within each location for both years. 
+
+## Population development
+The RILs used in these two tests come from two mapping populations that were initially grown as plant rows in 2018 at CLA. We noticed some of the lines in these two populations had some good combinations of agronomic qualities, and seed composition traits and this is how we first got the idea to more rigorously evaluate the yield performance potential of a selection of the lines from these two populations. These two populations were too large to test every line so we first made some selections to identify 80 lines from each population that would be tested for yield performance. Briefly, this selection scheme first removed any lines from consideration that had poor lodging, seed load, or bulk weight, and any lines with extreme maturity dates. Lines were then selected so that the entire distribution of protein and oil content of the starting mapping populations would be represented in the selection. The 80 lines for each population were then split into two tests of 40 RILs based on maturity date. Three check cultivars and the mapping population parents were then included in the tests as well for a final set of four tests with 45 lines each. 
+
+These four tests were grown in PLY and CAS in 2019. Agronomic notes including lodging, height, maturity date, and an agronomic score based on overall appearance were taken in the field and yield, seed weight, protein, and oil content were measured after harvesting. 
+
+After this data was collected, another round of selection was done that focused on the observed yield performance of the lines. Only lines that were within, or above a least significant difference of the average of the checks for each test were considered for advancement. Then, the thirty lines with the highest protein + oil content across all four tests were identified from among 
+
+
+## Analysis
+
+## Reproducibility
+
+<details><summary>Reproducibility receipt</summary>
+
+```{r}
+## datetime
+Sys.time()
+
+## repository
+if(requireNamespace('git2r', quietly = TRUE)) {
+  git2r::repository()
+} else {
+  c(
+    system2("git", args = c("log", "--name-status", "-1"), stdout = TRUE),
+    system2("git", args = c("remote", "-v"), stdout = TRUE)
+  )
+}
+
+## session info
+sessionInfo()
+```
+
+</details>

@@ -10,6 +10,11 @@ tar_plan(
   ## Section: Input files
   ##################################################
   
+  # All plant row data collected from the  2018 MPs
+  tar_target(plant_rows_2019_file, 
+             here("data", "season_2019", "OilMPYieldSelections2019.xlsx"), 
+             format = "file"),
+  
   # Yield data from 2019
   tar_target(yield_2019_file, 
              here("data", "season_2019", "YieldData_2019.xlsx"), 
@@ -77,6 +82,10 @@ tar_plan(
                               trait_conversion, 
                               trait_shortname_conversion, 
                               column_shortname_conversion)),
+  
+  # Read in and clean up the plant row data from 2019
+  tar_target(plant_row_data, 
+             read_plant_row_data(plant_rows_2019_file)),
   
   # Cleaning up and merging the data from the three seasons
   tar_target(all_yield_data, 
@@ -148,6 +157,8 @@ tar_plan(
   ## Section: Writeup documents
   ##################################################
   tar_render(analysis_writeup, "doc/analysis_writeup.Rmd"), 
+
+  tar_render(overview_document, "doc/overview_document.Rmd")
   
   tar_render(manuscript_document, here("doc", "manuscript", "manuscript.Rmd"))
   

@@ -46,3 +46,4 @@ pacman::p_load(rmdformats,
 # Function conflict preferences
 conflicted::conflict_prefer("filter", "dplyr", "base")
 
+library(rmarkdown)

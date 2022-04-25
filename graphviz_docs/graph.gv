@@ -1,0 +1,86 @@
+# Place the cursor inside "graph" to get some refactoring options
+
+digraph {
+
+    subgraph cluster_00 {
+        label = "2018";
+        labeljust =  "l"
+        a;
+        b;
+    }
+
+    subgraph cluster_01 {
+        label = "2019";
+        labeljust = "l";
+        c;
+        d;
+        e;
+        f;
+        eval_ag;
+        select_2019;
+    }
+
+    subgraph cluster_02 {
+        label = "2020"
+        labeljust = "l"
+        test1_2020;
+        test2_2020;
+        pheno_2020;
+    }
+
+subgraph cluster_03 {
+        label = "2021"
+        labeljust = "l"
+        test1_2021;
+        test2_2021;
+        pheno_2021;
+    }
+
+    subgraph cluster_04 {
+        label = "2022"
+        labeljust = "l"
+        best_lines;
+    }
+
+
+    # To refactor nodes, place the cursor left to a node name
+    a -> c
+    a -> d
+    b -> e
+    b -> f
+    {c d e f} -> eval_ag [minlen = 2]
+    eval_ag -> select_2019 [xlabel = "Lines within 1 LSD \n of yield check average,\n then highest 30 P + O", minlen = 3]
+
+    select_2019 -> test1_2020
+    select_2019 -> test2_2020
+
+    {test1_2020 test2_2020} -> pheno_2020
+
+    pheno_2020 -> {test1_2021 test2_2021}
+    {test1_2021 test2_2021} -> pheno_2021
+
+    pheno_2021 -> best_lines
+
+
+
+
+    # Get completion when assigning a shape or color
+    a [shape = box, label = "Population 201"]; 
+    b [shape=box, label = "Population 202"];
+    c [shape = box, label = "Test 1"];
+    d[shape = "box", label= "Test 2"];
+    e[shape = "box", label = "Test 3"];
+    f[shape = "box", label = "Test 4"]
+    eval_ag[shape = "box", label = "Measure phenotypes"]
+    select_2019[shape = "invtriangle", label = "Select High yield, \n high P + O"]
+
+    test1_2020[shape = box, label = "Test 1"]
+    test2_2020[shape = "box", label = "Test 2"]
+    pheno_2020[shape = "box", label = "Measure Phenotypes"]
+
+    test1_2021[shape = box, label = "Test 1"]
+    test2_2021[shape = "box", label = "Test 2"]
+    pheno_2021[shape = "box", label = "Measure Phenotypes"]
+
+    best_lines [shape = "box", label = "Identify best \n performing lines"]
+}
