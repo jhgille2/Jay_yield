@@ -158,7 +158,7 @@ tar_plan(
   ##################################################
   tar_render(analysis_writeup, "doc/analysis_writeup.Rmd"), 
 
-  tar_render(overview_document, "doc/overview_document.Rmd")
+  tar_render(overview_document, "doc/overview_document.Rmd"),
   
   tar_render(manuscript_document, here("doc", "manuscript", "manuscript.Rmd"))
   
