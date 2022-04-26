@@ -105,11 +105,14 @@ merge_yield_data <- function(yield_2019_file, cas_maturity_file,
   all_merged <- map(all_yield, function(x) filter_fn(x, keep_cols)) %>% 
     reduce(bind_rows) %>% 
     mutate(across(any_of(num_cols), as.numeric), 
+           protein = ifelse(as.numeric(rep) > 2, NA, protein), 
+           oil     = ifelse(as.numeric(rep) > 2, NA, oil),
            protein_plus_oil = protein + oil, 
            yield = ifelse(year %in% c("2020"), yield*0.033, 
                           ifelse(year == "2019", yield/67.2510693716674, 
                             ifelse(loc %in% c("PLY", "SAN"), yield*0.0252, yield*0.0228))), 
-           ENV = paste(loc, year, sep = " - "))
+           ENV = paste(loc, year, sep = " - ")) %>% 
+    distinct()
   
   # Standardize genotype names so that each genotype is identified with
   # only name. See the function definition in the utils.R script.

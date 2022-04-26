@@ -28,7 +28,10 @@ pacman::p_load(ggthemes,
                patchwork,
                extrafont, 
                GGally, 
-               scales)
+               scales, 
+               DiagrammeRsvg, 
+               DiagrammeR, 
+               rsvg)
 
 # Analysis
 pacman::p_load(metan,

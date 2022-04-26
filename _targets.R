@@ -72,6 +72,16 @@ tar_plan(
              here("data", "utils", "summary_column_names.xlsx"), 
              format = "file"),
   
+  # A flowchart to show the population development as a graphviz file
+  tar_target(pop_development_flowchart, 
+             here("graphviz_docs", "graph.gv"), 
+             format = "file"),
+  
+  # Export this flowchart as a pdf
+  tar_target(pop_development_pdf, 
+             export_pop_development_pdf(pop_development_flowchart), 
+             format = "file"),
+  
   ## Section: Data cleaning
   ##################################################
   
