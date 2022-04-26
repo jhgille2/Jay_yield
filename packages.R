@@ -19,7 +19,7 @@ pacman::p_load(tidyverse,
                magrittr,
                openxlsx)
 
-# VC:\Users\jhgille2\Documents\SAS\field trial analysis macros\04142022HIF6CASPLYPRG.sasisualization
+# Visualization
 pacman::p_load(ggthemes, 
                lattice,
                visNetwork,
@@ -44,9 +44,9 @@ pacman::p_load(metan,
 pacman::p_load(rmdformats, 
                kableExtra, 
                pander, 
-               kableExtra)
+               kableExtra, 
+               rmarkdown)
 
 # Function conflict preferences
 conflicted::conflict_prefer("filter", "dplyr", "base")
 
-library(rmarkdown)
