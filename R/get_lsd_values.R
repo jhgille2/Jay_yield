@@ -60,9 +60,6 @@ get_lsd_values <- function(df = all_yield_data$two_year) {
       ungroup()  %>%
       mutate(data = map(data, clean_data))
     
-    # I took this part out to test using the HSD test function with the unbalanced
-    # data
-    #
     
     model_fn <- function(pheno_data) {
       

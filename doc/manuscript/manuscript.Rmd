@@ -79,52 +79,47 @@ source(here("packages.R"))
 tar_load(c(example_table))
 ```
 
-
 # Version
 
-This Rmd-skeleton uses the mdpi Latex template published 2019/02. 
-However, the official template gets more frequently updated than the 'rticles'
-package. Therefore, please make sure prior to paper submission, that you're 
-using the most recent .cls, .tex and .bst files 
-(available [here](http://www.mdpi.com/authors/latex)).
+This Rmd-skeleton uses the mdpi Latex template published 2019/02. However, the official template gets more frequently updated than the 'rticles' package. Therefore, please make sure prior to paper submission, that you're using the most recent .cls, .tex and .bst files (available [here](http://www.mdpi.com/authors/latex)).
 
 # Introduction
 
 Seed yield, oil, and protein are all valuable traits in a soybean variety, however breeding lines which have both high yield and protein has been difficult to develop due to the negative correlation between the two traits[@burton1987quantitative; @ProtOilCorr; @ProtOilCorr_new]. While considerable efforts have been made to identify loci which control these seed quality traits so that MAS breeding strategies can be utilized for their improvement, to date the applications of such markers have been few. This is largely due to the lack of markers which are uniquely associated with one trait, and are also stable across genetic and environmental backgrounds. While there is still reason to continue this genetic research, it is important that breeders take every opportunity to identify lines with both high yield, and seed composition traits like oil and protein content so that new varieties can be released.
 
-Soybean lines typically contain about 20\% oil and 40\% protein content on a dry weight basis[@ProteinGenomics]. The market for soybean meal requires 47.5\% protein content in the meal, which corresponds to approximately 41.5\% protein content on a dry weight basis[@ProteinGenomics]. Oil and protein content are two of the most important seed composition traits in soybean so if one is decreased, the other should be correspondingly increased to account for the loss in value. The inverse correlation between protein and oil contents is well known and is suspected to be due at least partially to the action of pleiotropic genes and competing metabolic pathways which control the expression of each trait[@SeedCompositionGenomics]. 
+Soybean lines typically contain about 20% oil and 40% protein content on a dry weight basis[@ProteinGenomics]. The market for soybean meal requires 47.5% protein content in the meal, which corresponds to approximately 41.5% protein content on a dry weight basis[@ProteinGenomics]. Oil and protein content are two of the most important seed composition traits in soybean so if one is decreased, the other should be correspondingly increased to account for the loss in value. The inverse correlation between protein and oil contents is well known and is suspected to be due at least partially to the action of pleiotropic genes and competing metabolic pathways which control the expression of each trait[@SeedCompositionGenomics].
 
-Despite the difficulty in simultaneously breeding for all three of these traits, releases of varieties with elevated protein contents and only moderately reduced yield has shown that it is not impossible. The high protein germplasm lines R05-1415 and R05-1772 were released recently and contain 46.9\% and 46.1\% protein content with while still producing yields 94\% and 91\% of that of the high yielding 5002T cultivar[@HiProtHiYield02]. Lines TN03-350 and TN04-5321 contain 43.9\% and 43.1\% protein content while having superior or comparable performance to yield checks[@HiProtHiYield04]. The Prolina cultivar has a protein content of 46.1\% with a yield only 13\% reduced from the Centennial check[@HiProtHiYield01]. The Highpro1 cultivar was released in 2016 and has a yield which is greater than or equal to 97\% of that of the highest yielding check cultivar, IA3023 with a protein content of 40.1\%[@HighPro1]. Cultivars produced through conventional breeding techniques such as these have shown that it is possible to identify lines with both high seed protein and seed yield. Efforts to find these lines should be continued to provide growers and breeders with additional high value cultivars, and germplasm which can be further used to improve protein and yield traits.  
+Despite the difficulty in simultaneously breeding for all three of these traits, releases of varieties with elevated protein contents and only moderately reduced yield has shown that it is not impossible. The high protein germplasm lines R05-1415 and R05-1772 were released recently and contain 46.9% and 46.1% protein content with while still producing yields 94% and 91% of that of the high yielding 5002T cultivar[@HiProtHiYield02]. Lines TN03-350 and TN04-5321 contain 43.9% and 43.1% protein content while having superior or comparable performance to yield checks[@HiProtHiYield04]. The Prolina cultivar has a protein content of 46.1% with a yield only 13% reduced from the Centennial check[@HiProtHiYield01]. The Highpro1 cultivar was released in 2016 and has a yield which is greater than or equal to 97% of that of the highest yielding check cultivar, IA3023 with a protein content of 40.1%[@HighPro1]. Cultivars produced through conventional breeding techniques such as these have shown that it is possible to identify lines with both high seed protein and seed yield. Efforts to find these lines should be continued to provide growers and breeders with additional high value cultivars, and germplasm which can be further used to improve protein and yield traits.
 
-
-To meet this goal, two recombinant inbred line (RIL) oil mapping populations were screened for lines which showed promising combinations of yield and seed composition traits. Successive rounds of selection were conducted to identify and characterize lines with high values for yield as well as protein and oil composition were performed between 2018 and 2021 to identify soybean lines with elevated yield as well as the valuable seed composition traits when compared with existing check cultivars. 
+To meet this goal, two recombinant inbred line (RIL) oil mapping populations were screened for lines which showed promising combinations of yield and seed composition traits. Successive rounds of selection were conducted to identify and characterize lines with high values for yield as well as protein and oil composition were performed between 2018 and 2021 to identify soybean lines with elevated yield as well as the valuable seed composition traits when compared with existing check cultivars.
 
 # Materials and Methods
 
 ## Population development
-In 2018, oil mapping populations 201 and 202 were grown as plant rows at the Central Crops Research Station in Clayton, NC. These populations consisted of 273 and 237 recombinant inbred lines (RILs) respectively. Several agronomic traits were scored in the field for each population. 
 
-The agronomic traits recorded in the field were height, lodging, maturity date, and a composite agronomic score. Lodging was scored on a scale of 1-5 where 5 indicates that all plants in a plot are on the ground, and a score of 1 indicates that all plants are erect[@fehr1987soybeans]. The agronomic score aimed to capture other traits of value such as visual estimation of pod load and plot uniformity to provide a general score of a line’s agronomic desirability. Agronomic score was recorded on a scale of 1-5 as well, with 1 identifying the best lines of a population, and 5 the worst. Maturity was recorded at the R8 maturity date and was recorded as the number of days after September 1. Height was measured in inches from the soil to the top of the plant. 
+In 2018, oil mapping populations 201 and 202 were grown as plant rows at the Central Crops Research Station in Clayton, NC. These populations consisted of 273 and 237 recombinant inbred lines (RILs) respectively. Several agronomic traits were scored in the field for each population.
 
-Following harvest, yield, seed weight, protein, and oil content were measured after seed was air dried to approximately 7% moisture content in a greenhouse. Protein and oil contents were measured on a dry basis using a Perten DA 7250 NIR®instrument. Yield and seed weight were measured after seed had been sifted and cleaned of debris and cracked seed.  
+The agronomic traits recorded in the field were height, lodging, maturity date, and a composite agronomic score. Lodging was scored on a scale of 1-5 where 5 indicates that all plants in a plot are on the ground, and a score of 1 indicates that all plants are erect[@fehr1987soybeans]. The agronomic score aimed to capture other traits of value such as visual estimation of pod load and plot uniformity to provide a general score of a line's agronomic desirability. Agronomic score was recorded on a scale of 1-5 as well, with 1 identifying the best lines of a population, and 5 the worst. Maturity was recorded at the R8 maturity date and was recorded as the number of days after September 1. Height was measured in inches from the soil to the top of the plant.
 
-To select lines for the 2019 growing season, lines with abnormally low bulk weights or extreme maturity dates from 2018 were first removed from consideration. Two yield trials were then developed for each mapping population. The maturity dates of RILs were considered when forming tests such that the lines of each test would have a maturity date range approximately half that of the total mapping population from which it was derived. RILs were selected for each test which were also representative of the distribution of seed protein and seed oil traits for each population.  
+Following harvest, yield, seed weight, protein, and oil content were measured after seed was air dried to approximately 7% moisture content in a greenhouse. Protein and oil contents were measured on a dry basis using a Perten DA 7250 NIR®instrument. Yield and seed weight were measured after seed had been sifted and cleaned of debris and cracked seed.
 
-Eighty unique lines were selected from each population which satisfied these criteria, and each yield test was comprised of 40 RILs. Three high-yielding check cultivars and the two parents of the respective population were also included in each test. Yield check cultivars Dunphy, Osage[@Osage], and Roy were used in tests 1 and 2, while Dunphy, Dilday, and NC-Raleigh[@NCRaleighregistration] were used for tests 3 and 4. These lines were selected to represent the estimated maturities of the RILs in each test. The parents for tests 1 and 2 were cultivars LMN09-119 and N09-09, and the parents for tests 3 and 4 were LMN09-19 and N13-47.  
+To select lines for the 2019 growing season, lines with abnormally low bulk weights or extreme maturity dates from 2018 were first removed from consideration. Two yield trials were then developed for each mapping population. The maturity dates of RILs were considered when forming tests such that the lines of each test would have a maturity date range approximately half that of the total mapping population from which it was derived. RILs were selected for each test which were also representative of the distribution of seed protein and seed oil traits for each population.
 
-These four tests were grown in two locations in 2019: the Tidewater Research Station in Plymouth, NC (PLY) and the Caswell Research Farm in Kinston, NC (CAS). The same data was collected for each test in this season that was collected in the previous season.   
+Eighty unique lines were selected from each population which satisfied these criteria, and each yield test was comprised of 40 RILs. Three high-yielding check cultivars and the two parents of the respective population were also included in each test. Yield check cultivars Dunphy, Osage[@Osage], and Roy were used in tests 1 and 2, while Dunphy, Dilday, and NC-Raleigh[@NCRaleighregistration] were used for tests 3 and 4. These lines were selected to represent the estimated maturities of the RILs in each test. The parents for tests 1 and 2 were cultivars LMN09-119 and N09-09, and the parents for tests 3 and 4 were LMN09-19 and N13-47.
 
-Using the data collected from the 2019 season season, further selections were done to identify high-yielding lines from the four tests. This was done by identifying the RILs with a yield within or above a least significant difference (LSD) of the average yield of the checks for each test. Further selection was done using the seed composition traits by identifying the thirty RILs with the highest protein + oil content on a dry basis from among the RILs which had passed the yield selection threshold.  
+These four tests were grown in two locations in 2019: the Tidewater Research Station in Plymouth, NC (PLY) and the Caswell Research Farm in Kinston, NC (CAS). The same data was collected for each test in this season that was collected in the previous season.
 
-These thirty lines were then grouped into two new tests of 15 RILs each based on maturity date. These two new tests are named Test 1 and Test 2. Yield check cultivars were again assigned to each test to match the maturity dates of the RILs that were in each test. Cultivars Dunphy, DIlday, and NC-Raleigh were used as checks in Test 1 and Dunphy, Ellis, N10-697, and Osage were used as checks in Test 2.  
+Using the data collected from the 2019 season season, further selections were done to identify high-yielding lines from the four tests. This was done by identifying the RILs with a yield within or above a least significant difference (LSD) of the average yield of the checks for each test. Further selection was done using the seed composition traits by identifying the thirty RILs with the highest protein + oil content on a dry basis from among the RILs which had passed the yield selection threshold.
 
-These two tests were grown in both the 2020 and 2021 seasons. These tests were grown in CLA and CAS in 2020 and CAS and PLY in 2021. The same phenotypes were evaluated for each genotype in the 2020 and 2021 seasons using the same methodology that was employed in the 2019 season. 
+These thirty lines were then grouped into two new tests of 15 RILs each based on maturity date. These two new tests are named Test 1 and Test 2. Yield check cultivars were again assigned to each test to match the maturity dates of the RILs that were in each test. Cultivars Dunphy, DIlday, and NC-Raleigh were used as checks in Test 1 and Dunphy, Ellis, N10-697, and Osage were used as checks in Test 2.
+
+These two tests were grown in both the 2020 and 2021 seasons. These tests were grown in CLA and CAS in 2020 and CAS and PLY in 2021. The same phenotypes were evaluated for each genotype in the 2020 and 2021 seasons using the same methodology that was employed in the 2019 season.
 
 ## Statistical Analysis
+
 Phenotypic traits were analysed with a linear model with the form:
 
 $$y_{ijk} = \mu + L_i + B(L_i) + G_k + GL_{ik} + \epsilon_{ijk}$$
-
 
 Where $y_{ijk}$ is the phenotypic measurement for rep$j$ of genotype $k$ in environment $i$, $L_i$ is the effect of location $i$, $G_k$ is the effect of genotype $G$, $GL_{ik}$ is the interaction effect of location $L$ and genotype $G$, and $\epsilon_{ijk}$ is the measurement error.
 
@@ -154,15 +149,15 @@ Subsection text here.
 
 Bulleted lists look like this:
 
-* First bullet
-* Second bullet
-* Third bullet
+-   First bullet
+-   Second bullet
+-   Third bullet
 
 Numbered lists can be added as follows:
 
-1. First item
-2. Second item
-3. Third item
+1.  First item
+2.  Second item
+3.  Third item
 
 The text continues here.
 
@@ -172,60 +167,63 @@ All figures and tables should be cited in the main text as Figure 1, Table 1, et
 tar_load(example_plot)
 ```
 
+```{=tex}
 \begin{figure}[H]
 \centering
 \includegraphics[width=10 cm]{`r example_plot`}
 \caption{This is a figure, Schemes follow the same formatting. If there are multiple panels, they should be listed as: (\textbf{a}) Description of what is contained in the first panel. (\textbf{b}) Description of what is contained in the second panel. Figures should be placed in the main text near to the first time they are cited. A caption on a single line should be centered.}
 \end{figure}
-
-
+```
+```{=tex}
 \begin{figure}[H]
 \centering
 \includegraphics[width=3 cm]{logo-mdpi}
 \caption{This is a figure, Schemes follow the same formatting. If there are multiple panels, they should be listed as: (\textbf{a}) Description of what is contained in the first panel. (\textbf{b}) Description of what is contained in the second panel. Figures should be placed in the main text near to the first time they are cited. A caption on a single line should be centered.}
 \end{figure}
-
-
-
-
+```
+```{=tex}
 \begin{table}[H]
 \caption{This is a table caption. Tables should be placed in the main text near to the first time they are cited.}
 \centering
 %% \tablesize{} %% You can specify the fontsize here, e.g.  \tablesize{\footnotesize}. If commented out \small will be used.
 \begin{tabular}{ccc}
 \toprule
-\textbf{Title 1}	& \textbf{Title 2}	& \textbf{Title 3}\\
+\textbf{Title 1}    & \textbf{Title 2}  & \textbf{Title 3}\\
 \midrule
-entry 1		& data			& data\\
-entry 2		& data			& data\\
+entry 1     & data          & data\\
+entry 2     & data          & data\\
 \bottomrule
 \end{tabular}
 \end{table}
-
+```
 ```{r test_table, results = "asis", echo = FALSE}
 print(example_table)
 ```
-
 
 This is an example of an equation:
 
 \begin{equation}
 \mathbb{S}
-\end{equation}
-<!-- If the documentclass option "submit" is chosen, please insert a blank line before and after any math environment (equation and eqnarray environments). This ensures correct linenumbering. The blank line should be removed when the documentclass option is changed to "accept" because the text following an equation should not be a new paragraph. -->
+\end{equation} <!-- If the documentclass option "submit" is chosen, please insert a blank line before and after any math environment (equation and eqnarray environments). This ensures correct linenumbering. The blank line should be removed when the documentclass option is changed to "accept" because the text following an equation should not be a new paragraph. -->
 
 <!-- Please punctuate equations as regular text. Theorem-type environments (including propositions, lemmas, corollaries etc.) can be formatted as follows: -->
+
 Example of a theorem:
+
+```{=tex}
 \begin{Theorem}
 Example text of a theorem.
 \end{Theorem}
-
+```
 The text continues here. Proofs must be formatted as follows:
 
 Example of a proof:
+
+```{=tex}
 \begin{proof}[Proof of Theorem 1]
 Text of the proof. Note that the phrase `of Theorem 1' is optional if it is clear which theorem is being referred to.
 \end{proof}
+```
 The text continues here.
 
 # Discussion
@@ -239,5 +237,3 @@ This section is not mandatory, but can be added to the manuscript if the discuss
 # Patents
 
 This section is not mandatory, but may be added if there are patents resulting from the work reported in this manuscript.
-
-

@@ -29,7 +29,7 @@ selected_genotypes_2019 <- all_yield_data %>%
   dplyr::filter(!is.na(md)) %>% 
   bind_rows(plant_row_data) %>%
   mutate(p_o = protein_dry_basis + oil_dry_basis) %>%
-  select(test, genotype, population, md, ht, sdwt, bulk_weight, oil_dry_basis, protein_dry_basis, p_o) %>%
+  select(test, genotype, population, year, md, ht, sdwt, bulk_weight, oil_dry_basis, protein_dry_basis, p_o) %>%
   split_factors(population, keep_factors = TRUE)
 
 # The data for one of the population to test plotting functions
@@ -52,5 +52,9 @@ bulk_weight_plot <- ggplot(pop_201_data, aes(x = bulk_weight, fill = test)) +
 x11()
 (bulk_weight_plot+ p_o_plot) / md_plot + plot_layout(guides = "collect")
 
+DiagrammeR::grViz(pop_development_flowchart) %>% 
+  export_svg() %>% 
+  charToRaw() %>% 
+  rsvg_pdf(file = here("exports", "plots", "pop_development_flowchart.pdf"))
 
 
