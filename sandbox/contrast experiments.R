@@ -68,7 +68,7 @@ check_ril_contrasts <- function(mar_means, check_genotypes = util_tables$yield_c
 # Apply the function to the example marginal means
 example_ril_contrasts <- check_ril_contrasts(example_emm)
 
-# And use the contrasts function to get the contrasts
+# And use the contrast function to get the contrasts
 contrast(example_emm, example_ril_contrasts$individual_RIL_contrasts)
 
 test_contrast_tible <- tibble(pheno = names(anova_two_years$`Jay Test 1`$joint)) %>% 
@@ -89,13 +89,10 @@ make_contrast_tibble <- function(test_list, test_names = names(test_list)){
       mutate(test_name = test_name, 
              mar_means = map(joint_anova, function(x) x %>% pluck("model") %>% emmeans("GEN")), 
              contrast_vecs = map(mar_means, check_ril_contrasts), 
-             contrasts = map2(mar_means, contrast_vecs, function(x, y) contrast(x, y$individual_RIL_contrasts))) %>% 
-      relocate(test_name, 1) %>% 
-      mutate(contrasts = map(contrasts, as_tibble))
+             contrasts = map2(mar_means, contrast_vecs, function(x, y) contrast(x, y$individual_RIL_contrasts, adjust = "sidak"))) %>% 
+      relocate(test_name, 1)
     
     return(contrast_tibble)
-    
-    
   }
   
   res <- map2(test_list, test_names, get_pheno_contrasts) %>% 
@@ -104,8 +101,10 @@ make_contrast_tibble <- function(test_list, test_names = names(test_list)){
   return(res)
 }
 
+# Applying the function
 all_contrasts <- make_contrast_tibble(anova_two_years)
 
+# Spread out contrasts
 all_contrasts %>% 
   select(test_name, pheno, contrasts) %>%  
   unnest(contrasts) %>% 
