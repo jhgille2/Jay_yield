@@ -1,5 +1,5 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-.Random.seed|object|dfc3aaaa2659f13f|||||||||||||||
+.Random.seed|object|bc371e666758c0fc|||||||||||||||
 all_yield_data|stem|b8ee7bee85469365|5fddda492c903e20|c2bb61455d9ff631|61897294||t19108.6932364843s|f866abd3938f1c0d|57796|rds|local|vector|||0.41|NAs introduced by coercion. NAs introduced by coercion. NAs introduced by coercion. NAs introduced by coercion. NAs introduced by coercion. NAs introduced by coercion. NAs introduced by coercion. NAs introduced by coercion|
 analysis_writeup|stem|861c43985ad0d70d|7eadeeb97860e2ad|4745aa592080ea1d|505953392|doc/analysis_writeup.html*doc/analysis_writeup.Rmd|t19086.6967325622s|6e174792addee6bf|1389216|file|local|vector|||3.96||
 anova_tables|stem|72ebc9f3cb3b3ec3|a85b67a511135120|603e9dc97ba6d3c7|-2138999600||t19108.6934973203s|3bd8f66805fd112b|45|rds|local|vector|||0||
@@ -41,14 +41,14 @@ plant_rows_2019_file|stem|9df83bc1dad1065a|2aacfd7baf4238c9|4e3739ef91745af0|-19
 pop_development_flowchart|stem|7ad49dcd5f116dc9|cc6f73d4c64836de|4e3739ef91745af0|263618237|C:/Users/jhgille2/Documents/R/projects/Jay_yield/graphviz_docs/graph.gv|t19107.8169010582s|234ea5fb4480790a|2044|file|local|vector|||0||
 pop_development_pdf|stem|cd047e4c238917ae|e29fa46a90e40ccb|d70f406c27f6d110|1139221695|C:/Users/jhgille2/Documents/R/projects/Jay_yield/exports/plots/pop_development_flowchart.png|t19108.7514402873s|e60034529ea16b28|50132|file|local|vector|||0.68||
 read_plant_row_data|function|3db2ba359e53cfe4|||||||||||||||
-read_util_tables|function|c8753580445c2eec|||||||||||||||
+read_util_tables|function|d9b0dd6b457aafa4|||||||||||||||
 rename_with_lookup|function|3282ddc30c36093a|||||||||||||||
 set_test_colors|function|56e3603ca9791960|||||||||||||||
 test_name_colors|stem|e52426f6cea18929|47ffe0ab99d4bfc6|6876e85a85085756|306515319||t19108.6932381639s|7af061f2ef9eeab5|151|rds|local|vector|||0||
 trait_conversion|stem|a0b75d5db5451060|ae7da3d4e01ae85d|4e3739ef91745af0|1303804190|C:/Users/jhgille2/Documents/R/projects/Jay_yield/data/utils/trait_name_lookup.xlsx|t19082.8138175367s|20e34e665a6c1e20|9003|file|local|vector|||0||
 trait_shortname_conversion|stem|2be0c0fe9b643139|322c1d9b7bb93c36|4e3739ef91745af0|800230800|C:/Users/jhgille2/Documents/R/projects/Jay_yield/data/utils/trait_shortname_lookup.xlsx|t19100.6338790051s|c2cac121b1fe4478|9000|file|local|vector|||0||
-util_tables|stem|1217f21c801309df|1dc2a1f8f6db9923|a1f7d05ea5965837|-1856776404||t19100.6340440426s|2471bfb27a396c24|658|rds|local|vector|||0.07||
+util_tables|stem|40ab00097398a176|1dc2a1f8f6db9923|942a40c67d0a5529|-1856776404||t19109.679622344s|64730204cc281796|683|rds|local|vector|||0.09||
 yield_2019_file|stem|dfd6fcb73b482d8e|44cb8f6a5f61693a|4e3739ef91745af0|-1091127393|C:/Users/jhgille2/Documents/R/projects/Jay_yield/data/season_2019/YieldData_2019.xlsx|t19082.8138173558s|c792026e8d8e9dbc|132008|file|local|vector|||0||
 yield_2020_file|stem|74a068c3ec213250|30dbb5d6c63d5e1b|4e3739ef91745af0|-1689720162|C:/Users/jhgille2/Documents/R/projects/Jay_yield/data/season_2020/yield/YieldData_2020.xlsx|t19082.8138173558s|d152b81d8e5f7b3c|32986|file|local|vector|||0.01||
 yield_2021_file|stem|a1e22c50ac66cf80|ce4dc63e45741f10|c793b87d5821f57c|2103642564|C:/Users/jhgille2/Documents/R/projects/Jay_yield/data/season_2021/Jay Test 1.xlsx*C:/Users/jhgille2/Documents/R/projects/Jay_yield/data/season_2021/Jay Test 2.xlsx|t19082.8138173558s|75ebf76d8fbedb41|39238|file|local|vector|||0||
-yield_check_genotypes|stem|3f4f13ca25867d8e|b89d2f2ee52d44d4|4e3739ef91745af0|952746019|C:/Users/jhgille2/Documents/R/projects/Jay_yield/data/utils/check_genotypes.xlsx|t19082.8138175367s|6e0960da932458b7|8937|file|local|vector|||0||
+yield_check_genotypes|stem|0843a98624259452|b89d2f2ee52d44d4|4e3739ef91745af0|952746019|C:/Users/jhgille2/Documents/R/projects/Jay_yield/data/utils/check_genotypes.xlsx|t19109.6777127577s|65fffa45375c3d9d|9837|file|local|vector|||0||
