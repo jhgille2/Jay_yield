@@ -1,7 +1,7 @@
 # Jay yield
 Analysis of the "Jay" yield trials conducted between 2019-2021. This is a rework of the analysis I laid out in the [YieldAnalysis_2022 repository](https://github.com/jhgille2/YieldAnalysis_2022). The overall analysis and objectives are still the same but in the couple of years since the project began, I've cleaned up the data considerably and decided to move this relatively clean data into this new repository so that this workflow can be focused more on analysis and summarization and less on the cleaning steps that were necessary and laid out in the other repository. I've also taken steps to make the workflow more streamlined and made a heavier use of the functions from the [metan](https://tiagoolivoto.github.io/metan/index.html) package as I've gotten more comfortable with using it. 
 
-## Directory  
+# Directory  
 **\_targets.R**: The "make" control script of the workflow **START HERE**  
 **R**: Folder to hold the R functions used in the workflow.  
 **\_targets**: Automatically generated folder that the targets package uses to control the workflow.  
@@ -10,3 +10,6 @@ Analysis of the "Jay" yield trials conducted between 2019-2021. This is a rework
 **exports**: Folder to hold plots and formatted tables.   
 **graphviz_docs**: Folder to hold graphviz files.  
 **sandbox**: Folder to hold in-development r scripts and functions that are not used in the workflow.
+
+# Use
+After cloning this repo, the workflow can be run by first sourcing the packages.R file and then running `tar_make()` in the console. The pipeline status can be inspected with `tar_visnetwork()` and individual targets can be loaded into the environment with `tar_load(target_name)`. The target names, and overall workflow can be seen in the \_targets.R file in the main directory up above. 
