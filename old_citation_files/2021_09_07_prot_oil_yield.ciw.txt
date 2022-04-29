@@ -1,0 +1,925 @@
+FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Jukic, G
+   Varnica, I
+   Dugalic, K
+   Rukavina, I
+   Guberac, V
+   Delic, I
+AF Jukic, G.
+   Varnica, I
+   Dugalic, K.
+   Rukavina, I
+   Guberac, V
+   Delic, I
+TI INFLUENCE OF GENOTYPE, YEAR AND LOCATIONS ON YIELD, OIL AND PROTEIN
+   CONTENT OF SOYBEAN - Glycine max (L.) Merr.
+SO POLJOPRIVREDA
+LA Unspecified
+DT Article
+DE soybean; yield; location; oil and protein content
+ID SEED PROTEIN; GRAIN-YIELD; INTERRELATIONSHIPS
+AB During the years 2017 and 2018, field studies were carried out on the impact of year, location and interaction of genotype x location and genotype x year on yield, oil and protein content of soybean seed. The experiment included twenty most common soybean genotypes of different maturation groups, which have a 75% share in the sowing structure. The experiment was set up on locations Osijek and Kutjevo, in two repetitions, in a randomized block design. In 2018, an average higher seed yield, oil content and protein content were achieved primarily due to proper distribution of rainfall. Location Osijek in years of research had an average higher seed yield, and oil and protein content. According to the obtained results of the variance analysis for genotype, interaction of genotype x location and genotype x year, statistically highly justified differences (P <0.01) were obtained for seed yield. For genotype and interaction of genotype x year, statistically justified differences (P <0.05) were obtained for the oil and protein content. Research results will contribute to the proper selection of genotypes depending on the purpose of production in order to exploit the genetic potential of the genotype which is most suitable for a particular location.
+C1 [Jukic, G.; Varnica, I; Dugalic, K.; Rukavina, I] Hrvatska Agencija Poljoprivredu & Hranu, Vinkovacka 63 C, Osijek 31000, Croatia.
+   [Guberac, V] Sveuciliste Josipa Jurja Strossmayera Osijeku, Trg Svetog Trojstva 3, Osijek 31000, Croatia.
+   [Delic, I] Minist Poljoprivrede, Vukovarska 78, Zagreb 10000, Croatia.
+RP Jukic, G (corresponding author), Hrvatska Agencija Poljoprivredu & Hranu, Vinkovacka 63 C, Osijek 31000, Croatia.
+EM goran.jukic@hapih.hr
+CR Assefa Y, 2018, SCI REP-UK, V8, DOI 10.1038/s41598-018-32895-0
+   Bilgili U, 2005, J CENT EUR AGRIC, V6, P397
+   Cavlovicak S., 2015, 50th Croatian & 10th International Symposium on Agriculture, 16-20 February 2015, Opatija, Croatia. Book of Abstracts, P86
+   Chung J, 2003, CROP SCI, V43, P1053, DOI 10.2135/cropsci2003.1053
+   Cicek MS, 2006, CROP SCI, V46, P1253, DOI 10.2135/cropsci2005.06-0162
+   Hrustic M, 1998, PROIZVODNJA PRERADA, V39, P41
+   Hu MX, 2012, AGRON J, V104, P785, DOI 10.2134/agronj2011.0382
+   Josipovic A, 2013, 48 HRVATSK 8 MED S A, P88
+   Jukic G., 2006, Sjemenarstvo, V23, P429
+   Jukic G., 2010, Sjemenarstvo, V27, P103
+   Jukic G, 2019, 54 HRVATSK 14 MED S, P77
+   Koti R. V., 1998, Annals of Plant Physiology, V12, P87
+   Kranjac D., 2019, 54. hrvatski i 14. medunarodni simpozij agronoma, 17. - 22. veljace 2019. godine, Vodice, Hrvatska. Zbornik radova, P127
+   Liu FL, 2003, FUNCT PLANT BIOL, V30, P271, DOI 10.1071/FP02185
+   Ma L, 2015, FOOD CHEM, V173, P694, DOI 10.1016/j.foodchem.2014.10.096
+   Martinic J., 1996, OPLEMENJIVANJE BILJA
+   Miladinovic J, 2004, NAUCNI I RATARSTVO P, V40, P227
+   Popovic M. V, 2010, THESIS, P21
+   Popovic V., 2013, African Journal of Agricultural Research, V8, P5651
+   Schuab SRP, 2001, SEED SCI TECHNOL, V29, P151
+   Subasic DG, 2017, POLJOPRIVREDA, V23, P19, DOI 10.18047/poljo.23.2.3
+   Sudaric A, 2006, PLANT BREEDING, V125, P191, DOI 10.1111/j.1439-0523.2006.01185.x
+   SUDARIC A, 2002, POLJOPRIVREDA, V8, P11
+   Sudaric A, 2001, POLJOPRIVREDA, V7, P9
+   Varnica I, 2018, J CENT EUR AGRIC, V19, P466, DOI 10.5513/JCEA01/19.2.2148
+   Vollmann J, 2000, J SCI FOOD AGR, V80, P1300, DOI 10.1002/1097-0010(200007)80:9&lt;1300::AID-JSFA640&gt;3.0.CO;2-I
+NR 26
+TC 1
+Z9 1
+U1 0
+U2 0
+PU FAC AGRICULTURE OSIJEK
+PI OSIJEK
+PA TRG SV TROJSTVA 3, OSIJEK, 31000, CROATIA
+SN 1330-7142
+EI 1848-8080
+J9 POLJOPRIVREDA
+JI Poljoprivreda
+PY 2019
+VL 25
+IS 2
+BP 3
+EP 10
+DI 10.18047/poljo.25.2.1
+PG 8
+WC Agricultural Economics & Policy
+SC Agriculture
+GA JV1NY
+UT WOS:000502136400001
+OA gold
+DA 2021-09-07
+ER
+
+PT J
+AU Pantalone, V
+   Smallwood, C
+AF Pantalone, Vince
+   Smallwood, Chris
+TI Registration of 'TN11-5102' Soybean Cultivar with High Yield and High
+   Protein Meal
+SO JOURNAL OF PLANT REGISTRATIONS
+LA English
+DT Article
+AB The conventional (non-genetically modified) soybean [Glycine max (L.) Merr.] line 'TN11-5102' (Reg. No. CV-526, PI 686908) was released by University of Tennessee Agricultural Research in 2017 as a cultivar because of its high seed yield potential in Tennessee and the southern US region. The objective of its development was to provide a new cultivar combining high seed yield with high protein soymeal. The rationale is that US soybeans bred for high yield typically lead to lower protein concentration. TN11-5102 was developed from 1 of 653 F-21 single plant selections within cultivar 5601T. Progeny rows were selected on the basis of adapted maturity, lodging resistance, disease resistance, and pod density. Selections were carried forward for yield testing. TN11-5102 is resistant to southern root knot nematode and is resistant to stem canker. It has white flowers, gray pubescence, tan pod wall, and a determinate growth habit. The plants show good resistance to lodging. Averaged over 3 yr (2014-2016) of the USDA Southern Uniform Testing Program, TN11-5102 had 421 g kg(-1) protein on a dry weight basis and 216 g kg(-1) oil on a dry weight basis, and it is capable of producing 490 g kg(-1) protein in the soymeal. It will serve as an excellent parent line in breeding for high yield and improved protein.
+C1 [Pantalone, Vince; Smallwood, Chris] Univ Tennessee, Dept Plant Sci, 2431 Joe Johnson Dr, Knoxville, TN 37996 USA.
+RP Pantalone, V (corresponding author), Univ Tennessee, Dept Plant Sci, 2431 Joe Johnson Dr, Knoxville, TN 37996 USA.
+EM vpantalo@utk.edu
+RI Smallwood, Chris/L-9303-2019
+OI Smallwood, Chris/0000-0001-6937-8982
+FU Tennessee Soybean Promotion Board; United Soybean Board [TN11-5102]
+FX We thank the Tennessee Soybean Promotion Board and the United Soybean
+   Board for their support during all the years of research that led to the
+   development of TN11-5102 as a new cultivar. Special thanks are made to
+   the Research Associates at Research and Education Centers (RECs) across
+   the state who made this work possible: we thank Brad Fisher at Highland
+   Rim REC in Springfield, TN; Chris Bridges, Jimmy McClure, and Jason
+   Williams at the REC at Milan, TN; and Randi Dunagan at the West
+   Tennessee REC. We also thank the Center Directors (Drs. Bobby Simpson,
+   East Tennessee REC; Barry Sims and Rob Ellis, Highland Rim REC; Blake
+   Brown, REC at Milan; and Bob Hayes, West Tennessee REC) for their
+   enthusiastic support, patience, and dedicated assistance to the soybean
+   breeding program.
+CR BURTON JW, 1987, SOYBEANS IMPROVEMENT, P211
+   BUSS GR, 1988, CROP SCI, V28, P1024, DOI 10.2135/cropsci1988.0011183X002800060042x
+   CAVINESS CE, 1975, CROP SCI, V15, P100, DOI 10.2135/cropsci1975.0011183X001500010043x
+   Cober ER, 2000, CROP SCI, V40, P39, DOI 10.2135/cropsci2000.40139x
+   Fasoula VA, 2007, CROP SCI, V47, P367, DOI 10.2135/cropsci2005.09.0334
+   HARTWIG EE, 1973, CROP SCI, V13, P287, DOI 10.2135/cropsci1973.0011183X001300020047x
+   Mian MAR, 2017, J PLANT REGIST, V11, P51, DOI 10.3198/jpr2016.03.0013crc
+   Pantalone VR, 2003, CROP SCI, V43, P1123, DOI 10.2135/cropsci2003.1123
+   Pantalone VR, US Patent, Patent No. [7 777 102 B2, 7777102]
+   PROBST AH, 1971, CROP SCI, V11, P941, DOI 10.2135/cropsci1971.0011183X001100060063x
+   SAS Institute, 2002, SAS 9 4
+   Smallwood C, 2018, J PLANT REGIST, V12, P203, DOI 10.3198/jpr2017.09.0057crc
+   SMITH TJ, 1973, CROP SCI, V13, P495, DOI 10.2135/cropsci1973.0011183X001300040033x
+   WILCOX JR, 1995, CROP SCI, V35, P1036, DOI 10.2135/cropsci1995.0011183X003500040019x
+   Woerfel J.B., 1995, PRACTICAL HDB SOYBEA, DOI [10.1016/B978-0-935315-63-9.50010-3, DOI 10.1016/B978-0-935315-63-9.50010-3]
+NR 15
+TC 7
+Z9 7
+U1 0
+U2 5
+PU CROP SCIENCE SOC AMER
+PI MADISON
+PA 677 S SEGOE ROAD, MADISON, WI 53711 USA
+SN 1936-5209
+EI 1940-3496
+J9 J PLANT REGIST
+JI J. Plant Regist.
+PD SEP
+PY 2018
+VL 12
+IS 3
+BP 304
+EP 308
+DI 10.3198/jpr2017.10.0074crc
+PG 5
+WC Agronomy; Plant Sciences
+SC Agriculture; Plant Sciences
+GA GU5YN
+UT WOS:000445374100003
+DA 2021-09-07
+ER
+
+PT J
+AU Rasyad, A
+   Adiwirman
+   Roslim, DI
+AF Rasyad, A.
+   Adiwirman
+   Roslim, D., I
+TI GENOTYPIC VARIATION FOR GRAIN PROTEIN, OIL CONTENT AND YIELD RELATED
+   TRAITS IN SOYBEAN POPULATIONS
+SO SABRAO JOURNAL OF BREEDING AND GENETICS
+LA English
+DT Article
+DE F3 generation; genotypic variation; protein content; oil content;
+   soybean populations
+ID SEED; ENVIRONMENTS; SELECTION
+AB Seed quality traits such as oil and protein contents as well as yield components are desirable characters in soybeans if it is used for food. In this study, we determined genotypic variation of grain protein and oil content as well as related traits on F3 soybean populations. Nine F3 populations of soybean originated from crosses between three male varieties and three female parents were planted in 2017. The design used was randomized block design with four replications. Several traits were observed from each entry including days to harvest (DTH), seed weight plant(-1) (SWP), 100-grain weight (HGW), grain yield m(-2) (GYM), grain protein (GPC) and oil content (GOC). There was large variation found among genotypes for SWP, HGW, GYM, GPC, and GOC but not for DTH. Genetic component of variance and heritability were significant (P = 0.05) for SWP, HGW, GYM, and GPC but equal to zero for DTH and GOC. Grain yield was positively correlated to HGW but negatively correlated to GPC. Seed oil content did not significantly correlated to any traits. The result indicated that SWP, HGW, GYM, and GPC may be utilized as selection criteria in a soybean breeding program. Selection response was moderately high for GYM, but relatively low for DTH, SWP, HGW, GPC and GOC.
+C1 [Rasyad, A.; Adiwirman] Univ Riau, Dept Agrotechnol, Tampan, Riau, Indonesia.
+   [Roslim, D., I] Univ Riau, Dept Biol, Tampan, Riau, Indonesia.
+RP Rasyad, A (corresponding author), Univ Riau, Dept Agrotechnol, Tampan, Riau, Indonesia.
+EM aslim.rasyad@gmail.com; adiwirman@yahoo.com;
+   dewiindriyaniroslim@gmail.com
+FU University of Riau
+FX The authors would like to express sincere appreciation to the Rector of
+   University of Riau for providing financial support of the research. We
+   would also like to thank Ms. Yelmida who assisted us in the analysis of
+   protein and oil concentration.
+CR AOAC, 1980, OFFICIAL METHODS ANA
+   Arslanoglu F, 2011, AFR J BIOTECHNOL, V10, P1809
+   BRIM CA, 1979, CROP SCI, V19, P494, DOI 10.2135/cropsci1979.0011183X001900040016x
+   BURTON JW, 1981, CROP SCI, V21, P31, DOI 10.2135/cropsci1981.0011183X002100010009x
+   Chandrawat KS., 2017, INT J PURE APPL BIOS, V5, P57, DOI [10.18782/2320-7051.2592, DOI 10.18782/2320-7051.2592]
+   Chowdhury J. A., 2015, Bangladesh Journal of Agricultural Research, V40, P537, DOI 10.3329/bjar.v40i4.26929
+   Costa MM, 2008, CROP BREED APPL BIOT, V8, P47, DOI 10.12702/1984-7033.v08n01a07
+   Rodrigues JID, 2014, PESQUI AGROPECU BRAS, V49, P475, DOI 10.1590/S0100-204X2014000600009
+   Desissa DH, 2017, ASIAN J PLANT SCI RE, V7, P20
+   Dukic V, 2010, P 51 OIL IND C HERC, P77
+   ERICKSON LR, 1981, CAN J PLANT SCI, V61, P901, DOI 10.4141/cjps81-134
+   Gunasekera CP, 2006, EUR J AGRON, V25, P13, DOI 10.1016/j.eja.2006.02.001
+   Hallauer AR, 2010, HANDB PLANT BREED, V6, P1, DOI 10.1007/978-1-4419-0766-0
+   Hanson RD, 1987, CROP SCI, V29, P1561
+   Jaureguy LM, 2011, PLANT BREEDING, V130, P647, DOI 10.1111/j.1439-0523.2011.01887.x
+   JOHNSON HERBERT W., 1955, AGRON JOUR, V47, P314
+   Kumar V, 2006, J FOOD COMPOS ANAL, V19, P188, DOI 10.1016/j.jfca.2005.06.005
+   Li HX, 2002, CROP SCI, V42, P393, DOI 10.2135/cropsci2002.0393
+   Maestri DM, 1998, GRASAS ACEITES, V49, P450, DOI 10.3989/gya.1998.v49.i5-6.757
+   Miladinovic J, 2011, TURK J AGRIC FOR, V35, P469, DOI 10.3906/tar-1011-1474
+   Myo Win, 2010, Kasetsart Journal, Natural Sciences, V44, P1
+   Panthee DR, 2005, CROP SCI, V45, P2015, DOI 10.2135/cropsci2004.0720
+   Piper EL, 1999, J AM OIL CHEM SOC, V76, P1233, DOI 10.1007/s11746-999-0099-y
+   Rasyad A, 2016, J AGR ENG BIOTECHNOL, V4, P22
+   Rasyad A, 2010, INDONESIA J AGRON, V38, P25
+   Rotundo JL, 2009, FIELD CROP RES, V110, P147, DOI 10.1016/j.fcr.2008.07.012
+   Simmonds NW, 1979, PRINCIPLE CROP IMPRO
+   Vollmann J, 2000, J SCI FOOD AGR, V80, P1300, DOI 10.1002/1097-0010(200007)80:9&lt;1300::AID-JSFA640&gt;3.0.CO;2-I
+   Yin XH, 2005, AGRON J, V97, P1314, DOI 10.2134/agronj2004.0316
+NR 29
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SOC ADVANCEMENT BREEDING RESEARCHES ASIA & OCEANIA
+PI BANGKOK
+PA C/O PROF SUMIN SMUTKUPT SEC-GEN, DEPT APPL RADIATION & ISOTOPES, FAC
+   SCI, KASETSART UNIV, BANGKOK, 10900, THAILAND
+SN 1029-7073
+EI 2224-8978
+J9 SABRAO J BREED GENET
+JI SABRAO J. Breed. Genet.
+PD SEP
+PY 2018
+VL 50
+IS 3
+BP 270
+EP 278
+PG 9
+WC Plant Sciences
+SC Plant Sciences
+GA GU4GO
+UT WOS:000445241200003
+DA 2021-09-07
+ER
+
+PT J
+AU Mian, MAR
+   McHale, L
+   Li, ZL
+   Dorrance, AE
+AF Mian, M. A. Rouf
+   McHale, Leah
+   Li, Zenglu
+   Dorrance, Anne E.
+TI Registration of 'Highpro1' Soybean with High Protein and High Yield
+   Developed from a North x South Cross
+SO JOURNAL OF PLANT REGISTRATIONS
+LA English
+DT Article
+ID SEED PROTEIN
+AB 'Highpro1' soybean [Glycine max (L.) Merr.]) (Reg. No. CV-521, PI 678444) was developed and jointly released by the USDA Agricultural Research Service and The Ohio Agricultural Research and Development Center in Wooster, OH, as a high-protein high-yielding maturity group (MG) III (relative maturity 3.7) conventional soybean cultivar. Highpro1 is a selection from a cross between a food-grade soybean cultivar, 'Wyandot', from The Ohio State University and a high-protein breeding line, GASF98-114, from University of Georgia Athens. Across 20 environments in the Northern Regional Soybean MG-III Quality Traits Tests, Highpro1 yielded (3746 kg ha(-1)) the same as the mean yield of four high-yielding check cultivars in the tests, and its protein content was much higher than the checks. On a 13% (w/w) moisture basis, Highpro1 produced 401 g kg(-1) seed protein compared with the check cultivars' averages of 344 g kg(-1) seed protein. Across five environments of yield testing in Ohio, this line produced 4% higher seed yield and 45 g kg(-1) higher seed protein content than the early-maturing parental cultivar Wyandot. However, it is 7 d later in maturity with 18 g kg(-1) lower seed oil content than Wyandot. In 2012 Ohio State Soybean Performance Trials, seed yields of Highpro1 were comparable to the yields of high-yield check cultivars of similar maturity and 10% higher than that of Wyandot. Highpro1 is resistant to southern root knot nematode, and it has high level of partial resistance to Phytophthora root and stem rot.
+C1 [Mian, M. A. Rouf] Ohio State Univ, USDA ARS, Corn Soybean & Wheat Qual Res Unit, Wooster, OH 44691 USA.
+   [Mian, M. A. Rouf] Ohio State Univ, Dept Hort & Crop Sci, Wooster, OH 44691 USA.
+   [Mian, M. A. Rouf] USDA ARS, Soybean & Nitrogen Fixat Unit, 3127 Ligon St, Raleigh, NC 27607 USA.
+   [McHale, Leah] Ohio State Univ, Dept Hort & Crop Sci, Columbus, OH 43210 USA.
+   [Li, Zenglu] Univ Georgia, Dept Crop & Soil Sci, Athens, GA 30602 USA.
+   [Dorrance, Anne E.] Ohio State Univ, Dep Plant Pathol, Wooster, OH 44691 USA.
+RP Mian, MAR (corresponding author), Ohio State Univ, USDA ARS, Corn Soybean & Wheat Qual Res Unit, Wooster, OH 44691 USA.; Mian, MAR (corresponding author), Ohio State Univ, Dept Hort & Crop Sci, Wooster, OH 44691 USA.; Mian, MAR (corresponding author), USDA ARS, Soybean & Nitrogen Fixat Unit, 3127 Ligon St, Raleigh, NC 27607 USA.
+EM rouf.mian@ars.usda.gov
+FU USDA-ARSUnited States Department of Agriculture (USDA)USDA Agricultural
+   Research Service; United Soybean Board; Ohio Soybean Council; OARDC/OSU
+FX The authors appreciate technical help from Tim Mendiola, Ron Fioritto,
+   and Scott McIntyre. We thank Chris K. Van Diest for inclusion of
+   Highpro1 in the Ohio Soybean Performance Trial. We appreciate USDA-ARS,
+   United Soybean Board, Ohio Soybean Council, and OARDC/OSU for their
+   support in this research.
+CR Pham AT, 2013, THEOR APPL GENET, V126, P1825, DOI 10.1007/s00122-013-2095-8
+   Boerma HR, 1997, CROP SCI, V37, P1982, DOI 10.2135/cropsci1997.0011183X003700060061x
+   BRUMM TJ, 1990, J AM OIL CHEM SOC, V67, P302, DOI 10.1007/BF02539680
+   BURTON JW, 1987, SOYBEANS IMPROVEMENT, P211
+   COOPER RL, 1990, CROP SCI, V30, P417, DOI 10.2135/cropsci1990.0011183X003000020037x
+   Dorrance A. E., 2008, PLANT HLTH PROG, V10, P1094, DOI DOI 10.1094/PHP-2008-0118-01-DG
+   Durham D., 2003, AgBioForum, V6, P23
+   Graef G., 2013, REGIONAL SOYBEAN QUA
+   Graef G., 2012, REGIONAL SOYBEAN QUA
+   Hwang EY, 2014, BMC GENOMICS, V15, DOI 10.1186/1471-2164-15-1
+   Kim Seok-Dong, 1996, RDA Journal of Agricultural Science Upland and Industrial Crops, V38, P228
+   Lindsay L., 2012, OHIO SOYBEAN PERFORM
+   National Biodiesel Board, 2011, SOYB OIL MEAL EC LIV
+   Pathan SM, 2013, CROP SCI, V53, P765, DOI 10.2135/cropsci2012.03.0153
+   Rinker K., 2014, CROP SCI, V54, P1, DOI DOI 10.2135/CR0P-SCI2012.12.0710
+   SAS Institute, 2002, SAS STAT REL 9 1
+   Sebolt AM, 2000, CROP SCI, V40, P1438, DOI 10.2135/cropsci2000.4051438x
+   St Martin S., 2006, RELEASE WYANDOT SOYB
+   StMartin SK, 1996, CROP SCI, V36, P813, DOI 10.2135/cropsci1996.0011183X003600030063x
+   Warrington CV, 2015, THEOR APPL GENET, V128, P839, DOI 10.1007/s00122-015-2474-4
+NR 20
+TC 14
+Z9 14
+U1 0
+U2 3
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 1936-5209
+EI 1940-3496
+J9 J PLANT REGIST
+JI J. Plant Regist.
+PD JAN
+PY 2017
+VL 11
+IS 1
+BP 51
+EP 54
+DI 10.3198/jpr2016.03.0013crc
+PG 4
+WC Agronomy; Plant Sciences
+SC Agriculture; Plant Sciences
+GA EO0DJ
+UT WOS:000396368200010
+DA 2021-09-07
+ER
+
+PT J
+AU Rodrigues, JID
+   Arruda, KMA
+   Cruz, CD
+   Piovesan, ND
+   de Barros, EG
+   Moreira, MA
+AF da Silva Rodrigues, Josiane Isabela
+   Antunes Arruda, Klever Marcio
+   Cruz, Cosme Damiao
+   Piovesan, Newton Deniz
+   de Barros, Everaldo Goncalves
+   Moreira, Maurilio Alves
+TI Biometric analysis of protein and oil contents of soybean genotypes in
+   different environments
+SO PESQUISA AGROPECUARIA BRASILEIRA
+LA English
+DT Article
+DE Glycine max; FT-NIR; genotype x environment interaction; heritability
+ID YIELD; COMPONENTS; TRAITS; QTL
+AB The objective of this work was to identify by biometric analyses the most stable soybean parents, with higher oil or protein contents, cultivated at different seasons and locations of the state of Minas Gerais, Brazil. Forty-nine genotypes were evaluated in the municipalities of Vicosa, Visconde do Rio Branco, and Sao Gotardo, in the state of Minas Gerais, from 2009 to 2011. Protein and oil contents were analyzed by infrared spectrometry using a FT-NIR analyzer. The effects of genotype, environment, and genotype x environment interaction were significant. The BARC-8 soybean genotype is the best parent to increase protein contents in the progenies, followed by BR 8014887 and CS 3032PTA276-3-4. Selection for high oil content is more efficient when the crossings involve the Suprema, CD 01RR8384, and A7002 genotypes, which show high mean phenotypic values, wide adaptability, and greater stability to environmental variation.
+C1 [da Silva Rodrigues, Josiane Isabela; Antunes Arruda, Klever Marcio; Cruz, Cosme Damiao; Piovesan, Newton Deniz] Univ Fed Vicosa, Inst Biotecnol Aplicada Agr, Ave PH Rolfs,Campus Univ, BR-36570000 Vicosa, MG, Brazil.
+   [de Barros, Everaldo Goncalves] Univ Catolica Brasilia, Programa Posgrad Ciencias Genom & Biotecnol, BR-70790160 Brasilia, DF, Brazil.
+RP Rodrigues, JID (corresponding author), Univ Fed Vicosa, Inst Biotecnol Aplicada Agr, Ave PH Rolfs,Campus Univ, BR-36570000 Vicosa, MG, Brazil.
+EM josianeisabela@gmail.com; kleverantunes@yahoo.com.br; cdcruz@ufv.br;
+   piovesan@ufv.br; everaldodebarros@gmail.com
+FU Conselho Nacional de Desenvolvimento Cientifico e Tecnologico
+   (CNPq)Conselho Nacional de Desenvolvimento Cientifico e Tecnologico
+   (CNPQ); Fundacao de Amparo a Pesquisa do Estado de Minas Gerais
+   (Fapemig)Fundacao de Amparo a Pesquisa do Estado de Minas Gerais
+   (FAPEMIG)
+FX To Conselho Nacional de Desenvolvimento Cientifico e Tecnologico (CNPq)
+   and to Fundacao de Amparo a Pesquisa do Estado de Minas Gerais
+   (Fapemig), for financial support.
+CR Akond A. S. M. G. M., 2012, Journal of Agricultural Science (Toronto), V4, P16
+   Albrecht Leandro Paiola, 2008, Bragantia, V67, P865, DOI 10.1590/S0006-87052008000400008
+   Annicchiarico P., 1992, Journal of Genetics and Breeding, V46, P269
+   Ávila Marizangela Rizzatti, 2007, Rev. bras. sementes, V29, P111, DOI 10.1590/S0101-31222007000300014
+   BOERMA H.R., 2004, SOYBEANS IMPROVEMENT
+   Cruz C. D., 1991, Revista Ceres, V38, P422
+   CRUZ C.D., 2003, MODELOS BIOMETRICOS
+   CRUZ C.D., 2006, PROGRAMA GENES BIOME
+   Cucolotto M, 2007, CROP BREED APPL BIOT, V7, P270, DOI 10.12702/1984-7033.v07n03a06
+   da BARBOSA V.S., 2011, REV CIENCIA AGRONOMI, V42, P742, DOI [10.1590/S1806-66902011000300021, DOI 10.1590/S1806-66902011000300021]
+   Rodrigues JID, 2010, PESQUI AGROPECU BRAS, V45, P472, DOI 10.1590/S0100-204X2010000500006
+   Fehr WR, 2003, CROP SCI, V43, P511, DOI 10.2135/cropsci2003.0511
+   Jaureguy LM, 2011, PLANT BREEDING, V130, P647, DOI 10.1111/j.1439-0523.2011.01887.x
+   KAMALUDDIN M.N.K., 2012, J FOOD LEGUMES, V25, P175
+   Liang HZ, 2010, AGR SCI CHINA, V9, P1108, DOI 10.1016/S1671-2927(09)60197-8
+   LIN CS, 1988, CAN J PLANT SCI, V68, P193, DOI 10.4141/cjps88-018
+   Naeve SL, 2008, AGRON J, V100, P690, DOI 10.2134/agronj2007.0204
+   Nascimento M, 2009, PESQUI AGROPECU BRAS, V44, P263, DOI 10.1590/S0100-204X2009000300007
+   Oliveira M. A. R. de, 2006, Crop Breeding and Applied Biotechnology, V6, P55
+   Peluzio J. M., 2008, Revista Ceres, V55, P34
+   Popovic V, 2012, GENETIKA-BELGRADE, V44, P33, DOI 10.2298/GENSR1201033P
+   Proulx RA, 2009, AGRON J, V101, P971, DOI 10.2134/agronj2008.0222x
+   Ray CL, 2008, CROP SCI, V48, P181, DOI 10.2135/cropsci2007.05.0290
+   ROBERTSON A, 1959, BIOMETRICS, V15, P469, DOI 10.2307/2527750
+   Rotundo JL, 2009, FIELD CROP RES, V110, P147, DOI 10.1016/j.fcr.2008.07.012
+   Shi A, 2010, PLANT BREEDING, V129, P250, DOI 10.1111/j.1439-0523.2010.01766.x
+   Silva Nívea Roquilini Santos, 2004, Rev. Árvore, V28, P397, DOI 10.1590/S0100-67622004000300011
+   Sudaric A, 2006, PLANT BREEDING, V125, P191, DOI 10.1111/j.1439-0523.2006.01185.x
+   WRICKE G, 1964, Z PFLANZENZUCHT, V52, P127
+   Yan Z, 2010, CROP SCI, V50, P696, DOI 10.2135/cropsci2008.12.0742
+NR 30
+TC 10
+Z9 10
+U1 0
+U2 26
+PU EMPRESA BRASIL PESQ AGROPEC
+PI BRASILIA DF
+PA EMBRAPA INFORMACAO TECNOLOGICA, PESQUISA AGROPECUARIA BRASILEIRA - PAB,
+   CAIXA POSTAL 040315, 70770-901 BRASILIA DF, BRAZIL
+SN 0100-204X
+EI 1678-3921
+J9 PESQUI AGROPECU BRAS
+JI Pesqui. Agropecu. Bras.
+PD JUN
+PY 2014
+VL 49
+IS 6
+BP 475
+EP 482
+DI 10.1590/S0100-204X2014000600009
+PG 8
+WC Agriculture, Multidisciplinary
+SC Agriculture
+GA AP0TD
+UT WOS:000341776300009
+OA gold
+DA 2021-09-07
+ER
+
+PT J
+AU Pinheiro, LCD
+   God, PIVG
+   Faria, VR
+   Oliveira, AG
+   Hasui, AA
+   Pinto, EHG
+   Arruda, KMA
+   Piovesan, ND
+   Moreira, MA
+AF de Melo Pinheiro, Larissa Correia
+   Vieira Good God, Pedro Ivo
+   Faria, Vinicius Ribeiro
+   Oliveira, Ane Gabrielle
+   Hasui, Aline Akemi
+   Guimaraes Pinto, Eduardo Henrique
+   Antunes Arruda, Klever Marcio
+   Piovesan, Newton Deniz
+   Moreira, Maurilio Alves
+TI Relationship in the selection for productivity and oil and protein
+   contents in soybean using mixed models
+SO PESQUISA AGROPECUARIA BRASILEIRA
+LA Portuguese
+DT Article
+DE Glycine max; BLUP/REML; selection gain; relationship matrix
+ID LINEAR UNBIASED PREDICTIONS; YIELD; BLUP; PEDIGREE; QTL; INFORMATION;
+   CULTIVARS; STABILITY
+AB The objective of this work was to evaluate the influence of relationship information for selecting soybean progenies as to their productivity, and oil and protein contents, using mixed models for the prediction of breeding values. Nine hundred F-4:6 and 200 F-4:7 soybean progenies were evaluated in the seasons 2010/2011 and 2011/2012, respectively. The progenies were obtained from multiple crosses from 57 parents. Data were analyzed using random models (least squares) and mixed models BLUP/REML (best linear unbiased prediction/restricted maximum likelihood). The highest values of predicted gains were obtained by BLUP/REML. The breeding values predicted with the use of BLUP/REML without relationship information were highly correlated with the ones obtained with the random model, and the selected progenies were rather coincident. The inclusion of the relationship matrix resulted in the selection of different progenies and in higher accuracy of breeding values.
+C1 [de Melo Pinheiro, Larissa Correia; Vieira Good God, Pedro Ivo; Faria, Vinicius Ribeiro; Oliveira, Ane Gabrielle; Hasui, Aline Akemi; Guimaraes Pinto, Eduardo Henrique] Univ Fed Vicosa, BR-38810000 Rio Paranaiba, MG, Brazil.
+   [Antunes Arruda, Klever Marcio] Inst Agron Parana, BR-86047902 Londrina, PR, Brazil.
+   [Piovesan, Newton Deniz; Moreira, Maurilio Alves] Univ Fed Vicosa, BR-36570000 Vicosa, MG, Brazil.
+RP Pinheiro, LCD (corresponding author), Univ Fed Vicosa, Campus Rio Paranaiba,Caixa Postal 22, BR-38810000 Rio Paranaiba, MG, Brazil.
+EM larissa.correia@ufv.br; pedro.god@ufv.br; vinicius.faria@ufv.br;
+   oliveira@ufv.br; akemihasui@gmail.com; eduardo.pinto@ufv.br;
+   klever@iapar.br; piovesan@ufv.br; moreira@ufv.br
+RI God, Pedro Ivo Vieira Good/AAU-5211-2020
+OI God, Pedro Ivo Vieira Good/0000-0003-4540-4597
+CR ANDERSON R.D., 1979, VARIANCE COMPONENTS, P205
+   Borges V, 2012, CROP BREED APPL BIOT, V12, P25, DOI 10.1590/S1984-70332012000100004
+   Bruna Emilio Della, 2012, Rev. Bras. Frutic., V34, P206, DOI 10.1590/S0100-29452012000100028
+   Chung J, 2003, CROP SCI, V43, P1053, DOI 10.2135/cropsci2003.1053
+   Clemente TE, 2009, PLANT PHYSIOL, V151, P1030, DOI 10.1104/pp.109.146282
+   Baldissera JND, 2012, BIOSCI J, V28, P395
+   Rodrigues JID, 2010, PESQUI AGROPECU BRAS, V45, P472, DOI 10.1590/S0100-204X2010000500006
+   Eskandari M, 2013, THEOR APPL GENET, V126, P1677, DOI 10.1007/s00122-013-2083-z
+   de Carvalho ADF, 2008, CROP BREED APPL BIOT, V8, P219, DOI 10.12702/1984-7033.v08n03a06
+   HENDERSON CR, 1975, BIOMETRICS, V31, P423, DOI 10.2307/2529430
+   Henderson CR, 1984, APPL LINEAR MODELS A
+   Heslot N, 2012, CROP SCI, V52, P146, DOI 10.2135/cropsci2011.06.0297
+   MIRANDA F.D. de., 2006, THESIS U FEDERAL VIC
+   NAOE L.K., 2006, REV CIENCIA AGROAMBI, V1, P21
+   PANTER DM, 1995, CROP SCI, V35, P397, DOI 10.2135/cropsci1995.0011183X003500020020x
+   PANTER DM, 1995, CROP SCI, V35, P405, DOI 10.2135/cropsci1995.0011183X003500020021x
+   PATTERSON HD, 1971, BIOMETRIKA, V58, P545, DOI 10.1093/biomet/58.3.545
+   Piepho HP, 2008, EUPHYTICA, V161, P209, DOI 10.1007/s10681-007-9449-8
+   PIRES M.J. de S., 2013, 1817 IPEA
+   Ramalho MAP, 2013, ISRN GENETICS, V2013, P1, DOI DOI 10.5402/2013/718127
+   Nunes JAR, 2008, GENET MOL BIOL, V31, P73, DOI 10.1590/S1415-47572008000100015
+   Nunes JAR, 2008, SCI AGR, V65, P25, DOI 10.1590/S0103-90162008000100004
+   Rosado AM, 2012, PESQUI AGROPECU BRAS, V47, P964, DOI 10.1590/S0100-204X2012000700013
+   Segura V, 2012, NAT GENET, V44, P825, DOI 10.1038/ng.2314
+   Silva J. A. da, 2013, Revista de Politica Agricola, V22, P18
+   Silva RR, 2011, PESQUI AGROPECU BRAS, V46, P1439, DOI 10.1590/S0100-204X2011001100004
+   Viana JMS, 2012, AGRON J, V104, P722, DOI 10.2134/agronj2011.0358
+   Viana JMS, 2011, CROP SCI, V51, P2371, DOI 10.2135/cropsci2011.03.0153
+   Viana JMS, 2010, EUPHYTICA, V174, P31, DOI 10.1007/s10681-009-0094-2
+   Storck L, 2010, CIENC AGROTEC, V34, P572, DOI 10.1590/S1413-70542010000300007
+   Viana JMS, 2010, PLANT BREEDING, V129, P599, DOI 10.1111/j.1439-0523.2009.01745.x
+NR 31
+TC 15
+Z9 15
+U1 0
+U2 10
+PU EMPRESA BRASIL PESQ AGROPEC
+PI BRASILIA DF
+PA EMBRAPA INFORMACAO TECNOLOGICA, PESQUISA AGROPECUARIA BRASILEIRA - PAB,
+   CAIXA POSTAL 040315, 70770-901 BRASILIA DF, BRAZIL
+SN 0100-204X
+EI 1678-3921
+J9 PESQUI AGROPECU BRAS
+JI Pesqui. Agropecu. Bras.
+PD SEP
+PY 2013
+VL 48
+IS 9
+BP 1246
+EP 1253
+DI 10.1590/S0100-204X2013000900008
+PG 8
+WC Agriculture, Multidisciplinary
+SC Agriculture
+GA 279AU
+UT WOS:000328932000008
+OA gold, Green Submitted, Green Published
+DA 2021-09-07
+ER
+
+PT J
+AU Eskandari, M
+   Cober, ER
+   Rajcan, I
+AF Eskandari, Mehrzad
+   Cober, Elroy R.
+   Rajcan, Istvan
+TI Genetic control of soybean seed oil: II. QTL and genes that increase oil
+   concentration without decreasing protein or with increased seed yield
+SO THEORETICAL AND APPLIED GENETICS
+LA English
+DT Article
+ID QUANTITATIVE TRAIT LOCI; GLYCINE-MAX L.; AGRONOMIC TRAITS; SELECTION;
+   POPULATIONS; LINKAGE; MATURITY
+AB Soybean [Glycine max (L.) Merrill] seed oil is the primary global source of edible oil and a major renewable and sustainable feedstock for biodiesel production. Therefore, increasing the relative oil concentration in soybean is desirable; however, that goal is complex due to the quantitative nature of the oil concentration trait and possible effects on major agronomic traits such as seed yield or protein concentration. The objectives of the present study were to study the relationship between seed oil concentration and important agronomic and seed quality traits, including seed yield, 100-seed weight, protein concentration, plant height, and days to maturity, and to identify oil quantitative trait loci (QTL) that are co-localized with the traits evaluated. A population of 203 F-4:6 recombinant inbred lines, derived from a cross between moderately high oil soybean genotypes OAC Wallace and OAC Glencoe, was developed and grown across multiple environments in Ontario, Canada, in 2009 and 2010. Among the 11 QTL associated with seed oil concentration in the population, which were detected using either single-factor ANOVA or multiple QTL mapping methods, the number of QTL that were co-localized with other important traits QTL were six for protein concentration, four for seed yield, two for 100-seed weight, one for days to maturity, and one for plant height. The oil-beneficial allele of the QTL tagged by marker Sat_020 was positively associated with seed protein concentration. The oil favorable alleles of markers Satt001 and GmDGAT2B were positively correlated with seed yield. In addition, significant two-way epistatic interactions, where one of the interacting markers was solely associated with seed oil concentration, were identified for the selected traits in this study. The number of significant epistatic interactions was seven for yield, four for days to maturity, two for 100-seed weight, one for protein concentration, and one for plant height. The identified molecular markers associated with oil-related QTL in this study, which also have positive effects on other important traits such as seed yield and protein concentration, could be used in the soybean marker breeding programs aimed at developing either higher seed yield and oil concentration or higher seed protein and oil concentration per hectare. Alternatively, selecting complementary parents with greater breeding values due to positive epistatic interactions could lead to the development of higher oil soybean cultivars.
+C1 [Eskandari, Mehrzad; Rajcan, Istvan] Univ Guelph, Dept Plant Agr, Guelph, ON N1G 2W1, Canada.
+   [Cober, Elroy R.] Agr & Agrifood Canada, Eastern Cereal & Oilseed Crop Res Ctr, Ottawa, ON K1A 0C6, Canada.
+RP Rajcan, I (corresponding author), Univ Guelph, Dept Plant Agr, Crop Sci Bldg,50 Stone Rd East, Guelph, ON N1G 2W1, Canada.
+EM irajcan@uoguelph.ca
+OI Cober, Elroy/0000-0002-4673-1808
+FU Alternative Renewable Fuels II Program of the Ontario Ministry of
+   Agriculture, Food and Rural Affairs (OMAFRA); Grain Farmers of Ontario
+FX The authors would like to thank Drs G. R. Ablett (in memoriam), K. P.
+   Pauls, L. R. Erikson, and Y. Kakuda (University of Guelph) for their
+   valuable suggestions on this research. The authors are also grateful to
+   Wade Montminy, Chris Grainger, Ron Guillemette, Bryan Stirling, Dennis
+   Fischer and the entire soybean crew at the University of Guelph for
+   their excellent technical support. Generous funding to conduct this
+   research was provided by the Alternative Renewable Fuels II Program of
+   the Ontario Ministry of Agriculture, Food and Rural Affairs (OMAFRA) and
+   by the Grain Farmers of Ontario.
+CR Asins MJ, 2002, PLANT BREEDING, V121, P281, DOI 10.1046/j.1439-0523.2002.730285.x
+   Bellaloui N, 2009, CROP SCI, V49, P608, DOI 10.2135/cropsci2008.04.0192
+   BURTON JW, 1981, CROP SCI, V21, P31, DOI 10.2135/cropsci1981.0011183X002100010009x
+   BURTON JW, 1987, SOYBEANS IMPROVEMENT, P211
+   Chung J, 2003, CROP SCI, V43, P1053, DOI 10.2135/cropsci2003.1053
+   Clemente TE, 2009, PLANT PHYSIOL, V151, P1030, DOI 10.1104/pp.109.146282
+   Csanadi G, 2001, THEOR APPL GENET, V103, P912, DOI 10.1007/s001220100621
+   DIERS BW, 1992, THEOR APPL GENET, V83, P608, DOI 10.1007/BF00226905
+   Du WJ, 2009, J GENET GENOMICS, V36, P721, DOI 10.1016/S1673-8527(08)60165-4
+   Eskandari M, 2013, THEOR APPL GENET, V126, P483, DOI 10.1007/s00122-012-1995-3
+   Falconer DS, 1996, INTRO QUANTITATIVE G, VLongman, P122
+   FEHR WR, 1971, CROP SCI, V11, P929, DOI 10.2135/cropsci1971.0011183X001100060051x
+   Feng L, 2004, CROP SCI, V44, P63, DOI 10.2135/cropsci2004.6300
+   Guzman PS, 2007, CROP SCI, V47, P111, DOI 10.2135/cropsci2006.01.0003
+   HALLAUER AR, 1988, QUANTITATIVE GENETIC
+   Holland JB, 1998, J HERED, V89, P374, DOI 10.1093/jhered/89.4.374
+   Holland JB, 2002, PL BRED RE, V22, P9
+   Hyten DL, 2004, THEOR APPL GENET, V109, P552, DOI 10.1007/s00122-004-1661-5
+   Iqbal M, 2007, PLANT BREEDING, V126, P244, DOI 10.1111/j.1439-0523.2007.01346.x
+   Kabelka EA, 2004, CROP SCI, V44, P784, DOI 10.2135/cropsci2004.0784
+   Keim P, 1997, CROP SCI, V37, P537, DOI 10.2135/cropsci1997.0011183X003700020038x
+   LARK KG, 1995, P NATL ACAD SCI USA, V92, P4656, DOI 10.1073/pnas.92.10.4656
+   Lee Geung-Joo, 2007, V2, P1
+   Lee SH, 1996, THEOR APPL GENET, V93, P649, DOI 10.1007/BF00224058
+   Li HH, 2007, GENETICS, V175, P361, DOI 10.1534/genetics.106.066811
+   MANSUR LM, 1993, THEOR APPL GENET, V86, P914, DOI 10.1007/BF00211041
+   NYQUIST WE, 1991, CRIT REV PLANT SCI, V10, P235, DOI 10.1080/07352689109382313
+   Orf JH, 1999, CROP SCI, V39, P1642, DOI 10.2135/cropsci1999.3961642x
+   Orf JH, 1999, CROP SCI, V39, P1652, DOI 10.2135/cropsci1999.3961652x
+   Palomeque L, 2009, THEOR APPL GENET, V119, P417, DOI 10.1007/s00122-009-1049-7
+   Palomeque L, 2009, THEOR APPL GENET, V119, P429, DOI 10.1007/s00122-009-1048-8
+   Panthee DR, 2005, CROP SCI, V45, P2015, DOI 10.2135/cropsci2004.0720
+   Qi ZM, 2011, EUPHYTICA, V179, P499, DOI 10.1007/s10681-011-0386-1
+   Qiu BX, 1999, THEOR APPL GENET, V98, P356, DOI 10.1007/s001220051080
+   Rajkumar Ramteke, 2010, Electronic Journal of Plant Breeding, V1, P1483
+   Ray JD, 2006, FIELD CROP RES, V99, P67, DOI 10.1016/j.fcr.2006.03.006
+   Reinprecht Y, 2006, GENOME, V49, P1510, DOI 10.1139/G06-112
+   Schwender J, 2003, J BIOL CHEM, V278, P29442, DOI 10.1074/jbc.M303432200
+   Scott RA, 1997, FIELD CROP RES, V49, P177, DOI 10.1016/S0378-4290(96)01009-X
+   SMITH RR, 1968, CROP SCI, V8, P373, DOI 10.2135/cropsci1968.0011183X000800030033x
+   Song QJ, 2004, THEOR APPL GENET, V109, P122, DOI 10.1007/s00122-004-1602-3
+   Soybase, 2011, SOYB BREED TOOLB GEN
+   Specht JE, 2001, CROP SCI, V41, P493, DOI 10.2135/cropsci2001.412493x
+   Tanksley SD, 1997, SCIENCE, V277, P1063, DOI 10.1126/science.277.5329.1063
+   Van Ooijen JW, 2009, MAPQTL 6 SOFTWARE MA
+   Wang D, 2004, THEOR APPL GENET, V108, P458, DOI 10.1007/s00122-003-1449-z
+   Wilcox JR, 2001, CROP SCI, V41, P11, DOI 10.2135/cropsci2001.41111x
+   Winter SMJ, 2007, THEOR APPL GENET, V114, P461, DOI 10.1007/s00122-006-0446-4
+   Yuan J, 2002, CROP SCI, V42, P271, DOI 10.2135/cropsci2002.0271
+NR 49
+TC 61
+Z9 68
+U1 1
+U2 41
+PU SPRINGER
+PI NEW YORK
+PA ONE NEW YORK PLAZA, SUITE 4600, NEW YORK, NY, UNITED STATES
+SN 0040-5752
+EI 1432-2242
+J9 THEOR APPL GENET
+JI Theor. Appl. Genet.
+PD JUN
+PY 2013
+VL 126
+IS 6
+BP 1677
+EP 1687
+DI 10.1007/s00122-013-2083-z
+PG 11
+WC Agronomy; Plant Sciences; Genetics & Heredity; Horticulture
+SC Agriculture; Plant Sciences; Genetics & Heredity
+GA 151RM
+UT WOS:000319477900022
+PM 23536049
+DA 2021-09-07
+ER
+
+PT J
+AU Miladinovic, J
+   Burton, JW
+   Tubic, SB
+   Miladinovic, D
+   Djordjevic, V
+   Djukic, V
+AF Miladinovic, Jegor
+   Burton, Joe W.
+   Tubic, Svetlana Balesevic
+   Miladinovic, Dragana
+   Djordjevic, Vuk
+   Djukic, Vojin
+TI Soybean breeding: comparison of the efficiency of different selection
+   methods
+SO TURKISH JOURNAL OF AGRICULTURE AND FORESTRY
+LA English
+DT Article
+DE Breeding; genetic gain; soybean
+ID RECURRENT SELECTION; SEED YIELD; POPULATIONS; LINES; PEDIGREE; PROTEIN;
+   BULK; OIL
+AB The following study was conducted in order to compare the modified single-seed descent method of selection used in soybean breeding at the Institute of Field and Vegetable Crops in Novi Sad, Serbia, with the standard bulk method and the pedigree method. The source materials for the development of hybrid populations were 15 genotypes, and a total of 10 cross combinations were made. Comparison of the lines developed by the different breeding methods was done in the F6 generation. Genetic gain from selection was taken as the main indicator of efficiency of the tested methods. The modified single-seed descent method produced the best results. In most cases, the mean values for seed yield of the populations developed by that method were significantly higher than the values shown in the populations developed by the other 2 methods. The advantages of using genetic gain as the indicator of breeding efficiency were clearly demonstrated when interpreting the results for seed yield and yield components. Populations possessing desirable traits were easier to perceive, which is exceedingly useful when breeding for a complex trait such as yield.
+C1 [Miladinovic, Jegor; Tubic, Svetlana Balesevic; Miladinovic, Dragana; Djordjevic, Vuk; Djukic, Vojin] Inst Field & Vegetable Crops, Novi Sad 21000, Serbia.
+   [Burton, Joe W.] USDA, Raleigh, NC 27607 USA.
+RP Miladinovic, J (corresponding author), Inst Field & Vegetable Crops, M Gorkog 30, Novi Sad 21000, Serbia.
+EM jegor.miladinovic@ifvcns.ns.ac.rs
+OI Miladinovic, Jegor/0000-0002-4061-4037; Miladinovic,
+   Dragana/0000-0001-9555-9162
+CR Allard R. W., 1960, PRINCIPLES PLANT BRE
+   BOERMA HR, 1975, CROP SCI, V15, P225, DOI 10.2135/cropsci1975.0011183X001500020025x
+   Borojevic K., 1986, GENES POPULATION
+   Bravo JJ, 1999, CROP SCI, V39, P679, DOI 10.2135/cropsci1999.0011183X003900020012x
+   BRIM CA, 1966, CROP SCI, V6, P220, DOI 10.2135/cropsci1966.0011183X000600010039x
+   BRIM CA, 1979, CROP SCI, V19, P494, DOI 10.2135/cropsci1979.0011183X001900040016x
+   BURTON JW, 1981, CROP SCI, V21, P31, DOI 10.2135/cropsci1981.0011183X002100010009x
+   BURTON JW, 1983, CROP SCI, V23, P744, DOI 10.2135/cropsci1983.0011183X002300040034x
+   BURTON JW, 1993, CROP SCI, V33, P21, DOI 10.2135/cropsci1993.0011183X003300010002x
+   BYRON DF, 1991, CROP SCI, V31, P656, DOI 10.2135/cropsci1991.0011183X003100030022x
+   CARVER BF, 1986, CROP SCI, V26, P1176, DOI 10.2135/cropsci1986.0011183X002600060021x
+   Cober ER, 2000, CROP SCI, V40, P39, DOI 10.2135/cropsci2000.40139x
+   COOPER RL, 1990, CROP SCI, V30, P417, DOI 10.2135/cropsci1990.0011183X003000020037x
+   DEGAGO Y, 1987, CROP SCI, V27, P207, DOI 10.2135/cropsci1987.0011183X002700020014x
+   FALCONER DS, 1987, INTRO QUANTITATIVE G
+   GOULDEN C. H., 1939, Proceedings 7th Int. Genet. Congr., P132
+   GRAFIUS JOHN E., 1965, CROP SCI, V5, P377
+   HAYES HK, 1955, METHODS PLANT BREEDI
+   KENWORTHY WJ, 1979, CROP SCI, V19, P315, DOI 10.2135/cropsci1979.0011183X001900030009x
+   LUEDDERS VD, 1973, CROP SCI, V13, P363, DOI 10.2135/cropsci1973.0011183X001300030022x
+   MITCHELLOLDS T, 1986, AM NAT, V127, P379, DOI 10.1086/284490
+   Orf J. H., 2004, SOYBEANS IMPROVEMENT, P417
+   ORF JH, 2008, SOYBEAN NOVI SAD BEC, P176
+   RAEBER JG, 1953, AGRON J, V45, P362, DOI 10.2134/agronj1953.00021962004500080004x
+   ROSE JL, 1992, AUST J AGR RES, V43, P135, DOI 10.1071/AR9920135
+   Steel R G D, 1980, PRINCIPLES PROCEDURE, V2nd
+   SUMARNO FWR, 1982, CROP SCI, V22, P295
+   TINIUS CN, 1991, CROP SCI, V31, P1137, DOI 10.2135/cropsci1991.0011183X003100050010x
+   TORRIE JAMES H., 1958, AGRON JOUR, V50, P198
+NR 29
+TC 10
+Z9 10
+U1 0
+U2 21
+PU TUBITAK SCIENTIFIC & TECHNICAL RESEARCH COUNCIL TURKEY
+PI ANKARA
+PA ATATURK BULVARI NO 221, KAVAKLIDERE, ANKARA, 00000, TURKEY
+SN 1300-011X
+J9 TURK J AGRIC FOR
+JI Turk. J. Agric. For.
+PY 2011
+VL 35
+IS 5
+BP 469
+EP 480
+DI 10.3906/tar-1011-1474
+PG 12
+WC Agriculture, Multidisciplinary; Agronomy; Forestry
+SC Agriculture; Forestry
+GA 836KY
+UT WOS:000296111800003
+DA 2021-09-07
+ER
+
+PT J
+AU Mian, MAR
+   Cooper, RL
+   Dorrance, AE
+AF Mian, M. A. Rouf
+   Cooper, Richard L.
+   Dorrance, Anne E.
+TI Registration of 'Prohio' Soybean
+SO JOURNAL OF PLANT REGISTRATIONS
+LA English
+DT Article
+ID YIELD SELECTION
+AB 'Prohio' soybean [Glycine max (L.) Merr.] (Reg. No. CV-497, PI 643146) was developed jointly by the USDA-ARS and The Ohio Agricultural Research and Development Center (OARDC) in Wooster, OH, and was released as a high-yielding maturity group IV (relative maturity 4.1) non-Roundup Ready cultivar with relatively high seed protein. Prohio is a selection from a cross between HC94-81PR x 'A2506'. Both in the 2004 northern Regional Preliminary Test IV and in the 2005 northern Regional Uniform Test IV, Prohio had the greatest seed protein, while its oil content was slightly above the average for these tests. In South Region normal varieties evaluation of 2005 Ohio Soybean Performance Trials, Prohio had higher yields than all other public varieties in the test and had numerically highest seed protein among all lines in the trial. Prohio is a relatively high protein soybean cultivar with high yield potential, particularly in southern Ohio.
+C1 [Mian, M. A. Rouf; Cooper, Richard L.] Ohio State Univ, USDA ARS, Corn & Soybean Res Unit, Wooster, OH 44691 USA.
+   [Mian, M. A. Rouf; Cooper, Richard L.] Ohio State Univ, Dep Hort & Crop Sci, Wooster, OH 44691 USA.
+   [Dorrance, Anne E.] Ohio State Univ, Dep Plant Pathol, Wooster, OH 44691 USA.
+RP Mian, MAR (corresponding author), Ohio State Univ, USDA ARS, Corn & Soybean Res Unit, Wooster, OH 44691 USA.
+EM mian.3@osu.edu
+CR ABNEY TS, 2004, UNIFORM SOYBEAN TEST
+   ABNEY TS, 2005, UNIFORM SOYBEAN TEST
+   BERNARD RL, 1988, CROP SCI, V28, P1072
+   BEUERLEIN JE, 2005, HORTICULTURE CROP SC, V212
+   BOERMA HR, 1975, CROP SCI, V15, P313, DOI 10.2135/cropsci1975.0011183X001500030009x
+   BURTON JW, 1987, AGRON MONOGR, V16, P211
+   Cooper R. L., 1985, Plant Breeding Reviews, V3, P289
+   COOPER RL, 1990, CROP SCI, V30, P417, DOI 10.2135/cropsci1990.0011183X003000020037x
+   COOPER RL, 1995, CROP SCI, V35, P593, DOI 10.2135/cropsci1995.0011183X003500020060x
+   COOPER RL, 1990, CROP SCI, V30, P962, DOI 10.2135/cropsci1990.0011183X003000040054x
+   COOPER RL, 1991, CROP SCI, V31, P1093
+   COOPER RL, 1981, CROP SCI, V21, P126
+   Durham D., 2003, AgBioForum, V6, P23
+   PROBST AH, 1972, CROP SCI, V12, P396
+   SAS Institute, 2002, SAS STAT REL 9 1
+   SCHMITTHENNER AF, 1994, 143 OH STAT U OH AGR
+NR 16
+TC 5
+Z9 5
+U1 0
+U2 1
+PU CROP SCIENCE SOC AMER
+PI MADISON
+PA 677 S SEGOE ROAD, MADISON, WI 53711 USA
+SN 1936-5209
+EI 1940-3496
+J9 J PLANT REGIST
+JI J. Plant Regist.
+PD SEP
+PY 2008
+VL 2
+IS 3
+BP 208
+EP 210
+DI 10.3198/jpr2007.09.0531crc
+PG 3
+WC Agronomy; Plant Sciences
+SC Agriculture; Plant Sciences
+GA 483AC
+UT WOS:000268932600010
+DA 2021-09-07
+ER
+
+PT J
+AU Helms, TC
+   Orf, JH
+AF Helms, TC
+   Orf, JH
+TI Protein, oil, and yield of soybean lines selected for increased protein
+SO CROP SCIENCE
+LA English
+DT Article
+ID POPULATIONS
+AB Soybean breeders need to evaluate alternative strategies for increasing yield, protein, and oil content, The correlated response for yield when selection is conducted for increased protein among unreplicated plant rows is unknown, Our objective was to evaluate selection for increased protein content at an intensity of 50% using unreplicated plots to determine the correlated response for yield, gross value per hectare, oil content, and the direct response for protein content. Ten populations that included 30 lines each were evaluated for yield, protein, and oil content at each of seven environments. Lines were selected solely for high protein content with one replicate at each of three selection environments and based on the average of two replicate in three selection environments, Additionally, selection was conducted on the basis of the population mean in the selection environment(s). Selected and unselected lines were evaluated in four validation environments that were not the same as the selection environments, Selection among individual lines solely for increased protein content decreased yield 70 kg ha(-1) and increased protein content 7 g kg(-1), when lines were selected on the basis of the mean of two replicates and three environments. Selection among populations for increased protein content, decreased yield 110 kg ha(-1) and increased protein content 5 g kg when selection was based on the population mean averaged across two replicates and three environments. On average, selection for increased protein content resulted in decreased yield.
+C1 N Dakota State Univ, Dept Plant Sci, Fargo, ND 58105 USA.
+   Univ Minnesota, Dept Agron & Plant Genet, St Paul, MN 55108 USA.
+RP Helms, TC (corresponding author), N Dakota State Univ, Dept Plant Sci, Fargo, ND 58105 USA.
+CR ETANDU JT, 1992, CROP SCI, V32, P332, DOI 10.2135/cropsci1992.0011183X003200020010x
+   Falconer DS, 1960, INTRO QUANTITATIVE G
+   Hallauer A. R., 1981, QUANTITATIVE GENETIC
+   Hazel LN, 1942, J HERED, V33, P393, DOI 10.1093/oxfordjournals.jhered.a105102
+   Helms TC, 1995, CAN J PLANT SCI, V75, P857, DOI 10.4141/cjps95-142
+   JOHNSON HERBERT W., 1955, AGRON JOUR, V47, P314
+   JOHNSON HERBERT W., 1955, AGRON JOUR, V47, P477
+   ORF JH, 1994, CROP SCI, V34, P1163, DOI 10.2135/cropsci1994.0011183X003400050004x
+   Pazdernik DL, 1996, CAN J PLANT SCI, V76, P721, DOI 10.4141/cjps96-124
+   SCHUTZ WM, 1967, CROP SCI, V7, P125, DOI 10.2135/cropsci1967.0011183X000700020010x
+   SHANNON JG, 1972, CROP SCI, V12, P824, DOI 10.2135/cropsci1972.0011183X001200060032x
+   SIMPSON AM, 1983, CROP SCI, V23, P1077, DOI 10.2135/cropsci1983.0011183X002300060013x
+   UPDAW NJ, 1980, P 2 WORLD SOYB RES C, P781
+   WILCOX JR, 1984, CROP SCI, V24, P1055, DOI 10.2135/cropsci1984.0011183X002400060012x
+NR 14
+TC 35
+Z9 38
+U1 0
+U2 2
+PU CROP SCIENCE SOC AMER
+PI MADISON
+PA 677 S SEGOE ROAD, MADISON, WI 53711 USA
+SN 0011-183X
+J9 CROP SCI
+JI Crop Sci.
+PD MAY-JUN
+PY 1998
+VL 38
+IS 3
+BP 707
+EP 711
+DI 10.2135/cropsci1998.0011183X003800030015x
+PG 5
+WC Agronomy
+SC Agriculture
+GA ZZ668
+UT WOS:000074754600014
+DA 2021-09-07
+ER
+
+PT J
+AU Wilcox, JR
+   Zhang, GD
+AF Wilcox, JR
+   Zhang, GD
+TI Relationships between seed yield and seed protein in determinate and
+   indeterminate soybean populations
+SO CROP SCIENCE
+LA English
+DT Article
+AB The development of soybean [Glycine mar (L.) Merr.] cultivars with high seed protein has been hampered by the inverse relationship between seed yield and seed protein concentration. Determinate and indeterminate near-isolines of soybean are usually similar in seed protein but differ in growth type. This study was conducted to determine if relationships between seed yield and seed protein differed in populations of these two plant types. Determinate and indeterminate progenies were identified in two crosses between high-protein indeterminate breeding lines and determinate strains with average seed protein. The F-4-derived progenies were evaluated for 2 yr in three-replicate yield tests at West Lafayette, IN. Seed protein and oil concentration were determined on seed from individual entries In each replication. Mean seed protein concentrations were similar for the two plant types in each cross. Regression of seed protein on seed yield was not significant among determinate progenies in either cross. In contrast, negative slopes of regression lines were significant when seed protein was regressed on seed yield for indeterminate progenies in each cross. The three highest yielding determinate entries from one cross were similar in yield to the determinate cultivar Charleston and varied from 449 to 478 g kg(-1) seed protein compared with Charleston with 420 g kg(-1) protein. In the second cross, the three highest yielding determinate progenies were similar in yield to Charleston; two of these had higher seed protein than Charleston. The three highest yielding indeterminate lines in both crosses were similar in yield to the indeterminate check cultivars Edison and Flyer and varied in seed protein from 418 to 435 g kg(-1) compared with 414 g kg(-1) protein for Edison and 418 g kg(-1) for Flyer. The data demonstrate that in these two crosses, determinate progenies were a better source of selections that combined high seed yield with high seed protein than were indeterminate progenies.
+C1 PURDUE UNIV,DEPT AGRON,W LAFAYETTE,IN 47905.
+RP Wilcox, JR (corresponding author), PURDUE UNIV,USDA ARS,W LAFAYETTE,IN 47905, USA.
+CR BERNARD RL, 1972, CROP SCI, V12, P235, DOI 10.2135/cropsci1972.0011183X001200020028x
+   BURTON JW, 1985, P 3 WORLD SOYB RES C, P361
+   Cooper R. L., 1985, Plant Breeding Reviews, V3, P289
+   COOPER RL, 1995, CROP SCI, V35, P593, DOI 10.2135/cropsci1995.0011183X003500020060x
+   ESCALANTE EE, 1993, CROP SCI, V33, P1166, DOI 10.2135/cropsci1993.0011183X003300060012x
+   HARTWIG EE, 1972, CROP SCI, V12, P829, DOI 10.2135/cropsci1972.0011183X001200060034x
+   HICKS DR, 1969, AGRON J, V61, P290, DOI 10.2134/agronj1969.00021962006100020034x
+   LEFFEL RC, 1990, J PROD AGRIC, V3, P582, DOI 10.2134/jpa1990.0582
+   SEBERN NA, 1984, CROP SCI, V24, P225, DOI 10.2135/cropsci1984.0011183X002400020003x
+   *USDA, 1995, 1195 FOP FOR AGR SER
+   WEHRMANN VK, 1987, CROP SCI, V27, P927, DOI 10.2135/cropsci1987.0011183X002700050020x
+   WILCOX JR, 1981, EUPHYTICA, V30, P323, DOI 10.1007/BF00033993
+   WILCOX JR, 1988, UNIFORM SOYBEAN TEST
+NR 13
+TC 35
+Z9 36
+U1 0
+U2 15
+PU CROP SCIENCE SOC AMER
+PI MADISON
+PA 677 S SEGOE ROAD, MADISON, WI 53711
+SN 0011-183X
+J9 CROP SCI
+JI Crop Sci.
+PD MAR-APR
+PY 1997
+VL 37
+IS 2
+BP 361
+EP 364
+DI 10.2135/cropsci1997.0011183X003700020009x
+PG 4
+WC Agronomy
+SC Agriculture
+GA WU905
+UT WOS:A1997WU90500009
+DA 2021-09-07
+ER
+
+PT J
+AU Scott, RA
+   Kephart, KD
+AF Scott, RA
+   Kephart, KD
+TI Selection for yield, protein, and oil in soybean crosses between adapted
+   and introduced parents
+SO FIELD CROPS RESEARCH
+LA English
+DT Article
+DE plant introduction; genetic variability; transgressive segregation;
+   protein; oil; selection; Glycine max (L) Merr
+ID RECURRENT SELECTION; PLANT INTRODUCTIONS; POPULATIONS; SEEDS;
+   PERFORMANCE; LINES
+AB Soybean [Glycine max (L.) Merr.] breeders can sometimes increase genetic variability in their germplasm through wide crosses with plant introduction (PI) material, and in that way lead to slow progress in developing high-yielding cultivars. A study was conducted to evaluate the potential of crosses of adapted X introduced soybean lines for improving yield and protein and oil concentrations. Five soybean cultivars adapted to South Dakota were crossed in selected combinations with four PI lines to develop F-3-derived lines. The adapted and PI lines were selected for wide variation in protein and oil concentration. Thirty F-3:5 Lines and parents from each of eight different crosses, including two adapted X adapted, were evaluated in a replicated group balanced block experiment. Significant genetic variability for yield occurred among progenies of two adapted X PI crosses, and for protein and oil concentrations among progenies of two adapted X PI crosses. No significant genetic variability for any trait was found among progenies of adapted X adapted crosses. Progenies of adapted X adapted crosses generally yielded more seed and had higher oil concentrations than those from adapted X PI crosses. PI parents with high trait expression produced populations with high expression for that trait, and combined better with some adapted parents than with others. With single-trait selection, simultaneous improvement of yield and oil concentration was more successful than for yield and protein concentration, or for protein and oil. Increases in the sum of protein and oil concentrations were small, and were achieved through increased protein concentration. In addition to measuring the trait of interest before crossing with PI lines, it seems that genetic variability of populations and combining ability of adapted parents should be determined. Relationships of yield, protein, and oil should be determined for each cross, even if only one trait is of interest in the selection program.
+RP Scott, RA (corresponding author), S DAKOTA STATE UNIV,DEPT PLANT SCI,BOX 2140C,NPB 247,BROOKINGS,SD 57007, USA.
+CR BRIM CA, 1979, CROP SCI, V19, P494, DOI 10.2135/cropsci1979.0011183X001900040016x
+   Burton J. W., 1985, WORLD SOYB RES C 3 P, P361
+   Burton J.W., 1991, DESIGNING VALUE ADDE, P109
+   BURTON JW, 1981, CROP SCI, V21, P31, DOI 10.2135/cropsci1981.0011183X002100010009x
+   BURTON JW, 1987, P 17 SOYB SEED RES C, P46
+   DELANNAY X, 1983, CROP SCI, V23, P944, DOI 10.2135/cropsci1983.0011183X002300050031x
+   Gomez K. A., 1984, STATISTICAL PROCEDUR
+   HARTWIG EE, 1991, CROP SCI, V31, P290, DOI 10.2135/cropsci1991.0011183X003100020011x
+   HOLBROOK CC, 1989, CROP SCI, V29, P324, DOI 10.2135/cropsci1989.0011183X002900020019x
+   Kenworthy W. J., 1980, World soybean research conference II: proceedings. Breeding., P217
+   KHALAF AGM, 1984, CROP SCI, V24, P358, DOI 10.2135/cropsci1984.0011183X002400020035x
+   OPENSHAW SJ, 1984, CROP SCI, V24, P1, DOI 10.2135/cropsci1984.0011183X002400010001x
+   REESE PF, 1988, CROP SCI, V28, P237, DOI 10.2135/cropsci1988.0011183X002800020010x
+   *SAS I, 1992, SAS TECHN REP SAS ST
+   SCHOENER CS, 1979, CROP SCI, V19, P185, DOI 10.2135/cropsci1979.0011183X001900020003x
+   SHANNON JG, 1972, CROP SCI, V12, P824, DOI 10.2135/cropsci1972.0011183X001200060032x
+   SIMPSON AM, 1983, CROP SCI, V23, P1077, DOI 10.2135/cropsci1983.0011183X002300060013x
+   Smith K. J., 1991, DESIGNING VALUE ADDE, P17
+   SPECHT JE, 1984, CSSA SPEC PUBL, V7, P49
+   STMARTIN SK, 1986, CROP SCI, V26, P753, DOI 10.2135/cropsci1986.0011183X002600040026x
+   SWEENEY PM, 1989, CROP SCI, V29, P289, DOI 10.2135/cropsci1989.0011183X002900020011x
+   THORNE J C, 1970, Crop Science, V10, P677
+   VELLO NA, 1984, CROP SCI, V24, P511, DOI 10.2135/cropsci1984.0011183X002400030020x
+NR 23
+TC 9
+Z9 12
+U1 0
+U2 0
+PU ELSEVIER SCIENCE BV
+PI AMSTERDAM
+PA PO BOX 211, 1000 AE AMSTERDAM, NETHERLANDS
+SN 0378-4290
+J9 FIELD CROP RES
+JI Field Crop. Res.
+PD FEB
+PY 1997
+VL 49
+IS 2-3
+BP 177
+EP 185
+DI 10.1016/S0378-4290(96)01009-X
+PG 9
+WC Agronomy
+SC Agriculture
+GA WU308
+UT WOS:A1997WU30800008
+DA 2021-09-07
+ER
+
+EF

@@ -66,7 +66,7 @@ tar_plan(
              here("data", "utils", "trait_shortname_lookup.xlsx"), 
              format = "file"),
   
-  # A table to convert short column names in sumamry tables to longer, 
+  # A table to convert short column names in summary tables to longer, 
   # more descriptive names
   tar_target(column_shortname_conversion, 
              here("data", "utils", "summary_column_names.xlsx"), 

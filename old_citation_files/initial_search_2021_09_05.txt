@@ -1,0 +1,2357 @@
+﻿FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Obua, T
+   Sserumaga, JP
+   Awio, B
+   Nganga, F
+   Odong, TL
+   Tukamuhabwa, P
+   Tusiime, G
+   Mukasa, SB
+   Nabasirye, M
+AF Obua, Tonny
+   Sserumaga, Julius Pyton
+   Awio, Bruno
+   Nganga, Fredrick
+   Odong, Thomas L.
+   Tukamuhabwa, Phinehas
+   Tusiime, Geoffrey
+   Mukasa, Settumba B.
+   Nabasirye, Margaret
+TI Multi-Environmental Evaluation of Protein Content and Yield Stability
+   among Tropical Soybean Genotypes Using GGE Biplot Analysis
+SO AGRONOMY-BASEL
+LA English
+DT Article
+DE biplot; GEI; GGE biplots; yield stability; protein stability
+ID SEED QUALITY; OIL
+AB The yield and protein performance in a soybean genotype result from its interaction with the prevailing environmental conditions. This makes selecting the best genotypes under varied target production environments more complex. This study's objectives were to determine protein content and protein stability of 30 elite soybean genotypes in major soybean-growing areas of Uganda, assess the yield performance and stability in soybeans and determine the relationship between the protein content and grain yield in soybeans. The genotypes were planted in a randomized complete block design of three replications for six seasons across eight locations in Uganda. Genotype and genotype-by-environment (GGE) biplot analyses classified the test locations into three mega-environments for soybean protein and grain yields. Genotype NII X GC 20.3 had the highest mean protein content of 43.0%, and BSPS 48A-9-2 and BSPS 48A-28 were superior for the mean grain yield (1207 kg ha(-1)). Bulindi was the most discriminating and representative test environment for soybean yield. A weak and negative correlation (r = -0.1**, d.f. = 29) was detected between the protein content (%) and yield (kg ha(-1)). The highest-yielding genotypes BSPS 48A-9-2, BSPS 48A-31, and Nam II x GC 44.2 are recommended for further evaluation under farmers' production conditions for selection and release as new soybean varieties in Uganda.
+C1 [Obua, Tonny; Awio, Bruno; Odong, Thomas L.; Tukamuhabwa, Phinehas; Tusiime, Geoffrey; Mukasa, Settumba B.; Nabasirye, Margaret] Makerere Univ, Coll Agr & Environm Sci, Sch Agr Sci, POB 7062, Kampala 7062, Uganda.
+   [Sserumaga, Julius Pyton] Natl Livestock Resources Res Inst, Natl Agr Res Org, POB 5704, Kampala 5704, Uganda.
+   [Nganga, Fredrick] Biosci Eastern & Cent Africa Int Livestock Res In, POB 30709, Nairobi 00100, Kenya.
+RP Obua, T (corresponding author), Makerere Univ, Coll Agr & Environm Sci, Sch Agr Sci, POB 7062, Kampala 7062, Uganda.
+EM obuatonny@gmail.com; j.serumaga@gmail.com; awiobruno14@gmail.com;
+   F.Nganga@cgiar.org; thomas.l.odong@gmail.com;
+   phinehas.tukamuhabwa@mak.ac.ug; geoffrey.tusiime@mak.ac.ug;
+   sbmukasa@gmail.com; margaret.nabasirye@mak.ac.ug
+FU BecA-ILRI Hub through the Africa Biosciences Challenge Fund (ABCF)
+   program; Australian Department for Foreign Affairs and Trade (DFAT)
+   through BecA-CSIRO partnership; Syngenta Foundation for Sustainable
+   Agriculture (SFSA)Syngenta; Bill & Melinda Gates Foundation (BMGF)Bill &
+   Melinda Gates Foundation; UK Department for International Development
+   (DFID); Swedish International Development Cooperation Agency (Sida)
+FX This research was funded by the BecA-ILRI Hub through the Africa
+   Biosciences Challenge Fund (ABCF) program. The ABCF program is funded by
+   the Australian Department for Foreign Affairs and Trade (DFAT) through
+   the BecA-CSIRO partnership, the Syngenta Foundation for Sustainable
+   Agriculture (SFSA), the Bill & Melinda Gates Foundation (BMGF), the UK
+   Department for International Development (DFID) and the Swedish
+   International Development Cooperation Agency (Sida).
+CR Adie M. M., 2014, International Journal of Agriculture Innovations and Research, V2, P673
+   [Anonymous], 2012, AGRALYTICA UNITED SO
+   Anthony P, 2012, AGRON J, V104, P1443, DOI [10.2134/agronj2012.0095, 10.2134/agronj2012.0020]
+   Arslanoglu F, 2011, AFR J BIOTECHNOL, V10, P18409, DOI 10.5897/AJB10.1879
+   Assefa Y, 2019, FRONT PLANT SCI, V10, DOI 10.3389/fpls.2019.00298
+   BECKER HC, 1988, PLANT BREEDING, V101, P1, DOI 10.1111/j.1439-0523.1988.tb00261.x
+   Cheelo P., 2017, J EXP AGR INT, V15, P1, DOI [10.9734/JEAI/2017/30154, DOI 10.9734/JEAI/2017/30154]
+   Cober ER, 2000, CROP SCI, V40, P39, DOI 10.2135/cropsci2000.40139x
+   de Mello OL, 2004, PESQUI AGROPECU BRAS, V39, P445, DOI 10.1590/S0100-204X2004000500006
+   Fekadu Gurmu, 2009, African Crop Science Journal, V17, P87
+   Graham PH, 2003, PLANT PHYSIOL, V131, P872, DOI 10.1104/pp.017004
+   Hampango M., 2016, THESIS U ZAMBIA LUSA
+   Helms TC, 1998, CROP SCI, V38, P707, DOI 10.2135/cropsci1998.0011183X003800030015x
+   Kumar V, 2006, J FOOD COMPOS ANAL, V19, P188, DOI 10.1016/j.jfca.2005.06.005
+   LIN CS, 1986, CROP SCI, V26, P894, DOI 10.2135/cropsci1986.0011183X002600050012x
+   LOWRY OH, 1951, J BIOL CHEM, V193, P265
+   Mukuze C., 2019, THESIS MAKERERE U KA
+   Mulugeta Atnaf, 2013, Journal of Plant Breeding and Crop Science, V5, P245
+   Obua T, 2020, S AFR J PLANT SOIL, V37, P168, DOI 10.1080/02571862.2019.1678687
+   Obua T., 2013, THESIS MAKERERE U KA
+   Ojo D. K., 2002, Global Journal of Agricultural Sciences, V1, P27
+   Piper EL, 1999, J AM OIL CHEM SOC, V76, P1233, DOI 10.1007/s11746-999-0099-y
+   R Core Team, 2017, R LANG STAT COMP
+   Rotundo L., 2009, FIELD CROP RES, DOI [10.1016/j.fcr.2008.07.012, DOI 10.1016/J.FCR.2008.07.012]
+   Sanginga P.C., 1999, SOCIAL IMPACT SOYBEA, P1
+   Simko V., 2021, R PACKAGE CORRPLOT V
+   Singh P, 2008, COMPR REV FOOD SCI F, V7, P14, DOI 10.1111/j.1541-4337.2007.00025.x
+   Tukamuhabwa P., 2012, African Crop Science Journal, V20, P107
+   Tukamuhabwa P, 2012, EUPHYTICA, V183, P1, DOI 10.1007/s10681-011-0404-3
+   Tukamuhabwa P., 2019, SOYBEAN RES DEV UGAN
+   Tukamuhabwa P., 2015, SOYBEAN PRODUCTION G
+   Tukamuhabwa P, 2016, SOYBEAN RES DEV UGAN
+   Wilcox JR, 2001, CROP SCI, V41, P11, DOI 10.2135/cropsci2001.41111x
+   WWF, 2014, GROWTH SOY IMP SOL
+   Yan W., 2003, YGGE BIPLOT ANAL GRA
+   Yan WK, 2007, CROP SCI, V47, P643, DOI 10.2135/cropsci2006.06.0374
+   Yan WK, 2001, AGRON J, V93, P1111, DOI 10.2134/agronj2001.9351111x
+   Yan WK, 2002, CROP SCI, V42, P11, DOI 10.2135/cropsci2002.0011
+   Yin XH, 2005, AGRON J, V97, P1314, DOI 10.2134/agronj2004.0316
+NR 39
+TC 0
+Z9 0
+U1 0
+U2 0
+PU MDPI
+PI BASEL
+PA ST ALBAN-ANLAGE 66, CH-4052 BASEL, SWITZERLAND
+EI 2073-4395
+J9 AGRONOMY-BASEL
+JI Agronomy-Basel
+PD JUL
+PY 2021
+VL 11
+IS 7
+AR 1265
+DI 10.3390/agronomy11071265
+PG 16
+WC Agronomy; Plant Sciences
+SC Agriculture; Plant Sciences
+GA UB9JC
+UT WOS:000686152800001
+OA gold
+DA 2021-09-05
+ER
+
+PT J
+AU Barbieru, A
+AF Barbieru, Ancuta
+TI VARIABILITY OF YIELD AND CHEMICAL COMPOSITION IN SOME ROMANIAN SOYBEAN
+   GENOTYPES
+SO ROMANIAN AGRICULTURAL RESEARCH
+LA English
+DT Article
+DE soybean; yield; protein content; oil content
+ID WINTER-WHEAT; PROTEIN; QUALITY; TILLAGE; MAIZE
+AB Soybean can play an important role in securing the European protein resources. The goal of the breeder was to create highly productive soybean varieties, followed by quality grain. In this regard soybean breeding program at NARDI Fundulea has been involved in improving the genetic yield and quality potential to meet the need of farmers in different parts of the country. The objective of this study was to evaluate the variability of five soybean genotypes (created at NARDI Fundulea) from different maturity groups, grown at the National Agricultural Research and Development Institute Fundulea in 2017-2019, for yield, protein content and oil content. The year had statistically significant effect for the studied agronomic traits, p<0.01.
+   The average yield for all genotypes was 2952 kg/ha. The highest grain yield on an average was recorded in genotype Crina F (41/9%).
+   The average protein content of all examined genotypes was 40.07%. 2017 was the most favorable year for protein synthesis. The average oil content for all examined genotypes was Camelia F (23/77%). The most favorable year for oil synthesis was 2019 (23/48%).
+   This research had evidentiated that new soybean genotypes created at NARDI Fundulea are suitable for new climatic conditions and can constitute the basis for further soybean breeding adapted to farmers' requirements.
+C1 [Barbieru, Ancuta] Natl Agr Res & Dev Inst Fundulea, Fundulea 915200, Calarasi County, Romania.
+RP Barbieru, A (corresponding author), Natl Agr Res & Dev Inst Fundulea, Fundulea 915200, Calarasi County, Romania.
+EM cringasuancuta@yahoo.com
+CR Brumm J.T., 2002, QUALITY 2002 SOYBEAN
+   Ceapoiu N., 1968, STATISTIC METHODS AP
+   Cociu AI, 2011, ROM AGRIC RES, V28, P109
+   Cociu AI, 2010, ROM AGRIC RES, V27, P69
+   Coretchi L, 2014, ROM AGRIC RES, V31, P25
+   Cvijanovic D., 1988, EC AGR, V35, P687
+   Fouda T, 2019, SCI PAP-SER MANAG EC, V19, P219
+   Jagtap D. R., 1993, Annals of Agricultural Research, V14, P154
+   LEFFEL RC, 1993, J PROD AGRIC, V6, P365, DOI 10.2134/jpa1993.0365
+   Luca L.C., 2012, THESIS USAMV CLUJ NA THESIS USAMV CLUJ NA
+   Luca L.C., 2013, AGR SCI PRACTICE J, V3, P87
+   Luca LC, 2016, ROM AGRIC RES, V33, P275
+   Malik MFA, 2007, PAKISTAN J BOT, V39, P405
+   Penas E, 2011, FOOD CHEM, V125, P423, DOI 10.1016/j.foodchem.2010.09.023
+   Popovic V., 2010, THESIS U BELGRADE FA THESIS U BELGRADE FA, P35
+   Popovic V, 2016, ROM AGRIC RES, V33, P29
+   Popovic V, 2013, ROM AGRIC RES, V30, P241
+NR 17
+TC 0
+Z9 0
+U1 0
+U2 0
+PU NATL AGRICULTURAL RESEARCH & DEVELOPMENT INST
+PI FUNDULEA
+PA CALARASI COUNTY, FUNDULEA, 915200, ROMANIA
+SN 1222-4227
+J9 ROM AGRIC RES
+JI Rom. Agric. Res.
+PY 2021
+VL 38
+BP 141
+EP 146
+PG 6
+WC Agronomy
+SC Agriculture
+GA TV4QD
+UT WOS:000681706500015
+DA 2021-09-05
+ER
+
+PT J
+AU Carvalho, MP
+   Nunes, JAR
+   do Carmo, EL
+   Simon, GA
+   Moraes, RNO
+AF Carvalho, Marcos Paulo
+   Rodrigues Nunes, Jose Airton
+   do Carmo, Eduardo Lima
+   Simon, Gustavo Andre
+   Oliveira Moraes, Rania Nunes
+TI Adaptability and stability of conventional soybean by GGE biplot
+   analysis
+SO PESQUISA AGROPECUARIA TROPICAL
+LA English
+DT Article
+DE Glycine max; genotype x environment interaction; plant breeding
+ID MULTI-ENVIRONMENT TRIAL; STRATIFICATION; GENOTYPES; AMMI
+AB The conventional soybean production has been reestablishing itself every year, due to the fact that the international market has demanded products with high agronomic performance and nutritional quality, free of genetically modified organisms. This study aimed to evaluate the adaptability of conventional soybean genotypes in the southwestern Goias state (Rio Verde, Montividiu and Santa Helena de Goias), Brazil, during the 2017/2018 and 2018/2019 crop seasons. A randomized blocks design was used, being tested eight genotypes (the cultivars BRS284, BRS283, BRS232, BRS317, NT11-1277, INT3459 and M6101 and the line NT1478SP). The grain and oil yields, as well as the oil and protein contents, were evaluated. Multi-environment analyses were performed using a heterogeneous residual variance model, and the GGE biplot analysis was used to describe the interrelationships between genotypes and environments. The most adapted and stable genotypes were BRS 317 for grain yield and BRS 283 for oil yield. They also corresponded more closely to the ideotype for the specific region, thus proving to be promising. NT1478SP showed the highest protein content. In the 2018/2019 crop season, Montividiu was more discriminating for the conventional soybean production, regarding grain and oil yields.
+C1 [Carvalho, Marcos Paulo; do Carmo, Eduardo Lima; Simon, Gustavo Andre] Univ Rio Verde, Rio Verde, Go, Brazil.
+   [Rodrigues Nunes, Jose Airton] Univ Fed Lavras, Inst Ciancias Nat, Dept Biol, Lavras, MG, Brazil.
+   [Oliveira Moraes, Rania Nunes] Inst Fed Goiano, Rio Verde, Go, Brazil.
+RP Carvalho, MP (corresponding author), Univ Rio Verde, Rio Verde, Go, Brazil.
+EM marcos_agrofesurv@hotmail.com; jarnunes@ufla.br; eduardo@unirv.edu.br;
+   simon@unirv.edu.br; rania_agro@hotmail.com
+FU Fundacao de Amparo a Pesquisa do Estado de Goias (FAPEG)Fundacao de
+   Amparo a Pesquisa do Estado do Goias (FAPEG); Coordenacao de
+   Aperfeicoamento de Pessoal de Nivel Superior (Capes)Coordenacao de
+   Aperfeicoamento de Pessoal de Nivel Superior (CAPES)
+FX To the Fundacao de Amparo a Pesquisa do Estado de Goias (FAPEG) and
+   Coordenacao de Aperfeicoamento de Pessoal de Nivel Superior (Capes), for
+   financial support.
+CR Amira J. O., 2013, International Journal of Plant Breeding and Genetics, V7, P139, DOI 10.3923/ijpbg.2013.139.145
+   BATISTA R. O., 2017, GENET MOL RES, V14, P9634
+   Bhartiya A, 2017, J ANIM PLANT SCI-PAK, V27, P227
+   BISINOTTO F. F., 2013, THESIS U FEDERAL UBE
+   BOREM A., 2013, MELHORAMENTO PLANTAS, V6
+   Bornhofen E, 2017, BRAGANTIA, V76, P1, DOI 10.1590/1678-4499.557
+   Branquinho RG, 2014, PESQUI AGROPECU BRAS, V49, P783, DOI 10.1590/S0100-204X2014001000005
+   BRASILAGRO, 2018, CRESC NO BRAS PLANT
+   CELERES, 2019, INF B CEL
+   COMPANHIA NACIONAL DE ABASTECIMENTO (Conab), 2020, AC SAFR BRAS GRAOS
+   COMPANHIA NACIONAL DE ABASTECIMENTO (Conab), 2019, AC SAFR BRAS GROAS
+   Goncalves GDC, 2020, CROP BREED APPL BIOT, V20, DOI 10.1590/1984-70332020v20n2a33
+   Dallo SC, 2019, EUPHYTICA, V215, DOI 10.1007/s10681-019-2438-x
+   DUMBLE S., 2017, GGE biplots: GGE biplots with `ggplot2'. R package version 0.1.1
+   Fehr W.R., 1977, IOWA AGR HOME EC EXP
+   FELICI P. H. N, 2017, METODOS MULTIVARIADO
+   FOOD AND AGRICULTURE ORGANIZATION OF THE UNITED NATIONS (FAO), 2020, GLOBAL FOOD PRICES C
+   Silva KEF, 2021, REV CIENC AGRON, V52, DOI 10.5935/1806-6690.20210009
+   Garbuglio DD, 2015, EUPHYTICA, V204, P723, DOI 10.1007/s10681-015-1375-6
+   GARCIA C. H., 1989, 171 IPEF
+   Garcia CH, 2002, ESTATISTICA APLICADA
+   Cunha MCG, 2013, BIOSCI J, V29, P340
+   Hothorn T, 2008, BIOMETRICAL J, V50, P346, DOI 10.1002/bimj.200810425
+   KASTER M, 2011, REUNIAO PESQUISA SOJ, V32, P87
+   Lenth R., EMMEANS ESTIMATED MA
+   MDVde Resende, 2007, PESQUI AGROPECUARIA, V37, P182, DOI DOI 10.5216/PAT.V37I3.1867
+   PANERO J. S., 2008, THESIS U FED ROR BOA
+   PIMENTELGOMES F., 1991, 178 IPEF
+   Pinheiro J., 2019, NLME LINEAR NONLINEA R PACKAGE VERSION 3
+   R Core Team, 2020, R LANG ENV STAT COMP
+   Santos HG., 2018, SISTEMA BRASILEIRO C, V5a
+   Silva KB, 2017, GENET MOL RES, V16, DOI 10.4238/gmr16029646
+   Silva KB, 2016, GENET MOL RES, V15, DOI 10.4238/gmr.15026756
+   Sousa LB, 2015, GENET MOL RES, V14, P12660, DOI 10.4238/2015.October.19.10
+   WORKING GROUP WORLD REFERENCE BASE FOR SOIL RESOURCES (WRB), 2015, WORLD REFERENCE BASE
+   Yan W, 2006, CAN J PLANT SCI, V86, P623, DOI 10.4141/P05-169
+   Yan WK, 2016, CROP SCI, V56, P2106, DOI 10.2135/cropsci2015.06.0336
+   Yan WK, 2015, CROP SCI, V55, P113, DOI 10.2135/cropsci2014.03.0203
+   Zarkadas CG, 2007, FOOD RES INT, V40, P129, DOI 10.1016/j.foodres.2006.08.006
+NR 39
+TC 0
+Z9 0
+U1 0
+U2 0
+PU UNIV FEDERAL GOIAS
+PI GOIANIA GO
+PA ESCOLA MUSICA ARTES CIENCIAS, PROG POT-GRAD MUSICA, CAIXA POSTAL 131,
+   CAMPUS II-SAMAMBAIA, GOIANIA GO, CEP74001-970, BRAZIL
+SN 1517-6398
+EI 1983-4063
+J9 PESQUI AGROPECU TROP
+JI Pesqui. Agropecu. Trop.
+PY 2021
+VL 51
+AR e67995
+DI 10.1590/1983-40632021v5167995
+PG 10
+WC Agriculture, Multidisciplinary; Food Science & Technology
+SC Agriculture; Food Science & Technology
+GA UE7SC
+UT WOS:000688082600001
+DA 2021-09-05
+ER
+
+PT J
+AU Oluk, CA
+   Hizli, H
+   Cubukcu, P
+   Sahar, AK
+AF Oluk, Celile Aylin
+   Hizli, Hatice
+   Cubukcu, Pinar
+   Sahar, Ahmet Korhan
+TI Correlation and path coefficient study of soybean yield and seed quality
+   traits
+SO RIVISTA ITALIANA DELLE SOSTANZE GRASSE
+LA English
+DT Article
+DE Genetic advance; Genetic variability; Heritability; Soybean; Yield
+   traits
+ID FATTY-ACID-COMPOSITION; GENETIC-VARIABILITY; PROTEIN
+AB An experiment was conducted to evaluate the genotypic-phenotypic variability and environmental effect in 20 pure lines and varieties (PLV) of soybean, and observations were recorded on various characters affecting quality, such as palmitic, stearic, oleic, linoleic and linolenic acid, oil and protein content. High values of GCV and PCV were observed for features such as grain yield (14.89, 11.13) and oleic acid (13.13, 12.73) and linolenic acid (11.29, 10.33) content, which indicates the presence of high genetic variation. Analysis of phenotypic and genotypic correlation coefficients of quantitative characters and partitioning of the genotypic correlation to the grain revealed that the correlation coefficients of grain yield with oil content were positive and significant. The linolenic acid content showed the highest positive direct effect on grain yield. High heritability coupled with the high genetic advance observed for the traits and contents of oleic, linoleic, and linolenic acids indicates the presence of additive gene action and demands population improvement by selection.
+C1 [Oluk, Celile Aylin; Hizli, Hatice; Cubukcu, Pinar; Sahar, Ahmet Korhan] Eastern Mediterranean Agr Res Inst, Minist Agr & Forestry, TR-01321 Adana, Turkey.
+RP Oluk, CA (corresponding author), Eastern Mediterranean Agr Res Inst, Minist Agr & Forestry, TR-01321 Adana, Turkey.
+EM celileaylin.oluk@tarimorman.gov.tr
+FU TAGEMGida Tarim Ve Hayvancilik Bakanligi [TAGEM/TBAD/14/A04/P01/06-6]
+FX This study was funded by the head of scientific research of TAGEM,
+   Project No: TAGEM/TBAD/14/A04/P01/06-6 and carried out at the Eastern
+   Mediterranean Research InstituteAdana.
+CR Aytac Z, 2006, AFR J BIOTECHNOL, V763
+   Baraskar V. V., 2014, Electronic Journal of Plant Breeding, V5, P802
+   Bonato E.R., 1990, PESQ AGRO BRAS
+   Burton G.W, P WORKSH CHEM ASP RI, P23
+   Caliskan S., 2017, TURJAF, V5, P1446
+   Chandrawat K.S., 2017, INT J PURE APPL BIOS, V62
+   CHERRY JH, 1985, PHYTOCHEMISTRY, V24, P237, DOI 10.1016/S0031-9422(00)83527-X
+   Cober ER, 2000, CROP SCI, V40, P39, DOI 10.2135/cropsci2000.40139x
+   de Almeida VV, 2009, QUIM NOVA, V32, P1334, DOI 10.1590/S0100-40422009000500042
+   Demir I, 1999, GENEL BITKI ISLAHI
+   Dogan Y., 2015, Yuzuncu Yil Universitesi Journal of Agricultural Sciences, V25, P293
+   Fehr WR, 2007, CROP SCI, V47, pS72, DOI 10.2135/cropsci2007.04.0004IPBS
+   Ghodrati G., 2013, CURRENT OPINION AGR, V2, P31
+   Goyal R, 2015, LEGUME RES, V38, P297, DOI 10.5958/0976-0571.2015.00037.5
+   Graef G, 2009, PLANT BIOTECHNOL J, V7, P411, DOI 10.1111/j.1467-7652.2009.00408.x
+   Hou GY, 2006, J AM OIL CHEM SOC, V83, P759, DOI 10.1007/s11746-006-5011-4
+   Johnson H.W., AGRON J
+   Karnwal MK, 2009, LEGUME RES, V32, P70
+   Kumari A. N., 1993, Madras Agricultural Journal, V80, P429
+   La TC, 2014, CROP SCI, V54, P2054, DOI 10.2135/cropsci2013.12.0819
+   Lee SJ, 2003, J AGR FOOD CHEM, V51, P3382, DOI 10.1021/jf0261405
+   LEFFEL RC, 1993, J PROD AGRIC, V6, P365, DOI 10.2134/jpa1993.0365
+   LUSH J. L., 1949, Proceedings 8th int. Congr. Genet. 1948., P356
+   Mahmoud AA, 2006, J AGR FOOD CHEM, V54, P3916, DOI 10.1021/jf060391m
+   Malik M. F. A., 2006, International Journal of Agriculture and Biology, V8, P815
+   Malik MFA, 2007, PAKISTAN J BOT, V39, P405
+   Official methods of analysis of the AOAC, 2000, 99003 ASS OFF AN CHE, V20th
+   Oliveira AP, 2009, FOOD CHEM TOXICOL, V47, P2841, DOI 10.1016/j.fct.2009.09.004
+   Onder M, 2008, SELCUK U ZIRAAT FAKU, V22, P53
+   Rebetzke GJ, 1998, CROP SCI, V38, P297, DOI 10.2135/cropsci1998.0011183X003800020003x
+   Robinson H.F., 1949, AGRON J
+   SCHNEBLY SR, 1993, CROP SCI, V33, P716, DOI 10.2135/cropsci1993.0011183X003300040016x
+   Schwender J, 2003, J BIOL CHEM, V278, P29442, DOI 10.1074/jbc.M303432200
+   Sivasubramanian V., MADRAS AGRIC J
+   SNEDECOR GW, 1956, STAT METHODS
+   Sudaric A., 2019, IMPROVING SEED QUALI, P1
+   Zobiole LHS, 2010, J AGR FOOD CHEM, V58, P4517, DOI 10.1021/jf904342t
+NR 37
+TC 0
+Z9 0
+U1 1
+U2 1
+PU INNOVHUB SSI-AREA SSOG
+PI MILANO
+PA VIA GIUSEPPE COLOMBO 79, MILANO, 20133, ITALY
+SN 0035-6808
+J9 RIV ITAL SOSTANZE GR
+JI Riv. Ital. Sostanze Grasse
+PD JAN-MAR
+PY 2021
+VL 98
+IS 1
+BP 39
+EP 47
+PG 9
+WC Food Science & Technology
+SC Food Science & Technology
+GA SD8LW
+UT WOS:000651628600004
+DA 2021-09-05
+ER
+
+PT J
+AU Peric, V
+   Srebric, M
+   Ristic, ND
+   Drinic, SM
+   Dumanovic, Z
+AF Peric, Vesna
+   Srebric, Mirjana
+   Ristic, Nikolic Danijela
+   Drinic, Snezana Mladenovic
+   Dumanovic, Zoran
+TI STABILITY OF YIELD AND SEED COMPOSITION IN EARLY MATURING SOYBEAN
+   GENOTYPES ASSESSED BY AMMI ANALYSIS
+SO GENETIKA-BELGRADE
+LA English
+DT Article
+DE AMMI analysis; soybean; seed yield; seed composition
+ID ENVIRONMENT INTERACTIONS; BIPLOT ANALYSIS; PROTEIN; OIL; PERFORMANCE;
+   TRAITS; ADAPTABILITY; TESTS
+AB Peric V., M. Srebric, A. Nikolic, D. Ristic, S.Mladenovic Drinic, Z. Dumanovic (2021). Stability of yield and seed composition in early maturing soybean genotypes assessed by AMMI analysis.- Genetika, Vol 53, No.1,323-338. Identification of stable sources for breeding for important agronomic traits is prerequisite for providing a continuous and long-term progress in breeding. In this study, thirty-one early-maturing genotypes from soybean collection of Maize Research Institute "Zemun Polje" were evaluated across four environments (two years and two locations) according to randomized complete block design with three replications. The aim of research was to examine the value of the interaction of genotype and environment for three important agronomic traits (seed yield, protein content and oil content) using anadditive main effects and multiplicative interaction (AMMI) statistical model, and to identify stable sources for breeding for listed traits. The results of the research indicated that all traits were strongly influenced by environmental factors, while the influence of genotype and particularly interaction of genotype and environment was of less importance. AMMI analysis enabled identification of genotypes with above average value and high stability for seed yield (three genotypes), protein content (three genotypes) and oil content (two genotypes), which could be utilized as potential stable sources of variability in future soybean breeding programs.
+C1 [Peric, Vesna; Srebric, Mirjana; Ristic, Nikolic Danijela; Drinic, Snezana Mladenovic; Dumanovic, Zoran] Maize Res Inst, Slobodana Bajica 1, Belgrade 11000, Serbia.
+RP Peric, V (corresponding author), Maize Res Inst, Slobodana Bajica 1, Belgrade 11000, Serbia.
+EM vperic@mrizp.rs
+OI Mladenovic Drinic, Snezana/0000-0002-5566-7449; Srebric,
+   Mirjana/0000-0002-4135-3043
+FU Ministry of Education, Science and Technological Development of Republic
+   of Serbia
+FX This study is financialy supported by Ministry of Education, Science and
+   Technological Development of Republic of Serbia.
+CR BAKER RJ, 1988, CAN J PLANT SCI, V68, P405, DOI 10.4141/cjps88-051
+   Balesevic-Tubic S, 2011, GENETIKA-BELGRADE, V43, P217, DOI 10.2298/GENSR1102217B
+   Board JE, 2002, AGRON J, V94, P483
+   BRUMM T.J., 2002, AGR BIOSYSTEMS ENG T, V20
+   CROSSA J, 1990, CROP SCI, V30, P493, DOI [10.2135/cropsci1990.0011183X003000030003x, 10.2135/cropsci1990.0011183X003000060004x]
+   DORNBOS DL, 1992, J AM OIL CHEM SOC, V69, P228, DOI 10.1007/BF02635891
+   Eckart C, 1936, PSYCHOMETRIKA, V1, P211, DOI 10.1007/BF02288367
+   FAO, 2020, FAOSTAT DAT
+   Gauch H. G. Jr., 1996, P85
+   Giauffret C, 2000, CROP SCI, V40, P1004, DOI 10.2135/cropsci2000.4041004x
+   Gibson LR, 1996, J AM OIL CHEM SOC, V73, P733, DOI 10.1007/BF02517949
+   HURBURGH C.R., 2000, AGR BIOSYSTEMS ENG T, V17
+   Kang M.S., 2004, ENCY PLANT CROP SCI, P218, DOI DOI 10.1081/E-EPCS
+   Karasu A, 2009, AFR J BIOTECHNOL, V8, P580
+   Kelly JD, 1998, EUPHYTICA, V102, P343, DOI 10.1023/A:1018392901978
+   Kocar MM, 2017, POLJOPRIVREDA, V23, P40, DOI 10.18047/poljo.23.1.7
+   Lakic Z, 2019, GENETIKA-BELGRADE, V51, P907, DOI 10.2298/GENSR1903907L
+   Li MM, 2020, FRONT PLANT SCI, V10, DOI 10.3389/fpls.2019.01642
+   Matosa Kocar M, 2018, ZEMDIRBYSTE, V105, P55, DOI 10.13080/z-a.2018.105.008
+   Miladinovic J, 2006, EUR J AGRON, V25, P243, DOI 10.1016/j.eja.2006.05.007
+   Miladinovic J, 2015, GENETIKA-BELGRADE, V47, P131, DOI 10.2298/GENSR1501131M
+   Nascimento M, 2010, CROP BREED APPL BIOT, V10, P48, DOI 10.12702/1984-7033.v10n01a07
+   Palomeque L, 2009, THEOR APPL GENET, V119, P429, DOI 10.1007/s00122-009-1048-8
+   PERIC V., 2013, 24 INT SCI EXP C AGR, P358
+   PERIC V., 2020, PLANT BREEDING SEED, V26, P52
+   Peric V, 2014, GENETIKA-BELGRADE, V46, P839, DOI 10.2298/GENSR1403839P
+   Peric V, 2009, GENETIKA-BELGRADE, V41, P137, DOI 10.2298/GENSR0902137P
+   Popovic V., 2013, Ratarstvo i Povrtarstvo, V50, P67
+   Popovic V, 2020, GENETIKA-BELGRADE, V52, P1055, DOI 10.2298/GENSR2003055P
+   Popovic V, 2016, ROM AGRIC RES, V33, P29
+   Qiu LJ, 2011, PLANT GENET RESOUR-C, V9, P109, DOI 10.1017/S1479262110000493
+   R Development Core Team, 2018, R: A Language and Environment for Statistical Computing
+   Ray DK, 2013, PLOS ONE, V8, DOI 10.1371/journal.pone.0066428
+   Rotundo JL, 2009, FIELD CROP RES, V110, P147, DOI 10.1016/j.fcr.2008.07.012
+   Sudar R, 2003, EUR FOOD RES TECHNOL, V217, P115, DOI 10.1007/s00217-003-0754-8
+   Sudaric A, 2006, PLANT BREEDING, V125, P191, DOI 10.1111/j.1439-0523.2006.01185.x
+   Sudaric A., 2006, Poljoprivreda, V12, P17
+   UGRENOVIC V., 2013, THESIS
+   Vollmann J, 2000, EUR J AGRON, V12, P13, DOI 10.1016/S1161-0301(99)00042-8
+   Vollmann J, 2000, J SCI FOOD AGR, V80, P1300, DOI 10.1002/1097-0010(200007)80:9&lt;1300::AID-JSFA640&gt;3.0.CO;2-I
+   Vollmann J, 2010, EUR J AGRON, V32, P243, DOI 10.1016/j.eja.2010.01.001
+   Yan W, 2006, CAN J PLANT SCI, V86, P623, DOI 10.4141/P05-169
+   Yan WK, 2003, CROP SCI, V43, P549, DOI 10.2135/cropsci2003.0549
+   Yan WK, 2002, CROP SCI, V42, P11, DOI 10.2135/cropsci2002.0011
+   Yan Z, 2010, CROP SCI, V50, P696, DOI 10.2135/cropsci2008.12.0742
+NR 45
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SERBIAN GENETICS SOC
+PI BELGRADE
+PA SLOBODANA BAJICA 1, BELGRADE, ZEMUN 11185, SERBIA
+SN 0534-0012
+EI 1820-6069
+J9 GENETIKA-BELGRADE
+JI Genetika-Belgrade
+PY 2021
+VL 53
+IS 1
+BP 323
+EP 338
+DI 10.2298/GENSR2101323P
+PG 16
+WC Agronomy; Genetics & Heredity
+SC Agriculture; Genetics & Heredity
+GA SD1QX
+UT WOS:000651143000026
+OA gold
+DA 2021-09-05
+ER
+
+PT J
+AU Alfonso, M
+AF Alfonso, Miguel
+TI Improving soybean seed oil without poor agronomics
+SO JOURNAL OF EXPERIMENTAL BOTANY
+LA English
+DT Article
+DE Crop yield seed oil; soybean; stearic acid; stearoyl-ACP desaturase
+   (SACPD); TILLING
+ID STEARIC-ACID; ENGINEERING OILSEEDS; FEEDSTOCKS; INDUSTRIAL; MUTATIONS
+AB Manipulating seed oil content and composition is a major goal for plant biotechnologists. However, some of these modifications generate undesired effects, affecting plant growth and yield, and, thereby, decreasing market value. In this work, Lakhssassi et al. (2020) describe the application of an improved TILLING technique (TILLING-by-sequencing+) that was successful in obtaining soybean lines with mutations in novel members of the GmSACPD family. These lines showed higher stearic acid levels without compromising nodulation and growth yield. This work shows how powerful the joint utilization of conventional TILLING techniques and next-generation sequencing can be, helping breeders and biotechnologists to overcome metabolic bottlenecks or undesirable growth phenotypes.
+C1 [Alfonso, Miguel] EEAD CSIC, Dept Plant Nutr, Avda Montanana 1005, Zaragoza 50059, Spain.
+RP Alfonso, M (corresponding author), EEAD CSIC, Dept Plant Nutr, Avda Montanana 1005, Zaragoza 50059, Spain.
+EM alfonso@eead.csic.es
+RI Alfonso, Miguel/L-6970-2014
+OI Alfonso, Miguel/0000-0002-8190-5156
+FU Ministerio de Economia y Competitividad (MINECO) [RTC2017-6461-3];
+   Ministerio de Ciencia, Innovacion y Universidades (MICINN)
+   [RTI2018-097755-B-100]; Gobierno de AragonGobierno de Aragon [LMP243-18,
+   A09-20R]
+FX The author gratefully acknowledges support from Ministerio de Economia y
+   Competitividad (MINECO), grant RTC2017-6461-3, and from Ministerio de
+   Ciencia, Innovacion y Universidades (MICINN), grant
+   RTI2018-097755-B-100. Funding from Gobierno de Aragon (Proyectos en
+   areas prioritarias-RIS3, grants LMP243-18 and A09-20R; Function of genes
+   and plant proteins) is also acknowledged. No conflict of interest is
+   declared.
+CR Cahoon EB, 2007, CURR OPIN PLANT BIOL, V10, P236, DOI 10.1016/j.pbi.2007.04.005
+   Clemente TE, 2009, PLANT PHYSIOL, V151, P1030, DOI 10.1104/pp.109.146282
+   Damude HG, 2008, PHYSIOL PLANTARUM, V132, P1, DOI 10.1111/j.1399-3054.2007.00998.x
+   Do PT, 2019, BMC PLANT BIOL, V19, DOI 10.1186/s12870-019-1906-8
+   Dyer JM, 2008, PLANT J, V54, P640, DOI 10.1111/j.1365-313X.2008.03430.x
+   Gillman JD, 2014, BMC PLANT BIOL, V14, DOI 10.1186/1471-2229-14-143
+   Jaworski J, 2003, CURR OPIN PLANT BIOL, V6, P178, DOI 10.1016/S1369-5266(03)00013-X
+   Kachroo P, 2001, P NATL ACAD SCI USA, V98, P9448, DOI 10.1073/pnas.151258398
+   Kris-Etherton PM, 2005, LIPIDS, V40, P1193, DOI 10.1007/s11745-005-1485-y
+   Lakhssassi N, 2020, J EXP BOT, V71, P6969, DOI 10.1093/jxb/eraa402
+   Lakhssassi N, 2017, PLANT PHYSIOL, V174, P1531, DOI 10.1104/pp.16.01929
+   Lee KW, 2003, QJM-INT J MED, V96, P465, DOI 10.1093/qjmed/hcg092
+   MENSINK RP, 1990, NEW ENGL J MED, V323, P439, DOI 10.1056/NEJM199008163230703
+   Moser BR, 2012, BIOFUELS-UK, V3, P193, DOI 10.4155/bfs.12.6
+   Nishiuchi T, 1998, J PLANT RES, V111, P481, DOI 10.1007/BF02507782
+   OECD-FAO, 2018, OECD FAO AGR OUTL 20, DOI [10.1787/agr-outl-data-en, DOI 10.1787/AGR-OUTL-DATA-EN]
+   Okuzaki A, 2018, PLANT PHYSIOL BIOCH, V131, P63, DOI 10.1016/j.plaphy.2018.04.025
+   Roman A, 2012, J EXP BOT, V63, P4973, DOI 10.1093/jxb/ers174
+   Schmutz J, 2010, NATURE, V463, P178, DOI 10.1038/nature08670
+   Zhang P, 2008, CROP SCI, V48, P2305, DOI 10.2135/cropsci2008.02.0084
+NR 20
+TC 1
+Z9 1
+U1 5
+U2 8
+PU OXFORD UNIV PRESS
+PI OXFORD
+PA GREAT CLARENDON ST, OXFORD OX2 6DP, ENGLAND
+SN 0022-0957
+EI 1460-2431
+J9 J EXP BOT
+JI J. Exp. Bot.
+PD DEC 31
+PY 2020
+VL 71
+IS 22
+BP 6857
+EP 6860
+DI 10.1093/jxb/eraa407
+PG 4
+WC Plant Sciences
+SC Plant Sciences
+GA PT2AZ
+UT WOS:000608422900003
+PM 33382894
+OA hybrid, Green Published
+DA 2021-09-05
+ER
+
+PT J
+AU Liu, L
+   Prenger, E
+   Zhang, J
+   Little, B
+   Mian, MAR
+   Li, ZL
+AF Liu, Like
+   Prenger, Elizabeth
+   Zhang, Jun
+   Little, Brian
+   Mian, M. A. Rouf
+   Li, Zenglu
+TI Impact of genotype, seed composition, agronomic trait, and environment
+   on soybean test weight
+SO JOURNAL OF CROP IMPROVEMENT
+LA English
+DT Article
+DE Soybean; test weight; seed composition; agronomic traits
+ID RED SPRING WHEAT; GRAIN-YIELD; QUALITY TRAITS; WINTER-WHEAT;
+   DURUM-WHEAT; PHYSICAL-PROPERTIES; GENETIC-VARIABILITY; MAIZE GENOTYPES;
+   DUAL-PURPOSE; OIL CONTENT
+AB Test weight (TW) is a primary indicator of soybean grain quality and measure of bulk density (mass/volume). The objectives of this research were to evaluate the effects of genotype, environment and planting date on TW, and determine the relationship of TW with agronomic and seed composition traits. Six experiments (Exp) were conducted using diverse sets of cultivars/experimental lines. Significant negative linear correlations between TW and seed moisture in each of five genotypes were observed (P < 0.0001). A linear regression model using both measured TW and moisture were developed to normalize TW on a 13% moisture basis for comparison across genotypes and environments. Significant genetic variations (P < 0.01) of TW among genotypes were observed, ranging from 70.0 to 75.3; 70.3 to 74.3; and 66.4 to 74.3 kg hL(-1) in Exp-1, 2, and 3, respectively. Locations and G x E interactions also had significant effects on TW (P < 0.01) in these EXPs. Soybean yield was significantly negatively correlated with TW in Exp-1 and 3 (P < 0.01). Seed protein and sucrose contents, and maturity days were significantly, positively correlated with TW, while seed oil content and seed size were significantly, negatively correlated with TW in most or all experiments (P < 0.05). Effects of planting dates on TW were inconsistent for both Exp-4 and 5 between 2 years. There was no correlation between TW of the cultivars and their releasing years in MG VII. To our knowledge, this is the first report on test weight in soybean and the results could be used to guide future genetic improvement of TW.
+C1 [Liu, Like; Prenger, Elizabeth; Zhang, Jun; Little, Brian; Li, Zenglu] Univ Georgia, Inst Plant Breeding Genet & Genom, Athens, GA 30602 USA.
+   [Liu, Like] Liaocheng Univ, Sch Life Sci, Liaocheng, Shandong, Peoples R China.
+   [Prenger, Elizabeth; Little, Brian; Li, Zenglu] Univ Georgia, Dept Crop & Soil Sci, Athens, GA 30602 USA.
+   [Zhang, Jun] Jilin Agr Univ, Coll Agron, Changchun, Jilin, Peoples R China.
+   [Mian, M. A. Rouf] USDA ARS, Soybean & Nitrogen Fixat Unit, Raleigh, NC 27695 USA.
+RP Li, ZL (corresponding author), Univ Georgia, Inst Plant Breeding Genet & Genom, Athens, GA 30602 USA.; Li, ZL (corresponding author), Univ Georgia, Dept Crop & Soil Sci, Athens, GA 30602 USA.
+EM zli@uga.edu
+FU University of Georgia Research Foundation
+FX This work was supported by the University of Georgia Research Foundation
+CR Abinasa M, 2011, AFR J AGR RES, V6, P3972
+   Aditya JP, 2011, J CENT EUR AGRIC, V12, P27, DOI 10.5513/JCEA01/12.1.877
+   Baryeh EA, 2002, J FOOD ENG, V51, P39, DOI 10.1016/S0260-8774(01)00035-8
+   Bhadru D., 2012, SABRAO Journal of Breeding and Genetics, V44, P129
+   Bhatti MH, 1999, J PROD AGRIC, V12, P38, DOI 10.2134/jpa1999.0038
+   BISSONNETTE SM, 1994, PHYTOPATHOLOGY, V84, P363, DOI 10.1094/Phyto-84-363
+   Bonfil DJ, 2015, CROP SCI, V55, P2294, DOI 10.2135/cropsci2014.08.0562
+   Buffo RA, 1998, CEREAL CHEM, V75, P100, DOI 10.1094/CCHEM.1998.75.1.100
+   Campbell KG, 1999, CROP SCI, V39, P1184, DOI 10.2135/cropsci1999.0011183X003900040039x
+   Castro AC, 2016, CROP PROT, V90, P66, DOI 10.1016/j.cropro.2016.08.015
+   Chiremba C, 2011, CEREAL CHEM, V88, P570, DOI 10.1094/CCHEM-06-11-0078
+   Cicek MS, 2006, CROP SCI, V46, P1253, DOI 10.2135/cropsci2005.06-0162
+   Cihlar CL, 2004, PHYTOPATHOLOGY, V94, pS157
+   Cruppe G, 2017, AGRON J, V109, P2072, DOI 10.2134/agronj2016.12.0720
+   Davies RM, 2009, INT AGROPHYS, V23, P299
+   DESHPANDE SD, 1993, J AGR ENG RES, V56, P89, DOI 10.1006/jaer.1993.1063
+   Ding JQ, 2011, J GENET, V90, P75, DOI 10.1007/s12041-011-0036-3
+   Doehlert DC, 2001, CROP SCI, V41, P1066, DOI 10.2135/cropsci2001.4141066x
+   DORSEYREDDING C, 1991, CEREAL CHEM, V68, P602
+   Duarte AP, 2005, CROP SCI, V45, P1958, DOI 10.2135/cropsci2004.0587
+   DUDLEY JW, 1969, CROP SCI, V9, P257, DOI 10.2135/cropsci1969.0011183X000900030001x
+   Eskandari M, 2013, THEOR APPL GENET, V126, P1677, DOI 10.1007/s00122-013-2083-z
+   FEHR WR, 1977, IOWA AHEES SPEC REP, P3
+   Fiedler JD, 2017, PLANT GENOME-US, V10, DOI 10.3835/plantgenome2017.05.0038
+   Gandhi A. P., 2009, International Food Research Journal, V16, P11
+   Garrido-Lestache E, 2004, FIELD CROP RES, V85, P213, DOI 10.1016/S0378-4290(03)00167-9
+   Gerde JA, 2016, CROP SCI, V56, P1225, DOI 10.2135/cropsci2015.08.0526
+   Vazquez-Carrillo MG, 2016, CROP SCI, V56, P3090, DOI 10.2135/cropsci2015.09.0558
+   Griess JK, 2010, CROP SCI, V50, P1480, DOI 10.2135/cropsci2009.08.0463
+   Gupta RK, 1997, J AGR ENG RES, V66, P1, DOI 10.1006/jaer.1996.0111
+   Gursoy S, 2010, FIELD CROP RES, V119, P260, DOI 10.1016/j.fcr.2010.07.016
+   Guttieri MJ, 2001, CROP SCI, V41, P327, DOI 10.2135/cropsci2001.412327x
+   Hellevang KJ., 1995, GRAIN MOISTURE CONTE
+   Holland JB, 2001, EUPHYTICA, V122, P69, DOI 10.1023/A:1012639821332
+   Hossain I, 2003, AGRON J, V95, P1179, DOI 10.2134/agronj2003.1179
+   Huang XQ, 2006, THEOR APPL GENET, V113, P753, DOI 10.1007/s00122-006-0346-7
+   Jaureguy LM, 2011, PLANT BREEDING, V130, P647, DOI 10.1111/j.1439-0523.2011.01887.x
+   Jing Qi, 2003, Yingyong Shengtai Xuebao, V14, P1649
+   Kaya Y, 2014, FOOD SCI TECH-BRAZIL, V34, P386, DOI 10.1590/fst.2014.0041
+   Khalil IH, 2002, CROP SCI, V42, P710, DOI 10.2135/cropsci2002.0710
+   Khazratkulova S, 2015, TURK J AGRIC FOR, V39, P920, DOI 10.3906/tar-1501-24
+   Kibar H, 2008, INT AGROPHYS, V22, P239
+   Kim HK, 2006, J PLANT RES, V119, P533, DOI 10.1007/s10265-006-0004-9
+   Kousar Makeen, 2007, Journal of Agronomy, V6, P216
+   Kravchenko AG, 2007, AGRON J, V99, P549, DOI 10.2134/agronj2006.0192
+   Kumar S, 2015, J ENVIRON BIOL, V36, P999
+   Langham MAC, 2005, PHYTOPATHOLOGY, V95, pS164
+   Li YF, 2013, J CEREAL SCI, V57, P398, DOI 10.1016/j.jcs.2013.01.005
+   Liu J, 2017, PLANT PHYSIOL, V175, P774, DOI 10.1104/pp.17.00708
+   Liu L, 2013, T ASABE, V56, P1541
+   Lopez-Bellido L, 1998, FIELD CROP RES, V57, P265, DOI 10.1016/S0378-4290(97)00137-8
+   Marinaccio F, 2015, FIELD CROP RES, V170, P109, DOI 10.1016/j.fcr.2014.10.002
+   Mason H, 2007, RENEW AGR FOOD SYST, V22, P157, DOI 10.1017/S1742170507001688
+   MCKENDRY AL, 1985, CAN J GENET CYTOL, V27, P603, DOI 10.1139/g85-089
+   Patil G, 2017, THEOR APPL GENET, V130, P1975, DOI 10.1007/s00122-017-2955-8
+   PIXLEY KV, 1991, CROP SCI, V31, P36, DOI 10.2135/cropsci1991.0011183X003100010008x
+   Rharrabti Y, 2003, FIELD CROP RES, V80, P123, DOI 10.1016/S0378-4290(02)00176-4
+   Rharrabti Y, 2001, J AGR FOOD CHEM, V49, P3802, DOI 10.1021/jf001139w
+   Sabu K. K., 2009, Agronomy Research, V7, P97
+   Salgado JD, 2015, PHYTOPATHOLOGY, V105, P295, DOI 10.1094/PHYTO-08-14-0215-R
+   SAS Institute, 2015, BASE SAS 94 PROCEDUR
+   Selvaraj CI, 2011, AFR J BIOTECHNOL, V10, P3322
+   Sissons M, 2018, CEREAL CHEM, V95, P274, DOI 10.1002/cche.10027
+   Sun XY, 2009, EUPHYTICA, V165, P615, DOI 10.1007/s10681-008-9794-2
+   Tajuddin T, 2003, BREEDING SCI, V53, P133, DOI 10.1270/jsbbs.53.133
+   TEICH AH, 1984, THEOR APPL GENET, V68, P21, DOI 10.1007/BF00252304
+   Turkington TK, 2005, CAN J PLANT PATHOL, V27, P283
+   Visscher PM, 2008, NAT REV GENET, V9, P255, DOI 10.1038/nrg2322
+   Wang XZ, 2014, MOL GENET GENOMICS, V289, P935, DOI 10.1007/s00438-014-0865-x
+   Yadav S K, 2011, Pak J Biol Sci, V14, P540, DOI 10.3923/pjbs.2011.540.545
+   Yagdi K, 2009, PAK J BOT, V41, P753
+   Yoshikawa Y, 2014, FOOD CHEM, V153, P186, DOI 10.1016/j.foodchem.2013.12.027
+   Zhang Li, 2007, Scientia Agricultura Sinica, V40, P405
+NR 73
+TC 1
+Z9 1
+U1 0
+U2 5
+PU TAYLOR & FRANCIS INC
+PI PHILADELPHIA
+PA 530 WALNUT STREET, STE 850, PHILADELPHIA, PA 19106 USA
+SN 1542-7528
+EI 1542-7536
+J9 J CROP IMPROV
+JI J. Crop Improv.
+PD NOV 2
+PY 2019
+VL 33
+IS 6
+BP 711
+EP 729
+DI 10.1080/15427528.2019.1659205
+PG 19
+WC Agronomy; Plant Sciences
+SC Agriculture; Plant Sciences
+GA JE5OH
+UT WOS:000490741300001
+DA 2021-09-05
+ER
+
+PT J
+AU Bruce, RW
+   Grainger, CM
+   Ficht, A
+   Eskandari, M
+   Rajcan, I
+AF Bruce, Robert W.
+   Grainger, Christopher M.
+   Ficht, Alexandra
+   Eskandari, Mehrzad
+   Rajcan, Istvan
+TI Trends in Soybean Trait Improvement over Generations of Selective
+   Breeding
+SO CROP SCIENCE
+LA English
+DT Article
+ID LINOLENIC ACID CONTENT; PROTEIN; YIELD; OIL; CULTIVARS
+AB Improvement of agronomic and seed quality traits in soybean [Glycine max (L.) Merr.] occurs in breeding programs as a result of crossing elite soybean genotypes and selection of superior offspring in each cycle. The objective of this study was to evaluate changes in traits over 100 yr of selection in Ontario, Canada, in two soybean breeding programs at the University of Guelph: Guelph Campus (Maturity Group [MG] 0 and I) and Ridgetown Campus (MG II) programs. Fifty-six Guelph cultivars (released between 1983 and 2016), 46 Ridgetown cultivars (released between 1987 and 2015), and 37 Guelph-pedigree related historical cultivars (from 1913 to 1985) were grown in field trials over 3 yr (Guelph Campus) and 2 yr (Ridgetown Campus) at two locations per breeding program to measure 13 traits. Yield increased in the Guelph Campus cultivars by 17.1 kg ha(-1) yr(-1) and by 15.7 kg ha(-1) yr(-1) in the Ridgetown Campus cultivars, while yield per day of maturity per year of release significantly increased in elite cultivars. Protein in the Ridgetown Campus cultivars increased at 0.76 g kg(-1) yr(-1), whereas the Guelph Campus cultivars showed no trend. In Ridgetown Campus cultivars 100-seed weight significantly increased at 0.1 g yr(-1). Within the historical cultivars, 100-seed weight was significantly correlated with both protein (r = 0.50) and oil (r = -0.42). Genotype x trait biplot analyses revealed differential patterns of trait relationships between the elite and historical cultivars. Oil and yield were associated within the Guelph Campus cultivars. The association of 100-seed weight and protein was only found in the historical cultivars. Yield has increased in both breeding programs while seed traits have been altered over time.
+C1 [Bruce, Robert W.; Grainger, Christopher M.; Ficht, Alexandra; Rajcan, Istvan] Univ Guelph, Dept Plant Agr, Crop Sci Bldg,50 Stone Rd East, Guelph, ON N1G 2W1, Canada.
+   [Eskandari, Mehrzad] Univ Guelph, Dept Plant Agr, Agron Bldg,Ridgetown Campus,120 Main St East, Ridgetown, ON N0P 2C0, Canada.
+RP Rajcan, I (corresponding author), Univ Guelph, Dept Plant Agr, Crop Sci Bldg,50 Stone Rd East, Guelph, ON N1G 2W1, Canada.
+EM irajcan@uoguelph.ca
+OI Bruce, Robert/0000-0002-9029-6815
+FU Natural Sciences and Engineering Research Council of Canada (NSERC)
+   Collaborative Research and Development (CRD) grant program; Grain
+   Farmers of Ontario; Secan; Huron Commodities
+FX We would like to acknowledge generous funding provided for this project
+   through the Natural Sciences and Engineering Research Council of Canada
+   (NSERC) Collaborative Research and Development (CRD) grant program,
+   along with industry funding partners including: Grain Farmers of
+   Ontario, Secan, Huron Commodities. We would also like to acknowledge the
+   Ontario Ministry of Agriculture and Rural Affairs (OMAFRA) for access to
+   research stations at a reduced rate. We thank research technicians
+   Colbey Templeman Sebben, Yesenia Salazar, Martha Jimenez, and Mei Wu at
+   the Guelph Campus and Bryan Sterling and Dennis Fischer along with
+   summer students at the Ridgetown Campus for their great efforts in
+   making this work possible. Kind comments by anonymous reviewers and
+   especially by the Associate Editor, Dr. Aaron Lorenz, have contributed
+   greatly to the quality of the manuscript.
+CR Agronomix Software, 2019, AGR GEN 2 VERS 38 28
+   Bellaloui N, 2014, CROP SCI, V54, P1782, DOI 10.2135/cropsci2013.07.0463
+   Butler JA, 2010, AGRON J, V102, P348, DOI 10.2134/agronj2009.0167
+   Cober ER, 2012, CAN J PLANT SCI, V92, P1239, DOI 10.4141/CJPS2012-032
+   Cober ER, 2000, CROP SCI, V40, P39, DOI 10.2135/cropsci2000.40139x
+   DUTTON HJ, 1951, J AM OIL CHEM SOC, V28, P115, DOI 10.1007/BF02612206
+   Hoshino T, 2014, BREEDING SCI, V64, P371, DOI 10.1270/jsbbs.64.371
+   Hurburgh C. R., 2007, Lipid Technology, V19, P88, DOI 10.1002/lite.200600029
+   Koester RP, 2014, J EXP BOT, V65, P3311, DOI 10.1093/jxb/eru187
+   Kovalenko IV, 2006, J AM OIL CHEM SOC, V83, P421, DOI 10.1007/s11746-006-1221-z
+   OPENSHAW SJ, 1984, CROP SCI, V24, P1, DOI 10.2135/cropsci1984.0011183X002400010001x
+   Patil G, 2017, THEOR APPL GENET, V130, P1975, DOI 10.1007/s00122-017-2955-8
+   Qin PY, 2014, CROP SCI, V54, P1139, DOI 10.2135/cropsci2013.05.0314
+   Rahman SM, 1997, THEOR APPL GENET, V94, P299, DOI 10.1007/s001220050414
+   Rincker K., 2014, CROP SCI, V54, P1419, DOI DOI 10.2135/CR0PSCI2013.10.0665
+   SAS Institute, 2013, SAS SYST WIND REL 9
+   Song WW, 2016, J AGR FOOD CHEM, V64, P4121, DOI 10.1021/acs.jafc.6b00008
+   Specht JE, 2014, CSSA SPEC PUBL, V33, P311, DOI 10.2135/cssaspecpub33.c12
+   Specht JE, 1999, CROP SCI, V39, P1560, DOI 10.2135/cropsci1999.3961560x
+   USDA, 2019, USDA CIRC SER
+   Voldeng HD, 1997, CROP SCI, V37, P428, DOI 10.2135/cropsci1997.0011183X003700020020x
+   Warner K, 2008, J AM OIL CHEM SOC, V85, P945, DOI 10.1007/s11746-008-1275-1
+   Yan WK, 2000, CROP SCI, V40, P597, DOI 10.2135/cropsci2000.403597x
+NR 23
+TC 5
+Z9 5
+U1 2
+U2 15
+PU CROP SCIENCE SOC AMER
+PI MADISON
+PA 677 S SEGOE ROAD, MADISON, WI 53711 USA
+SN 0011-183X
+EI 1435-0653
+J9 CROP SCI
+JI Crop Sci.
+PD SEP-OCT
+PY 2019
+VL 59
+IS 5
+BP 1870
+EP 1879
+DI 10.2135/cropsci2018.11.0664
+PG 10
+WC Agronomy
+SC Agriculture
+GA IV8VE
+UT WOS:000484542300004
+DA 2021-09-05
+ER
+
+PT J
+AU Stewart-Brown, BB
+   Song, QJ
+   Vaughn, JN
+   Li, ZL
+AF Stewart-Brown, Benjamin B.
+   Song, Qijian
+   Vaughn, Justin N.
+   Li, Zenglu
+TI Genomic Selection for Yield and Seed Composition Traits Within an
+   Applied Soybean Breeding Program
+SO G3-GENES GENOMES GENETICS
+LA English
+DT Article
+DE Genomic selection; RR-BLUP; Seed composition; Seed yield; Soybean;
+   Genomic Prediction; GenPred; Shared Data Resources
+ID GENOMEWIDE SELECTION; POPULATION-STRUCTURE; QUANTITATIVE TRAITS; WIDE
+   SELECTION; PREDICTION; ASSOCIATION; ACCURACY; PROTEIN; OPTIMIZATION;
+   REGISTRATION
+AB Genomic selection (GS) has become viable for selection of quantitative traits for which marker-assisted selection has often proven less effective. The potential of GS for soybean was characterized using 483 elite breeding lines, genotyped with BARCSoySNP6K iSelect BeadChips. Cross validation was performed using RR-BLUP and predictive abilities (r(MP)) of 0.81, 0.71, and 0.26 for protein, oil, and yield, were achieved at the largest tested training set size. Minimal differences were observed when comparing different marker densities and there appeared to be inflation in r(MP) due to population structure. For comparison purposes, two additional methods to predict breeding values for lines of four bi-parental populations within the GS dataset were tested. The first method predicted within each bi-parental population (WP method) and utilized a training set of full-sibs of the validation set. The second method utilized a training set of all remaining breeding lines except for full-sibs of the validation set to predict across populations (AP method). The AP method is more practical as the WP method would likely delay the breeding cycle and leverage smaller training sets. Averaging across populations for protein and oil content, r(MP) for the AP method (0.55, 0.30) approached r(MP) for the WP method (0.60, 0.52). Though comparable, r(MP) for yield was low for both AP and WP methods (0.12, 0.13). Based on increases in r(MP) as training sets increased and the effectiveness of WP vs. AP method, the AP method could potentially improve with larger training sets and increased relatedness between training and validation sets.
+C1 [Stewart-Brown, Benjamin B.; Li, Zenglu] Univ Georgia, Inst Plant Breeding Genet & Genom, Athens, GA 30602 USA.
+   [Stewart-Brown, Benjamin B.; Li, Zenglu] Univ Georgia, Dept Crop & Soil Sci, Athens, GA 30602 USA.
+   [Song, Qijian] USDA ARS, Soybean Genom & Improvement Lab, Beltsville, MD 20705 USA.
+   [Vaughn, Justin N.] USDA ARS, Genom & Bioinformat Res Unit, Ctr Appl Genet Technol, Athens, GA 30602 USA.
+RP Li, ZL (corresponding author), Univ Georgia, Inst Plant Breeding Genet & Genom, Athens, GA 30602 USA.; Li, ZL (corresponding author), Univ Georgia, Dept Crop & Soil Sci, Athens, GA 30602 USA.
+EM zli@uga.edu
+OI Vaughn, Justin/0000-0002-5261-5096
+FU United Soybean Board; Georgia Agricultural Community Commission for
+   Soybeans; College of Agricultural and Environmental Sciences at the
+   University of Georgia
+FX Technical support was provided by Dale Wood, Earl Baxter, Brice Wilson,
+   and Gina Bishop of the University of Georgia. Genotyping was performed
+   at the USDA-ARS Soybean Genomics and Improvement Lab by Chuck Quigley.
+   Research funding was provided by the United Soybean Board and Georgia
+   Agricultural Community Commission for Soybeans. Special thanks to the
+   Glenn and Helen Burton Scholarship Fund provided by the College of
+   Agricultural and Environmental Sciences at the University of Georgia.
+CR Albrecht T, 2011, THEOR APPL GENET, V123, P339, DOI 10.1007/s00122-011-1587-7
+   American Soybean Association, 2018, 2016 SOY HIGHL
+   Barrett JC, 2005, BIOINFORMATICS, V21, P263, DOI 10.1093/bioinformatics/bth457
+   Bates D, 2013, J STAT SOFTW, V52, P1, DOI 10.18637/jss.v052.i05
+   Bernardo R, 2007, CROP SCI, V47, P1082, DOI 10.2135/cropsci2006.11.0690
+   Boerma HR, 2000, CROP SCI, V40, P294, DOI 10.2135/cropsci2000.0008rcv
+   BRIM CA, 1966, CROP SCI, V6, P220, DOI [10.2135/cropsci1966.0011183X000600020041x, 10.2135/cropsci1966.0011183X000600010039x]
+   BRIM CA, 1979, CROP SCI, V19, P494, DOI 10.2135/cropsci1979.0011183X001900040016x
+   Brummer EC, 1997, CROP SCI, V37, P370, DOI 10.2135/cropsci1997.0011183X003700020011x
+   Burton J. W, 2006, CROP SCI, V13, P130
+   Carter TE, 2003, CROP SCI, V43, P1126, DOI 10.2135/cropsci2003.1126
+   Chung J, 2003, CROP SCI, V43, P1053, DOI 10.2135/cropsci2003.1053
+   Clark SA, 2012, GENET SEL EVOL, V44, DOI 10.1186/1297-9686-44-4
+   Combs E, 2013, PLANT GENOME-US, V6, DOI 10.3835/plantgenome2012.11.0030
+   Crossa J, 2014, HEREDITY, V112, P48, DOI 10.1038/hdy.2013.16
+   de Bakker PIW, 2005, NAT GENET, V37, P1217, DOI 10.1038/ng1669
+   de los Campos G, 2015, PLOS GENET, V11, DOI 10.1371/journal.pgen.1005048
+   de los Campos G, 2009, GENETICS, V182, P375, DOI 10.1534/genetics.109.101501
+   Dekkers JCM, 2007, J ANIM BREED GENET, V124, P331, DOI 10.1111/j.1439-0388.2007.00701.x
+   Endelman JB, 2012, G3-GENES GENOM GENET, V2, P1405, DOI 10.1534/g3.112.004259
+   Endelman JB, 2011, PLANT GENOME-US, V4, P250, DOI 10.3835/plantgenome2011.08.0024
+   Guo ZG, 2013, G3-GENES GENOM GENET, V3, P263, DOI 10.1534/g3.112.005066
+   Guo ZG, 2012, THEOR APPL GENET, V124, P261, DOI 10.1007/s00122-011-1702-9
+   Heffner EL, 2011, PLANT GENOME-US, V4, P65, DOI [10.3835/plantgenome.2010.12.0029, 10.3835/plantgenome2010.12.0029]
+   Heffner EL, 2011, CROP SCI, V51, P2597, DOI 10.2135/cropsci2011.05.0253
+   Heffner EL, 2010, CROP SCI, V50, P1681, DOI 10.2135/cropsci2009.11.0662
+   Heslot N, 2014, THEOR APPL GENET, V127, P463, DOI 10.1007/s00122-013-2231-5
+   Huth P., 1995, PRACTICAL HDB SOYBEA, P460, DOI [DOI 10.1016/B978-0-935315-63-9.50027-9, 10.1016/B978-0-935315-63-9.50027-9]
+   Hwang EY, 2014, BMC GENOMICS, V15, DOI 10.1186/1471-2164-15-1
+   Isidro J, 2015, THEOR APPL GENET, V128, P145, DOI 10.1007/s00122-014-2418-4
+   Jacobson A, 2014, CROP SCI, V54, P895, DOI 10.2135/cropsci2013.11.0774
+   Jain A., 2017, GENOMIC SELECTION CR, DOI [10.1007/978-3-319-63170-7_6, DOI 10.1007/978-3-319-63170-7_6]
+   Jannink JL, 2010, BRIEF FUNCT GENOMICS, V9, P166, DOI 10.1093/bfgp/elq001
+   Jarquin D, 2014, BMC GENOMICS, V15, DOI 10.1186/1471-2164-15-740
+   Kang HM, 2008, GENETICS, V178, P1709, DOI 10.1534/genetics.107.080101
+   Kassambara A., 2017, GGPUBR GGPLOT2 BASED
+   Keim P., 1988, Soybean Genetics Newsletter, V15, P150
+   Lian L, 2014, CROP SCI, V54, P1514, DOI 10.2135/cropsci2013.12.0856
+   Lipka AE, 2012, BIOINFORMATICS, V28, P2397, DOI 10.1093/bioinformatics/bts444
+   Lorenz AJ, 2012, CROP SCI, V52, P1609, DOI 10.2135/cropsci2011.09.0503
+   Lorenz AJ, 2011, ADV AGRON, V110, P77, DOI 10.1016/B978-0-12-385531-2.00002-5
+   Lorenzana RE, 2009, THEOR APPL GENET, V120, P151, DOI 10.1007/s00122-009-1166-3
+   Ma YS, 2016, MOL BREEDING, V36, DOI 10.1007/s11032-016-0504-9
+   Meuwissen THE, 2001, GENETICS, V157, P1819
+   Muir WM, 2007, J ANIM BREED GENET, V124, P342, DOI 10.1111/j.1439-0388.2007.00700.x
+   Poland J, 2012, PLANT GENOME-US, V5, P103, DOI 10.3835/plantgenome2012.06.0006
+   Riedelsheimer C, 2013, GENETICS, V194, P493, DOI 10.1534/genetics.113.150227
+   Rutkoski J, 2015, PLANT GENOME-US, V8, DOI [10.3835/plantgenome2014.09.0046, 10.3835/plantgenome2014.10.0074]
+   Schmutz J, 2010, NATURE, V463, P178, DOI 10.1038/nature08670
+   Sebastian SA, 2012, DESIGNING SOYBEANS 2, P297, DOI DOI 10.1016/B978-0-9830791-0-1.50020-0
+   Song QJ, 2016, BMC GENOMICS, V17, DOI 10.1186/s12864-015-2344-0
+   Song QJ, 2013, PLOS ONE, V8, DOI 10.1371/journal.pone.0054985
+   USDA NASS, 2017, QUICK STATS
+   Whittaker JC, 2000, GENET RES, V75, P249, DOI 10.1017/S0016672399004462
+   Xavier A, 2016, G3-GENES GENOM GENET, V6, P2611, DOI 10.1534/g3.116.032268
+   Zhang A, 2017, FRONT PLANT SCI, V8, DOI 10.3389/fpls.2017.01916
+NR 56
+TC 9
+Z9 9
+U1 1
+U2 1
+PU OXFORD UNIV PRESS INC
+PI CARY
+PA JOURNALS DEPT, 2001 EVANS RD, CARY, NC 27513 USA
+SN 2160-1836
+J9 G3-GENES GENOM GENET
+JI G3-Genes Genomes Genet.
+PD JUL
+PY 2019
+VL 9
+IS 7
+BP 2253
+EP 2265
+DI 10.1534/g3.118.200917
+PG 13
+WC Genetics & Heredity
+SC Genetics & Heredity
+GA II7UE
+UT WOS:000475396300019
+OA Green Published, gold
+DA 2021-09-05
+ER
+
+PT J
+AU Assefa, Y
+   Purcell, LC
+   Salmeron, M
+   Naeve, S
+   Casteel, SN
+   Kovacs, P
+   Archontoulis, S
+   Licht, M
+   Below, F
+   Kandel, H
+   Lindsey, LE
+   Gaska, J
+   Conley, S
+   Shapiro, C
+   Orlowski, JM
+   Golden, BR
+   Kaur, G
+   Singh, M
+   Thelen, K
+   Laurenz, R
+   Davidson, D
+   Ciampitti, IA
+AF Assefa, Yared
+   Purcell, Larry C.
+   Salmeron, Montse
+   Naeve, Seth
+   Casteel, Shaun N.
+   Kovacs, Peter
+   Archontoulis, Sotirios
+   Licht, Mark
+   Below, Fred
+   Kandel, Herman
+   Lindsey, Laura E.
+   Gaska, John
+   Conley, Shawn
+   Shapiro, Charles
+   Orlowski, John M.
+   Golden, Bobby R.
+   Kaur, Gurpreet
+   Singh, Maninderpal
+   Thelen, Kurt
+   Laurenz, Randall
+   Davidson, Dan
+   Ciampitti, Ignacio A.
+TI Assessing Variation in US Soybean Seed Composition (Protein and Oil)
+SO FRONTIERS IN PLANT SCIENCE
+LA English
+DT Article
+DE crop environment; soybean management; protein yield; oil concentration;
+   seed quality
+ID X MANAGEMENT INTERACTIONS; PLANTING DATE; YIELD RESPONSE;
+   PHYSICAL-CHARACTERISTICS; MATURITY GROUPS; TEMPERATURE; QUALITY;
+   ENVIRONMENT; ROTATION; TILLAGE
+AB Soybean [Glycine max (L.) Merr.] seed composition and yield are a function of genetics (G), environment (E), and management (M) practices, but contribution of each factor to seed composition and yield are not well understood. The goal of this synthesis-analysis was to identify the main effects of G, E, and M factors on seed composition (protein and oil concentration) and yield. The entire dataset (13,574 data points) consisted of 21 studies conducted across the United States (US) between 2002 and 2017 with varying treatments and all reporting seed yield and composition. Environment (E), defined as site-year, was the dominant factor accounting for more than 70% of the variation for both seed composition and yield. Of the crop management factors: (i) delayed planting date decreased oil concentration by 0.007 to 0.06% per delayed week (R-2 similar to 0.70) and a 0.01 to 0.04 Mg ha(-1) decline in seed yield per week, mainly in northern latitudes (40-45 N); (ii) crop rotation (corn-soybean) resulted in an overall positive impact for both seed composition and yield (1.60 Mg ha(-1) positive yield difference relative to continuous soybean); and (iii) other management practices such as no-till, seed treatment, foliar nutrient application, and fungicide showed mixed results. Fertilizer N application in lower quantities (10-50 kg N ha(-1)) increased both oil and protein concentration, but seed yield was improved with rates above 100 kg N ha(-1). At southern latitudes (30-35 N), trends of reduction in oil and increases in protein concentrations with later maturity groups (MG, from 3 to 7) was found. Continuing coordinated research is critical to advance our understanding of G x E x M interactions.
+C1 [Assefa, Yared; Ciampitti, Ignacio A.] Kansas State Univ, Dept Agron, Manhattan, KS 66506 USA.
+   [Purcell, Larry C.] Univ Arkansas, Dept Crop Soil & Environm Sci, Fayetteville, AR 72701 USA.
+   [Salmeron, Montse] Univ Kentucky, Dept Plant & Soil Sci, Lexington, KY USA.
+   [Naeve, Seth] Univ Minnesota, Dept Agron & Plant Genet, St Paul, MN 55108 USA.
+   [Casteel, Shaun N.] Purdue Univ, Dept Agron, W Lafayette, IN 47907 USA.
+   [Kovacs, Peter] South Dakota State Univ, Dept Agron Hort & Plant Sci, Brookings, SD USA.
+   [Archontoulis, Sotirios; Licht, Mark] Iowa State Univ, Dept Agron, Ames, IA USA.
+   [Below, Fred] Univ Illinois, Dept Crop Sci, Urbana, IL USA.
+   [Kandel, Herman] North Dakota State Univ, Dept Plant Sci, Fargo, ND USA.
+   [Lindsey, Laura E.] Ohio State Univ, Dept Hort & Crop Sci, Columbus, OH 43210 USA.
+   [Gaska, John; Conley, Shawn] Univ Wisconsin, Dept Agron, 1575 Linden Dr, Madison, WI 53706 USA.
+   [Shapiro, Charles] Univ Nebraska Syst, Dept Agron & Hort, Lincoln, NE USA.
+   [Orlowski, John M.; Golden, Bobby R.; Kaur, Gurpreet] Mississippi State Univ, Delta Res & Extens Ctr, Stoneville, MS USA.
+   [Singh, Maninderpal; Thelen, Kurt; Laurenz, Randall] Michigan State Univ, Dept Plant Soil & Microbial Sci, Allegan, MI USA.
+   [Davidson, Dan] Illinois Soybean Assoc, Bloomington, IL USA.
+RP Assefa, Y; Ciampitti, IA (corresponding author), Kansas State Univ, Dept Agron, Manhattan, KS 66506 USA.
+EM yareda@ksu.edu; ciampitti@ksu.edu
+RI Lindsey, Laura/AAD-3214-2020; Kaur, Gurpreet/AAN-5004-2020
+OI Conley, Shawn/0000-0002-8413-1088
+FU United Soybean Board (USB) [2234, 1820-152-0108]; Mid-South Soybean
+   Board; Mississippi Soybean Promotion Board; Nebraska Soybean Board;
+   South Dakota Soybean Research and Promotion and Council; Illinois AES
+   project [ILLU-802-344]; K-State Research and Extension (KSRE)
+FX The United Soybean Board (USB Projects#2234 and #1820-152-0108),
+   Mid-South Soybean Board, Mississippi Soybean Promotion Board, Nebraska
+   Soybean Board, South Dakota Soybean Research and Promotion and Council,
+   Illinois AES project ILLU-802-344, and K-State Research and Extension
+   (KSRE), provided funding to support this synthesis analysis. This was
+   contribution no. 19-142-J from the Kansas Agricultural Experiment
+   Station.
+CR Assefa Y, 2018, SCI REP-UK, V8, DOI 10.1038/s41598-018-23362-x
+   Bajaj S., 2008, Journal of New Seeds, V9, P212, DOI 10.1080/15228860802228800
+   Bellaloui N., 2014, Food and Nutrition Sciences, V5, P1605, DOI 10.4236/fns.2014.516173
+   Bellaloui N., 2010, Agricultural Sciences, V1, P102, DOI 10.4236/as.2010.13013
+   Bellaloui N, 2011, SOYBEANS CULTIVATION, P1
+   Bellaloui N, 2008, IRRIGATION SCI, V26, P261, DOI 10.1007/s00271-007-0091-y
+   Bellaloui N, 2015, FRONT PLANT SCI, V6, DOI 10.3389/fpls.2015.00031
+   Bellaloui N, 2009, J AGR FOOD CHEM, V57, P9050, DOI 10.1021/jf901801z
+   Boydak E, 2002, J AGR FOOD CHEM, V50, P4718, DOI 10.1021/jf0255331
+   Carrera C, 2009, CROP SCI, V49, P990, DOI 10.2135/cropsci2008.06.0361
+   Cartter J. L., 1942, Technical Bulletin. United States Department of Agriculture
+   Chung J, 2003, CROP SCI, V43, P1053, DOI 10.2135/cropsci2003.1053
+   Dardanelli JL, 2006, CROP SCI, V46, P1939, DOI 10.2135/cropsci2005.12-0480
+   Egli DB, 2009, AGRON J, V101, P330, DOI 10.2134/agronj2008.0148
+   Elsheikh EAE, 2009, FOOD CHEM, V112, P690, DOI 10.1016/j.foodchem.2008.06.037
+   Gai ZJ, 2017, PLOS ONE, V12, DOI 10.1371/journal.pone.0174841
+   Goldflus F, 2006, Rev. Bras. Cienc. Avic., V8, P105, DOI 10.1590/S1516-635X2006000200006
+   Grieshop CM, 2001, J AGR FOOD CHEM, V49, P2669, DOI 10.1021/jf0014009
+   HAM GE, 1975, AGRON J, V67, P293, DOI 10.2134/agronj1975.00021962006700030004x
+   Haq MU, 2005, AGRON J, V97, P910, DOI 10.2134/agronj2004.0215
+   Hilton S, 2013, PLOS ONE, V8, DOI 10.1371/journal.pone.0059859
+   HOWELL ROBERT W., 1958, AGRON JOUR, V50, P664
+   Jaureguy LM, 2013, CROP SCI, V53, P2162, DOI 10.2135/cropsci2012.12.0683
+   Kumar V, 2006, J FOOD COMPOS ANAL, V19, P188, DOI 10.1016/j.jfca.2005.06.005
+   La Menza NC, 2017, FIELD CROP RES, V213, P204, DOI 10.1016/j.fcr.2017.08.009
+   Lewis S, 2001, BMJ-BRIT MED J, V322, P1479, DOI 10.1136/bmj.322.7300.1479
+   Long NV, 2017, FRONT PLANT SCI, V8, DOI 10.3389/fpls.2017.02106
+   Maestri DM, 1998, J SCI FOOD AGR, V77, P494, DOI [10.1002/(SICI)1097-0010(199808)77:4<494::AID-JSFA69>3.0.CO;2-B, 10.1002/(SICI)1097-0010(199808)77:4&lt;494::AID-JSFA69&gt;3.0.CO;2-B]
+   Mourtzinis S, 2018, FIELD CROP RES, V215, P74, DOI 10.1016/j.fcr.2017.09.035
+   Mourtzinis S, 2017, AGRON J, V109, P2040, DOI 10.2134/agronj2017.05.0247
+   Mourtzinis S, 2017, CROP SCI, V57, P1704, DOI 10.2135/cropsci2016.09.0792
+   Mueller ND, 2012, NATURE, V490, P254, DOI 10.1038/nature11420
+   Nakasathien S, 2000, CROP SCI, V40, P1277, DOI 10.2135/cropsci2000.4051277x
+   Ortez O. A., 2018, GENOTYPES AGRON J, V110, P1, DOI [10.2134/agronj2018.04, DOI 10.2134/AGRONJ2018.04]
+   Osborne SL, 2006, AGRON J, V98, P1569, DOI 10.2134/agronj2006.0089
+   Piper EL, 1999, J AM OIL CHEM SOC, V76, P1233, DOI 10.1007/s11746-999-0099-y
+   Pipolo AE, 2004, ANN APPL BIOL, V144, P71, DOI 10.1111/j.1744-7348.2004.tb00318.x
+   R Development Core Team, 2012, R LANG ENV STAT COMP
+   Rao MSS, 2002, AGRON J, V94, P72, DOI 10.2134/agronj2002.0072
+   Ray JD, 2006, FIELD CROP RES, V99, P67, DOI 10.1016/j.fcr.2006.03.006
+   Ren C, 2009, CROP SCI, V49, P1010, DOI 10.2135/cropsci2008.05.0247
+   Riedell WE, 2009, AGRON J, V101, P870, DOI 10.2134/agronj2008.0186x
+   Robinson AP, 2009, AGRON J, V101, P131, DOI 10.2134/agronj2008.0014x
+   Rotundo JL, 2016, CROP SCI, V56, P797, DOI 10.2135/cropsci2015.06.0394
+   Rotundo JL, 2009, FIELD CROP RES, V110, P147, DOI 10.1016/j.fcr.2008.07.012
+   Rowntree SC, 2014, CROP SCI, V54, P804, DOI 10.2135/cropsci2013.06.0428
+   Rowntree SC, 2013, CROP SCI, V53, P1128, DOI 10.2135/cropsci2012.03.0157
+   Salmeron M, 2016, CROP SCI, V56, P747, DOI 10.2135/cropsci2015.07.0466
+   Salmeron M, 2014, AGRON J, V106, P1893, DOI 10.2134/agronj14.0222
+   SAS Institute, 2012, SAS SOFTW REL 9 2
+   Singer JW, 2008, AGRON J, V100, P1039, DOI 10.2134/agronj2007.0360
+   Carrera CS, 2011, PESQUI AGROPECU BRAS, V46, P1579, DOI 10.1590/S0100-204X2011001200001
+   TEKRONY DM, 1984, CROP SCI, V24, P189, DOI 10.2135/cropsci1984.0011183X002400010045x
+   Wilson EW, 2014, CROP SCI, V54, P340, DOI 10.2135/cropsci2013.05.0339
+   WOOD CW, 1993, J PROD AGRIC, V6, P354, DOI 10.2134/jpa1993.0354
+NR 55
+TC 22
+Z9 23
+U1 3
+U2 12
+PU FRONTIERS MEDIA SA
+PI LAUSANNE
+PA AVENUE DU TRIBUNAL FEDERAL 34, LAUSANNE, CH-1015, SWITZERLAND
+SN 1664-462X
+J9 FRONT PLANT SCI
+JI Front. Plant Sci.
+PD MAR 11
+PY 2019
+VL 10
+AR 298
+DI 10.3389/fpls.2019.00298
+PG 13
+WC Plant Sciences
+SC Plant Sciences
+GA HO2HM
+UT WOS:000460733800001
+PM 30915097
+OA Green Published, gold
+DA 2021-09-05
+ER
+
+PT J
+AU Jukic, G
+   Varnica, I
+   Dugalic, K
+   Rukavina, I
+   Guberac, V
+   Delic, I
+AF Jukic, G.
+   Varnica, I
+   Dugalic, K.
+   Rukavina, I
+   Guberac, V
+   Delic, I
+TI INFLUENCE OF GENOTYPE, YEAR AND LOCATIONS ON YIELD, OIL AND PROTEIN
+   CONTENT OF SOYBEAN - Glycine max (L.) Merr.
+SO POLJOPRIVREDA
+LA Unspecified
+DT Article
+DE soybean; yield; location; oil and protein content
+ID SEED PROTEIN; GRAIN-YIELD; INTERRELATIONSHIPS
+AB During the years 2017 and 2018, field studies were carried out on the impact of year, location and interaction of genotype x location and genotype x year on yield, oil and protein content of soybean seed. The experiment included twenty most common soybean genotypes of different maturation groups, which have a 75% share in the sowing structure. The experiment was set up on locations Osijek and Kutjevo, in two repetitions, in a randomized block design. In 2018, an average higher seed yield, oil content and protein content were achieved primarily due to proper distribution of rainfall. Location Osijek in years of research had an average higher seed yield, and oil and protein content. According to the obtained results of the variance analysis for genotype, interaction of genotype x location and genotype x year, statistically highly justified differences (P <0.01) were obtained for seed yield. For genotype and interaction of genotype x year, statistically justified differences (P <0.05) were obtained for the oil and protein content. Research results will contribute to the proper selection of genotypes depending on the purpose of production in order to exploit the genetic potential of the genotype which is most suitable for a particular location.
+C1 [Jukic, G.; Varnica, I; Dugalic, K.; Rukavina, I] Hrvatska Agencija Poljoprivredu & Hranu, Vinkovacka 63 C, Osijek 31000, Croatia.
+   [Guberac, V] Sveuciliste Josipa Jurja Strossmayera Osijeku, Trg Svetog Trojstva 3, Osijek 31000, Croatia.
+   [Delic, I] Minist Poljoprivrede, Vukovarska 78, Zagreb 10000, Croatia.
+RP Jukic, G (corresponding author), Hrvatska Agencija Poljoprivredu & Hranu, Vinkovacka 63 C, Osijek 31000, Croatia.
+EM goran.jukic@hapih.hr
+CR Assefa Y, 2018, SCI REP-UK, V8, DOI 10.1038/s41598-018-32895-0
+   Bilgili U, 2005, J CENT EUR AGRIC, V6, P397
+   Cavlovicak S., 2015, 50th Croatian & 10th International Symposium on Agriculture, 16-20 February 2015, Opatija, Croatia. Book of Abstracts, P86
+   Chung J, 2003, CROP SCI, V43, P1053, DOI 10.2135/cropsci2003.1053
+   Cicek MS, 2006, CROP SCI, V46, P1253, DOI 10.2135/cropsci2005.06-0162
+   Hrustic M, 1998, PROIZVODNJA PRERADA, V39, P41
+   Hu MX, 2012, AGRON J, V104, P785, DOI 10.2134/agronj2011.0382
+   Josipovic A, 2013, 48 HRVATSK 8 MED S A, P88
+   Jukic G., 2006, Sjemenarstvo, V23, P429
+   Jukic G., 2010, Sjemenarstvo, V27, P103
+   Jukic G, 2019, 54 HRVATSK 14 MED S, P77
+   Koti R. V., 1998, Annals of Plant Physiology, V12, P87
+   Kranjac D., 2019, 54. hrvatski i 14. medunarodni simpozij agronoma, 17. - 22. veljace 2019. godine, Vodice, Hrvatska. Zbornik radova, P127
+   Liu FL, 2003, FUNCT PLANT BIOL, V30, P271, DOI 10.1071/FP02185
+   Ma L, 2015, FOOD CHEM, V173, P694, DOI 10.1016/j.foodchem.2014.10.096
+   Martinic J., 1996, OPLEMENJIVANJE BILJA
+   Miladinovic J, 2004, NAUCNI I RATARSTVO P, V40, P227
+   Popovic M. V, 2010, THESIS, P21
+   Popovic V., 2013, African Journal of Agricultural Research, V8, P5651
+   Schuab SRP, 2001, SEED SCI TECHNOL, V29, P151
+   Subasic DG, 2017, POLJOPRIVREDA, V23, P19, DOI 10.18047/poljo.23.2.3
+   Sudaric A, 2006, PLANT BREEDING, V125, P191, DOI 10.1111/j.1439-0523.2006.01185.x
+   SUDARIC A, 2002, POLJOPRIVREDA, V8, P11
+   Sudaric A, 2001, POLJOPRIVREDA, V7, P9
+   Varnica I, 2018, J CENT EUR AGRIC, V19, P466, DOI 10.5513/JCEA01/19.2.2148
+   Vollmann J, 2000, J SCI FOOD AGR, V80, P1300, DOI 10.1002/1097-0010(200007)80:9&lt;1300::AID-JSFA640&gt;3.0.CO;2-I
+NR 26
+TC 1
+Z9 1
+U1 0
+U2 0
+PU FAC AGRICULTURE OSIJEK
+PI OSIJEK
+PA TRG SV TROJSTVA 3, OSIJEK, 31000, CROATIA
+SN 1330-7142
+EI 1848-8080
+J9 POLJOPRIVREDA
+JI Poljoprivreda
+PY 2019
+VL 25
+IS 2
+BP 3
+EP 10
+DI 10.18047/poljo.25.2.1
+PG 8
+WC Agricultural Economics & Policy
+SC Agriculture
+GA JV1NY
+UT WOS:000502136400001
+OA gold
+DA 2021-09-05
+ER
+
+PT J
+AU Whaley, R
+   Eskandari, M
+AF Whaley, Rachel
+   Eskandari, Mehrzad
+TI Genotypic main effect and genotype-by-environment interaction effect on
+   seed protein concentration and yield in food-grade soybeans (Glycine max
+   (L.) Merrill)
+SO EUPHYTICA
+LA English
+DT Article
+DE Soybean [Glycine max (L; ) Merrill]; Genotypic main effect; Genotype by
+   environment interaction; GGE biplots; Seed protein concentration; Seed
+   yield
+ID TOFU; CULTIVARS; STABILITY; SOYMILK; QUALITY; PERFORMANCE; ISOFLAVONE;
+   AMMI; OIL
+AB As consumers look for healthier dietary alternatives, many have recognized soybean [Glycine max (L.) Merrill] as a prominent source of high quality protein. The major obstacles to developing commercially competitive high protein food-grade soybean cultivars are the complex inheritance of seed protein concentration and its inverse association with yield. A better understanding of the genetic background and environmental conditions influencing soybean seed protein, and its relationship with yield, can facilitate the development of superior high-protein cultivars. Therefore, the main objective of this research was to study the influence of genotype and genotype-by-environment interaction effects (GGE) on seed protein and yield, and their relationship, using two recombinant inbred line (RIL) populations. The RIL populations were derived from crosses between a high-protein cultivar, AC X790P (486gkg(-1), dry weight basis), and two moderate-protein elite cultivars, S18-R6 (404gkg(-1)) and S23-T5 (413gkg(-1)), and were evaluated in a multi-environment trial in southwestern Ontario, Canada, in 2015 and 2016. Significant (P<0.05) phenotypic variation was observed for seed protein and yield in both populations within and across environments. The effects of genotype, environment, and GE interactions on both traits were significant in both populations. Genotypic main effect plus GGE biplot analyses led to the identification of stable high yielding high-protein RILs for the sub-regions and individual testing environments. These results indicated that the association between seed protein and yield can be manipulated using specific genetic backgrounds and environments, and superior genotypes for target regions can be identified using GGE biplots.
+C1 [Whaley, Rachel; Eskandari, Mehrzad] Univ Guelph, Dept Plant Agr, Guelph, ON, Canada.
+RP Eskandari, M (corresponding author), Univ Guelph, Dept Plant Agr, Guelph, ON, Canada.
+EM meskanda@uoguelph.ca
+OI Eskandari, Milad/0000-0003-0862-4048
+FU SeCan; Grain Farmers of Ontario
+FX The assistance and technical support by Bryan Stirling, John Kobler, and
+   the entire soybean crew at the University of Guelph, Ridgetown Campus is
+   gratefully acknowledged. Funding for this project was provided, in part,
+   by SeCan and the Grain Farmers of Ontario.
+CR [Anonymous], SAS 9 4
+   Baianu I, 2012, NAT PRECEDINGS, DOI 10.1038/npre.2012.7053.1
+   Bandillo N, 2015, PLANT GENOME-US, V8, DOI 10.3835/plantgenome2015.04.0024
+   Bhan M. K., 2005, Journal of New Seeds, V7, P127, DOI 10.1300/J153v07n02_07
+   Bhathena SJ, 2002, AM J CLIN NUTR, V76, P1191
+   Bowley S., 2008, HITCHHIKERS GUIDE ST
+   Brzostowski LF, 2017, CROP SCI, V57, P2972, DOI 10.2135/cropsci2017.02.0083
+   Burton J. W, 1984, P WORLD SOYB RES C 3, P361
+   Burton JW, 1987, SOYBEANS IMPROVEMENT, V16, P211
+   Cai TD, 1999, J AGR FOOD CHEM, V47, P720, DOI 10.1021/jf980571z
+   Canadian Food Inspection Agency, 2011, S18R6 GOV CAN CAN FO
+   Canadian Food Inspection Agency, 2011, S23T5 CAN FOOD INSP
+   Carter A, 2018, FIELD CROP RES, V216, P189, DOI 10.1016/j.fcr.2017.11.021
+   Carter T. E., 1998, SOYBEANS ROLE AUSTR, P1
+   Casanoves F, 2005, CROP SCI, V45, P18, DOI 10.2135/cropsci2005.0018
+   Cornelius P. L., 1996, P199
+   Cui Z., 2004, SOYBEANS FUNCTIONAL, P274
+   Dardanelli JL, 2006, CROP SCI, V46, P1939, DOI 10.2135/cropsci2005.12-0480
+   Eskandari M, 2017, CAN J PLANT SCI, V97, P390, DOI 10.1139/cjps-2016-0224
+   Eskandari M, 2017, CAN J PLANT SCI, V97, P337, DOI 10.1139/cjps-2016-0210
+   Eskandari M, 2017, CAN J PLANT SCI, V97, P199, DOI 10.1139/cjps-2016-0179
+   Fu YB, 2007, CROP SCI, V47, P1947, DOI 10.2135/cropsci2006.12.0843
+   GAUCH HG, 1988, THEOR APPL GENET, V76, P1, DOI 10.1007/BF00288824
+   Hasler CM, 1998, FOOD TECHNOL-CHICAGO, V52, P63
+   Helms TC, 1998, CROP SCI, V38, P707, DOI 10.2135/cropsci1998.0011183X003800030015x
+   Kang M.S, 2003, GGE BIPLOT ANAL GRAP
+   Kang MS, 2006, J CROP IMPROV, V15, P97, DOI 10.1300/J411v15n01_08
+   Kim M, 2016, CROP SCI, V56, P219, DOI 10.2135/cropsci2015.06.0340
+   Kim Y, 2005, J SCI FOOD AGR, V85, P2514, DOI 10.1002/jsfa.2287
+   Malvar RA, 2005, CROP SCI, V45, P1052, DOI 10.2135/cropsci2004.0301
+   MESSINA M, 1995, J NUTR, V125, pS567, DOI 10.1093/jn/125.3_Suppl.567S
+   Mian MAR, 2017, J PLANT REGIST, V11, P51, DOI 10.3198/jpr2016.03.0013crc
+   Microsoft Canada Inc, MICR EXC
+   Ontario Ministry of Agriculture Food and Rural Affairs, 2016, PROV FIELD CROP PROD
+   Ontario Soybean and Canola Committee, 2017, SOYB FOOD QUAL REP
+   Pantalone VR, 2018, J PLANT REGIST, V12, P1, DOI [10.3198/jpr2017.04.0020crc, DOI 10.3198/JPR2017.04.0020CRC]
+   Panthee DR, 2006, CROP SCI, V46, P2328, DOI 10.2135/cropsci2005.11.0437
+   Perten Instruments Canada, DA 7250 NIR AN
+   Phuke, 2017, FRONT PLANT SCI, V95, P441, DOI [10.4141/CJPS-2014-337, DOI 10.4141/CJPS-2014-337]
+   Poysa V, 2013, CAN J PLANT SCI, V93, P1277, DOI [10.4141/cjps2013-159, 10.4141/CJPS2013-159]
+   Poysa V, 2002, FOOD RES INT, V35, P337, DOI 10.1016/S0963-9969(01)00125-9
+   Poysa V, 2001, CAN J PLANT SCI, V81, P447, DOI 10.4141/P00-186
+   Primomo VS, 2002, CROP SCI, V42, P37, DOI 10.2135/cropsci2002.0037
+   Rao MSS, 2002, AGRON J, V94, P72, DOI 10.2134/agronj2002.0072
+   Samonte SOPB, 2005, CROP SCI, V45, P2414, DOI 10.2135/cropsci2004.0627
+   SCHAEFER MJ, 1992, J FOOD QUALITY, V15, P53, DOI 10.1111/j.1745-4557.1992.tb00975.x
+   SHANNON JG, 1972, CROP SCI, V12, P824, DOI 10.2135/cropsci1972.0011183X001200060032x
+   SHEN CF, 1991, J FOOD SCI, V56, P109, DOI 10.1111/j.1365-2621.1991.tb07987.x
+   Stanojevic SP, 2011, J AGR FOOD CHEM, V59, P7368, DOI 10.1021/jf2006672
+   Sudaric A, 2006, PLANT BREEDING, V125, P191, DOI 10.1111/j.1439-0523.2006.01185.x
+   Vollmann J, 2000, J SCI FOOD AGR, V80, P1300, DOI 10.1002/1097-0010(200007)80:9&lt;1300::AID-JSFA640&gt;3.0.CO;2-I
+   Vrataric M, 2002, PROCEEDINGS OF THE 4TH CROATIAN CONGRESS OF FOOD TECHNOLOGIST, BIOTECHNOLOGISTS AND NUTRITIONISTS-CENTRAL EUROPEAN MEETING, P233
+   WANG HL, 1982, PROCESS BIOCHEM, V17, P7
+   WILCOX JR, 1995, CROP SCI, V35, P1036, DOI 10.2135/cropsci1995.0011183X003500040019x
+   WILKINSON GN, 1983, J R STAT SOC B, V45, P151
+   Wilson R., 2004, SOYBEANS IMPROVEMENT, P621, DOI DOI 10.2134/AGR0NM0N0GR16.3ED.C13
+   Yan WK, 2007, CROP SCI, V47, P643, DOI 10.2135/cropsci2006.06.0374
+   Yan WK, 2000, CROP SCI, V40, P597, DOI 10.2135/cropsci2000.403597x
+   Yan WK, 2002, CROP SCI, V42, P11, DOI 10.2135/cropsci2002.0011
+   Yang RC, 2011, CAN J PLANT SCI, V91, P621, DOI [10.4141/CJPS2010-032, 10.4141/cjps2010-032]
+   Yin XH, 2005, AGRON J, V97, P1314, DOI 10.2134/agronj2004.0316
+   Yu K, 2015, CAN J PLANT SCI, V95, P441, DOI [10.4141/CJPS-2014-337, 10.4141/cjps-2014-337]
+NR 62
+TC 4
+Z9 4
+U1 1
+U2 4
+PU SPRINGER
+PI DORDRECHT
+PA VAN GODEWIJCKSTRAAT 30, 3311 GZ DORDRECHT, NETHERLANDS
+SN 0014-2336
+EI 1573-5060
+J9 EUPHYTICA
+JI Euphytica
+PD JAN
+PY 2019
+VL 215
+IS 2
+AR 33
+DI 10.1007/s10681-019-2344-2
+PG 17
+WC Agronomy; Plant Sciences; Horticulture
+SC Agriculture; Plant Sciences
+GA HK2VF
+UT WOS:000457770300001
+DA 2021-09-05
+ER
+
+PT J
+AU Wiggins, B
+   Wiggins, S
+   Cunicelli, M
+   Smallwood, C
+   Allen, F
+   West, D
+   Pantalone, V
+AF Wiggins, Benjamin
+   Wiggins, Suzannah
+   Cunicelli, Mia
+   Smallwood, Chris
+   Allen, Fred
+   West, Dennis
+   Pantalone, Vince
+TI Genetic Gain for Soybean Seed Protein, Oil, and Yield in a Recombinant
+   Inbred Line Population
+SO JOURNAL OF THE AMERICAN OIL CHEMISTS SOCIETY
+LA English
+DT Article
+DE Soybean; Yield; Protein; Oil; Heritability; Genetic gain; High-protein
+   meal
+ID HERITABILITY; REGISTRATION; SELECTION
+AB The use of soybean [Glycine max (L.) Merrill] is widespread, with applications in food, fuel, livestock feed, and industrial products. We developed a soybean population of 239 F-4-derived recombinant inbred lines (RIL) from the cross "5601T" x U99-310255 to estimate the heritability and genetic gain for seed protein, oil, and yield, and to assess the utility of making selections for these important traits. Heritability estimates on an entry means basis for protein (0.78), oil (0.65), seed yield (0.38) varied by trait with regard to genetic influence. Genetic gain was calculated for each trait at 5%, 10%, 15%, and 20% selection intensities. With the genetic gain that was obtained through the selections for each trait, some lines excelled above that of the checks and parents in this population. The second and third highest yielding selections (56U99-081 and 56U99-244) are notable in producing 50.2% and 49.8% meal protein, respectively, while maintain high yields above the high-yielding parent, 5601T. Seeking balance for these important soybean traits is essential for breeders looking to make optimal improvements for the wide variety of soybean uses. Further research on this population could prove to be of value to breeding programs wishing to increase seed yield, oil, and protein.
+C1 [Wiggins, Benjamin] Helena Agri Enterprises LLC, Helena Prod Grp, 7664 Smythe Farm Rd, Memphis, TN 38120 USA.
+   [Wiggins, Suzannah] Corteva Agrisci, Agr Div DowDuPont, 11426 US HWY 61 N, New Madrid, MO 63869 USA.
+   [Cunicelli, Mia; Smallwood, Chris; Allen, Fred; West, Dennis; Pantalone, Vince] Univ Tennessee, Dept Plant Sci, 2431 Joe Johnson Dr, Knoxville, TN 37996 USA.
+RP Pantalone, V (corresponding author), Univ Tennessee, Dept Plant Sci, 2431 Joe Johnson Dr, Knoxville, TN 37996 USA.
+EM vpantalo@utk.edu
+RI Smallwood, Chris/L-9303-2019
+OI Smallwood, Chris/0000-0001-6937-8982; Cunicelli, Mia/0000-0001-8847-7628
+CR [Anonymous], 2017, SOY STATS 2017
+   Bachlava E, 2008, CROP SCI, V48, P1764, DOI 10.2135/cropsci2008.01.0049
+   BRIM CA, 1966, CROP SCI, V6, P220, DOI [10.2135/cropsci1966.0011183X000600020041x, 10.2135/cropsci1966.0011183X000600010039x]
+   BURTON JW, 1981, CROP SCI, V21, P31, DOI 10.2135/cropsci1981.0011183X002100010009x
+   Burton JW, 1987, SOYBEANS IMPROVEMENT, V16, P211
+   Diers BW, 2010, J PLANT REGIST, V4, P141, DOI 10.3198/jpr2009.09.0546crg
+   Fehr W. R., 1977, 80 IOW AGR HOM EC ST
+   Hamawaki OT, 2000, GENET MOL BIOL, V23, P855, DOI 10.1590/S1415-47572000000400026
+   HARRISON SA, 1981, CROP SCI, V21, P222, DOI 10.2135/cropsci1981.0011183X002100020004x
+   Lee SH, 1996, THEOR APPL GENET, V93, P649, DOI 10.1007/BF00224058
+   Li HX, 2002, CROP SCI, V42, P393, DOI 10.2135/cropsci2002.0393
+   NYQUIST WE, 1991, CRIT REV PLANT SCI, V10, P235, DOI 10.1080/07352689109382313
+   Pantalone V, 2018, J PLANT REGIST, V12, P304, DOI 10.3198/jpr2017.10.0074crc
+   Pantalone VR, 2003, CROP SCI, V43, P1123, DOI 10.2135/cropsci2003.1123
+   Pantalone VR, 2004, CROP SCI, V44, P1483, DOI 10.2135/cropsci2004.1483a
+   Pantalone VR, 1996, CROP SCI, V36, P1120, DOI 10.2135/cropsci1996.0011183X003600050008x
+   Panthee DR, 2006, THEOR APPL GENET, V112, P546, DOI 10.1007/s00122-005-0161-6
+   SAS Institute, 2011, SAS SYST WIND
+   Smallwood C. J., 2017, Journal of Crop Science and Biotechnology, V20, P243, DOI 10.1007/s12892-017-0020-0
+NR 19
+TC 3
+Z9 5
+U1 0
+U2 6
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 0003-021X
+EI 1558-9331
+J9 J AM OIL CHEM SOC
+JI J. Am. Oil Chem. Soc.
+PD JAN
+PY 2019
+VL 96
+IS 1
+BP 43
+EP 50
+DI 10.1002/aocs.12166
+PG 8
+WC Chemistry, Applied; Food Science & Technology
+SC Chemistry; Food Science & Technology
+GA HH1NC
+UT WOS:000455485800005
+DA 2021-09-05
+ER
+
+PT J
+AU Gesteira, GD
+   Bruzi, AT
+   Zito, RK
+   Fronza, V
+   Arantes, NE
+AF Gesteira, Gabriel de Siqueira
+   Bruzi, Adriano Teodoro
+   Zito, Roberto Kazuhiko
+   Fronza, Vanoli
+   Arantes, Neylson Eustaquio
+TI Selection of Early Soybean Inbred Lines Using Multiple Indices
+SO CROP SCIENCE
+LA English
+DT Article
+ID GGE BIPLOT; DURUM-WHEAT; GENOTYPES; ADAPTABILITY; STABILITY; STATE
+AB Soybean [Glycine max (L.) Merr.] has been studied and enhanced for most of its economically important traits. Previous research has studied the association among them and the effect of the genotype x environment interaction; however, less is known about their correlation considering absolute maturity, as well as the use of multiple selection indices to study the genotype x environment interaction and select superior cultivars. Regarding this, the aim of the present study was to identify lines that associate precocity, good yield performance, and high oil and protein contents in the grains, as well as to estimate the correlation among these traits and study the effect of genotype x environment interaction using a standardized multiple selection index. Trials were conducted in two crop seasons in the state of Minas Gerais, Brazil, with 39 lines in 13 evaluation environments. The experiments were conducted in a randomized complete block design with four replications, and the grain yield, absolute maturity, and oil and protein contents in the grains were evaluated. The results indicated high experimental precision and accuracy, with significant differences among lines for all traits. High-magnitude correlations between evaluated traits were found, highlighting the negative correlation between absolute maturity and protein content in the grains. The genotype x environment interaction was also significant, and the use of the multiple selection index was efficient to identify superior and stable inbred lines by the genotype + genotype x environment (GGE) biplot method, which explained 82.23% of the genotype x environment interaction effect. Lines 27 and 31 stood out from the others because they associated stability and good performance for all evaluated traits.
+C1 [Gesteira, Gabriel de Siqueira] Luiz Queiroz Coll Agr ESALQ USP, Genet & Plant Breeding Dept, Piracicaba, SP, Brazil.
+   [Bruzi, Adriano Teodoro] Fed Univ Lavras UFLA, Plant Sci Dept, Lavras, MG, Brazil.
+   [Zito, Roberto Kazuhiko] EMBRAPA Soybean, Londrina, Parana, Brazil.
+   [Fronza, Vanoli] EMBRAPA Wheat, Passo Fundo, RS, Brazil.
+   [Arantes, Neylson Eustaquio] Triangle Fdn, Uberaba, MG, Brazil.
+RP Gesteira, GD (corresponding author), Luiz Queiroz Coll Agr ESALQ USP, Genet & Plant Breeding Dept, Piracicaba, SP, Brazil.
+EM gabrielgesteira@usp.br
+CR ALLARD R. W., 1964, CROP SCI, V4, P503
+   Amira J. O., 2013, African Crop Science Journal, V21, P67
+   Barros H. B., 2012, Journal of Biotechnology and Biodiversity, V3, P49
+   Bhan M. K., 2005, Journal of New Seeds, V7, P127, DOI 10.1300/J153v07n02_07
+   Bueno R. D., 2013, African Journal of Agricultural Research, V8, P4853
+   Camargo-Buitrago I, 2011, PESQUI AGROPECU BRAS, V46, P1061, DOI 10.1590/S0100-204X2011000900013
+   Carvalho Claudio Guilherme Portela de, 2002, Pesq. agropec. bras., V37, P989, DOI 10.1590/S0100-204X2002000700013
+   CONAB, 2016, 201516 SAFR CONAB, V3
+   Cruz CD, 2012, MODELOS BIOMETRICOS
+   de Almeida RD, 2010, BIOSCI J, V26, P95
+   de Carvalho CGP, 2002, PESQUI AGROPECU BRAS, V37, P311, DOI 10.1590/S0100-204X2002000300012
+   de Vasconcelos ES, 2010, ACTA SCI-AGRON, V32, P411, DOI 10.4025/actasciagron.v32i3.8249
+   Dogan Y., 2016, Agriculture and Forestry, V62, P239
+   EMBRAPA, 2013, TECN PROD SOJ REG CT
+   Gesteira GD, 2015, REV AGROGEOAMBIENTAL, V7, P81, DOI 10.18406/2316-1817v7n32015730
+   Heil C, 2010, THERMO FISHER SCI
+   Kang M.S., 1996, GENOTYPE ENV INTERAC
+   Kaster M., 2012, REGIONALIZACAO TESTE
+   Kendal E, 2016, J ANIM PLANT SCI, V26, P754
+   Kendal E, 2015, J AGR SCI TECH-IRAN, V17, P1873
+   Kendal E, 2016, PAK J BOT, V48, P1903
+   Kendal E, 2016, BANGL J BOT, V45, P613
+   Kendal E, 2015, INDIAN J GENET PL BR, V75, P341, DOI 10.5958/0975-6906.2015.00054.1
+   Lima WF, 2008, PESQUI AGROPECU BRAS, V43, P729, DOI 10.1590/S0100-204X2008000600009
+   Lopes Ângela Celis de Almeida, 2002, Sci. agric. (Piracicaba, Braz.), V59, P341, DOI 10.1590/S0103-90162002000200021
+   Marques MC, 2011, BIOSCI J, V27, P59
+   MDVde Resende, 2007, PESQUI AGROPECUARIA, V37, P182, DOI DOI 10.5216/PAT.V37I3.1867
+   Mendes FF, 2009, PESQUI AGROPECU BRAS, V44, P1312, DOI 10.1590/S0100-204X2009001000015
+   Oliveira Adriano Borges de, 2003, Pesq. agropec. bras., V38, P357
+   Nogueira APO, 2012, BIOSCI J, V28, P877
+   Peluzio J. M., 2005, Revista Ceres, V52, P779
+   PIMENTEL-GOMES F, 2009, CURSO ESTATISTICA EX, V15
+   Pipolo, 2005, SEMIN-CIENC AGRAR, V26, P11, DOI [10.5433/1679-0359.2005v26n1p11, DOI 10.5433/1679-0359.2005V26N1P11]
+   R Core Team, 2017, R LANG ENV STAT COMP
+   Rigon João Paulo Gonsiorkiewicz, 2012, Rev. Ceres, V59, P233, DOI 10.1590/S0034-737X2012000200012
+   Rincker K., 2014, CROP SCI, V54, P1419, DOI DOI 10.2135/CR0PSCI2013.10.0665
+   SCOTT AJ, 1974, BIOMETRICS, V30, P507, DOI 10.2307/2529204
+   Sediyama T., 2015, MELHORAMENTO GENETIC, V1
+   Silva K. B, 2015, GENET MOL RES, V15, P1
+   SILVA Karla Lidiane Costa Martins, 2016, THESIS
+   Soares IO, 2015, GENET MOL RES, V14, P8995, DOI 10.4238/2015.August.7.8
+   Yan WK, 2013, CROP SCI, V53, P48, DOI 10.2135/cropsci2012.05.0301
+   Yan WeiKai, 2011, Journal of the Indian Society of Agricultural Statistics, V65, P181
+   Yan WK, 2010, EUPHYTICA, V171, P355, DOI 10.1007/s10681-009-0030-5
+   Yan WK, 2000, CROP SCI, V40, P597, DOI 10.2135/cropsci2000.403597x
+NR 45
+TC 6
+Z9 7
+U1 0
+U2 3
+PU CROP SCIENCE SOC AMER
+PI MADISON
+PA 677 S SEGOE ROAD, MADISON, WI 53711 USA
+SN 0011-183X
+EI 1435-0653
+J9 CROP SCI
+JI Crop Sci.
+PD NOV-DEC
+PY 2018
+VL 58
+IS 6
+BP 2494
+EP 2502
+DI 10.2135/cropsci2018.05.0295
+PG 9
+WC Agronomy
+SC Agriculture
+GA GX5JS
+UT WOS:000447783200026
+OA Green Submitted, Green Published
+DA 2021-09-05
+ER
+
+PT J
+AU Arslan, H
+   Karakus, M
+   Hatipoglu, H
+   Arslan, D
+   Bayraktar, OV
+AF Arslan, H.
+   Karakus, M.
+   Hatipoglu, H.
+   Arslan, D.
+   Bayraktar, O., V
+TI ASSESSMENT OF PERFORMANCES OF YIELD AND FACTORS AFFECTING THE YIELD IN
+   SOME SOYBEAN VARIETIES/LINES GROWN UNDER SEMI-ARID CLIMATE CONDITIONS
+SO APPLIED ECOLOGY AND ENVIRONMENTAL RESEARCH
+LA English
+DT Article
+DE soybean; heat stress; plant and environment interactions
+ID HIGH-TEMPERATURE; PROTEIN; SEED; OIL; ISOFLAVONES; DROUGHT
+AB The aim of this study was to determine the performances of yield and factors affecting the yield of 9 soybean lines and 2 standard soybean varieties grown in the soybean production seasons of 2012 and 2013 under semi-arid climatic conditions. The results indicated that performances of yield and other characteristics of soybean varieties/lines obtained in both trial seasons were significantly different from each other. The average temperature of experimental site in the first plant growing season was higher than that of the second year. The difference in temperatures between two growing seasons adversely influenced the yield, parameters affecting the yield and some quality parameters. Negative relationship between soybean yield and the temperature, an environmental factor that cannot be controlled during the growing season of the soybean, was obtained.
+C1 [Arslan, H.; Arslan, D.] Siirt Univ, Fac Agr, Field Crops Dept, Siirt, Turkey.
+   [Karakus, M.; Hatipoglu, H.] GAP Agr Res Inst, Field Crops Dept, Sanliurfa, Turkey.
+   [Bayraktar, O., V] Siirt Univ, Fac Agr, Agr Econ Dept, Siirt, Turkey.
+RP Arslan, H (corresponding author), Siirt Univ, Fac Agr, Field Crops Dept, Siirt, Turkey.
+EM huarslan@siirt.edu.tr
+RI ARSLAN, Huseyin/ABF-8839-2020
+OI ARSLAN, Huseyin/0000-0001-7221-7952
+FU General Directorate of Agricultural Research and Politics
+   [TAGEM/TA/09/05/01/0014]
+FX This study was conducted by the supports of General Directorate of
+   Agricultural Research and Politics affiliated to the Turkish Republic
+   Ministry of Food, Agriculture and Livestock within the scope of Soybean
+   Breeding Project (TAGEM/TA/09/05/01/0014). Soybean line 11 was
+   registered as GAPSOY-16 in 2016 by the Directorate of Seed Registration
+   and Certification Center affiliated to the Ministry of Food, Agriculture
+   and Livestock of Turkey.
+CR Arioglu H. H., 2007, PUBLICATION CUKUROVA, p[14, 49]
+   Baydar H., 2014, OIL RESOURCES SCI TE
+   Brouns F, 2002, FOOD RES INT, V35, P187, DOI 10.1016/S0963-9969(01)00182-X
+   DORNBOS DL, 1992, J AM OIL CHEM SOC, V69, P228, DOI 10.1007/BF02635891
+   Hasanuzzaman M, 2016, ENVIRONMENTAL STRESSES IN SOYBEAN PRODUCTION: SOYBEAN PRODUCTION, VOL 2, P61, DOI 10.1016/B978-0-12-801535-3.00004-8
+   Hymowitz T, 2005, CROP SCI, V45, P473, DOI 10.2135/cropsci2005.0473
+   Ionescu N, 2016, AGROLIFE SCI J, V5, P99
+   JOHNSON HERBERT W., 1955, AGRON JOUR, V47, P477
+   Jumrani K, 2018, PHYSIOL MOL BIOL PLA, V24, P37, DOI 10.1007/s12298-017-0480-5
+   Kumar V, 2006, J FOOD COMPOS ANAL, V19, P188, DOI 10.1016/j.jfca.2005.06.005
+   Kumar V, 2003, FOOD CHEM, V83, P79, DOI 10.1016/S0308-8146(03)00052-9
+   LOVATI MR, 1987, J CLIN INVEST, V80, P1498, DOI 10.1172/JCI113232
+   Messina MJ, 1999, AM J CLIN NUTR, V70, p439S, DOI 10.1093/ajcn/70.3.439s
+   Oner T., 2006, SOYBEAN IND REPORT, P7
+   Piper EL, 1999, J AM OIL CHEM SOC, V76, P1233, DOI 10.1007/s11746-999-0099-y
+   Pipolo AE, 2004, ANN APPL BIOL, V144, P71, DOI 10.1111/j.1744-7348.2004.tb00318.x
+   Shah NH, 2003, PLANT SOIL, V257, P219, DOI 10.1023/A:1026237816578
+   Singh G, 2010, SOYBEAN: BOTANY, PRODUCTION AND USES, P24, DOI 10.1079/9781845936440.0024
+   Thomas JMG, 2003, CROP SCI, V43, P1548, DOI 10.2135/cropsci2003.1548
+   Turkish State Meteorological Service, 2017, MET DAT INF SAL PRES
+   Uesugi T, 2002, J AM COLL NUTR, V21, P97, DOI 10.1080/07315724.2002.10719200
+   USDA, 2018, OILS WORLD MARK TRAD
+   Wang J, 2015, MOL BREEDING, V35, DOI 10.1007/s11032-015-0285-6
+   Xiao CW, 2008, J NUTR, V138, p1244S
+NR 24
+TC 2
+Z9 2
+U1 0
+U2 1
+PU CORVINUS UNIV BUDAPEST
+PI BUDAPEST
+PA VILLANYI UT 29/43, BUDAPEST, H-1118, HUNGARY
+SN 1589-1623
+EI 1785-0037
+J9 APPL ECOL ENV RES
+JI Appl. Ecol. Environ. Res.
+PY 2018
+VL 16
+IS 4
+BP 4289
+EP 4298
+DI 10.15666/aeer/1604_42894298
+PG 10
+WC Ecology; Environmental Sciences
+SC Environmental Sciences & Ecology
+GA GQ7HP
+UT WOS:000441908200037
+OA gold
+DA 2021-09-05
+ER
+
+PT J
+AU Bachleda, N
+   Grey, T
+   Li, ZL
+AF Bachleda, Nicole
+   Grey, Timothy
+   Li, Zenglu
+TI Effects of high oleic acid soybean on seed yield, protein and oil
+   contents, and seed germination revealed by near-isogeneic lines
+SO PLANT BREEDING
+LA English
+DT Article
+DE DNA marker; high oleic acid; seed germination; soybean; yield
+ID OLEATE CONTENT; DESATURASE; REGISTRATION; CULTIVARS; PROFILE
+AB Typical soybean oil is composed of palmitic, stearic, oleic, linoleic and linolenic acids. High oleic acid content in soybean seed is a key compositional trait that improves oxidative stability and increases oil functionality and shelf life. Using a marker-assisted selection method, near-isogenic lines (NILs) of G00-3213 for the high oleic trait were developed and yield tested. These NILs have various combinations of FAD2-1A and FAD2-1B alleles that were derived from the same backcrossing populations. The results indicated that G00-3213 NILs with both homozygous mutant FAD2-1A and FAD2-1B alleles produced an average of 788g/kg oleic acid content. The results also demonstrated that possessing these mutant alleles did not cause a yield reduction. Furthermore, seed germination tests across 12 temperatures (12.8-32.0 degrees C) showed that modified seed composition for oleic acid in general did not have a major impact on seed germination. However, there was a possible reduction in seed germination vigour when high oleic seeds are planted in cold soil. The mutant FAD2-1A and FAD2-1B alleles did not hinder either seed or plant development.
+C1 [Bachleda, Nicole; Li, Zenglu] Univ Georgia, Inst Plant Breeding Genet & Genom, Athens, GA 30602 USA.
+   [Bachleda, Nicole; Li, Zenglu] Univ Georgia, Dept Crop & Soil Sci, Athens, GA 30602 USA.
+   [Grey, Timothy] Univ Georgia, Dept Crop & Soil Sci, Tifton, GA USA.
+RP Li, ZL (corresponding author), Univ Georgia, Inst Plant Breeding Genet & Genom, Athens, GA 30602 USA.; Li, ZL (corresponding author), Univ Georgia, Dept Crop & Soil Sci, Athens, GA 30602 USA.
+EM zli@uga.edu
+FU United Soybean Board
+FX United Soybean Board
+CR Alt JL, 2005, CROP SCI, V45, P1997, DOI 10.2135/cropsci2004.0664
+   Anai T, 2008, BREEDING SCI, V58, P447, DOI 10.1270/jsbbs.58.447
+   Pham AT, 2011, THEOR APPL GENET, V123, P793, DOI 10.1007/s00122-011-1627-3
+   Bachlava E, 2008, CROP SCI, V48, P640, DOI 10.2135/cropsci2007.07.0381
+   Bachlava E, 2009, CROP SCI, V49, P433, DOI 10.2135/cropsci2008.06.0324
+   Berglund L, 2007, AM J CLIN NUTR, V86, P1611
+   Beuselinck PR, 2006, CROP SCI, V46, P747, DOI 10.2135/cropsci2005-04-0041
+   Bilyeu K, 2005, CROP SCI, V45, P1830, DOI 10.2135/cropsci2004.0632
+   Boerma HR, 2000, CROP SCI, V40, P294, DOI 10.2135/cropsci2000.0008rcv
+   Brace RC, 2011, CROP SCI, V51, P534, DOI 10.2135/cropsci2010.04.0234
+   Brink K, 2014, CROP SCI, V54, P2160, DOI 10.2135/cropsci2012.06.0377
+   CARDINA J, 1989, WEED TECHNOL, V3, P402
+   Carter TE, 2003, CROP SCI, V43, P1126, DOI 10.2135/cropsci2003.1126
+   CHATTERTON NJ, 1969, AGRON J, V61, P643, DOI 10.2134/agronj1969.00021962006100040049x
+   CHERRY JH, 1984, PHYTOCHEMISTRY, V23, P2183, DOI 10.1016/S0031-9422(00)80516-6
+   CHERRY JH, 1985, PHYTOCHEMISTRY, V24, P237, DOI 10.1016/S0031-9422(00)83527-X
+   Dierking EC, 2009, BMC PLANT BIOL, V9, DOI 10.1186/1471-2229-9-89
+   Fehr WR, 2007, CROP SCI, V47, pS72, DOI 10.2135/cropsci2007.04.0004IPBS
+   Graef G, 2009, PLANT BIOTECHNOL J, V7, P411, DOI 10.1111/j.1467-7652.2009.00408.x
+   Grey TL, 2011, INT J AGRON, V2011, DOI 10.1155/2011/202341
+   HOWELL ROBERT W., 1957, AGRON JOUR, V49, P593
+   Keim P., 1988, Soybean Genetics Newsletter, V15, P150
+   Kim HJ, 2015, EUPHYTICA, V201, P285, DOI 10.1007/s10681-014-1210-5
+   Kinney AJ, 1996, J FOOD LIPIDS, V3, P273, DOI 10.1111/j.1745-4522.1996.tb00074.x
+   Knowlton S, 1999, US Patent, Patent No. [5,981,781, 5981781]
+   Kumar V, 2006, J FOOD COMPOS ANAL, V19, P188, DOI 10.1016/j.jfca.2005.06.005
+   La TC, 2014, CROP SCI, V54, P2054, DOI 10.2135/cropsci2013.12.0819
+   Lee J. D., 2007, Journal of Crop Science and Biotechnology, V10, P201
+   Lee JD, 2009, CROP SCI, V49, P1762, DOI 10.2135/cropsci2008.11.0663
+   Maestri DM, 1998, J SCI FOOD AGR, V77, P494, DOI [10.1002/(SICI)1097-0010(199808)77:4<494::AID-JSFA69>3.0.CO;2-B, 10.1002/(SICI)1097-0010(199808)77:4&lt;494::AID-JSFA69&gt;3.0.CO;2-B]
+   MOHAPATRA SC, 1986, AGRON J, V78, P351, DOI 10.2134/agronj1986.00021962007800020028x
+   Oliva ML, 2006, CROP SCI, V46, P2069, DOI 10.2135/cropsci2005.12.0474
+   Pham AT, 2014, MOL BREEDING, V33, P895, DOI 10.1007/s11032-013-0003-1
+   Pham AT, 2010, BMC PLANT BIOL, V10, DOI 10.1186/1471-2229-10-195
+   REDDY BVS, 2007, INT C LINK EN WAT MA
+   Schlueter JA, 2007, BMC GENOMICS, V8, DOI 10.1186/1471-2164-8-330
+   Shi Z, 2015, MOL BREEDING, V35, DOI 10.1007/s11032-015-0368-4
+   Sudaric A, 2006, PLANT BREEDING, V125, P191, DOI 10.1111/j.1439-0523.2006.01185.x
+   Thomas A., 2000, FATS FATTY OILS ULLM
+   WOLF RB, 1982, J AM OIL CHEM SOC, V59, P230, DOI 10.1007/BF02582182
+NR 40
+TC 9
+Z9 9
+U1 1
+U2 19
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 0179-9541
+EI 1439-0523
+J9 PLANT BREEDING
+JI Plant Breed.
+PD AUG
+PY 2017
+VL 136
+IS 4
+BP 539
+EP 547
+DI 10.1111/pbr.12497
+PG 9
+WC Agronomy; Biotechnology & Applied Microbiology; Plant Sciences
+SC Agriculture; Biotechnology & Applied Microbiology; Plant Sciences
+GA FD2YR
+UT WOS:000407401200010
+DA 2021-09-05
+ER
+
+PT J
+AU Popovic, V
+   Tatic, M
+   Sikora, V
+   Ikanovic, J
+   Drazic, G
+   Djukic, V
+   Mihailovic, B
+   Filipovic, V
+   Dozet, G
+   Jovanovic, L
+   Stevanovic, P
+AF Popovic, Vera
+   Tatic, Miaden
+   Sikora, Vladimir
+   Ikanovic, Jela
+   Drazic, Gordana
+   Djukic, Vojin
+   Mihailovic, Bozo
+   Filipovic, Vladimir
+   Dozet, Gordana
+   Jovanovic, Ljiljana
+   Stevanovic, Petar
+TI VARIABILITY OF YIELD AND CHEMICAL COMPOSITION IN SOYBEAN GENOTYPES GROWN
+   UNDER DIFFERENT AGROECOLOGICAL CONDITIONS OF SERBIA
+SO ROMANIAN AGRICULTURAL RESEARCH
+LA English
+DT Article
+DE soybean; agro ecological factors; yield; quality characteristics
+ID PROTEIN; OIL
+AB Study of the interaction between genotype (G) and year (Y) provides good estimates of genotypes breeding values. In order to investigate the main effects of G, Y and G x Y interactions on yield and quality components of NS soybean genotypes, an experiment with genotypes of different maturity groups was carried out during three-year period. The average yield for all genotypes was 4,716 kg ha(-1). Genotype, year and interaction G x Y had statistically significant effect on the yield, p<0.05, p<0.01. The highest grain yields per unit area had, on an average, was recorded in genotype Venera (4,962 kg ha(-1)), significantly higher than genotype Vojvodjanka (4,522 kg ha(-1)), p<0.05. The highest yield stability was recorded by genotypes of MG 0.
+   The average protein content of all examined genotypes was 37.60%. Year, genotype and G x Y interaction had statistically significant effects on protein content. Genotype Galina had on an average the highest protein content (38.11%), significantly higher than genotypes Trijumf, Valjevka and Venera, p<0.05. Significantly higher protein content was achieved during 2008 and 2009 compared with 2010, p<0.05, p<0.01. Average protein yield for all genotypes was 1,711 kg ha(-1). The highest protein yields had genotype Venera, significantly higher than genotype Vojvodjanka, p<0.05. The average oil content for all examined genotypes was 21.51%. The most favorable year for oil synthesis in the test period was 2008 (22.41%). Statistically significantly higher oil content was recorded in 2008 (22.41%) compared to 2010 (20.22%) and significantly higher than in 2009 (21.89%), p<0.05. Genotype Valjevka (21.78%) had on average significantly higher oil content than genotype Trijumf, p<0.05. The average oil yield for all genotypes was 1,014 kg ha(-1). On average the highest oil yield was recorded in genotype Venera. The yield was negatively statistically significant correlated with protein content, highly negatively significant correlated with air temperature and positively significant correlated by protein yield, oil yield and precipitation.
+   The goal of the breeder was to create highly productive soybean varieties, followed by quality grain. This research can constitute the basis for further soybean breeding.
+C1 [Popovic, Vera; Tatic, Miaden; Sikora, Vladimir; Djukic, Vojin] Inst Field & Vegetable Crops, Maksima Gorkog St 30, Novi Sad, Serbia.
+   [Ikanovic, Jela; Stevanovic, Petar] Univ Belgrade, Fac Agriciculture, Nemanjina 6, Zemunbelgrade, Serbia.
+   [Drazic, Gordana] Univ Singidunum, Fac Appl Ecol, Danielova 32, Belgrade, Serbia.
+   [Mihailovic, Bozo; Jovanovic, Ljiljana] Univ Montenegro, Fac Econ & Rectorat, Jovana Tomasev 37, Podgorica, Montenegro.
+   [Filipovic, Vladimir] Inst Med Plant Res Dr Josif Pancic, T Koscuska 1, Belgrade 11000, Serbia.
+   [Dozet, Gordana] Univ Megatrend, Fac Biofarming, Marsala Tita 39, Backa Topola 34000, Serbia.
+RP Popovic, V (corresponding author), Inst Field & Vegetable Crops, Maksima Gorkog St 30, Novi Sad, Serbia.
+EM bravera@eunet.rs
+RI Dr. Vera Popovic, Institute of Field and Vegetable Crops/K-8821-2019;
+   Filipovic, Vladimir/Q-8189-2017
+OI Filipovic, Vladimir/0000-0002-7081-8217
+FU Ministry of Education, Science and Technological Development of the
+   Republic of Serbia [TR 31022, TR 32078, TR 16610021]
+FX Experiment needed for this work is part of the projects: TR 31022, TR
+   32078 and TR 16610021 financed by the Ministry of Education, Science and
+   Technological Development of the Republic of Serbia.
+CR Bran M, 2008, ROM AGRIC RES, V25, P97
+   Brumm J.T., 2002, QUALITY 2002 SOYBEAN
+   Chung J, 2003, CROP SCI, V43, P1053, DOI 10.2135/cropsci2003.1053
+   Evans LT, 1999, CROP SCI, V39, P1544, DOI 10.2135/cropsci1999.3961544x
+   Glamoclija D.J., 2015, MONOGRAPH IPN BELGRA, P20
+   Mahailovic B., 2008, MARKETING
+   Maletic R., 2005, STATISTICS
+   Miladinovic J., 2008, SOYBEAN, P510
+   Popovic V., 2015, Agriculture and Forestry, V61, P67
+   Popovic V., 2014, Agriculture and Forestry, V60, P33
+   Popovic V., 2010, THESIS, P20
+   Popovic V., 2014, AJAR AFRICAN J AGR R, V8, P5651, DOI [10.5897/AJAR12.1146, DOI 10.5897/AJAR12.1146]
+   Popovic V., 2015, ROM AGRIC RES, V32, P1
+   Popovic V., 2011, EC AGR BELGRADE EP, V2, P323
+   Popovic V, 2013, ROM AGRIC RES, V30, P241
+   Vrandecic K., 2014, IMPACT TILLAGE FERTI, P139
+NR 16
+TC 15
+Z9 17
+U1 0
+U2 5
+PU NATL AGRICULTURAL RESEARCH & DEVELOPMENT INST
+PI FUNDULEA
+PA CALARASI COUNTY, FUNDULEA, 915200, ROMANIA
+SN 1222-4227
+J9 ROM AGRIC RES
+JI Rom. Agric. Res.
+PY 2016
+VL 33
+BP 29
+EP 39
+PG 11
+WC Agronomy
+SC Agriculture
+GA EB1EY
+UT WOS:000387093600004
+DA 2021-09-05
+ER
+
+PT J
+AU Silva, KB
+   Bruzi, AT
+   Zuffo, AM
+   Zambiazzi, EV
+   Soares, IO
+   de Rezende, PM
+   Fronza, V
+   Vilela, GDL
+   Botelho, FBS
+   Teixeira, CM
+   Coelho, MAD
+AF Silva, K. B.
+   Bruzi, A. T.
+   Zuffo, A. M.
+   Zambiazzi, E. V.
+   Soares, I. O.
+   de Rezende, P. M.
+   Fronza, V.
+   Vilela, G. D. L.
+   Botelho, F. B. S.
+   Teixeira, C. M.
+   Coelho, M. A. de O.
+TI Adaptability and phenotypic stability of soybean cultivars for grain
+   yield and oil content
+SO GENETICS AND MOLECULAR RESEARCH
+LA English
+DT Article
+DE GGE biplot; Glycine max L. Merrill; Wricke; Genotype-environment
+   interaction
+ID PROTEIN; PERFORMANCE
+AB The aim of this study was to verify the adaptability and stability of soybean cultivars with regards to yield and oil content. Data of soybean yield and oil content were used from experiments set up in six environments in the 2011/12 and 2012/13 crop seasons in the municipalities of Patos de Minas, Uberaba, Lavras, and Sao Gotardo, Minas Gerais, Brazil, testing 36 commercial soybean cultivars of both conventional and transgenic varieties. The Wricke method and GGE biplot analysis were used to evaluate adaptability and stability of these cultivars. Large variations were observed in grain yield in relation to the different environments studied, showing that these materials are adaptable. The cultivars exhibited significant differences in oil content. The cultivars BRSGO204 (Goiania) and BRSMG (Garantia) exhibited the greatest average grain yield in the different environments studied, and the cultivar BRSMG 760 SRR had the greatest oil content among the cultivars evaluated. Ecovalence was adopted to identify the most stable cultivars, and the estimates were nearly uniform both for grain yield and oil content, showing a variation of 0.07 and 0.01%, respectively. The GGE biplot was efficient at identifying cultivars with high adaptability and phenotype stability.
+C1 [Silva, K. B.; Bruzi, A. T.; Zuffo, A. M.; Zambiazzi, E. V.; Soares, I. O.; de Rezende, P. M.; Vilela, G. D. L.; Botelho, F. B. S.] Univ Fed Lavras, Dept Agr, Lavras, MG, Brazil.
+   [Fronza, V.] Empresa Brasileira Pesquisa Agr, Londrina, PR, Brazil.
+   [Teixeira, C. M.; Coelho, M. A. de O.] Empresa Pesquisa Agr Minas Gerais, Unidade Reg EPAMIG Triangulo & Alto Paranaiba, Uberaba, MG, Brazil.
+RP Bruzi, AT (corresponding author), Univ Fed Lavras, Dept Agr, Lavras, MG, Brazil.
+EM adrianobruzi@dag.ufla.br
+RI de Barros Vilela Junior, Guanis/N-3753-2013; Zuffo, Alan
+   Mario/AAY-6828-2020
+OI de Barros Vilela Junior, Guanis/0000-0001-8136-1913; Zuffo, Alan
+   Mario/0000-0001-9704-5325
+FU Conselho Nacional de Desenvolvimento Cientifico e Tecnologico
+   (CNPq)Conselho Nacional de Desenvolvimento Cientifico e Tecnologico
+   (CNPQ); Fundacao de Amparo a Pesquisa do Estado de Minas Gerais
+   (FAPEMIG)Fundacao de Amparo a Pesquisa do Estado de Minas Gerais
+   (FAPEMIG)
+FX The authors wish to thank Conselho Nacional de Desenvolvimento
+   Cientifico e Tecnologico (CNPq) for granting the scholarship; Fundacao
+   de Amparo a Pesquisa do Estado de Minas Gerais (FAPEMIG) for financial
+   support; Empresa de Pesquisa Agropecuaria de Minas Gerais (EPAMIG) for
+   assistance in experimental design; Universidade Federal de Lavras
+   (UFLA); and Departamento de Agricultura (DAG) for the opportunity to
+   carry out this study.
+CR Arioglu HH, 2007, BREEDING GROWING OIL
+   Arslanoglu F, 2011, AFR J BIOTECHNOL, V10, P18409, DOI 10.5897/AJB10.1879
+   Ayres M, 2007, BIOESTAT 5 0 APLICAC
+   Carvalho ER, 2010, CIENC AGROTEC, V34, P892, DOI 10.1590/S1413-70542010000400014
+   CONAB - Companhia Nacional de Abastecimento, 2014, AC SAFR BRAS GRAOS S
+   Rocha Maurisrael de Moura, 2006, Cienc. Rural, V36, P772, DOI 10.1590/S0103-84782006000300008
+   de Oliveira RL, 2010, CROP BREED APPL BIOT, V10, P247, DOI 10.1590/S1984-70332010000300010
+   Gunasekera CP, 2006, EUR J AGRON, V25, P13, DOI 10.1016/j.eja.2006.02.001
+   IAL-INSTITUTO ADOLFO LUTZ (Sao Paulo), 2008, MET FIS QUIM AN AL
+   Kane MV, 1997, AGRON J, V89, P464, DOI 10.2134/agronj1997.00021962008900030016x
+   LIN CS, 1986, CROP SCI, V26, P894, DOI 10.2135/cropsci1986.0011183X002600050012x
+   MDVde Resende, 2007, PESQUI AGROPECUARIA, V37, P182, DOI DOI 10.5216/PAT.V37I3.1867
+   Meotti GV, 2012, PESQUI AGROPECU BRAS, V47, P14, DOI 10.1590/S0100-204X2012000100003
+   Miladinovic J, 2006, EUR J AGRON, V25, P243, DOI 10.1016/j.eja.2006.05.007
+   Morrison MJ, 2008, CROP SCI, V48, P2201, DOI 10.2135/cropsci2008.01.0023
+   MUNDSTOCK C. M., 2005, SOJA FATORES QUE AFE
+   Ning HaiLong, 2003, Soybean Science, V22, P132
+   Noureldin N. A., 2002, Annals of Agricultural Science (Cairo), V47, P209
+   Piper EL, 1999, J AM OIL CHEM SOC, V76, P1233, DOI 10.1007/s11746-999-0099-y
+   R Development Core Team, 2011, R LANG ENV STAT COMP
+   RAMALHO MAP, 2012, APLICACOES GENETICA
+   RESENDE M. D. V., 2002, GENETICA BIOMETRICA
+   Ribeiro AC, 1999, RECOMENDACOES USO CO, P25
+   Rotundo JL, 2009, FIELD CROP RES, V110, P147, DOI 10.1016/j.fcr.2008.07.012
+   SCOTT AJ, 1974, BIOMETRICS, V30, P507, DOI 10.2307/2529204
+   WRICKE G, 1965, Z PFLANZENZUCHTUNG, V53, P266
+   Yan WK, 2000, CROP SCI, V40, P597, DOI 10.2135/cropsci2000.403597x
+   Yan WK, 2001, AGRON J, V93, P1111, DOI 10.2134/agronj2001.9351111x
+   Yan Z, 2010, CROP SCI, V50, P696, DOI 10.2135/cropsci2008.12.0742
+   Zar J. H, 1996, BIOSTATISTICAL ANALY
+NR 30
+TC 9
+Z9 10
+U1 0
+U2 1
+PU FUNPEC-EDITORA
+PI RIBEIRAO PRETO
+PA RUA FLORIANO PEIXOTO 2444, ALTO DA BOA VISTA, RIBEIRAO PRETO, SP 00000,
+   BRAZIL
+EI 1676-5680
+J9 GENET MOL RES
+JI Genet. Mol. Res.
+PY 2016
+VL 15
+IS 2
+AR 15026756
+DI 10.4238/gmr.15026756
+PG 11
+WC Biochemistry & Molecular Biology; Genetics & Heredity
+SC Biochemistry & Molecular Biology; Genetics & Heredity
+GA DY1UH
+UT WOS:000384879400021
+PM 27173225
+OA Bronze, Green Published
+DA 2021-09-05
+ER
+
+PT J
+AU Eskandari, M
+   Cober, ER
+   Rajcan, I
+AF Eskandari, Mehrzad
+   Cober, Elroy R.
+   Rajcan, Istvan
+TI Using the candidate gene approach for detecting genes underlying seed
+   oil concentration and yield in soybean
+SO THEORETICAL AND APPLIED GENETICS
+LA English
+DT Article
+ID DIACYLGLYCEROL ACYLTRANSFERASE; OVER-EXPRESSION; BRASSICA-NAPUS;
+   TRIACYLGLYCEROL; SEQUENCE; PLANTS; BIOSYNTHESIS; INCREASES; GENOTYPE;
+   DGAT1
+AB Increasing the oil concentration in soybean seeds has been given more attention in recent years because of demand for both edible oil and biodiesel production. Oil concentration in soybean is a complex quantitative trait regulated by many genes as well as environmental conditions. To identify genes governing seed oil concentration in soybean, 16 putative candidate genes of three important gene families (GPAT: acyl-CoA:sn-glycerol-3-phosphate acyltransferase, DGAT: acyl-CoA:diacylglycerol acyltransferase, and PDAT: phospholipid:diacylglycerol acyltransferase) involved in triacylglycerol (TAG) biosynthesis pathways were selected and their sequences retrieved from the soybean database (http://www.phytozome.net/soybean). Three sequence mutations were discovered in either coding or noncoding regions of three DGAT soybean isoforms when comparing the parents of a 203 recombinant inbreed line (RIL) population; OAC Wallace and OAC Glencoe. The RIL population was used to study the effects of these mutations on seed oil concentration and other important agronomic and seed composition traits, including seed yield and protein concentration across three field locations in Ontario, Canada, in 2009 and 2010. An insertion/deletion (indel) mutation in the GmDGAT2B gene in OAC Wallace was significantly associated with reduced seed oil concentration across three environments and reduced seed yield at Woodstock in 2010. A mutation in the 3' untranslated (3'UTR) region of GmDGAT2C was associated with seed yield at Woodstock in 2009. A mutation in the intronic region of GmDGAR1B was associated with seed yield and protein concentration at Ottawa in 2010. The genes identified in this study had minor effects on either seed yield or oil concentration, which was in agreement with the quantitative nature of the traits. However, the novel gene-specific markers designed in the present study can be used in soybean breeding for marker-assisted selection aimed at increasing seed yield and oil concentration with no significant impact on seed protein concentration.
+C1 [Eskandari, Mehrzad; Rajcan, Istvan] Univ Guelph, Dept Plant Agr, Crop Sci Bldg,50 Stone Rd East, Guelph, ON N1G 2W1, Canada.
+   [Cober, Elroy R.] Agr & Agri Food Canada, Eastern Cereal & Oilseed Crop Res Ctr, Ottawa, ON K1A 0C6, Canada.
+RP Rajcan, I (corresponding author), Univ Guelph, Dept Plant Agr, Crop Sci Bldg,50 Stone Rd East, Guelph, ON N1G 2W1, Canada.
+EM irajcan@uoguelph.ca
+OI Cober, Elroy/0000-0002-4673-1808
+FU Ontario Ministry of Agriculture, Food and Rural Affairs (OMAFRA); Grain
+   Farmers of Ontario
+FX The authors would like to thank Drs G. R. Ablett (in memoriam), K. P.
+   Pauls, L. R. Erikson, and Y. Kakuda (University of Guelph) for their
+   valuable suggestions on this research. The authors are also grateful to
+   Wade Montminy, Chris Grainger, Ron Guillemette, Bryan Stirling, Dennis
+   Fischer and the entire soybean crew at the University of Guelph for
+   their excellent technical support. Generous funding to conduct this
+   research was provided by the Alternative Renewable Fuels II Program of
+   the Ontario Ministry of Agriculture, Food and Rural Affairs (OMAFRA) and
+   by the Grain Farmers of Ontario.
+CR Arslanoglu F, 2011, AFR J BIOTECHNOL, V10, P18409, DOI 10.5897/AJB10.1879
+   BaileySerres J, 1996, PLANT PHYSIOL, V112, P685, DOI 10.1104/pp.112.2.685
+   Beisson F, 2003, PLANT PHYSIOL, V132, P681, DOI 10.1104/pp.103.022988
+   Bourdon V, 2001, EMBO REP, V2, P394, DOI 10.1093/embo-reports/kve090
+   Bouvier-Nave P, 2000, EUR J BIOCHEM, V267, P85, DOI 10.1046/j.1432-1327.2000.00961.x
+   BROWSE J, 1991, ANNU REV PLANT PHYS, V42, P467, DOI 10.1146/annurev.pp.42.060191.002343
+   Burgal J, 2008, PLANT BIOTECHNOL J, V6, P819, DOI 10.1111/j.1467-7652.2008.00361.x
+   Dahlqvist A, 2000, P NATL ACAD SCI USA, V97, P6487, DOI 10.1073/pnas.120067297
+   Eskandari M, 2013, THEOR APPL GENET, V126, P1677, DOI 10.1007/s00122-013-2083-z
+   Eskandari M, 2013, THEOR APPL GENET, V126, P483, DOI 10.1007/s00122-012-1995-3
+   Floris M, 2009, INT J MOL SCI, V10, P3168, DOI 10.3390/ijms10073168
+   Harwood JL, 1996, BBA-LIPID LIPID MET, V1301, P7, DOI 10.1016/0005-2760(95)00242-1
+   Hildebrand David F., 2008, V2, P185
+   Holland JB, 1998, J HERED, V89, P374, DOI 10.1093/jhered/89.4.374
+   Jain RK, 2000, BIOCHEM SOC T, V28, P958, DOI 10.1042/BST0280958
+   Jako C, 2001, PLANT PHYSIOL, V126, P861, DOI 10.1104/pp.126.2.861
+   Kim E, 2007, NUCLEIC ACIDS RES, V35, P125, DOI 10.1093/nar/gkl924
+   Kudla G, 2009, SCIENCE, V324, P255, DOI 10.1126/science.1170160
+   Lardizabal K, 2008, PLANT PHYSIOL, V148, P89, DOI 10.1104/pp.108.123042
+   Li RZ, 2010, LIPIDS, V45, P145, DOI 10.1007/s11745-010-3385-4
+   Lock YY, 2009, PHYSIOL PLANTARUM, V137, P61, DOI 10.1111/j.1399-3054.2009.01258.x
+   Merritt C, 2008, CURR BIOL, V18, P1476, DOI 10.1016/j.cub.2008.08.013
+   Mhaske V, 2005, PLANT PHYSIOL BIOCH, V43, P413, DOI 10.1016/j.plaphy.2005.01.013
+   Nozaki T, 1995, MOL BIOCHEM PARASIT, V75, P55, DOI 10.1016/0166-6851(95)02512-X
+   Oakes J, 2011, PLANT PHYSIOL, V155, P1146, DOI 10.1104/pp.110.167676
+   OHLROGGE J, 1995, PLANT CELL, V7, P957, DOI 10.1105/tpc.7.7.957
+   Paran I, 2003, TRENDS GENET, V19, P303, DOI 10.1016/S0168-9525(03)00117-3
+   Schlueter JA, 2004, GENOME, V47, P868, DOI 10.1139/G04-047
+   Schlueter JA, 2007, BMC GENOMICS, V8, DOI 10.1186/1471-2164-8-330
+   Schmutz J, 2010, NATURE, V463, P178, DOI 10.1038/nature08670
+   Shockey JM, 2006, PLANT CELL, V18, P2294, DOI 10.1105/tpc.106.043695
+   Singh Gurdeep, 2001, Crop Improvement, V28, P244
+   Song QJ, 2004, THEOR APPL GENET, V109, P122, DOI 10.1007/s00122-004-1602-3
+   Sudaric A, 2006, PLANT BREEDING, V125, P191, DOI 10.1111/j.1439-0523.2006.01185.x
+   Taylor DC, 2009, BOTANY, V87, P533, DOI 10.1139/B08-101
+   Thiel T, 2004, NUCLEIC ACIDS RES, V32, DOI 10.1093/nar/gnh006
+   Untergasser A, 2007, NUCLEIC ACIDS RES, V35, pW71, DOI 10.1093/nar/gkm306
+   Vigeolas H, 2004, PLANTA, V219, P827, DOI 10.1007/s00425-004-1273-y
+   Wang HW, 2007, PLANT J, V52, P716, DOI 10.1111/j.1365-313X.2007.03268.x
+   Weselake RJ, 2008, J EXP BOT, V59, P3543, DOI 10.1093/jxb/ern206
+   Weselake RJ, 2009, BIOTECHNOL ADV, V27, P866, DOI 10.1016/j.biotechadv.2009.07.001
+   Xu YB, 2008, CROP SCI, V48, P391, DOI 10.2135/cropsci2007.04.0191
+   Zheng P, 2008, NAT GENET, V40, P367, DOI 10.1038/ng.85
+NR 43
+TC 15
+Z9 15
+U1 2
+U2 57
+PU SPRINGER
+PI NEW YORK
+PA ONE NEW YORK PLAZA, SUITE 4600, NEW YORK, NY, UNITED STATES
+SN 0040-5752
+EI 1432-2242
+J9 THEOR APPL GENET
+JI Theor. Appl. Genet.
+PD JUL
+PY 2013
+VL 126
+IS 7
+BP 1839
+EP 1850
+DI 10.1007/s00122-013-2096-7
+PG 12
+WC Agronomy; Plant Sciences; Genetics & Heredity; Horticulture
+SC Agriculture; Plant Sciences; Genetics & Heredity
+GA 170PT
+UT WOS:000320866200013
+PM 23568222
+DA 2021-09-05
+ER
+
+PT J
+AU Popovic, V
+   Vidic, M
+   Jockovic, D
+   Ikanovic, J
+   Jaksic, S
+   Cvijanovic, G
+AF Popovic, Vera
+   Vidic, Milos
+   Jockovic, Dorde
+   Ikanovic, Jela
+   Jaksic, Snezana
+   Cvijanovic, Gorica
+TI VARIABILITY AND CORRELATIONS BETWEEN YIELD COMPONENTS OF SOYBEAN
+   [GLYCINE MAX (L.) MERR.]
+SO GENETIKA-BELGRADE
+LA English
+DT Article
+DE content of proteins and oil; correlations; morphological
+   characteristics; soybean; yield
+ID SUBUNIT COMPOSITION; PROTEIN; GENOTYPES; NITROGEN; OIL
+AB Popovic V., M. Vidic, D. Jockovic, J. Ikanovic, S. Jaksic, and G. Cvijanovic (2012): Variability and correlations between yield components of soybean [Glycine max (L.) Merr.] - Genetika, Vol. 44, No. 1, 33 - 45.
+   NS soybean cultivars were assessed for variability of and correlations between yield components and the effect of genotype environment interaction on yield, yield component and morphological characteristics. Experiments were carried out at Rimski Sancevi experiment field in 2009 and 2010. The following characteristics were evaluated: plant height (cm), height of first pod (cm), 1000-grain weight (g), grain yield (kg/ha) and the combined content of oil and protein in grain (%). Combined contents of oil and protein in grain soybean were determined by a non-destructive method of near infrared spectroscopy on PERTEN DA 7000 (NIR/VIS Spectrophotometer).
+   The studied characteristics varied significantly depending on genotype and year. The highest yield of 5273 kg/ha was obtained in 2009 with the genotype Victoria. Highest 1000-grain weights, 2009-2010, were achieved with the genotypes Valjevka and Victoria (149.27 g and 147.23 g). Maximum heights of first pod (19.40 cm) were recorded for the genotype Victoria, 2009-2010. Highest protein contents were obtained with the genotypes Valjevka and Victoria, 2009-2010, were and highest oil contents (21.73%) with the genotype Tea. Protein content was positively significantly correlated with 1000-grain weight and negatively significantly correlated with oil content, and negatively correlated with yield and the height of first pod. Oil content was positively correlated with the height of first pod. Thousand-grain weight was negatively highly significantly correlated with oil content in grain and negatively significantly correlated the height of first pod.
+   The results of this study should facilitate further soybean breeding for improved seed yield and protein and oil contents.
+C1 [Popovic, Vera; Vidic, Milos; Jockovic, Dorde; Jaksic, Snezana] Inst Field & Vegetable Crops, Novi Sad, Serbia.
+   [Ikanovic, Jela] Univ Belgrade, Fac Agr Sci & Food, Zemun, Serbia.
+   [Cvijanovic, Gorica] Megatrend Univ Belgrade, Fac Biofarming, Backa Topola, Serbia.
+RP Popovic, V (corresponding author), Inst Field & Vegetable Crops, Novi Sad, Serbia.
+EM vera.popovic@ifvcns.ns.ac.rs
+RI Dr. Vera Popovic, Institute of Field and Vegetable Crops/K-8821-2019
+OI Popovic, Vera/0000-0002-7701-9928
+CR Boroomandan P, 2009, Pak J Biol Sci, V12, P378, DOI 10.3923/pjbs.2009.378.382
+   Chung J, 2003, CROP SCI, V43, P1053, DOI 10.2135/cropsci2003.1053
+   Hollung K, 2005, J AGR FOOD CHEM, V53, P9112, DOI 10.1021/jf051438r
+   Hurburgh C.R, 2000, AM SOYB ASS AS QUAL
+   MALESEVIC M, 2010, INT SCI J GENETICS G, V42, P323, DOI DOI 10.2298/GENSR1002323M
+   Maletic R., 2005, STATISTICS
+   Miladinovic J., 2011, SOYBEAN, P510
+   Miladinovic J, 2006, EUR J AGRON, V25, P243, DOI 10.1016/j.eja.2006.05.007
+   Peric V, 2009, GENETIKA-BELGRADE, V41, P137, DOI 10.2298/GENSR0902137P
+   Pesic MB, 2005, J AM OIL CHEM SOC, V82, P667, DOI 10.1007/s11746-005-1126-x
+   Popovic V., 2012, FIELD VEG CROP RES, V49, P132, DOI 10.5937/ratpov49-1140
+   POPOVIC V., 2010, THESIS U BELGRADE ZE, p[5, 54]
+   Popovic V, 2011, GENETIKA-BELGRADE, V43, P197, DOI 10.2298/GENSR1101197P
+   Poysa V, 2006, FOOD RES INT, V39, P309, DOI 10.1016/j.foodres.2005.08.003
+   Taski-Ajdukovic K, 2010, PESQUI AGROPECU BRAS, V45, P721, DOI 10.1590/S0100-204X2010000700013
+NR 15
+TC 20
+Z9 21
+U1 1
+U2 13
+PU SERBIAN GENETICS SOC
+PI BELGRADE
+PA SLOBODANA BAJICA 1, BELGRADE, ZEMUN 11185, SERBIA
+SN 0534-0012
+J9 GENETIKA-BELGRADE
+JI Genetika-Belgrade
+PY 2012
+VL 44
+IS 1
+BP 33
+EP 45
+DI 10.2298/GENSR1201033P
+PG 13
+WC Agronomy; Genetics & Heredity
+SC Agriculture; Genetics & Heredity
+GA 970XY
+UT WOS:000306166800004
+OA Green Submitted, Green Published, gold
+DA 2021-09-05
+ER
+
+PT J
+AU Popovic, V
+   Jaksic, S
+   Glamoclija, D
+   Grahovac, N
+   Djekic, V
+   Stefanovic, VM
+AF Popovic, Vera
+   Jaksic, Snezana
+   Glamoclija, Djordje
+   Grahovac, Nada
+   Djekic, Vera
+   Stefanovic, Violeta Mickovski
+TI VARIABILITY AND CORRELATIONS BETWEEN SOYBEAN YIELD AND QUALITY
+   COMPONENTS
+SO ROMANIAN AGRICULTURAL RESEARCH
+LA English
+DT Article
+DE soybean; yield; protein content; oil content; correlations
+ID PROTEIN
+AB The aim of this research was to determine variability and correlations between yield, protein content and oil content in soybean cultivars. The research was carried out on ten NS soybean cultivars in 2008, 2009 and 2010. All of the analysed traits significantly varied depending on cultivar and year. The highest yield in the analysed period was found in cultivar Proteinka (4,947 kg ha(-1)) which was significantly higher than that of cultivars Becejka, Tara, Afrodita and Diva. The highest average yield in 2010 was found in cultivars Irina (5,590 kg ha(-1)) and Bdejka (5,340 kg ha(-1)). The highest protein content was found in cultivars Afrodita and Galina, while the highest oil content was found in cultivars Alisa, Valjevka and Alisa. Significantly higher yield were obtained in 2010, while significantly higher protein and oil content was recorded in 2008.
+   Yield was insignificantly positively correlated with oil content both in 2008, 2009 and 2010 (0.06, 0.31 and 0.17, respectively), and negatively but not significantly correlated with protein content (-0.06, -0.12 and -0.19, respectively). Oil content was significantly negatively correlated with protein content (-0.47(star)) in 2009, while in 2008 and 2010 this correlation was insignificant (-0.25, -0.11).
+   This research is a basis for further breeding of soybeans with improved grain yield and content of protein and oil.
+C1 [Popovic, Vera; Jaksic, Snezana; Grahovac, Nada] Inst Field & Vegetable Crops, Novi Sad, Serbia.
+   [Glamoclija, Djordje; Stefanovic, Violeta Mickovski] Univ Belgrade, Fac Agr Sci & Food, Zemun, Serbia.
+   [Djekic, Vera] Ctr Small Grains, Kragujevac, Serbia.
+RP Popovic, V (corresponding author), Inst Field & Vegetable Crops, Maksima Gorkog 30, Novi Sad, Serbia.
+EM vera.popovic@ifvcns.ns.ac.rs
+RI Dr. Vera Popovic, Institute of Field and Vegetable Crops/K-8821-2019
+OI Grahovac, Nada/0000-0002-6635-3568; Djekic Rajicic,
+   Vera/0000-0002-4468-7073
+CR Akande S.R., 2009, PLANT SCI, V3, P127
+   Aremu C. O., 2005, Moor Journal of Agricultural Research, V6, P81
+   Boroomandan P, 2009, Pak J Biol Sci, V12, P378, DOI 10.3923/pjbs.2009.378.382
+   Bran M, 2008, ROM AGRIC RES, V25, P97
+   Chung J, 2003, CROP SCI, V43, P1053, DOI 10.2135/cropsci2003.1053
+   Hollung K, 2005, J AGR FOOD CHEM, V53, P9112, DOI 10.1021/jf051438r
+   Hurburgh C.R., 2000, QUALITY 2000 SOYBEAN
+   Maletic R., 2005, STATISTICS
+   Miladinovic J., 2008, FIELD VEG CROP RES, P65
+   Miladinovic J., 2010, SOYBEAN, P510
+   Miladinovic J, 2006, EUR J AGRON, V25, P243, DOI 10.1016/j.eja.2006.05.007
+   Popopic V., 2011, OFFICIAL J SERBIAN G, P49
+   Popovic V., 2012, FIELD VEG CROP RES, V49, P132, DOI 10.5937/ratpov49-1140
+   Popovic V., 2010, THESIS U BELGRADE, P43
+   Poysa V, 2006, FOOD RES INT, V39, P309, DOI 10.1016/j.foodres.2005.08.003
+   Vidic M., 2010, FIELD VEG CROP RES, V47, P347
+NR 16
+TC 5
+Z9 5
+U1 0
+U2 4
+PU NATL AGRICULTURAL RESEARCH & DEVELOPMENT INST
+PI FUNDULEA
+PA CALARASI COUNTY, FUNDULEA, 915200, ROMANIA
+SN 1222-4227
+J9 ROM AGRIC RES
+JI Rom. Agric. Res.
+PY 2012
+VL 29
+BP 131
+EP 137
+PG 7
+WC Agronomy
+SC Agriculture
+GA 048NN
+UT WOS:000311919300017
+DA 2021-09-05
+ER
+
+PT J
+AU Balesevic-Tubic, S
+   Dordevic, V
+   Miladinovic, J
+   Dukic, V
+   Tatic, M
+AF Balesevic-Tubic, Svetlana
+   Dordevic, Vuk
+   Miladinovic, Jegor
+   Dukic, Vojin
+   Tatic, Mladen
+TI STABILITY OF SOYBEAN SEED COMPOSITION
+SO GENETIKA-BELGRADE
+LA English
+DT Article
+DE protein content; oil content; soybean; stability; yield
+ID OIL CONCENTRATION; PROTEIN; QUALITY
+AB Balesevic-Tubic S., V. Dordevic, J. Miladinovic, V. Dukic, J. Miladinovic, V. Dukic, and M. Tatic (2011): Stability of soybean seed composition. - Genetika, Vol 43, No. 2, 217 -227.
+   Stability of protein and oil content of 13 soybean varieties were examined using linear model across seven locations and during six years. Due to heterogeneity of environments all year/locations was distributed in to two groups, based on achieved yield. Stability of protein content differed in the low and high yielding environments, while average values show only minor differences. In contrast, oil content stability was slightly changed in the low and high yielding environments, while the average oil content were significantly higher in the low yielding environments. Environmental factors influenced the correlation between oil and protein content in soybeans. Negative correlation between protein and oil content was observed only in the high yielding environments, while varieties in low yielding environments lack this well known inverse relation.
+C1 [Balesevic-Tubic, Svetlana; Dordevic, Vuk; Miladinovic, Jegor; Dukic, Vojin; Tatic, Mladen] Inst Field & Vegetable Crops, Novi Sad 21000, Serbia.
+RP Balesevic-Tubic, S (corresponding author), Inst Field & Vegetable Crops, Maksima Gorkog 30, Novi Sad 21000, Serbia.
+EM svetlana.tubic@ifvcns.ns.ac.rs
+RI Djordjevic, Vuk/AAD-6161-2020
+OI Miladinovic, Jegor/0000-0002-4061-4037
+CR BALESEVIC-TUBIC S., 2008, J SCI AGR RES, V69, P5
+   BALESEVIC-TUBIC S, 2009, P 50 OIL IND C HERC, P145
+   Blanusa T, 2000, BIOL PLANTARUM, V43, P55, DOI 10.1023/A:1026598812537
+   Brumm J.T., 2002, QUALITY 2002 SOYBEAN
+   Dardanelli JL, 2006, CROP SCI, V46, P1939, DOI 10.2135/cropsci2005.12-0480
+   DORDEVIC V., 2010, P 51 OIL IND C HERC, P77
+   DUKIC V., 2010, P 51 OIL IND C HERC, P83
+   Fehr WR, 2003, CROP SCI, V43, P511, DOI 10.2135/cropsci2003.0511
+   FINALY K.W., 1963, AUSTR J AGR RES, V14, P743
+   Hurburgh C.R, 2000, AM SOYB ASS AS QUAL
+   Mahmoud AA, 2006, J AGR FOOD CHEM, V54, P3916, DOI 10.1021/jf060391m
+   MILADINOVIC J., 1996, EUROSOYA, V10, P51
+   MILADINOVIC J., 2008, P I FIELD VEGETABLE, V45, P65
+   Piper EL, 1999, J AM OIL CHEM SOC, V76, P1233, DOI 10.1007/s11746-999-0099-y
+   Rotundo JL, 2009, FIELD CROP RES, V110, P147, DOI 10.1016/j.fcr.2008.07.012
+   Ustun A, 2001, CROP SCI, V41, P993, DOI 10.2135/cropsci2001.414993x
+   VIDIC M., 2003, P 38 AGR SEM, P129
+   Wilcox JR, 2001, CROP SCI, V41, P11, DOI 10.2135/cropsci2001.41111x
+   Yaklich RW, 2004, J AM OIL CHEM SOC, V81, P1021, DOI 10.1007/s11746-004-1016-2
+   Yaklich RW, 2004, J AM OIL CHEM SOC, V81, P189, DOI 10.1007/s11746-004-0880-0
+   Yaklich RW, 2002, CROP SCI, V42, P1504, DOI 10.2135/cropsci2002.1504
+   Zilic S, 2009, GENETIKA-BELGRADE, V41, P297, DOI 10.2298/GENSR0903297Z
+NR 22
+TC 2
+Z9 3
+U1 0
+U2 8
+PU SERBIAN GENETICS SOC
+PI BELGRADE
+PA SLOBODANA BAJICA 1, BELGRADE, ZEMUN 11185, SERBIA
+SN 0534-0012
+EI 1820-6069
+J9 GENETIKA-BELGRADE
+JI Genetika-Belgrade
+PY 2011
+VL 43
+IS 2
+BP 217
+EP 227
+DI 10.2298/GENSR1102217B
+PG 11
+WC Agronomy; Genetics & Heredity
+SC Agriculture; Genetics & Heredity
+GA 884SS
+UT WOS:000299729600002
+OA Green Submitted, Green Published, gold
+DA 2021-09-05
+ER
+
+PT J
+AU Yan, Z
+   Lauer, JG
+   Borges, R
+   de Leon, N
+AF Yan, Zhe
+   Lauer, Joseph G.
+   Borges, Roger
+   de Leon, Natalia
+TI Effects of Genotype x Environment Interaction on Agronomic Traits in
+   Soybean
+SO CROP SCIENCE
+LA English
+DT Article
+ID FATTY-ACID-COMPOSITION; STABILITY; PERFORMANCE; AMMI
+AB Genotype x environment interaction influences the market value of soybean [Glycine max (L.) Merr.] protein, oil, and fatty acid traits. The objectives of this research were (i) to evaluate agronomic trait performance and stability of soybean genotypes in individual environments and across environments; and (ii) to evaluate the relationship of test environments for selecting superior genotypes within the mega-environment for soybean production in the southern region of Wisconsin. A total of 68 soybean genotypes were selected from University of Wisconsin soybean evaluation trials and grown at four locations in 2003 and 2004. Soybean genotypes, grown in trials with conventional and Roundup Ready herbicide treatments were analyzed for yield, protein, oil, and the fatty acid components palmitic acid, stearic acid, oleic acid, linoleic acid, and linolenic acid. Repeatability estimates among genotypes ranged from 0.27 to 0.98 with yield and the fatty acid component linolenic acid being the most sensitive to environment effects. Superior genotypes could be consistently selected for yield, protein, oil, and fatty acid components using biplot analysis and stability estimates. Among locations in the southern region in Wisconsin, Arlington provides unique information for soybean fatty acid evaluations, but similar information about soybean yield, protein, and oil with Janesville or Lancaster. So, if soybean fatty acid is not important then Arlington could be dropped as a test site.
+C1 [Yan, Zhe; Lauer, Joseph G.; Borges, Roger; de Leon, Natalia] Univ Wisconsin, Dept Agron, 1575 Linden Dr, Madison, WI 53706 USA.
+RP Lauer, JG (corresponding author), Univ Wisconsin, Dept Agron, 1575 Linden Dr, Madison, WI 53706 USA.
+EM jglauer@wisc.edu
+OI Yan, Zhe/0000-0003-0369-6245
+FU U.S. Department of AgricultureUnited States Department of Agriculture
+   (USDA) [WIS0 142-4897]
+FX We would like to thank Mark Martinka (Agronomy Department, University of
+   Wisconsin-Madison) and John Gaska (Agronomy Department, University of
+   Wisconsin-Madison), who ran the trials and collected data for this
+   research project. This research is based on the project supported by the
+   U.S. Department of Agriculture under CSREES project WIS0 142-4897.
+CR BECKER HC, 1988, PLANT BREEDING, V101, P1, DOI 10.1111/j.1439-0523.1988.tb00261.x
+   Blanche SB, 2006, CROP SCI, V46, P946, DOI 10.2135/cropsci2005.0279
+   CHERRY JH, 1985, PHYTOCHEMISTRY, V24, P237, DOI 10.1016/S0031-9422(00)83527-X
+   Cooper M., 1996, P193
+   EBERHART SA, 1966, CROP SCI, V6, P36, DOI 10.2135/cropsci1966.0011183X000600010011x
+   Falconer D.S., 1996, INTRO QUANTITATIVE G, V4th
+   Fehr WR, 2003, CROP SCI, V43, P511, DOI 10.2135/cropsci2003.0511
+   Gauch HG, 1997, CROP SCI, V37, P311, DOI 10.2135/cropsci1997.0011183X003700020002x
+   Gauch HG, 2006, CROP SCI, V46, P1488, DOI 10.2135/cropsci2005.07-0193
+   Gravois KA, 2000, CROP SCI, V40, P314, DOI 10.2135/cropsci2000.402314x
+   Zhang Meiqin, 2005, Journal of New Seeds, V7, P37, DOI [10.1300/J153v07n04_03, 10.1300/J153v07n02_01]
+   Lee SJ, 2003, FIELD CROP RES, V81, P181, DOI 10.1016/S0378-4290(02)00220-4
+   Lorenz AJ, 2008, APPL BIOCHEM BIOTECH, V148, P261, DOI 10.1007/s12010-007-8116-9
+   Primomo VS, 2002, CROP SCI, V42, P37, DOI 10.2135/cropsci2002.0037
+   Rao MSS, 2002, AGRON J, V94, P72, DOI 10.2134/agronj2002.0072
+   *SAS I, 1996, SAS US GUID VERS 6
+   SCHNEBLY SR, 1993, CROP SCI, V33, P716, DOI 10.2135/cropsci1993.0011183X003300040016x
+   Yan WK, 2007, CROP SCI, V47, P643, DOI 10.2135/cropsci2006.06.0374
+   Yan WeiKai, 2003, GGE biplot analysis: a graphical tool for breeders, geneticists, and agronomists
+   Yan WK, 2000, CROP SCI, V40, P597, DOI 10.2135/cropsci2000.403597x
+   Yan WK, 2003, CROP SCI, V43, P549, DOI 10.2135/cropsci2003.0549
+   Yan WK, 2002, CROP SCI, V42, P11, DOI 10.2135/cropsci2002.0011
+NR 22
+TC 33
+Z9 39
+U1 2
+U2 15
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 0011-183X
+EI 1435-0653
+J9 CROP SCI
+JI Crop Sci.
+PD MAR-APR
+PY 2010
+VL 50
+IS 2
+BP 696
+EP 702
+DI 10.2135/cropsci2008.12.0742
+PG 7
+WC Agronomy
+SC Agriculture
+GA 568ZE
+UT WOS:000275564500029
+DA 2021-09-05
+ER
+
+PT J
+AU Masuda, T
+   Goldsmith, PD
+AF Masuda, Tadayoshi
+   Goldsmith, Peter D.
+TI World Soybean Production: Area Harvested, Yield, and Long-Term
+   Projections
+SO INTERNATIONAL FOOD AND AGRIBUSINESS MANAGEMENT REVIEW
+LA English
+DT Article
+DE Soybean; production; yield; land use; long-term projection; exponential
+   smoothing with damped trend
+AB Soybeans (Glycine max) serve as one of the most valuable crops in the world, not only as an oil seed crop and feed for livestock and aquaculture, but also as a good source of protein for the human diet and as a biofuel feedstock. The world soybean production increased by 4.6% annually from 1961 to 2007 and reached average annual production of 217.6 million tons in 2005-07. World production of soybeans is predicted to increase by 2.2% annually to 371.3 million tons by 2030 using an exponential smoothing model with a damped trend. Finally, three scenarios and their implications are presented for increasing supply as land availability declines. The scenarios highlight for agribusiness policy makers and managers the urgent need for significant investments in yield improving research.
+C1 [Masuda, Tadayoshi; Goldsmith, Peter D.] Univ Illinois, Natl Soybean Res Lab, Urbana, IL 61801 USA.
+   [Goldsmith, Peter D.] Univ Illinois, Dept Agr & Consumer Econ, Urbana, IL 61801 USA.
+RP Goldsmith, PD (corresponding author), Univ Illinois, Natl Soybean Res Lab, 1101 W Peabody Dr, Urbana, IL 61801 USA.
+EM tmasuda@illinois.edu; pgoldsmi@illinois.edu
+CR Endres Bryan, 2007, J INTELLECTUAL PROPE, V14, P237
+   Ferbar L, 2009, INT J PROD ECON, V118, P49, DOI 10.1016/j.ijpe.2008.08.042
+   GARDNER ES, 1985, MANAGE SCI, V31, P1237, DOI 10.1287/mnsc.31.10.1237
+   GARDNER ES, 1985, J FORECASTING, V4, P1, DOI 10.1002/for.3980040103
+   GOLDSMITH PD, 2008, NSRL B, V15, P7
+   GOLDSMITH PD, 2008, SOYBEANS CHEM PRODUC
+   Goldsmith P, 2006, AGR ECON-BLACKWELL, V35, P335, DOI 10.1111/j.1574-0862.2006.00166.x
+   Hamilton J., 1994, TIME SERIES ANAL
+   Holt C.C., 1960, PLANNING PRODUCTION
+   KANG HJ, 1986, J BUS ECON STAT, V4, P81, DOI 10.2307/1391389
+   Kennedy P., 2003, GUIDE ECONOMETRICS
+   Lapan HE, 2004, AM J AGR ECON, V86, P634, DOI 10.1111/j.0002-9092.2004.00606.x
+   MILLER T, 1993, INT J FORECASTING, V9, P509, DOI 10.1016/0169-2070(93)90077-Z
+   Mills T. C., 1990, TIME SERIES TECHNIQU
+   OECD-FAO, 2009, AGR OUTL 2009 2018
+   Qaim M, 2003, AM J AGR ECON, V85, P814, DOI 10.1111/1467-8276.00490
+   Rosegrant M.W., 2002, INT MODEL POLICY ANA
+   ROSEGRANT MW, 2001, GLOBAL FOOD PROJECTI
+   Specht JE, 1999, CROP SCI, V39, P1560, DOI 10.2135/cropsci1999.3961560x
+   *USDA, 2009, OCE20091 USDA
+NR 20
+TC 129
+Z9 137
+U1 2
+U2 34
+PU WAGENINGEN ACADEMIC PUBLISHERS
+PI WAGENINGEN
+PA PO BOX 220, WAGENINGEN, 6700 AE, NETHERLANDS
+SN 1559-2448
+J9 INT FOOD AGRIBUS MAN
+JI Int. Food Agribus. Manag. Rev.
+PY 2009
+VL 12
+IS 4
+BP 143
+EP 161
+PG 19
+WC Agricultural Economics & Policy
+SC Agriculture
+GA V20NI
+UT WOS:000208146300007
+DA 2021-09-05
+ER
+
+PT J
+AU Sudaric, A
+   Vrataric, M
+   Grljusic, S
+   Sikora, S
+AF Sudaric, Alexandra
+   Vrataric, Marija
+   Grljusic, Sonja
+   Sikora, Sanja
+TI CONTRIBUTION OF BREEDING TO INCREASING SOYBEAN GRAIN YIELD AND GRAIN
+   QUALITY
+SO CEREAL RESEARCH COMMUNICATIONS
+LA English
+DT Article
+DE soybean; grain yield; grain quality; heritability; genetic gain
+ID ALVEOGRAPH VALUES
+AB The objective of this research was to determine the genetic gain in grain yield and grain quality accomplished by recently developed domestic soybean elite lines and to determine ways to improve these traits further. Realized gains were estimated by comparing recently developed most promising domestic soybean lines of maturity groups (MGs) 00, 0 and I with commercial cultivars (standards) in comparative field tests during three consecutive years (2002-2004) in Osijek, Croatia. Mean values, broad-sense heritability, genetic gain and relative genetic gain from selection were calculated for grain yield, protein and oil content in grain. The obtained results of biometrical analysis showed genetic improvement in productivity and quality of new domestic soybean elite lines within MGs 00, 0 and I. The high agronomic performances of this breeding material will considerably contribute to the increasing and improving soybean production in our region as well as genetic improvement of domestic soybean cultivars further.
+C1 [Sudaric, Alexandra; Vrataric, Marija; Grljusic, Sonja] Agr Inst Osijek, Juzno Predgradje 17, Osijek 31000, Croatia.
+   [Sikora, Sanja] Univ Zagreb, Fac Agr, Zagreb 10000, Croatia.
+RP Sudaric, A (corresponding author), Agr Inst Osijek, Juzno Predgradje 17, Osijek 31000, Croatia.
+EM aleksandra.sudaric@poljinos.hr
+FU Ministry of Science, Education and Sport of Republic of CroatiaMinistry
+   of Science, Education and Sports, Republic of Croatia [0073005]
+FX This research was carried out in the frame of the Project 0073005 that
+   is funded by the Ministry of Science, Education and Sport of Republic of
+   Croatia.
+CR Bartolucci JC., 1988, BOOK ABSTRACTS, V16th, P69
+   BenedekGyori Z., 1995, NOVENYTERMELES, V44, P11
+   Dessalegn T., 2005, CEREAL RES COMMUN, V33, P641, DOI 10.1556/CRC.33.2005.2-3.131
+   Dubois M, 1996, IND CEREALES, V45, P15
+   Feher Gy-n, 1993, GABONAIPAR, V40, P9
+   Kadar I., 2004, AGROKEM TALAJTAN, V53, P331, DOI [10.1556/Agrokem.52.2003.3-4.7, DOI 10.1556/AGROKEM.52.2003.3-4.7]
+   Matuz J, 1999, NOVENYTERMELES, V48, P115
+   MATUZ J, 1981, Cereal Research Communications, V9, P289
+   Othira J., CEREAL RES COMMUNICA, V32, P533
+   RASPER VF, 1986, CEREAL CHEM, V63, P395
+   Svetkova K., 2005, Acta Agronomica Hungarica, V53, P241, DOI 10.1556/AAgr.53.2005.3.1
+   Szilagyi Sz., 2000, THESIS DEBRECEN
+   Tanacs L., 2005, CEREAL RES COMMUN, V33, P627
+   Veha A., 1998, 1998 16 VIENN AUSTR, V16th, P147
+   Vida G, 1996, NOVENYTERMELES, V45, P435
+NR 15
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SPRINGER HEIDELBERG
+PI HEIDELBERG
+PA TIERGARTENSTRASSE 17, D-69121 HEIDELBERG, GERMANY
+SN 0133-3720
+EI 1788-9170
+J9 CEREAL RES COMMUN
+JI Cereal Res. Commun.
+PD MAR
+PY 2006
+VL 34
+IS 1
+BP 669
+EP 672
+DI 10.1556/CRC.34.2006.1.167
+PG 4
+WC Agronomy
+SC Agriculture
+GA VJ9CG
+UT WOS:000644954500139
+DA 2021-09-05
+ER
+
+PT J
+AU HARTWIG, EE
+   KILEN, TC
+AF HARTWIG, EE
+   KILEN, TC
+TI YIELD AND COMPOSITION OF SOYBEAN SEED FROM PARENTS WITH DIFFERENT
+   PROTEIN, SIMILAR YIELD
+SO CROP SCIENCE
+LA English
+DT Article
+ID REGISTRATION
+AB Soybean [Glycine max (L.) Merr.] seed yields often show a negative association with seed protein.  The objective of this study was to determine if this association could be minimized by crossing a high and a normal protein line of equal seed yield.  An F2 population of 1000 plants was grown.  Plants were harvested individually and seed evaluated for oil content using the nuclear magnetic resonance technique.  Two bulk populations were developed:  one included the 8% having the highest oil and the other the 8% having lowest oil.  With the high negative correlation between seed protein and oil, the low oil population was expected to provide lines having high seed protein concentration.  The two populations were advanced in bulk through the F6 generation, after which 200 plants were harvested individually from each population and 200 F7 lines grown from each.  The F7 lines were harvested individually and seed analyzed for seed protein and oil.  The 18 lines having the highest protein and the 18 lines having the highest oil were selected for further evaluation in replicated trials.  Lines were evaluated in five environments for seed yield, protein, and oil.  The overall mean seed yield of the high protein lines averaged 6% less than the overall mean of the lines selected for high oil; however, when seed yield of the two highest protein lines at each environment were compared with the two highest oil lines, the high protein lines had a 1% advantage in seed yield, an 18% advantage in seed protein, and a 20% reduction in oil.  The results demonstrate the potential for developing soybean lines high in seed protein and equal in seed yield to lines having high oil content.
+RP HARTWIG, EE (corresponding author), USDA ARS,SOYBEAN PROD RES UNIT,POB 196,STONEVILLE,MS 38776, USA.
+CR BURTON JW, 1985, 3RD P WORLD SOYB RES, P361
+   CAVINESS CE, 1966, CROP SCI, V6, P502, DOI 10.2135/cropsci1966.502areg3
+   HARTWIG EE, 1980, CROP SCI, V20, P825, DOI 10.2135/cropsci1980.0011183X002000060049x
+   HARTWIG EE, 1974, CROP SCI, V14, P777, DOI 10.2135/cropsci1974.0011183X001400050053x
+   HARTWIG EE, 1972, CROP SCI, V12, P829, DOI 10.2135/cropsci1972.0011183X001200060034x
+   HARTWIG EE, 1972, CROP SCI, V12, P856, DOI 10.2135/cropsci1972.0011183X001200060042x
+   HARTWIG EE, 1986, EVALUATION SOYBEAN G
+   HARTWIG EE, 1973, UNIFORM SOYBEAN TEST
+   HARTWIG EE, 1978, CROP SCI, V18, P915
+   HARTWIG EE, 1946, ROANOKE NEW SOYBEAN
+   HARTWIG EE, 1952, FARM RES, V15, P1
+   Hinson K, 1964, CROP SCI, V4, P664, DOI DOI 10.2135/CR0PSCI1964.0011183X000400060
+   SHANNON G, 1972, CROP SCI, V12, P824
+   WEBER CR, 1944, SOYBEAN DIG, V4, P6
+NR 14
+TC 26
+Z9 26
+U1 0
+U2 2
+PU CROP SCIENCE SOC AMER
+PI MADISON
+PA 677 S SEGOE ROAD, MADISON, WI 53711
+SN 0011-183X
+J9 CROP SCI
+JI Crop Sci.
+PD MAR-APR
+PY 1991
+VL 31
+IS 2
+BP 290
+EP 292
+DI 10.2135/cropsci1991.0011183X003100020011x
+PG 3
+WC Agronomy
+SC Agriculture
+GA FZ643
+UT WOS:A1991FZ64300010
+DA 2021-09-05
+ER
+
+EF

@@ -311,25 +311,27 @@ seasons using the same methodology that was employed in the 2019 season.
 \hypertarget{statistical-analysis}{%
 \subsection{Statistical Analysis}\label{statistical-analysis}}
 
-Phenotypic traits were analysed with a linear model with the form:
+Phenotypic traits were analysed with a mixed effects model with the
+form:
 
-\[y_{ijk} = \mu + L_i + B(L_i) + G_k + GL_{ik} + \epsilon_{ijk}\]
+\[y_{ijk} = \mu + E_i + B(E_i) + G_k + GE_{ik} + \epsilon_{ijk}\]
 
 Where \(y_{ijk}\) is the phenotypic measurement for rep\(j\) of genotype
-\(k\) in environment \(i\), \(L_i\) is the effect of location \(i\),
-\(G_k\) is the effect of genotype \(G\), \(GL_{ik}\) is the interaction
-effect of location \(L\) and genotype \(G\), and \(\epsilon_{ijk}\) is
-the measurement error.
+\(k\) in environment \(i\), \(E_i\) is the effect of environment \(i\),
+\(B(E_i)\) is the effect of replication nested within environment,
+\(G_k\) is the effect of genotype \(G\), \(GE_{ik}\) is the interaction
+effect of environment \(E\) and genotype \(G\), and \(\epsilon_{ijk}\)
+is the measurement error. The genotype effect was treated as fixed and
+all other factors were treated as random.
 
-Models were fit using the lm function in
-R\citep{rcoreteamLanguageEnvironmentStatistical2022}, and analysis of
-variance (ANOVA) performed using the anova function. Least-square means
-(LS Means) for each genotype and trait were calculated using the above
-model using the emmeans package\citep{lenthEmmeansEstimatedMarginal2022}
-in R. Least-significant difference values for each trait were calculated
-using the LSD.test function from the agricolae\citep{de2014agricolae}
-package. Pearson correlation coefficients between each phenotype were
-calculated with the cor function in R.
+Models were fit using the gamem\_met function from the metan
+package\citep{olivotoMetanPackageMultienvironment2020}. Least-square
+means (LS Means) for each genotype and trait were calculated using the
+above model using the emmeans
+package\citep{lenthEmmeansEstimatedMarginal2022} in R. The emmeans
+package was also used to calculate contrasts as a post-hoc test to
+compare RIL means to check means. Pearson correlation coefficients
+between each phenotype were calculated with the cor function in R.
 
 Pearson correlation is calculated for each pair of traits as:
 
