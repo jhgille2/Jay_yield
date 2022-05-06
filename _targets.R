@@ -134,6 +134,17 @@ tar_plan(
   tar_target(least_sig_differences, 
              get_lsd_values(df = all_yield_data$two_year)),
   
+  # Conrasts of RIL means vs check means
+  tar_target(genotype_contrasts_anova, 
+             make_contrast_tibble(anova_two_years, 
+                                  model_type = "linear", 
+                                  check_genos = util_tables$yield_checks)), 
+  
+  tar_target(genotype_contrasts_mixed, 
+             make_contrast_tibble(mixed_models_two_years,
+                                  model_type = "mixed", 
+                                  check_genos = util_tables$yield_checks)),
+  
   
   ## Section: Analysis summaries
   ##################################################

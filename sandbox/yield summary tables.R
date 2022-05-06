@@ -82,7 +82,10 @@ make_pheno_comparison <- function(test_data, keep_phenos = c("yield", "protein",
     summarise(check_avg_value = mean(value, na.rm = TRUE)) %>% 
     mutate(check_avg_value = round(check_avg_value, 2))
   
-  left_join(genotype_ranks, check_pheno_avg, by = "pheno")
+  full_data <- left_join(genotype_ranks, check_pheno_avg, by = "pheno") %>% 
+    mutate(value = paste0(value, " (", round((value/check_avg_value)*100, 1), "%)"))
+  
+  return(full_data)
   
 }
 
@@ -187,7 +190,7 @@ remove_phenotype_names <- function(column_names, pheno_names = c("yield", "prote
 
 
 # A function to make a kable table with group headings to match phenotypes
-make_phenotype_comparison_table <- function(comparison_table_output, pheno_names = c("yield", "protein", "oil", "protein_plus_oil")){
+make_phenotype_comparison_table <- function(comparison_table_output, pheno_names = c("yield", "protein", "oil", "protein_plus_oil"), keep_msd = TRUE){
   
   # First, sort the indices of the phenotypes by the order in which they appear 
   # in the comparison table
@@ -234,6 +237,32 @@ make_phenotype_comparison_table <- function(comparison_table_output, pheno_names
   
   current_table <- as.data.frame(current_table)
   
+  # If you want to remove the MSD columns (Like if I'm data from mixed models instead of the linear models)
+  if(!keep_msd){
+    
+    # Remove the HSD columns from the collapse rows indices
+    exclude_cols     <- which(colnames(current_table) == "HSD")
+    
+    newcolnames <- colnames(current_table)[-exclude_cols]
+    
+    # And reduce the header widths by 1 for each phenotype
+    column_groups <- c(rep("", pheno_start_col-1), phenotype_widths-1)
+    
+    # Finally, remove the HSD columns from the overall data
+    current_table <- current_table[, -exclude_cols]
+    colnames(current_table) <- newcolnames
+    
+    # variables that can have their rows collapsed
+    collapse_cols <- c("Test Average", 
+                       "Check Average")
+    
+    # The indices of these columns
+    collapse_indices <- map(collapse_cols, function(x) which(str_detect(colnames(current_table), x))) %>% 
+      unlist() %>% 
+      unique() %>% 
+      sort()
+  }
+  
   
   knitr::kable(current_table, "html") %>% 
     kable_classic() %>% 
@@ -242,3 +271,4 @@ make_phenotype_comparison_table <- function(comparison_table_output, pheno_names
   
 }
 
+make_phenotype_comparison_table(comparison_tables$`Jay Test 1`, keep_msd = FALSE)

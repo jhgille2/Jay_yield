@@ -62,7 +62,7 @@ check_ril_contrasts <- function(mar_means, check_genotypes = util_tables$yield_c
 
 # A function to apply the above function to the nested anova list in the 
 # anova_two_years object
-make_contrast_tibble <- function(test_list, test_names = names(test_list), model_type = "linear"){
+make_contrast_tibble <- function(test_list, test_names = names(test_list), model_type = "linear", check_genos = util_tables$yield_checks){
   
   pluck_item <- ifelse(model_type == "linear", "model", 
                        ifelse(model_type == "mixed", "modellme", stop("model_type should be one of 'linear' or 'mixed'")))
@@ -79,7 +79,7 @@ make_contrast_tibble <- function(test_list, test_names = names(test_list), model
     contrast_tibble <- tibble(pheno = names(model_data)) %>% 
       mutate(test_name = test_name, 
              mar_means = map(model_data, function(x) x %>% pluck(pluck_item) %>% emmeans("GEN")), 
-             contrast_vecs = map(mar_means, check_ril_contrasts), 
+             contrast_vecs = map(mar_means, check_ril_contrasts, check_genos), 
              contrasts = map2(mar_means, contrast_vecs, function(x, y) contrast(x, y$individual_RIL_contrasts, adjust = "sidak"))) %>% 
       relocate(test_name, 1)
     
