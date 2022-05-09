@@ -174,6 +174,13 @@ tar_plan(
   tar_target(anova_tables, 
              make_anova_tables(anova_data = anova_two_years)),
 
+tar_target(yield_summary_tables, 
+           make_yield_summary_tables(blue_data = genotype_BLUEs, 
+                                     utility_tables = util_tables, 
+                                     lsd_data = least_sig_differences, 
+                                     linear_means = linear_means, 
+                                     summary_phenos = c("yield", "protein", "oil"))),
+
   
   ## Section: Writeup documents
   ##################################################

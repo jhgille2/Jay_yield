@@ -106,17 +106,17 @@ Tel.: +XX-000-00-0000.}
 \simplesumm{A Simple summary goes here.}
 
 % Abstract (Do not insert blank lines, i.e. \\)
-\abstract{A single paragraph of about 200 words maximum. For research
-articles, abstracts should give a pertinent overview of the work. We
-strongly encourage authors to use the following style of structured
-abstracts, but without headings: 1) Background: Place the question
-addressed in a broad context and highlight the purpose of the study; 2)
-Methods: Describe briefly the main methods or treatments applied; 3)
-Results: Summarize the article's main findings; and 4) Conclusion:
-Indicate the main conclusions or interpretations. The abstract should be
-an objective representation of the article, it must not contain results
-which are not presented and substantiated in the main text and should
-not exaggerate the main conclusions.}
+\abstract{In current markets, the primary uses for soybean seed are in
+products derived from it's oil or protein content. However, growers are
+compensated based on seed oil so a more valuable crop is one with both
+high yield, and high protein, oil, or a combination of the two. A
+negative correlation between seed yield and seed protein makes improving
+these traits simultaneously difficult but not impossible through
+conventional breeding. A selection of lines with exceptional yield and
+seed composition qualities was made from two recombinant inbred line
+(RIL) soybean mapping populations to identify soybean varieties with
+yield comparable to existing cultivars, and seed composition traits
+superior to existing cultivars.}
 
 % Keywords
 \keyword{yield; protein; oil;soybean; protein meal}
@@ -331,7 +331,8 @@ above model using the emmeans
 package\citep{lenthEmmeansEstimatedMarginal2022} in R. The emmeans
 package was also used to calculate contrasts as a post-hoc test to
 compare RIL means to check means. Pearson correlation coefficients
-between each phenotype were calculated with the cor function in R.
+between each phenotype were calculated and visualized with the metan
+package.
 
 Pearson correlation is calculated for each pair of traits as:
 
@@ -365,10 +366,104 @@ and the corresponding ethical approval code.
 \hypertarget{results}{%
 \section{Results}\label{results}}
 
-This section may be divided by subheadings. It should provide a concise
-and precise description of the experimental results, their
-interpretation as well as the experimental conclusions that can be
-drawn.
+Multiple RILs in each test were identified with yield comparable to, or
+superior to that of the check cultivars included in each test.
+
+\begin{table}
+
+\caption{Marginal means and rankings of genotypes in Jay Test 1 for seed yield, seed oil, and seed protein.}
+\centering
+\resizebox{\linewidth}{!}{
+\begin{tabular}[t]{ccccccccccccc}
+\toprule
+\multicolumn{1}{c}{} & \multicolumn{4}{c}{Protein} & \multicolumn{4}{c}{Yield} & \multicolumn{4}{c}{Oil} \\
+\cmidrule(l{3pt}r{3pt}){2-5} \cmidrule(l{3pt}r{3pt}){6-9} \cmidrule(l{3pt}r{3pt}){10-13}
+Genotype & Value \textbackslash{}textsuperscript\{*\} & Rank\textbackslash{}\textbackslash{}textsuperscript\{\textbackslash{}\textbackslash{}dag\} & Test Average\textbackslash{}\textbackslash{}textsuperscript\{\textbackslash{}\textbackslash{}ddag\} & Check Average\textbackslash{}\textbackslash{}textsuperscript\{\textbackslash{}\textbackslash{}S\} & Value & Rank & Test Average & Check Average & Value & Rank & Test Average & Check Average\\
+\midrule
+LMN09-119 & 51.37 (125.5\%) & 1 &  &  & 39.36 (87.4\%) & 18 &  &  & 18.01 (80.2\%) & 20 &  & \\
+\cmidrule{1-3}
+\cmidrule{6-7}
+\cmidrule{10-11}
+N18-1763 & 47.82 (116.8\%) & 2 &  &  & 39.45 (87.6\%) & 17 &  &  & 19.58 (87.2\%) & 18 &  & \\
+\cmidrule{1-3}
+\cmidrule{6-7}
+\cmidrule{10-11}
+N18-1855 & 47.52 (116.1\%) & 3 &  &  & 43.17 (95.8\%) & 10 &  &  & 20.6 (91.8\%) & 14 &  & \\
+\cmidrule{1-3}
+\cmidrule{6-7}
+\cmidrule{10-11}
+N18-1595 & 47.36 (115.7\%) & 4 &  &  & 43.52 (96.6\%) & 9 &  &  & 19.52 (86.9\%) & 19 &  & \\
+\cmidrule{1-3}
+\cmidrule{6-7}
+\cmidrule{10-11}
+Dunphy & 41.71 (101.9\%) & 18 &  &  & 47.33 (105.1\%) & 1 &  &  & 21.52 (95.9\%) & 4 &  & \\
+\cmidrule{1-3}
+\cmidrule{6-7}
+\cmidrule{10-11}
+Dilday & 41.22 (100.7\%) & 19 &  &  & 46.78 (103.8\%) & 2 &  &  & 22.33 (99.5\%) & 2 &  & \\
+\cmidrule{1-3}
+\cmidrule{6-7}
+\cmidrule{10-11}
+N18-1632-2 & 46.67 (114\%) & 5 &  &  & 46.34 (102.9\%) & 5 &  &  & 20.8 (92.7\%) & 11 &  & \\
+\cmidrule{1-3}
+\cmidrule{6-7}
+\cmidrule{10-11}
+N18-1632-1 & 46.64 (113.9\%) & 6 &  &  & 45.73 (101.5\%) & 6 &  &  & 20.76 (92.5\%) & 12 &  & \\
+\cmidrule{1-3}
+\cmidrule{6-7}
+\cmidrule{10-11}
+N18-1620 & 43.63 (106.6\%) & 15 &  &  & 46.54 (103.3\%) & 3 &  &  & 21.4 (95.3\%) & 6 &  & \\
+\cmidrule{1-3}
+\cmidrule{6-7}
+\cmidrule{10-11}
+N18-1635 & 43.61 (106.5\%) & 16 &  &  & 46.45 (103.1\%) & 4 &  &  & 21.72 (96.7\%) & 3 &  & \\
+\cmidrule{1-3}
+\cmidrule{6-7}
+\cmidrule{10-11}
+N09-09 & 46.31 (113.1\%) & 7 &  &  & 41.61 (92.4\%) & 14 &  &  & 19.77 (88.1\%) & 17 &  & \\
+\cmidrule{1-3}
+\cmidrule{6-7}
+\cmidrule{10-11}
+N18-1731 & 46.1 (112.6\%) & 8 &  &  & 43.16 (95.8\%) & 11 &  &  & 20.49 (91.3\%) & 15 &  & \\
+\cmidrule{1-3}
+\cmidrule{6-7}
+\cmidrule{10-11}
+N18-1674 & 45.19 (110.4\%) & 9 &  &  & 44.26 (98.2\%) & 7 &  &  & 21.21 (94.5\%) & 9 &  & \\
+\cmidrule{1-3}
+\cmidrule{6-7}
+\cmidrule{10-11}
+N18-1682 & 45.11 (110.2\%) & 10 &  &  & 43.64 (96.9\%) & 8 &  &  & 20.76 (92.5\%) & 13 &  & \\
+\cmidrule{1-3}
+\cmidrule{6-7}
+\cmidrule{10-11}
+N18-1572 & 45.08 (110.1\%) & 11 &  &  & 38.58 (85.6\%) & 19 &  &  & 21.19 (94.4\%) & 10 &  & \\
+\cmidrule{1-3}
+\cmidrule{6-7}
+\cmidrule{10-11}
+N18-1751 & 44.8 (109.4\%) & 12 &  &  & 41.59 (92.3\%) & 15 &  &  & 20.44 (91\%) & 16 &  & \\
+\cmidrule{1-3}
+\cmidrule{6-7}
+\cmidrule{10-11}
+N18-1956 & 44.55 (108.8\%) & 13 &  &  & 34.79 (77.2\%) & 20 &  &  & 21.51 (95.8\%) & 5 &  & \\
+\cmidrule{1-3}
+\cmidrule{6-7}
+\cmidrule{10-11}
+N18-1604 & 43.83 (107.1\%) & 14 &  &  & 43.15 (95.8\%) & 12 &  &  & 21.34 (95.1\%) & 8 &  & \\
+\cmidrule{1-3}
+\cmidrule{6-7}
+\cmidrule{10-11}
+N18-1641 & 43.33 (105.8\%) & 17 &  &  & 41.99 (93.2\%) & 13 &  &  & 21.36 (95.1\%) & 7 &  & \\
+\cmidrule{1-3}
+\cmidrule{6-7}
+\cmidrule{10-11}
+NC-Raleigh & 39.91 (97.5\%) & 20 & \multirow{-20}{*}{\centering\arraybackslash 45.09} & \multirow{-20}{*}{\centering\arraybackslash 40.94} & 41.04 (91.1\%) & 16 & \multirow{-20}{*}{\centering\arraybackslash 42.92} & \multirow{-20}{*}{\centering\arraybackslash 45.05} & 23.5 (104.7\%) & 1 & \multirow{-20}{*}{\centering\arraybackslash 20.89} & \multirow{-20}{*}{\centering\arraybackslash 22.45}\\
+\bottomrule
+\multicolumn{13}{l}{\rule{0pt}{1em}\textsuperscript{*} Observed marginal mean of the phenotype (value of the phenotype/check average * 100\%).}\\
+\multicolumn{13}{l}{\rule{0pt}{1em}\textsuperscript{\dag} Rank of the genotype within the particular phenotype.}\\
+\multicolumn{13}{l}{\rule{0pt}{1em}\textsuperscript{\ddag} The average value of the phenotype for all lines in the test.}\\
+\multicolumn{13}{l}{\rule{0pt}{1em}\textsuperscript{\S} The average value of the phenotype for the checks in the test.}\\
+\end{tabular}}
+\end{table}
 
 \hypertarget{subsection-heading-here}{%
 \subsection{Subsection Heading Here}\label{subsection-heading-here}}

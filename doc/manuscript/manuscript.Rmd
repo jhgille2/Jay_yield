@@ -24,16 +24,13 @@ appendix: appendix.tex
 simplesummary: |
   A Simple summary goes here.
 abstract: |
-  A single paragraph of about 200 words maximum. For research articles, 
-  abstracts should give a pertinent overview of the work. We strongly encourage
-  authors to use the following style of structured abstracts, but without 
-  headings: 1) Background: Place the question addressed in a broad context and
-  highlight the purpose of the study; 2) Methods: Describe briefly the main
-  methods or treatments applied; 3) Results: Summarize the article's main 
-  findings; and 4) Conclusion: Indicate the main conclusions or interpretations. 
-  The abstract should be an objective representation of the article, it must not 
-  contain results which are not presented and substantiated in the main text and 
-  should not exaggerate the main conclusions.
+  In current markets, the primary uses for soybean seed are in products derived from 
+  it's oil or protein content. However, growers are compensated based on seed oil so 
+  a more valuable crop is one with both high yield, and high protein, oil, or a combination of the two. A negative 
+  correlation between seed yield and seed protein makes improving these traits simultaneously difficult but 
+  not impossible through conventional breeding. A selection of lines with exceptional yield and seed 
+  composition qualities was made from two recombinant inbred line (RIL) soybean mapping populations to identify soybean
+  varieties with yield comparable to existing cultivars, and seed composition traits superior to existing cultivars.
 keywords: |
   yield; protein; oil;soybean; protein meal
 acknowledgement: |
@@ -76,7 +73,8 @@ output: rticles::mdpi_article
 ```{r setup, warning=FALSE,echo = FALSE, message=FALSE}
 library(here)
 source(here("packages.R"))
-tar_load(c(example_table))
+tar_load(c(example_table, 
+           yield_summary_tables))
 ```
 
 # Version
@@ -123,7 +121,7 @@ $$y_{ijk} = \mu + E_i + B(E_i) + G_k + GE_{ik} + \epsilon_{ijk}$$
 
 Where $y_{ijk}$ is the phenotypic measurement for rep$j$ of genotype $k$ in environment $i$, $E_i$ is the effect of environment $i$, $B(E_i)$ is the effect of replication nested within environment, $G_k$ is the effect of genotype $G$, $GE_{ik}$ is the interaction effect of environment $E$ and genotype $G$, and $\epsilon_{ijk}$ is the measurement error. The genotype effect was treated as fixed and all other factors were treated as random.
 
-Models were fit using the gamem_met function from the metan package[@olivotoMetanPackageMultienvironment2020]. Least-square means (LS Means) for each genotype and trait were calculated using the above model using the emmeans package[@lenthEmmeansEstimatedMarginal2022] in R. The emmeans package was also used to calculate contrasts as a post-hoc test to compare RIL means to check means. Pearson correlation coefficients between each phenotype were calculated with the cor function in R.
+Models were fit using the gamem_met function from the metan package[@olivotoMetanPackageMultienvironment2020]. Least-square means (LS Means) for each genotype and trait were calculated using the above model using the emmeans package[@lenthEmmeansEstimatedMarginal2022] in R. The emmeans package was also used to calculate contrasts as a post-hoc test to compare RIL means to check means. Pearson correlation coefficients between each phenotype were calculated and visualized with the metan package.
 
 Pearson correlation is calculated for each pair of traits as:
 
@@ -139,7 +137,13 @@ Interventionary studies involving animals or humans, and other studies require e
 
 # Results
 
-This section may be divided by subheadings. It should provide a concise and precise description of the experimental results, their interpretation as well as the experimental conclusions that can be drawn.
+Multiple RILs in each test were identified with yield comparable to, or superior to that of the check cultivars included in each test. 
+
+```{r test1_summary_table, results = "asis", echo = FALSE}
+
+print(yield_summary_tables$`Jay Test 1`)
+
+```
 
 ## Subsection Heading Here
 
