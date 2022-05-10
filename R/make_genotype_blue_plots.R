@@ -65,7 +65,8 @@ make_genotype_blue_plots <- function(fit_models = mixed_models_two_years, all_da
       
       # Make the heatmap for the current phenotype
       p <- ge_plot(pheno_data, env = Environment, gen = Genotype, resp = !!sym(current_pheno_name)) + 
-        theme(legend.position = "bottom") + 
+        theme_few() + 
+        theme(legend.position = "bottom") +
         guides(fill = guide_colourbar(label = TRUE,
                                       draw.ulim = TRUE,
                                       draw.llim = TRUE,
@@ -75,7 +76,8 @@ make_genotype_blue_plots <- function(fit_models = mixed_models_two_years, all_da
                                       label.position = "bottom",
                                       barwidth = 10,
                                       barheight = 1.3,
-                                      direction = 'horizontal'))
+                                      direction = 'horizontal')) + 
+        theme_jay_yield_base()
         
         
       
@@ -86,9 +88,9 @@ make_genotype_blue_plots <- function(fit_models = mixed_models_two_years, all_da
     all_pheno_heatmaps <- map(phenotypes, one_pheno_heatmap, pheno_data = test_data)
     
     # Arrange all the heatmaps in one ggplot
-    # all_heatmaps_arranged <- ggarrange(plotlist = all_pheno_heatmaps, ncol = length(all_pheno_heatmaps), nrow = 1, legend = "bottom")
+    all_heatmaps_arranged <- ggarrange(plotlist = all_pheno_heatmaps, ncol = length(all_pheno_heatmaps), nrow = 1)
     
-    all_heatmaps_arranged <- all_pheno_heatmaps[[1]] | all_pheno_heatmaps[[2]] | all_pheno_heatmaps[[3]]
+    # all_heatmaps_arranged <- all_pheno_heatmaps[[1]] | all_pheno_heatmaps[[2]] | all_pheno_heatmaps[[3]]
     
     return(all_heatmaps_arranged)
   }

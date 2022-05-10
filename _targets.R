@@ -176,15 +176,23 @@ tar_plan(
 
   # Scatterplots to show phenotype marginal means and the standard errors on those
   # means 
-tar_target(phenotype_scatterplots, 
-           make_phenotype_scatterplots(mixed_models_two_years, util_tables)),
+  tar_target(phenotype_scatterplots, 
+             make_phenotype_scatterplots(mixed_models_two_years, util_tables)),
 
-tar_target(yield_summary_tables, 
-           make_yield_summary_tables(blue_data = genotype_BLUEs, 
-                                     utility_tables = util_tables, 
-                                     lsd_data = least_sig_differences, 
-                                     linear_means = linear_means, 
-                                     summary_phenos = c("yield", "protein", "oil"))),
+  tar_target(yield_summary_tables, 
+             make_yield_summary_tables(blue_data = genotype_BLUEs, 
+                                       utility_tables = util_tables, 
+                                       lsd_data = least_sig_differences, 
+                                       linear_means = linear_means, 
+                                       summary_phenos = c("yield", "protein", "oil"))),
+
+  # Export plots 
+  tar_target(phenotype_summary_plots, 
+             export_phenotype_plots(BLUE_plots_two_years, 
+                                    phenotype_scatterplots, 
+                                    export_dir = here("exports", "plots")), 
+             format = "file"),
+
 
   
   ## Section: Writeup documents

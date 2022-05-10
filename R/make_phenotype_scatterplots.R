@@ -79,7 +79,8 @@ make_phenotype_scatterplots <- function(mixed_models_two_years, util_tables, phe
       geom_vline(xintercept = pheno_check_avg, lty = 2, size = 1.1) + 
       scale_fill_manual(values = c("blue", "red")) + 
       theme(legend.title = element_blank(), 
-                    panel.grid.major.y = element_line(colour = "light grey", size = 0.25))
+                    panel.grid.major.y = element_line(colour = "light grey", size = 0.25)) + 
+      theme_jay_yield_base()
     
     return(p)
   }
