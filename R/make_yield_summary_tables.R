@@ -230,7 +230,7 @@ make_yield_summary_tables <- function(blue_data = genotype_BLUEs,
     
     table_caption <- paste("Marginal means and rankings of genotypes in", test_name, "for seed yield, seed oil, and seed protein.")
     
-    names(current_table)[2] <- paste(names(current_table)[2], 
+    names(current_table)[2] <- paste0(names(current_table)[2], 
                                       footnote_marker_symbol(1, format = "latex"))
     
     names(current_table)[3] <- paste0(names(current_table)[3], 

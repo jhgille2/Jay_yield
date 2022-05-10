@@ -64,8 +64,6 @@ labelled_histogram <- function(blue_data, test_colors, trait_name, check_genotyp
     geom_vline(xintercept = CheckAvg, linetype = 'dotted', colour = 'black', size = 1.25) + 
     geom_vline(xintercept = TestAvg, linetype = 2, colour = 'red', size = 1.25)
   
-  
-  
   # Get data for the other genotypes to label
   LabelGenotypes <- blue_data %>% dplyr::filter(genotype %in% label_genotypes)
   LabelGenotypes <- LabelGenotypes[, c("genotype", trait_name)]
@@ -136,34 +134,65 @@ labelled_histogram <- function(blue_data, test_colors, trait_name, check_genotyp
 # publication ready names
 match_from_table("md", util_tables$trait_lookup)
 
+# A function to make a patchwork plot with protein, oil, and yield
+make_patchwork_plot <- function(means_data, label_genos){
+  
+  # Make plots for oil, protein, and yield with the genotypes labelled
+  test_oil <- labelled_histogram(means_data, 
+                                   test_colors       = test_name_colors, 
+                                   trait_name        = "oil", 
+                                   check_genotypes   = util_tables$check_table, 
+                                   trait_name_lookup = util_tables$trait_lookup, 
+                                   label_genotypes   = label_genos)
+  
+  test_pro <- labelled_histogram(means_data, 
+                                   test_colors       = test_name_colors, 
+                                   trait_name        = "protein", 
+                                   check_genotypes   = util_tables$check_table, 
+                                   trait_name_lookup = util_tables$trait_lookup, 
+                                   label_genotypes   = label_genos)
+  
+  test_yield <- labelled_histogram(means_data, 
+                                     test_colors       = test_name_colors, 
+                                     trait_name        = "yield", 
+                                     check_genotypes   = util_tables$check_table, 
+                                     trait_name_lookup = util_tables$trait_lookup, 
+                                     label_genotypes   = label_genos)
+  
+  # Patchwork of the three plots with protein and oil on top and yield on the bottom
+  p <- (test_oil | test_pro)/(test_yield)
+  
+  return(p)
+}
 
-test_1_oil <- labelled_histogram(linear_means$`Jay Test 1`, 
+
+test_1_oil <- labelled_histogram(linear_means$`Jay Test 2`, 
                                  test_colors       = test_name_colors, 
                                  trait_name        = "oil", 
                                  check_genotypes   = util_tables$check_table, 
                                  trait_name_lookup = util_tables$trait_lookup, 
-                                 label_genotypes   = c("N18-1620", "N18-1632-1"))
+                                 label_genotypes   = c("N18-1627", "N18-1579", "N18-1796"))
 
-test_1_pro <- labelled_histogram(linear_means$`Jay Test 1`, 
+test_1_pro <- labelled_histogram(linear_means$`Jay Test 2`, 
                                  test_colors       = test_name_colors, 
                                  trait_name        = "protein", 
                                  check_genotypes   = util_tables$check_table, 
                                  trait_name_lookup = util_tables$trait_lookup, 
-                                 label_genotypes   = c("N18-1620", "N18-1632-1"))
+                                 label_genotypes   = c("N18-1627", "N18-1579", "N18-1796"))
 
-test_1_yield <- labelled_histogram(linear_means$`Jay Test 1`, 
+test_1_yield <- labelled_histogram(linear_means$`Jay Test 2`, 
                                    test_colors       = test_name_colors, 
                                    trait_name        = "yield", 
                                    check_genotypes   = util_tables$check_table, 
                                    trait_name_lookup = util_tables$trait_lookup, 
-                                   label_genotypes   = c("N18-1620", "N18-1632-1"))
+                                   label_genotypes   = c("N18-1627", "N18-1579", "N18-1796"))
 
-test_1_po <- labelled_histogram(linear_means$`Jay Test 1`, 
+test_1_po <- labelled_histogram(linear_means$`Jay Test 2`, 
                                    test_colors       = test_name_colors, 
                                    trait_name        = "protein_plus_oil", 
                                    check_genotypes   = util_tables$check_table, 
                                    trait_name_lookup = util_tables$trait_lookup, 
-                                   label_genotypes   = c("N18-1620", "N18-1632-1"))
+                                   label_genotypes   = c("N18-1627", "N18-1579", "N18-1796"))
 
 test_1_yield/test_1_po
 

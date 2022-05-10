@@ -159,7 +159,7 @@ tar_plan(
   
   # Plots of the genotype blues
   tar_target(BLUE_plots_two_years, 
-             make_genotype_blue_plots(fit_models = mixed_models_two_years, all_data = all_yield_data$two_year)),
+             make_genotype_blue_plots(fit_models = mixed_models_two_years, all_data = all_yield_data$two_year, util_tables)),
   
 # A example latex table to use for testing targets with the manuscript template
   tar_target(example_table, 
@@ -173,6 +173,11 @@ tar_plan(
   # Cleaner ANOVA tables
   tar_target(anova_tables, 
              make_anova_tables(anova_data = anova_two_years)),
+
+  # Scatterplots to show phenotype marginal means and the standard errors on those
+  # means 
+tar_target(phenotype_scatterplots, 
+           make_phenotype_scatterplots(mixed_models_two_years, util_tables)),
 
 tar_target(yield_summary_tables, 
            make_yield_summary_tables(blue_data = genotype_BLUEs, 
