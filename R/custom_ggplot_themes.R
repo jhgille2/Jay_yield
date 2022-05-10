@@ -5,7 +5,7 @@
 ## Author: Jay Gillenwater
 ##################################################
 
-theme_jay_yield_base <- function(){
+theme_jay_yield_base <- function(base_size = 12, base_family=""){
   theme(axis.text = element_text(size = 12), 
         axis.title = element_text(size = 14))
 }

@@ -137,12 +137,12 @@ tar_plan(
   # Conrasts of RIL means vs check means
   tar_target(genotype_contrasts_anova, 
              make_contrast_tibble(anova_two_years, 
-                                  model_type = "linear", 
+                                  model_type  = "linear", 
                                   check_genos = util_tables$yield_checks)), 
   
   tar_target(genotype_contrasts_mixed, 
              make_contrast_tibble(mixed_models_two_years,
-                                  model_type = "mixed", 
+                                  model_type  = "mixed", 
                                   check_genos = util_tables$yield_checks)),
   
   
@@ -159,7 +159,9 @@ tar_plan(
   
   # Plots of the genotype blues
   tar_target(BLUE_plots_two_years, 
-             make_genotype_blue_plots(fit_models = mixed_models_two_years, all_data = all_yield_data$two_year, util_tables)),
+             make_genotype_blue_plots(fit_models = mixed_models_two_years, 
+                                      all_data   = all_yield_data$two_year, 
+                                      util_tables)),
   
 # A example latex table to use for testing targets with the manuscript template
   tar_target(example_table, 
@@ -167,7 +169,9 @@ tar_plan(
   
   # A example plot to use for testing manuscript markdown rendering
   tar_target(example_plot, 
-             make_example_plot(all_yield_data, test_name_colors, dir = here("exports", "plots", "example_plot.pdf")), 
+             make_example_plot(all_yield_data, 
+                               test_name_colors, 
+                               dir = here("exports", "plots", "example_plot.pdf")), 
              format = "file"),
 
   # Cleaner ANOVA tables
@@ -179,19 +183,21 @@ tar_plan(
   tar_target(phenotype_scatterplots, 
              make_phenotype_scatterplots(mixed_models_two_years, util_tables)),
 
+  # Latex tables of summary data for the yield marginal means
   tar_target(yield_summary_tables, 
-             make_yield_summary_tables(blue_data = genotype_BLUEs, 
+             make_yield_summary_tables(blue_data      = genotype_BLUEs, 
                                        utility_tables = util_tables, 
-                                       lsd_data = least_sig_differences, 
-                                       linear_means = linear_means, 
+                                       lsd_data       = least_sig_differences, 
+                                       linear_means   = linear_means, 
                                        summary_phenos = c("yield", "protein", "oil"))),
-
-tar_target(labelled_test_histograms, 
-           make_test_histograms(geno_means = genotype_BLUEs$BLUEs, 
-                                util_tables, 
-                                test_name_colors, 
-                                test_1_genos = c("N18-1632-2", "N18-1635", "N18-1855", "N18-1620", "N18-1674"), 
-                                test_2_genos = c("N18-1615", "N18-1796", "N18-1579", "N18-1586", "N18-1761"))),
+  
+  # Histograms for each test with a selection of genotypes labelled for each test
+  tar_target(labelled_test_histograms, 
+             make_test_histograms(geno_means = genotype_BLUEs$BLUEs, 
+                                  util_tables, 
+                                  test_name_colors, 
+                                  test_1_genos = c("N18-1632-2", "N18-1635", "N18-1855", "N18-1620", "N18-1674"), 
+                                  test_2_genos = c("N18-1615", "N18-1796", "N18-1579", "N18-1586", "N18-1761"))),
 
   # Export plots 
   tar_target(phenotype_summary_plots, 

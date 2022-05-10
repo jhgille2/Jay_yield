@@ -137,7 +137,7 @@ Interventionary studies involving animals or humans, and other studies require e
 
 # Results
 
-Multiple RILs in each test were identified with yield comparable to, or superior to that of the check cultivars included in each test. 
+Several RILs in each of the tests had yield that was comparable to that of their check cultivars. This was determined both quanititatively through the use of contrasts between the mean of each RIL with the average of the yield check means, and qualitatively by inspecting the standard errors on the estimation of the genotype marginal means for yield. Among these genotypes with yield comparable to that of the check cultivars were several genotypes with 
 
 ```{r test1_summary_table, results = "asis", echo = FALSE}
 

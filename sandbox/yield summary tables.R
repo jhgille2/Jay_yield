@@ -8,10 +8,13 @@
 
 
 # Load in the BLUEs, utility tables, and MSDs
-tar_load(genotype_BLUEs)
-tar_load(util_tables)
-tar_load(least_sig_differences)
-tar_load(linear_means)
+source("./packages.R")
+tar_make()
+
+tar_load(c(genotype_BLUEs, 
+           util_tables, 
+           least_sig_differences, 
+           linear_means))
 
 # A function to get the minimum significant difference from the lsd results list
 get_msd <- function(fit_model){
@@ -75,7 +78,7 @@ make_pheno_comparison <- function(test_data, keep_phenos = c("yield", "protein",
            test_avg = round(test_avg, 2))
   
   check_pheno_avg <- test_data %>% 
-    dplyr::filter(genotype %in% util_tables$check_table$genotype) %>% 
+    dplyr::filter(genotype %in% util_tables$yield_checks$genotype) %>% 
     pivot_longer(cols = util_tables$trait_shortnames$name, 
                  names_to = "pheno") %>% 
     group_by(pheno) %>% 
@@ -143,7 +146,7 @@ full_comparison_long <- function(blue_data, lsd_data, keep_phenos = c("yield", "
 }
 
 # Testing the functions together
-comparison_tables <- full_comparison_table(blue_data = linear_means, least_sig_differences)
+comparison_tables <- full_comparison_table(blue_data = genotype_BLUEs$BLUEs, least_sig_differences)
 
 # TODO:
 # Need to make a function that takes this data and converts it to a more 
@@ -264,11 +267,11 @@ make_phenotype_comparison_table <- function(comparison_table_output, pheno_names
   }
   
   
-  knitr::kable(current_table, "html") %>% 
+  knitr::kable(current_table, "latex") %>% 
     kable_classic() %>% 
     collapse_rows(columns = collapse_indices) %>%
     add_header_above(column_groups)
   
 }
 
-make_phenotype_comparison_table(comparison_tables$`Jay Test 1`, keep_msd = FALSE)
+make_phenotype_comparison_table(comparison_tables$`Jay Test 2`, keep_msd = FALSE)
