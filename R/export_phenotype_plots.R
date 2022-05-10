@@ -5,7 +5,7 @@
 #' @title
 #' @param BLUE_plots_two_years
 #' @param phenotype_scatterplots
-export_phenotype_plots <- function(BLUE_plots_two_years, phenotype_scatterplots, export_dir = here("exports", "plots")) {
+export_phenotype_plots <- function(BLUE_plots_two_years, phenotype_scatterplots, labelled_test_histograms, export_dir = here("exports", "plots")) {
 
   
   ## Section: Scatterplots
@@ -37,6 +37,35 @@ export_phenotype_plots <- function(BLUE_plots_two_years, phenotype_scatterplots,
   
   # All filepaths to the saved scatterplots
   all_scatterplots <- export_scatterplots(phenotype_scatterplots$side_by_side)
+  
+  
+  ## Section: Labelled histograms
+  ##################################################
+  
+  export_histograms <- function(histograms, test_name, file_ext = "pdf"){
+    
+    export_one_histogram <- function(histogram, test_name){
+      
+      # Get a filepath to save the plot to
+      current_filename <- paste0(export_dir, "/", test_name, ".", file_ext)
+      
+      # Save the plot to the filepath
+      ggsave(filename = current_filename, 
+             plot = histogram, 
+             device = file_ext, 
+             width = 15, 
+             height = 10, 
+             units = "in")
+      
+      # And return the path
+      return(current_filename)
+    }
+    
+    map2_chr(histograms, names(histograms), export_one_histogram)
+    
+  }
+  
+  all_histograms <- export_histograms(labelled_test_histograms)
   
   ## Section: Scatterplots/heatmaps
   ##################################################
@@ -73,5 +102,6 @@ export_phenotype_plots <- function(BLUE_plots_two_years, phenotype_scatterplots,
 
   # Return all the filepaths of the saved plots
   return(c(all_scatter_heatmaps, 
-           all_scatterplots))
+           all_scatterplots, 
+           all_histograms))
 }
