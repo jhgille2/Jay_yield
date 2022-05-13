@@ -183,6 +183,12 @@ tar_plan(
   tar_target(phenotype_scatterplots, 
              make_phenotype_scatterplots(mixed_models_two_years, util_tables)),
 
+  # Correlation plots
+  tar_target(correlation_plots, 
+             make_correlation_plots(genotype_BLUEs, 
+                                    pheno = c("protein", "oil", "yield", "sdwt", "md", "ht"), 
+                                    util_tables)),
+
   # Latex tables of summary data for the yield marginal means
   tar_target(yield_summary_tables, 
              make_yield_summary_tables(blue_data      = genotype_BLUEs, 

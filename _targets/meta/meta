@@ -1,5 +1,5 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-.Random.seed|object|7dd53a0ad742c589|||||||||||||||
+.Random.seed|object|3ee63c51ad50d7d2|||||||||||||||
 all_yield_data|stem|b8ee7bee85469365|5fddda492c903e20|9a0496878c3fa2b8|61897294||t19117.5399143747s|f866abd3938f1c0d|57796|rds|local|vector|||0.42|NAs introduced by coercion. NAs introduced by coercion. NAs introduced by coercion. NAs introduced by coercion. NAs introduced by coercion. NAs introduced by coercion. NAs introduced by coercion. NAs introduced by coercion|
 analysis_writeup|stem|134e25fc917f3679|caef54508a7045af|4745aa592080ea1d|505953392|doc/analysis_writeup.html*doc/analysis_writeup.Rmd|t19125.5132856966s|6d753688f086ea0d|1632189|file|local|vector|||4.14|MathJax doesnt work with self_contained when not using the rmarkdown default template.|
 anova_tables|stem|825a16277ad3a8b1|a85b67a511135120|603e9dc97ba6d3c7|-2138999600||t19125.5137452871s|10da61cba4cac40f|44|rds|local|vector|||0||
@@ -11,6 +11,7 @@ check_ril_contrasts|function|2897d8cd2e1a2424|||||||||||||||
 cla_maturity_file|stem|fe531d5a0efddcb3|58e93cb687c7d5ee|4e3739ef91745af0|-748440933|C:/Users/Jay/Desktop/Documents/R/Jay_yield/data/season_2020/maturity_dates_CLA.xlsx|t19093.7324770629s|465d36e8c41cb528|18844|file|local|vector|||0||
 column_shortname_conversion|stem|ae070f9292cbea61|2d584bfa003f02d2|4e3739ef91745af0|-747673473|C:/Users/Jay/Desktop/Documents/R/Jay_yield/data/utils/summary_column_names.xlsx|t19117.539915972s|68798caec71a6b09|8930|file|local|vector|||0||
 convert_from_table|function|bdf5d6160b81584c|||||||||||||||
+correlation_plots|stem||247b5df25b7f3605|accdadcd6e048754|1860857796||t19125.6732358923s||0|rds|local|vector|||0.08||1m22mselect doesnt handle lists.
 example_plot|stem|dd83ab902937664f|bbd1250bcd9bdacf|d300a5be9f75cd95|-1241826085|C:/Users/Jay/Desktop/Documents/R/Jay_yield/exports/plots/example_plot.pdf|t19125.5138529511s|7ea0423cdc32241e|4898|file|local|vector|||0.41|Removed 3 rows containing nonfinite values stat_boxplot.|
 example_table|stem|ae6eaae64fd9bc97|ccc8f5e882ead679|7c9438e82f804b3c|-571512979||t19125.5132395973s|db3f47d6ae0002bc|920|rds|local|vector|||0.14||
 export_phenotype_plots|function|941ba9070aa48ea4|||||||||||||||
@@ -32,6 +33,7 @@ linear_means|stem|c9f935da18502c2f|8c2965d56c29e99f|e5459bffb38b6bb7|1948807316|
 make_anova_tables|function|ac860dca95cbc121|||||||||||||||
 make_blue_table|function|b4c49e322c3666f4|||||||||||||||
 make_contrast_tibble|function|22f46ef766326e60|||||||||||||||
+make_correlation_plots|function|cf77e83d407891f6|||||||||||||||
 make_emmean_table|function|fdba9ace32ea793d|||||||||||||||
 make_example_plot|function|62283aa6fc09f212|||||||||||||||
 make_example_table|function|d076ea64fcc9f5ec|||||||||||||||
