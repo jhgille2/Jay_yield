@@ -166,6 +166,13 @@ make_patchwork_plot <- function(means_data, label_genos){
 }
 
 
+make_patchwork_plot(genotype_BLUEs$BLUEs$`Jay Test 1`, label_genos = c("N18-1632-1", 
+                                                                       "N18-1595"))
+
+make_patchwork_plot(genotype_BLUEs$BLUEs$`Jay Test 2`, label_genos = c("N18-1761", 
+                                                                       "N18-1577", 
+                                                                       "N18-1796"))
+
 test_1_oil <- labelled_histogram(linear_means$`Jay Test 2`, 
                                  test_colors       = test_name_colors, 
                                  trait_name        = "oil", 
