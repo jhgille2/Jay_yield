@@ -196,6 +196,14 @@ tar_plan(
                                        lsd_data       = least_sig_differences, 
                                        linear_means   = linear_means, 
                                        summary_phenos = c("yield", "protein", "oil"))),
+
+  # Summary tables for selections of elite genotypes
+tar_target(elite_genotype_tables, 
+           make_elite_summary_tables(blue_data      = genotype_BLUEs,
+                                     utility_tables = util_tables, 
+                                     lsd_data       = least_sig_differences)),
+             
+             
   
   # Histograms for each test with a selection of genotypes labelled for each test
   tar_target(labelled_test_histograms, 
@@ -219,7 +227,7 @@ tar_plan(
   ##################################################
   tar_render(analysis_writeup, here("doc", "analysis_writeup.Rmd")), 
 
-  tar_render(overview_document, here("doc", "overview_document.Rmd")),
+  # tar_render(overview_document, here("doc", "overview_document.Rmd")),
   
   tar_render(manuscript_document, here("doc", "manuscript", "manuscript.Rmd"))
   

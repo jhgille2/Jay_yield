@@ -193,7 +193,21 @@ remove_phenotype_names <- function(column_names, pheno_names = c("yield", "prote
 
 
 # A function to make a kable table with group headings to match phenotypes
-make_phenotype_comparison_table <- function(comparison_table_output, pheno_names = c("yield", "protein", "oil", "protein_plus_oil"), keep_msd = TRUE){
+make_phenotype_comparison_table <- function(comparison_table_output, pheno_names = c("yield", "protein", "oil", "protein_plus_oil"), keep_msd = TRUE, keep_genos = NULL){
+  
+  if(all(names(comparison_table_output) == c("Jay Test 1", "Jay Test 2"))){
+    merged_comparison_tables <- map(comparison_table_output, function(x) pluck(x, "comparison_table")) %>% 
+      reduce(bind_rows)
+    
+    comparison_table_output <- list("comparison_table"  = merged_comparison_tables, 
+                                    "phenotype_indices" = comparison_table_output[[1]]$phenotype_indices)
+  }
+  
+  # If keep_genos is specified, first filter the comparison table fo just those genotypes
+  if(!is.null(keep_genos)){
+    comparison_table_output$comparison_table <- comparison_table_output$comparison_table %>% 
+      dplyr::filter(genotype %in% keep_genos)
+  }
   
   # First, sort the indices of the phenotypes by the order in which they appear 
   # in the comparison table
@@ -266,12 +280,34 @@ make_phenotype_comparison_table <- function(comparison_table_output, pheno_names
       sort()
   }
   
+  # names(current_table)[1] <- paste0(names(current_table)[1], 
+  #                                   footnote_marker_symbol(1, format = "latex"))
+  # 
+  # names(current_table)[2] <- paste0(names(current_table)[2], 
+  #                                   footnote_marker_symbol(2, format = "latex"))
+  # 
+  # names(current_table)[3] <- paste0(names(current_table)[3], 
+  #                                   footnote_marker_symbol(3, format = "latex"))
+  # 
+  # names(current_table)[4] <- paste0(names(current_table)[4], 
+  #                                   footnote_marker_symbol(4, format = "latex"))
+  # 
+  # names(current_table)[5] <- paste0(names(current_table)[5], 
+  #                                   footnote_marker_symbol(5, format = "latex"))
+  # 
   
-  knitr::kable(current_table, "latex") %>% 
+  knitr::kable(current_table, "html") %>% 
     kable_classic() %>% 
     collapse_rows(columns = collapse_indices) %>%
-    add_header_above(column_groups)
+    add_header_above(column_groups, escape = FALSE) %>% 
+    footnote(symbol = c("The genotype name.", 
+                        "The genotype marginal mean for the phenotype.", 
+                        "The ranking of this genotype for the phenotype within its test.", 
+                        "The average phenotype value for all genotypes in the test.",
+                        "The average value of the checks in the test."))
   
 }
 
-make_phenotype_comparison_table(comparison_tables$`Jay Test 2`, keep_msd = FALSE)
+test_2_elites <- c("N18-1635", "N18-1627", "N18-1643", "N18-1783")
+
+make_phenotype_comparison_table(comparison_tables, keep_msd = FALSE, keep_genos = test_2_elites)

@@ -74,7 +74,8 @@ output: rticles::mdpi_article
 library(here)
 source(here("packages.R"))
 tar_load(c(example_table, 
-           yield_summary_tables))
+           yield_summary_tables, 
+           elite_genotype_tables))
 ```
 
 # Version
@@ -89,7 +90,7 @@ Soybean lines typically contain about 20% oil and 40% protein content on a dry w
 
 Despite the difficulty in simultaneously breeding for all three of these traits, releases of varieties with elevated protein contents and only moderately reduced yield has shown that it is not impossible. The high protein germplasm lines R05-1415 and R05-1772 were released recently and contain 46.9% and 46.1% protein content with while still producing yields 94% and 91% of that of the high yielding 5002T cultivar[@HiProtHiYield02]. Lines TN03-350 and TN04-5321 contain 43.9% and 43.1% protein content while having superior or comparable performance to yield checks[@HiProtHiYield04]. The Prolina cultivar has a protein content of 46.1% with a yield only 13% reduced from the Centennial check[@HiProtHiYield01]. The Highpro1 cultivar was released in 2016 and has a yield which is greater than or equal to 97% of that of the highest yielding check cultivar, IA3023 with a protein content of 40.1%[@HighPro1]. Cultivars produced through conventional breeding techniques such as these have shown that it is possible to identify lines with both high seed protein and seed yield. Efforts to find these lines should be continued to provide growers and breeders with additional high value cultivars, and germplasm which can be further used to improve protein and yield traits.
 
-To meet this goal, two recombinant inbred line (RIL) oil mapping populations were screened for lines which showed promising combinations of yield and seed composition traits. Successive rounds of selection were conducted to identify and characterize lines with high values for yield as well as protein and oil composition were performed between 2018 and 2021 to identify soybean lines with elevated yield as well as the valuable seed composition traits when compared with existing check cultivars.
+To meet this goal, two recombinant inbred line (RIL) oil mapping populations were screened for lines which showed promising combinations of yield and seed composition traits. Successive rounds of selection were conducted to identify and characterize lines with high values for yield as well as protein and oil composition were performed between 2018 and 2021 to identify soybean lines with yield comparable to existing check cultivars and protein and or oil composition superior to that of the check cultivars.
 
 # Materials and Methods
 
@@ -121,7 +122,7 @@ $$y_{ijk} = \mu + E_i + B(E_i) + G_k + GE_{ik} + \epsilon_{ijk}$$
 
 Where $y_{ijk}$ is the phenotypic measurement for rep$j$ of genotype $k$ in environment $i$, $E_i$ is the effect of environment $i$, $B(E_i)$ is the effect of replication nested within environment, $G_k$ is the effect of genotype $G$, $GE_{ik}$ is the interaction effect of environment $E$ and genotype $G$, and $\epsilon_{ijk}$ is the measurement error. The genotype effect was treated as fixed and all other factors were treated as random.
 
-Models were fit using the gamem_met function from the metan package[@olivotoMetanPackageMultienvironment2020]. Least-square means (LS Means) for each genotype and trait were calculated using the above model using the emmeans package[@lenthEmmeansEstimatedMarginal2022] in R. The emmeans package was also used to calculate contrasts as a post-hoc test to compare RIL means to check means. Pearson correlation coefficients between each phenotype were calculated and visualized with the metan package.
+Models were fit using the gamem_met function from the metan package[@olivotoMetanPackageMultienvironment2020]. Least-square means (LS Means) for each genotype and trait were calculated using the above model using the emmeans package[@lenthEmmeansEstimatedMarginal2022] in R. The emmeans package was also used to calculate contrasts as a post-hoc test to compare RIL phenotype means to check means. Pearson correlation coefficients between each phenotype were calculated and visualized with the metan package.
 
 Pearson correlation is calculated for each pair of traits as:
 
@@ -137,13 +138,25 @@ Interventionary studies involving animals or humans, and other studies require e
 
 # Results
 
-Several RILs in each of the tests had yield that was comparable to that of their check cultivars. This was determined both quanititatively through the use of contrasts between the mean of each RIL with the average of the yield check means, and qualitatively by inspecting the standard errors on the estimation of the genotype marginal means for yield. Among these genotypes with yield comparable to that of the check cultivars were several genotypes with 
+Several RILs in each of the tests had yield that was comparable to that of their check cultivars. This was determined both quanititatively through the use of contrasts between the mean of each RIL with the average of the yield check means, and qualitatively by inspecting the standard errors on the estimation of the genotype marginal means for yield. No genotypes had yield that was quantitatively higher than that of the yield checks, however many had comparable yield. Many of these genotypes with comparable yield also had protein content that was superior to the check average in each test. No genotypes had oil that was superior to the check cultivars, but some had comparable yield and oil content as well as superior protein content. These genotypes with comparable yield and superior protein also had desirable agronomic qualities such as low lodging and good seed quality which would make them ideal candidates for future breeding material.  
 
-```{r test1_summary_table, results = "asis", echo = FALSE}
+## Genotypes with omparable yield and oil and superior protein
+Four genotypes had yield and oil that was similar to that of the yield checks, and seed protein that was greater than the average of the checks. These genotypes are N18-1635 from Test 1 and genotypes N18-1627, N18-1643, and N18-1783 from Test 2. 
 
-print(yield_summary_tables$`Jay Test 1`)
+
+```{r elite_geno_table, results = "asis", echo = FALSE}
+
+print(elite_genotype_tables$elite_genos)
 
 ```
+
+```{r high_po_table, results = "asis", echo = FALSE}
+
+print(elite_genotype_tables$po_top_ten)
+
+```
+
+
 
 ## Subsection Heading Here
 

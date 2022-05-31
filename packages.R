@@ -45,7 +45,8 @@ pacman::p_load(rmdformats,
                kableExtra, 
                pander, 
                kableExtra, 
-               rmarkdown)
+               rmarkdown, 
+               rticles)
 
 # Function conflict preferences
 conflicted::conflict_prefer("filter", "dplyr", "base")

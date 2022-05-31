@@ -36,9 +36,7 @@ In 2018, oil mapping populations 201 and 202 were grown at the Central Crops Res
 
 These four tests were grown in two locations in 2019: the Tidewater Research Station in Plymouth, NC (PLY) and the Caswell Research Farm in Kinston, NC (CAS). The same data was collected for each test in this season that was collected in the previous season. Selections were done using this data by first identifying the lines with a yield within or above a least significant difference (LSD) of the average yield of the checks for each test. Further selection was done using the seed composition traits by identifying the thirty lines with the highest protein + oil content.
 
-These thirty lines were then grouped into two new tests of 15 RILs each which were then grown in both the 2020 and 2021 seasons. Thesew tests were grown in CLA and CAS in 2020 and CAS and PLY in 2021.
-
-
+These thirty lines were then grouped into two new tests of 15 RILs each which were then grown in both the 2020 and 2021 seasons. These tests were grown in CLA and CAS in 2020 and CAS and PLY in 2021.
 
 
 ## Reproducibility
