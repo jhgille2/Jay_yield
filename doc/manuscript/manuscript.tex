@@ -116,7 +116,13 @@ conventional breeding. A selection of lines with exceptional yield and
 seed composition qualities was made from two recombinant inbred line
 (RIL) soybean mapping populations to identify soybean varieties with
 yield comparable to existing cultivars, and seed composition traits
-superior to existing cultivars.}
+superior to existing cultivars. The performance of these RILs were
+evaluated in multiple environments and several genotypes were identified
+with yield comparable to that of existing high-performance cultivars
+with seed protein and or oil that is equal to or superior to the
+high-performing cultivars. These genotypes will provide breeders with
+additional sources of germplasm for continuing efforts to improve seed
+composition traits, and provide growers with valuable genotype options.}
 
 % Keywords
 \keyword{yield; protein; oil;soybean; protein meal}
@@ -160,15 +166,6 @@ superior to existing cultivars.}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\hypertarget{version}{%
-\section{Version}\label{version}}
-
-This Rmd-skeleton uses the mdpi Latex template published 2019/02.
-However, the official template gets more frequently updated than the
-`rticles' package. Therefore, please make sure prior to paper
-submission, that you're using the most recent .cls, .tex and .bst files
-(available \href{http://www.mdpi.com/authors/latex}{here}).
 
 \hypertarget{introduction}{%
 \section{Introduction}\label{introduction}}
@@ -330,9 +327,9 @@ means (LS Means) for each genotype and trait were calculated using the
 above model using the emmeans
 package\citep{lenthEmmeansEstimatedMarginal2022} in R. The emmeans
 package was also used to calculate contrasts as a post-hoc test to
-compare RIL phenotype means to check means. Pearson correlation
-coefficients between each phenotype were calculated and visualized with
-the metan package.
+compare RIL phenotype means to check means for all collected phenotypes.
+Pearson correlation coefficients between each phenotype were calculated
+with the metan package.
 
 Pearson correlation is calculated for each pair of traits as:
 
@@ -342,29 +339,25 @@ Where \(x\) and \(y\) are measurements of the two phenotypes, \(m_x\)
 and \(m_y\) are the means of each phenotype, and \(r\) is the
 correlation coefficient.
 
-Materials and Methods should be described with sufficient details to
-allow others to replicate and build on published results. Please note
-that publication of your manuscript implicates that you must make all
-materials, data, computer code, and protocols associated with the
-publication available to readers. Please disclose at the submission
-stage any restrictions on the availability of materials or information.
-New methods and protocols should be described in detail while
-well-established methods can be briefly described and appropriately
-cited.
-
-Research manuscripts reporting large datasets that are deposited in a
-publicly available database should specify where the data have been
-deposited and provide the relevant accession numbers. If the accession
-numbers have not yet been obtained at the time of submission, please
-state that they will be provided during review. They must be provided
-prior to publication.
-
-Interventionary studies involving animals or humans, and other studies
-require ethical approval must list the authority that provided approval
-and the corresponding ethical approval code.
-
 \hypertarget{results}{%
 \section{Results}\label{results}}
+
+\hypertarget{phenotypic-correlations}{%
+\subsection{Phenotypic correlations}\label{phenotypic-correlations}}
+
+A strong negative correlation was observed in both tests between seed
+protein and seed oil content. A coefficient of r = -0.93 was observed in
+both populations. A negative correlation was observed between seed
+protein and yield with correlation coefficient of r = -0.29 was observed
+in both tests. This correlation was not statistically significant in
+either population. A weak positive correlation was observed between seed
+oil and seed yield in both populations. A correlation coefficient of r =
+0.24 was observed in Test 1 while a coefficient of r = 0.28 was observed
+in Test 2. These correlation coefficients were not statistically
+significant in either population.
+
+\hypertarget{yield-contrasts}{%
+\subsection{Yield contrasts}\label{yield-contrasts}}
 
 Several RILs in each of the tests had yield that was comparable to that
 of their check cultivars. This was determined both quanititatively
@@ -376,14 +369,18 @@ of the yield checks, however many had comparable yield. Many of these
 genotypes with comparable yield also had protein content that was
 superior to the check average in each test. No genotypes had oil that
 was superior to the check cultivars, but some had comparable yield and
-oil content as well as superior protein content. These genotypes with
-comparable yield and superior protein also had desirable agronomic
-qualities such as low lodging and good seed quality which would make
-them ideal candidates for future breeding material.
+oil content as well as superior protein content.
 
-\hypertarget{genotypes-with-omparable-yield-and-oil-and-superior-protein}{%
-\subsection{Genotypes with omparable yield and oil and superior
-protein}\label{genotypes-with-omparable-yield-and-oil-and-superior-protein}}
+RILs were also evaluated for lodging and seed quality. All RILs had seed
+quality that was on par with that of the high-yielding checks however,
+however 11 genotypes had lodging scores that were significantly greater
+than the checks on the basis of contrasts. These RILs were removed from
+consideration for recommendation on the basis of their relatively poor
+agronomic performance.
+
+\hypertarget{genotypes-with-comparable-yield-and-oil-and-superior-protein}{%
+\subsection{Genotypes with comparable yield and oil and superior
+protein}\label{genotypes-with-comparable-yield-and-oil-and-superior-protein}}
 
 Four genotypes had yield and oil that was similar to that of the yield
 checks, and seed protein that was greater than the average of the
@@ -395,118 +392,123 @@ N18-1643, and N18-1783 from Test 2.
 \caption{Soybean genotypes with yield and seed oil comparable to check cultivars, and seed protein superior to check cultivars.}
 \centering
 \resizebox{\linewidth}{!}{
-\begin{tabular}[t]{llrlllrll}
+\begin{tabular}[t]{lllrlllrlllrll}
 \toprule
-\multicolumn{1}{c}{} & \multicolumn{4}{c}{Protein + Oil} & \multicolumn{4}{c}{Yield} \\
-\cmidrule(l{3pt}r{3pt}){2-5} \cmidrule(l{3pt}r{3pt}){6-9}
-Genotype & Value & Rank & Test Average & Check Average & Value & Rank & Test Average & Check Average\\
+\multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{4}{c}{Protein} & \multicolumn{4}{c}{Yield} & \multicolumn{4}{c}{Oil} \\
+\cmidrule(l{3pt}r{3pt}){3-6} \cmidrule(l{3pt}r{3pt}){7-10} \cmidrule(l{3pt}r{3pt}){11-14}
+Genotype & Test Name & Value & Rank & Test Average & Check Average & Value & Rank & Test Average & Check Average & Value & Rank & Test Average & Check Average\\
 \midrule
-N18-1635 & 65.32 (103\%) & 13 & 65.98 & 63.39 & 46.45 (103.1\%) & 4 & 42.92 & 45.05\\
-\cmidrule{1-9}
-N18-1783 & 67.38 (105.1\%) & 8 &  &  & 37.63 (86.6\%) & 19 &  & \\
-\cmidrule{1-3}
-\cmidrule{6-7}
-N18-1627 & 66.52 (103.7\%) & 10 &  &  & 46.01 (105.9\%) & 8 &  & \\
-\cmidrule{1-3}
-\cmidrule{6-7}
-N18-1643 & 65.8 (102.6\%) & 13 & \multirow{-3}{*}{\raggedright\arraybackslash 66.4} & \multirow{-3}{*}{\raggedright\arraybackslash 64.14} & 40.54 (93.3\%) & 16 & \multirow{-3}{*}{\raggedright\arraybackslash 43.65} & \multirow{-3}{*}{\raggedright\arraybackslash 43.44}\\
+N18-1635 & Jay Test 1 & 43.61 (106.5\%) & 16 & 45.09 & 40.94 & 46.45 (103.1\%) & 4 & 42.92 & 45.05 & 21.72 (96.7\%) & 3 & 20.89 & 22.45\\
+\cmidrule{1-14}
+N18-1783 &  & 46.74 (109.3\%) & 8 &  &  & 37.63 (86.6\%) & 19 &  &  & 20.63 (96.5\%) & 11 &  & \\
+\cmidrule{1-1}
+\cmidrule{3-4}
+\cmidrule{7-8}
+\cmidrule{11-12}
+N18-1627 &  & 45.9 (107.3\%) & 9 &  &  & 46.01 (105.9\%) & 8 &  &  & 20.62 (96.5\%) & 12 &  & \\
+\cmidrule{1-1}
+\cmidrule{3-4}
+\cmidrule{7-8}
+\cmidrule{11-12}
+N18-1643 & \multirow{-3}{*}{\raggedright\arraybackslash Jay Test 2} & 44.35 (103.7\%) & 13 & \multirow{-3}{*}{\raggedright\arraybackslash 45.7} & \multirow{-3}{*}{\raggedright\arraybackslash 42.77} & 40.54 (93.3\%) & 16 & \multirow{-3}{*}{\raggedright\arraybackslash 43.65} & \multirow{-3}{*}{\raggedright\arraybackslash 43.44} & 21.45 (100.4\%) & 7 & \multirow{-3}{*}{\raggedright\arraybackslash 20.7} & \multirow{-3}{*}{\raggedright\arraybackslash 21.37}\\
 \bottomrule
-\multicolumn{9}{l}{\rule{0pt}{1em}\textsuperscript{*} The genotype name.}\\
-\multicolumn{9}{l}{\rule{0pt}{1em}\textsuperscript{\dag} The genotype marginal mean for the phenotype (value divided by check average).}\\
-\multicolumn{9}{l}{\rule{0pt}{1em}\textsuperscript{\ddag} The ranking of this genotype for the phenotype within its test.}\\
-\multicolumn{9}{l}{\rule{0pt}{1em}\textsuperscript{\S} The average phenotype value for all genotypes in the test.}\\
-\multicolumn{9}{l}{\rule{0pt}{1em}\textsuperscript{\P} The average value of the checks in the test.}\\
+\multicolumn{14}{l}{\rule{0pt}{1em}\textsuperscript{*} The genotype name.}\\
+\multicolumn{14}{l}{\rule{0pt}{1em}\textsuperscript{\dag} The genotype marginal mean for the phenotype (value divided by check average).}\\
+\multicolumn{14}{l}{\rule{0pt}{1em}\textsuperscript{\ddag} The ranking of this genotype for the phenotype within its test.}\\
+\multicolumn{14}{l}{\rule{0pt}{1em}\textsuperscript{\S} The average phenotype value for all genotypes in the test.}\\
+\multicolumn{14}{l}{\rule{0pt}{1em}\textsuperscript{\P} The average value of the checks in the test.}\\
 \end{tabular}}
 \end{table}
+
+\hypertarget{genotypes-with-comparable-yield-and-superior-protein}{%
+\subsection{Genotypes with comparable yield and superior
+protein}\label{genotypes-with-comparable-yield-and-superior-protein}}
+
+Seventeen out of the thirty RILs had a similar yield and superior
+protein content to the check cultivars.
 
 \begin{table}[H]
 
-\caption{Top 10 soybean genotypes on the basis of protein plus oil content.}
+\caption{Soybean RILs with superior protein content and comparable yield performance to high-yielding check cultivars.}
 \centering
 \resizebox{\linewidth}{!}{
-\begin{tabular}[t]{llrlllrll}
+\begin{tabular}[t]{lllrlllrll}
 \toprule
-\multicolumn{1}{c}{} & \multicolumn{4}{c}{Protein + Oil} & \multicolumn{4}{c}{Yield} \\
-\cmidrule(l{3pt}r{3pt}){2-5} \cmidrule(l{3pt}r{3pt}){6-9}
-Genotype & Value & Rank & Test Average & Check Average & Value & Rank & Test Average & Check Average\\
+\multicolumn{1}{c}{} & \multicolumn{1}{c}{} & \multicolumn{4}{c}{Protein} & \multicolumn{4}{c}{Yield} \\
+\cmidrule(l{3pt}r{3pt}){3-6} \cmidrule(l{3pt}r{3pt}){7-10}
+Genotype & Test Name & Value & Rank & Test Average & Check Average & Value & Rank & Test Average & Check Average\\
 \midrule
-N18-1855 & 68.13 (107.5\%) & 2 &  &  & 43.17 (95.8\%) & 10 &  & \\
-\cmidrule{1-3}
-\cmidrule{6-7}
-N18-1632-2 & 67.47 (106.4\%) & 3 &  &  & 46.34 (102.9\%) & 5 &  & \\
-\cmidrule{1-3}
-\cmidrule{6-7}
-N18-1763 & 67.4 (106.3\%) & 5 &  &  & 39.45 (87.6\%) & 17 &  & \\
-\cmidrule{1-3}
-\cmidrule{6-7}
-N18-1595 & 66.87 (105.5\%) & 6 &  &  & 43.52 (96.6\%) & 9 &  & \\
-\cmidrule{1-3}
-\cmidrule{6-7}
-N18-1731 & 66.59 (105\%) & 7 &  &  & 43.16 (95.8\%) & 11 &  & \\
-\cmidrule{1-3}
-\cmidrule{6-7}
-N18-1674 & 66.4 (104.7\%) & 8 & \multirow{-6}{*}{\raggedright\arraybackslash 65.98} & \multirow{-6}{*}{\raggedright\arraybackslash 63.39} & 44.26 (98.2\%) & 7 & \multirow{-6}{*}{\raggedright\arraybackslash 42.92} & \multirow{-6}{*}{\raggedright\arraybackslash 45.05}\\
-\cmidrule{1-9}
-N18-1575 & 69.04 (107.6\%) & 1 &  &  & 42.49 (97.8\%) & 12 &  & \\
-\cmidrule{1-3}
-\cmidrule{6-7}
-N18-1761 & 68.48 (106.8\%) & 3 &  &  & 45.74 (105.3\%) & 9 &  & \\
-\cmidrule{1-3}
-\cmidrule{6-7}
-N18-1769 & 67.95 (105.9\%) & 6 & \multirow{-3}{*}{\raggedright\arraybackslash 66.4} & \multirow{-3}{*}{\raggedright\arraybackslash 64.14} & 37.88 (87.2\%) & 18 & \multirow{-3}{*}{\raggedright\arraybackslash 43.65} & \multirow{-3}{*}{\raggedright\arraybackslash 43.44}\\
+N18-1763 &  & 47.82 (116.8\%) & 2 &  &  & 39.45 (87.6\%) & 17 &  & \\
+\cmidrule{1-1}
+\cmidrule{3-4}
+\cmidrule{7-8}
+N18-1855 &  & 47.52 (116.1\%) & 3 &  &  & 43.17 (95.8\%) & 10 &  & \\
+\cmidrule{1-1}
+\cmidrule{3-4}
+\cmidrule{7-8}
+N18-1595 &  & 47.36 (115.7\%) & 4 &  &  & 43.52 (96.6\%) & 9 &  & \\
+\cmidrule{1-1}
+\cmidrule{3-4}
+\cmidrule{7-8}
+N18-1632-1 &  & 46.64 (113.9\%) & 6 &  &  & 45.73 (101.5\%) & 6 &  & \\
+\cmidrule{1-1}
+\cmidrule{3-4}
+\cmidrule{7-8}
+N18-1620 &  & 43.63 (106.6\%) & 15 &  &  & 46.54 (103.3\%) & 3 &  & \\
+\cmidrule{1-1}
+\cmidrule{3-4}
+\cmidrule{7-8}
+N18-1635 &  & 43.61 (106.5\%) & 16 &  &  & 46.45 (103.1\%) & 4 &  & \\
+\cmidrule{1-1}
+\cmidrule{3-4}
+\cmidrule{7-8}
+N18-1731 &  & 46.1 (112.6\%) & 8 &  &  & 43.16 (95.8\%) & 11 &  & \\
+\cmidrule{1-1}
+\cmidrule{3-4}
+\cmidrule{7-8}
+N18-1674 &  & 45.19 (110.4\%) & 9 &  &  & 44.26 (98.2\%) & 7 &  & \\
+\cmidrule{1-1}
+\cmidrule{3-4}
+\cmidrule{7-8}
+N18-1682 &  & 45.11 (110.2\%) & 10 &  &  & 43.64 (96.9\%) & 8 &  & \\
+\cmidrule{1-1}
+\cmidrule{3-4}
+\cmidrule{7-8}
+N18-1572 &  & 45.08 (110.1\%) & 11 &  &  & 38.58 (85.6\%) & 19 &  & \\
+\cmidrule{1-1}
+\cmidrule{3-4}
+\cmidrule{7-8}
+N18-1751 & \multirow{-11}{*}{\raggedright\arraybackslash Jay Test 1} & 44.8 (109.4\%) & 12 & \multirow{-11}{*}{\raggedright\arraybackslash 45.09} & \multirow{-11}{*}{\raggedright\arraybackslash 40.94} & 41.59 (92.3\%) & 15 & \multirow{-11}{*}{\raggedright\arraybackslash 42.92} & \multirow{-11}{*}{\raggedright\arraybackslash 45.05}\\
+\cmidrule{1-10}
+N18-1761 &  & 49.1 (114.8\%) & 2 &  &  & 45.74 (105.3\%) & 9 &  & \\
+\cmidrule{1-1}
+\cmidrule{3-4}
+\cmidrule{7-8}
+N18-1575 &  & 48.67 (113.8\%) & 4 &  &  & 42.49 (97.8\%) & 12 &  & \\
+\cmidrule{1-1}
+\cmidrule{3-4}
+\cmidrule{7-8}
+N18-1769 &  & 48.58 (113.6\%) & 5 &  &  & 37.88 (87.2\%) & 18 &  & \\
+\cmidrule{1-1}
+\cmidrule{3-4}
+\cmidrule{7-8}
+N18-1783 &  & 46.74 (109.3\%) & 8 &  &  & 37.63 (86.6\%) & 19 &  & \\
+\cmidrule{1-1}
+\cmidrule{3-4}
+\cmidrule{7-8}
+N18-1627 &  & 45.9 (107.3\%) & 9 &  &  & 46.01 (105.9\%) & 8 &  & \\
+\cmidrule{1-1}
+\cmidrule{3-4}
+\cmidrule{7-8}
+N18-1643 & \multirow{-6}{*}{\raggedright\arraybackslash Jay Test 2} & 44.35 (103.7\%) & 13 & \multirow{-6}{*}{\raggedright\arraybackslash 45.7} & \multirow{-6}{*}{\raggedright\arraybackslash 42.77} & 40.54 (93.3\%) & 16 & \multirow{-6}{*}{\raggedright\arraybackslash 43.65} & \multirow{-6}{*}{\raggedright\arraybackslash 43.44}\\
 \bottomrule
-\multicolumn{9}{l}{\rule{0pt}{1em}\textsuperscript{*} The genotype name.}\\
-\multicolumn{9}{l}{\rule{0pt}{1em}\textsuperscript{\dag} The genotype marginal mean for the phenotype (value divided by check average).}\\
-\multicolumn{9}{l}{\rule{0pt}{1em}\textsuperscript{\ddag} The ranking of this genotype for the phenotype within its test.}\\
-\multicolumn{9}{l}{\rule{0pt}{1em}\textsuperscript{\S} The average phenotype value for all genotypes in the test.}\\
-\multicolumn{9}{l}{\rule{0pt}{1em}\textsuperscript{\P} The average value of the checks in the test.}\\
+\multicolumn{10}{l}{\rule{0pt}{1em}\textsuperscript{*} The genotype name.}\\
+\multicolumn{10}{l}{\rule{0pt}{1em}\textsuperscript{\dag} The genotype marginal mean for the phenotype (value divided by check average).}\\
+\multicolumn{10}{l}{\rule{0pt}{1em}\textsuperscript{\ddag} The ranking of this genotype for the phenotype within its test.}\\
+\multicolumn{10}{l}{\rule{0pt}{1em}\textsuperscript{\S} The average phenotype value for all genotypes in the test.}\\
+\multicolumn{10}{l}{\rule{0pt}{1em}\textsuperscript{\P} The average value of the checks in the test.}\\
 \end{tabular}}
 \end{table}
-
-\hypertarget{subsection-heading-here}{%
-\subsection{Subsection Heading Here}\label{subsection-heading-here}}
-
-Subsection text here.
-
-\hypertarget{subsubsection-heading-here}{%
-\subsubsection{Subsubsection Heading
-Here}\label{subsubsection-heading-here}}
-
-Bulleted lists look like this:
-
-\begin{itemize}
-\tightlist
-\item
-  First bullet
-\item
-  Second bullet
-\item
-  Third bullet
-\end{itemize}
-
-Numbered lists can be added as follows:
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  First item
-\item
-  Second item
-\item
-  Third item
-\end{enumerate}
-
-The text continues here.
-
-All figures and tables should be cited in the main text as Figure 1,
-Table 1, etc.
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=10 cm]{C:/Users/Jay/Documents/R/Projects/Jay_yield/exports/plots/example_plot.pdf}
-\caption{This is a figure, Schemes follow the same formatting. If there are multiple panels, they should be listed as: (\textbf{a}) Description of what is contained in the first panel. (\textbf{b}) Description of what is contained in the second panel. Figures should be placed in the main text near to the first time they are cited. A caption on a single line should be centered.}
-\end{figure}
 
 \begin{figure}[H]
 \centering
@@ -514,80 +516,21 @@ Table 1, etc.
 \caption{This is a figure, Schemes follow the same formatting. If there are multiple panels, they should be listed as: (\textbf{a}) Description of what is contained in the first panel. (\textbf{b}) Description of what is contained in the second panel. Figures should be placed in the main text near to the first time they are cited. A caption on a single line should be centered.}
 \end{figure}
 
-\begin{table}[H]
-\caption{This is a table caption. Tables should be placed in the main text near to the first time they are cited.}
-\centering
-%% \tablesize{} %% You can specify the fontsize here, e.g.  \tablesize{\footnotesize}. If commented out \small will be used.
-\begin{tabular}{ccc}
-\toprule
-\textbf{Title 1}    & \textbf{Title 2}  & \textbf{Title 3}\\
-\midrule
-entry 1     & data          & data\\
-entry 2     & data          & data\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\begin{table}
-
-\caption{This is a table caption. Tables should be placed in the main text near to the first time they are cited.}
-\centering
-\begin{tabular}[t]{lrrrrrrrrrrr}
-\toprule
-\textbf{ } & \textbf{mpg} & \textbf{cyl} & \textbf{disp} & \textbf{hp} & \textbf{drat} & \textbf{wt} & \textbf{qsec} & \textbf{vs} & \textbf{am} & \textbf{gear} & \textbf{carb}\\
-\midrule
-Mazda RX4 & 21.0 & 6 & 160 & 110 & 3.90 & 2.620 & 16.46 & 0 & 1 & 4 & 4\\
-Mazda RX4 Wag & 21.0 & 6 & 160 & 110 & 3.90 & 2.875 & 17.02 & 0 & 1 & 4 & 4\\
-Datsun 710 & 22.8 & 4 & 108 & 93 & 3.85 & 2.320 & 18.61 & 1 & 1 & 4 & 1\\
-Hornet 4 Drive & 21.4 & 6 & 258 & 110 & 3.08 & 3.215 & 19.44 & 1 & 0 & 3 & 1\\
-Hornet Sportabout & 18.7 & 8 & 360 & 175 & 3.15 & 3.440 & 17.02 & 0 & 0 & 3 & 2\\
-\addlinespace
-Valiant & 18.1 & 6 & 225 & 105 & 2.76 & 3.460 & 20.22 & 1 & 0 & 3 & 1\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-This is an example of an equation:
-
-\begin{equation}
-\mathbb{S}
-\end{equation}
-
-Example of a theorem:
-
-\begin{Theorem}
-Example text of a theorem.
-\end{Theorem}
-
-The text continues here. Proofs must be formatted as follows:
-
-Example of a proof:
-
-\begin{proof}[Proof of Theorem 1]
-Text of the proof. Note that the phrase `of Theorem 1' is optional if it is clear which theorem is being referred to.
-\end{proof}
-
-The text continues here.
-
 \hypertarget{discussion}{%
 \section{Discussion}\label{discussion}}
-
-Authors should discuss the results and how they can be interpreted in
-perspective of previous studies and of the working hypotheses. The
-findings and their implications should be discussed in the broadest
-context possible. Future research directions may also be highlighted.
 
 \hypertarget{conclusion}{%
 \section{Conclusion}\label{conclusion}}
 
-This section is not mandatory, but can be added to the manuscript if the
-discussion is unusually long or complex.
-
-\hypertarget{patents}{%
-\section{Patents}\label{patents}}
-
-This section is not mandatory, but may be added if there are patents
-resulting from the work reported in this manuscript.
+We have identified several genotypes with seed yield that is comparable
+to existing cultivars that are commonly used in production. Many of
+these genotypes have seed protein content that exceeds that of the check
+cultivars, and some of these with superior protein have a seed oil
+content that is comparable to these check cultivars as well. These
+genotypes have good agronomic qualities as well and will provide both
+breeders and growers with new options for genotypes that can be used in
+production or used in breeding programs that seek to improve valuable
+soybean seed composition traits.
 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % %% optional

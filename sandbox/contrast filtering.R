@@ -8,7 +8,7 @@
 
 # Setting up environment
 source("./packages.R")
-tar_make(-overview_document)
+tar_make()
 
 tar_load(genotype_contrasts_mixed)
 

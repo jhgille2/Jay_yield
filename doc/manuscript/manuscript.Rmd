@@ -30,7 +30,7 @@ abstract: |
   correlation between seed yield and seed protein makes improving these traits simultaneously difficult but 
   not impossible through conventional breeding. A selection of lines with exceptional yield and seed 
   composition qualities was made from two recombinant inbred line (RIL) soybean mapping populations to identify soybean
-  varieties with yield comparable to existing cultivars, and seed composition traits superior to existing cultivars.
+  varieties with yield comparable to existing cultivars, and seed composition traits superior to existing cultivars. The performance of these RILs were evaluated in multiple environments and several genotypes were identified with yield comparable to that of existing high-performance cultivars with seed protein and or oil that is equal to or superior to the high-performing cultivars. These genotypes will provide breeders with additional sources of germplasm for continuing efforts to improve seed composition traits, and provide growers with valuable genotype options.
 keywords: |
   yield; protein; oil;soybean; protein meal
 acknowledgement: |
@@ -46,16 +46,8 @@ authorcontributions: |
   reagents/materials/analysis tools; Y.Y. wrote the paper.'' Authorship must be
   limited to those who have contributed substantially to the work reported.
 conflictsofinterest: |
-  Declare conflicts of interest or state 'The authors declare no conflict of 
-  interest.' Authors must identify and declare any personal circumstances or
-  interest that may be perceived as inappropriately influencing the
-  representation or interpretation of reported research results. Any role of the
-  funding sponsors in the design of the study; in the collection, analyses or 
-  interpretation of data in the writing of the manuscript, or in the decision to 
-  publish the results must be declared in this section. If there is no role, 
-  please state 'The founding sponsors had no role in the design of the study; 
-  in the collection, analyses, or interpretation of data; in the writing of the 
-  manuscript, an in the decision to publish the results'.
+  The authors declare no conflict of 
+  interest.
 sampleavailability: |
   Samples of the compounds ...... are available from the authors.
 abbreviations:
@@ -77,10 +69,6 @@ tar_load(c(example_table,
            yield_summary_tables, 
            elite_genotype_tables))
 ```
-
-# Version
-
-This Rmd-skeleton uses the mdpi Latex template published 2019/02. However, the official template gets more frequently updated than the 'rticles' package. Therefore, please make sure prior to paper submission, that you're using the most recent .cls, .tex and .bst files (available [here](http://www.mdpi.com/authors/latex)).
 
 # Introduction
 
@@ -122,7 +110,7 @@ $$y_{ijk} = \mu + E_i + B(E_i) + G_k + GE_{ik} + \epsilon_{ijk}$$
 
 Where $y_{ijk}$ is the phenotypic measurement for rep$j$ of genotype $k$ in environment $i$, $E_i$ is the effect of environment $i$, $B(E_i)$ is the effect of replication nested within environment, $G_k$ is the effect of genotype $G$, $GE_{ik}$ is the interaction effect of environment $E$ and genotype $G$, and $\epsilon_{ijk}$ is the measurement error. The genotype effect was treated as fixed and all other factors were treated as random.
 
-Models were fit using the gamem_met function from the metan package[@olivotoMetanPackageMultienvironment2020]. Least-square means (LS Means) for each genotype and trait were calculated using the above model using the emmeans package[@lenthEmmeansEstimatedMarginal2022] in R. The emmeans package was also used to calculate contrasts as a post-hoc test to compare RIL phenotype means to check means. Pearson correlation coefficients between each phenotype were calculated and visualized with the metan package.
+Models were fit using the gamem_met function from the metan package[@olivotoMetanPackageMultienvironment2020]. Least-square means (LS Means) for each genotype and trait were calculated using the above model using the emmeans package[@lenthEmmeansEstimatedMarginal2022] in R. The emmeans package was also used to calculate contrasts as a post-hoc test to compare RIL phenotype means to check means for all collected phenotypes. Pearson correlation coefficients between each phenotype were calculated with the metan package.
 
 Pearson correlation is calculated for each pair of traits as:
 
@@ -130,18 +118,21 @@ $$r = \frac{\sum{(x-m_x)(y-m_y)}}{\sqrt{\sum{(x-m_x)^2}\sum{(y-m_y)^2}}}$$
 
 Where $x$ and $y$ are measurements of the two phenotypes, $m_x$ and $m_y$ are the means of each phenotype, and $r$ is the correlation coefficient.
 
-Materials and Methods should be described with sufficient details to allow others to replicate and build on published results. Please note that publication of your manuscript implicates that you must make all materials, data, computer code, and protocols associated with the publication available to readers. Please disclose at the submission stage any restrictions on the availability of materials or information. New methods and protocols should be described in detail while well-established methods can be briefly described and appropriately cited.
 
-Research manuscripts reporting large datasets that are deposited in a publicly available database should specify where the data have been deposited and provide the relevant accession numbers. If the accession numbers have not yet been obtained at the time of submission, please state that they will be provided during review. They must be provided prior to publication.
 
-Interventionary studies involving animals or humans, and other studies require ethical approval must list the authority that provided approval and the corresponding ethical approval code.
+# Results and discussion
 
-# Results
+## Phenotypic correlations
+A strong negative correlation was observed in both tests between seed protein and seed oil content. A coefficient of r = -0.93 was observed in both populations. A negative correlation was observed between seed protein and yield with correlation coefficient of r = -0.29 was observed in both tests. This correlation was not statistically significant in either population. A weak positive correlation was observed between seed oil and seed yield in both populations. A correlation coefficient of r = 0.24 was observed in Test 1 while a coefficient of r = 0.28 was observed in Test 2. These correlation coefficients were not statistically significant in either population. 
 
-Several RILs in each of the tests had yield that was comparable to that of their check cultivars. This was determined both quanititatively through the use of contrasts between the mean of each RIL with the average of the yield check means, and qualitatively by inspecting the standard errors on the estimation of the genotype marginal means for yield. No genotypes had yield that was quantitatively higher than that of the yield checks, however many had comparable yield. Many of these genotypes with comparable yield also had protein content that was superior to the check average in each test. No genotypes had oil that was superior to the check cultivars, but some had comparable yield and oil content as well as superior protein content. These genotypes with comparable yield and superior protein also had desirable agronomic qualities such as low lodging and good seed quality which would make them ideal candidates for future breeding material.  
+## Yield contrasts
+Several RILs in each of the tests had yield that was comparable to that of their check cultivars. This was determined both quanititatively through the use of contrasts between the mean of each RIL with the average of the yield check means, and qualitatively by inspecting the standard errors on the estimation of the genotype marginal means for yield. No genotypes had yield that was quantitatively higher than that of the yield checks, however many had comparable yield. Many of these genotypes with comparable yield also had protein content that was superior to the check average in each test. No genotypes had oil that was superior to the check cultivars, but some had comparable yield and oil content as well as superior protein content. 
 
-## Genotypes with omparable yield and oil and superior protein
-Four genotypes had yield and oil that was similar to that of the yield checks, and seed protein that was greater than the average of the checks. These genotypes are N18-1635 from Test 1 and genotypes N18-1627, N18-1643, and N18-1783 from Test 2. 
+RILs were also evaluated for lodging and seed quality. All RILs had seed quality that was on par with that of the high-yielding checks however, however 11 genotypes had lodging scores that were significantly greater than the checks on the basis of contrasts. These RILs were removed from consideration for recommendation on the basis of their relatively poor agronomic performance. 
+
+
+## Genotypes with comparable yield and oil and superior protein
+Four genotypes had yield and oil that was similar to that of the yield checks, and seed protein that was greater than the average of the checks. These genotypes are N18-1635 from Test 1 and genotypes N18-1627, N18-1643, and N18-1783 from Test 2.  Summary data for these lines is given in table 1. 
 
 
 ```{r elite_geno_table, results = "asis", echo = FALSE}
@@ -150,47 +141,22 @@ print(elite_genotype_tables$elite_genos)
 
 ```
 
+From among these lines, only 
+
+## Genotypes with comparable yield and superior protein
+Seventeen RILs had a similar yield and superior protein content to the check cultivars. Summary data for the seed protein and seed yield of these lines is given in table 2. The maximum yielding line 
+
+
 ```{r high_po_table, results = "asis", echo = FALSE}
 
-print(elite_genotype_tables$po_top_ten)
+print(elite_genotype_tables$hp_sy_table)
 
 ```
 
 
 
-## Subsection Heading Here
 
-Subsection text here.
 
-### Subsubsection Heading Here
-
-Bulleted lists look like this:
-
--   First bullet
--   Second bullet
--   Third bullet
-
-Numbered lists can be added as follows:
-
-1.  First item
-2.  Second item
-3.  Third item
-
-The text continues here.
-
-All figures and tables should be cited in the main text as Figure 1, Table 1, etc.
-
-```{r example_plot, echo = FALSE}
-tar_load(example_plot)
-```
-
-```{=tex}
-\begin{figure}[H]
-\centering
-\includegraphics[width=10 cm]{`r example_plot`}
-\caption{This is a figure, Schemes follow the same formatting. If there are multiple panels, they should be listed as: (\textbf{a}) Description of what is contained in the first panel. (\textbf{b}) Description of what is contained in the second panel. Figures should be placed in the main text near to the first time they are cited. A caption on a single line should be centered.}
-\end{figure}
-```
 ```{=tex}
 \begin{figure}[H]
 \centering
@@ -198,59 +164,10 @@ tar_load(example_plot)
 \caption{This is a figure, Schemes follow the same formatting. If there are multiple panels, they should be listed as: (\textbf{a}) Description of what is contained in the first panel. (\textbf{b}) Description of what is contained in the second panel. Figures should be placed in the main text near to the first time they are cited. A caption on a single line should be centered.}
 \end{figure}
 ```
-```{=tex}
-\begin{table}[H]
-\caption{This is a table caption. Tables should be placed in the main text near to the first time they are cited.}
-\centering
-%% \tablesize{} %% You can specify the fontsize here, e.g.  \tablesize{\footnotesize}. If commented out \small will be used.
-\begin{tabular}{ccc}
-\toprule
-\textbf{Title 1}    & \textbf{Title 2}  & \textbf{Title 3}\\
-\midrule
-entry 1     & data          & data\\
-entry 2     & data          & data\\
-\bottomrule
-\end{tabular}
-\end{table}
-```
-```{r test_table, results = "asis", echo = FALSE}
-print(example_table)
-```
 
-This is an example of an equation:
 
-\begin{equation}
-\mathbb{S}
-\end{equation} <!-- If the documentclass option "submit" is chosen, please insert a blank line before and after any math environment (equation and eqnarray environments). This ensures correct linenumbering. The blank line should be removed when the documentclass option is changed to "accept" because the text following an equation should not be a new paragraph. -->
 
-<!-- Please punctuate equations as regular text. Theorem-type environments (including propositions, lemmas, corollaries etc.) can be formatted as follows: -->
-
-Example of a theorem:
-
-```{=tex}
-\begin{Theorem}
-Example text of a theorem.
-\end{Theorem}
-```
-The text continues here. Proofs must be formatted as follows:
-
-Example of a proof:
-
-```{=tex}
-\begin{proof}[Proof of Theorem 1]
-Text of the proof. Note that the phrase `of Theorem 1' is optional if it is clear which theorem is being referred to.
-\end{proof}
-```
-The text continues here.
-
-# Discussion
-
-Authors should discuss the results and how they can be interpreted in perspective of previous studies and of the working hypotheses. The findings and their implications should be discussed in the broadest context possible. Future research directions may also be highlighted.
 
 # Conclusion
 
-This section is not mandatory, but can be added to the manuscript if the discussion is unusually long or complex.
-
-# Patents
-
-This section is not mandatory, but may be added if there are patents resulting from the work reported in this manuscript.
+We have identified several genotypes with seed yield that is comparable to existing cultivars that are commonly used in production. Many of these genotypes have seed protein content that exceeds that of the check cultivars, and some of these with superior protein have a seed oil content that is comparable to these check cultivars as well. These genotypes have good agronomic qualities as well and will provide both breeders and growers with new options for genotypes that can be used in production or used in breeding programs that seek to improve valuable soybean seed composition traits. 

@@ -104,7 +104,7 @@ make_elite_summary_tables <- function(blue_data = genotype_BLUEs,
     # and then pivot to a wide format using the phenotypes to name columns
     # and all the columns that have been added to fill the values
     full_comparisons <- map2(test_comparisons, just_msd, function(x, y) left_join(x, y, by = c("pheno" = "trait")) %>% 
-                               pivot_wider(id_cols = c("genotype"), names_from = "pheno", values_from = c("value", "rank", "test_avg", "check_avg_value", "msd"), names_vary = "slowest"))
+                               pivot_wider(id_cols = c("genotype", "test_name"), names_from = "pheno", values_from = c("value", "rank", "test_avg", "check_avg_value", "msd"), names_vary = "slowest"))
     
     
     pheno_indices <- map(full_comparisons, 
@@ -131,16 +131,27 @@ make_elite_summary_tables <- function(blue_data = genotype_BLUEs,
     # a summary table for each test
     test_comparisons <- map(blue_data, make_pheno_comparison, keep_phenos = keep_phenos)
     
+    # Get the test that each genotype belongs to 
+    geno_tests <- blue_data %>% 
+      select(test_name, genotype)
+    
     # Now join each summary table to the corresponding MSD table for each test
     # and then pivot to a wide format using the phenotypes to name columns
     # and all the columns that have been added to fill the values
-    full_comparisons <- map2(test_comparisons, just_msd, function(x, y) left_join(x, y, by = c("pheno" = "trait")))
+    full_comparisons <- map2(test_comparisons, just_msd, function(x, y) left_join(x, y, by = c("pheno" = "trait"))) %>% 
+      left_join(geno_tests, by = genotype)
     
     return(full_comparisons)
   }
   
   # Testing the functions together
   comparison_tables <- full_comparison_table(blue_data = blue_data$BLUEs, lsd_data)
+  
+  # Protein and yield comparison tables
+  py_comparison_tables <- full_comparison_table(blue_data = blue_data$BLUEs, lsd_data,keep_phenos = c("yield", "protein"))
+  
+  # Protein oil yield comparison tables
+  poy_comparison_tables <- full_comparison_table(blue_data = blue_data$BLUEs, lsd_data,keep_phenos = c("yield", "protein", "oil"))
   
   # TODO:
   # Need to make a function that takes this data and converts it to a more 
@@ -187,7 +198,7 @@ make_elite_summary_tables <- function(blue_data = genotype_BLUEs,
   
   
   # A function to make a kable table with group headings to match phenotypes
-  make_phenotype_comparison_table <- function(comparison_table_output, pheno_names = c("yield", "protein_plus_oil"), keep_msd = TRUE, keep_genos = NULL, table_caption = NULL){
+  make_phenotype_comparison_table <- function(comparison_table_output, pheno_names = c("yield", "protein_plus_oil"), keep_msd = TRUE, keep_genos = NULL, table_caption = NULL, sort_var = "protein"){
     
     if(all(names(comparison_table_output) == c("Jay Test 1", "Jay Test 2"))){
       merged_comparison_tables <- map(comparison_table_output, function(x) pluck(x, "comparison_table")) %>% 
@@ -265,7 +276,8 @@ make_elite_summary_tables <- function(blue_data = genotype_BLUEs,
       
       # variables that can have their rows collapsed
       collapse_cols <- c("Test Average", 
-                         "Check Average")
+                         "Check Average", 
+                         "Test Name")
       
       # The indices of these columns
       collapse_indices <- map(collapse_cols, function(x) which(str_detect(colnames(current_table), x))) %>% 
@@ -274,21 +286,21 @@ make_elite_summary_tables <- function(blue_data = genotype_BLUEs,
         sort()
     }
     
-    # names(current_table)[1] <- paste0(names(current_table)[1], 
+    # names(current_table)[1] <- paste0(names(current_table)[1],
     #                                   footnote_marker_symbol(1, format = "latex"))
     # 
-    # names(current_table)[2] <- paste0(names(current_table)[2], 
+    # names(current_table)[2] <- paste0(names(current_table)[2],
     #                                   footnote_marker_symbol(2, format = "latex"))
     # 
-    # names(current_table)[3] <- paste0(names(current_table)[3], 
+    # names(current_table)[3] <- paste0(names(current_table)[3],
     #                                   footnote_marker_symbol(3, format = "latex"))
     # 
-    # names(current_table)[4] <- paste0(names(current_table)[4], 
+    # names(current_table)[4] <- paste0(names(current_table)[4],
     #                                   footnote_marker_symbol(4, format = "latex"))
     # 
-    # names(current_table)[5] <- paste0(names(current_table)[5], 
+    # names(current_table)[5] <- paste0(names(current_table)[5],
     #                                   footnote_marker_symbol(5, format = "latex"))
-    # 
+
     
     knitr::kable(current_table, "latex", booktabs = TRUE, caption = table_caption) %>% 
       kable_styling(latex_options=c("scale_down", "HOLD_position")) %>%
@@ -312,9 +324,17 @@ make_elite_summary_tables <- function(blue_data = genotype_BLUEs,
   high_po <- c("N18-1761", "N18-1575", "N18-1769", "N18-1632-2", "N18-1855", "N18-1763", "N18-1595", "N18-1731", 
                "N18-1674", "N18-1674")
   
-  elite_geno_table <- make_phenotype_comparison_table(comparison_tables, 
+  # High pro, similar yield
+  hp_sy <- c("N18-1572", "N18-1595", "N18-1620", "N18-1632-1", "N18-1635", 
+             "N18-1674", "N18-1682", "N18-1731", "N18-1751", "N18-1763", 
+             "N18-1855", "N18-1575", "N18-1627", "N18-1643", "N18-1761", 
+             "N18-1769", "N18-1783")
+
+  
+  elite_geno_table <- make_phenotype_comparison_table(poy_comparison_tables, 
                                                       keep_msd = FALSE, 
                                                       keep_genos = elite_genos, 
+                                                      pheno_names = c("yield", "oil","protein"),
                                                       table_caption = "Soybean genotypes with yield and seed oil comparable to check cultivars, and seed protein superior to check cultivars.")
   
   high_po_table <- make_phenotype_comparison_table(comparison_tables, 
@@ -322,8 +342,15 @@ make_elite_summary_tables <- function(blue_data = genotype_BLUEs,
                                                    keep_genos = high_po, 
                                                    table_caption = "Top 10 soybean genotypes on the basis of protein plus oil content.")
   
+  hp_sy_table <- make_phenotype_comparison_table(py_comparison_tables, 
+                                                 keep_msd = FALSE, 
+                                                 keep_genos = hp_sy, 
+                                                 pheno_names = c("yield", "protein"),
+                                                 table_caption = "Soybean RILs with superior protein content and comparable yield performance to high-yielding check cultivars.")
+  
   res <- list("elite_genos" = elite_geno_table, 
-              "po_top_ten"  = high_po_table)
+              "po_top_ten"  = high_po_table, 
+              "hp_sy_table" = hp_sy_table)
   
   return(res)
 }
