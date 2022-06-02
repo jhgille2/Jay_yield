@@ -31,7 +31,8 @@ pacman::p_load(ggthemes,
                scales, 
                DiagrammeRsvg, 
                DiagrammeR, 
-               rsvg)
+               rsvg, 
+               cowplot)
 
 # Analysis
 pacman::p_load(metan,

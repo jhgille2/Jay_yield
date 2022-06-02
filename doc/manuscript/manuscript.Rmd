@@ -110,7 +110,9 @@ $$y_{ijk} = \mu + E_i + B(E_i) + G_k + GE_{ik} + \epsilon_{ijk}$$
 
 Where $y_{ijk}$ is the phenotypic measurement for rep$j$ of genotype $k$ in environment $i$, $E_i$ is the effect of environment $i$, $B(E_i)$ is the effect of replication nested within environment, $G_k$ is the effect of genotype $G$, $GE_{ik}$ is the interaction effect of environment $E$ and genotype $G$, and $\epsilon_{ijk}$ is the measurement error. The genotype effect was treated as fixed and all other factors were treated as random.
 
-Models were fit using the gamem_met function from the metan package[@olivotoMetanPackageMultienvironment2020]. Least-square means (LS Means) for each genotype and trait were calculated using the above model using the emmeans package[@lenthEmmeansEstimatedMarginal2022] in R. The emmeans package was also used to calculate contrasts as a post-hoc test to compare RIL phenotype means to check means for all collected phenotypes. Pearson correlation coefficients between each phenotype were calculated with the metan package.
+Models were fit using the gamem_met function from the metan package[@olivotoMetanPackageMultienvironment2020]. Least-square means (LS Means) for each genotype and trait were calculated using the above model using the emmeans package[@lenthEmmeansEstimatedMarginal2022] in R. The emmeans package was also used to calculate contrasts as a post-hoc test to compare RIL phenotype means to check means for all collected phenotypes. A sidak adjustment was used to account for multiple comparisons in the calculation of contrasts.
+
+Pearson correlation coefficients between each phenotype were calculated with the metan package.
 
 Pearson correlation is calculated for each pair of traits as:
 
@@ -118,17 +120,17 @@ $$r = \frac{\sum{(x-m_x)(y-m_y)}}{\sqrt{\sum{(x-m_x)^2}\sum{(y-m_y)^2}}}$$
 
 Where $x$ and $y$ are measurements of the two phenotypes, $m_x$ and $m_y$ are the means of each phenotype, and $r$ is the correlation coefficient.
 
-
-
 # Results and discussion
 
 ## Phenotypic correlations
-A strong negative correlation was observed in both tests between seed protein and seed oil content. A coefficient of r = -0.93 was observed in both populations. A negative correlation was observed between seed protein and yield with correlation coefficient of r = -0.29 was observed in both tests. This correlation was not statistically significant in either population. A weak positive correlation was observed between seed oil and seed yield in both populations. A correlation coefficient of r = 0.24 was observed in Test 1 while a coefficient of r = 0.28 was observed in Test 2. These correlation coefficients were not statistically significant in either population. 
+A strong negative correlation was observed in both tests between seed protein and seed oil content. A coefficient of r = -0.93 was observed in both populations. A negative correlation was observed between seed protein and yield with correlation coefficient of r = -0.29 was observed in both tests. This correlation was not statistically significant in either population. A weak positive correlation was observed between seed oil and seed yield in both populations. A correlation coefficient of r = 0.24 was observed in Test 1 while a coefficient of r = 0.28 was observed in Test 2. These correlation coefficients were not statistically significant in either population. Visualizations of the pairwise correlation coefficients for Tests 1 and 2 can be seen in supplementary figures 2 and 3, respectively.
 
 ## Yield contrasts
 Several RILs in each of the tests had yield that was comparable to that of their check cultivars. This was determined both quantitatively through the use of contrasts between the mean of each RIL with the average of the yield check means, and qualitatively by inspecting the standard errors on the estimation of the genotype marginal means for yield. No genotypes had yield that was quantitatively higher than that of the yield checks, however many had comparable yield. Many of these genotypes with comparable yield also had protein content that was superior to the check average in each test. No genotypes had oil that was superior to the check cultivars, but some had comparable yield and oil content as well as superior protein content. 
 
 RILs were also evaluated for lodging and seed quality. All RILs had seed quality that was on par with that of the high-yielding checks however, however 11 genotypes had lodging scores that were statistically significantly greater than the checks on the basis of contrasts. These RILs were removed from consideration for recommendation on the basis of their relatively poor agronomic performance. 
+
+A detailed summary of all contrasts can be seen in supplementary table 1.
 
 ## Genotypes with comparable yield and oil and superior protein
 Four genotypes had yield and oil that was similar to that of the yield checks, and seed protein that was greater than the average of the checks. These genotypes are N18-1635 from Test 1 and genotypes N18-1627, N18-1643, and N18-1783 from Test 2.  Summary data for these lines is given in table 1. 
@@ -152,7 +154,7 @@ print(elite_genotype_tables$hp_sy_table)
 
 ```
 
-Among these genotypes are several with both average seed protein and average seed yield that were greater than the averages of the checks for each test. These N18-1632-1, N18-1620, N18-1635 from test 1 and RILs N18-1761 and N18-1627 from test 2. Of particular note are genotypes N18-1632-1 from test 1 and N18-1761 from test 2. On average, genotype N18-1632-1 had a protein content that was 113.9% of the check average while maintaining a yield average that was 101.5% that of the check average. SImilarly, RIL N18-1761 from test 2 had a protein 
+Among these genotypes are several with both average seed protein and average seed yield that were greater than the averages of the checks for each test. These N18-1632-1, N18-1620, N18-1635 from test 1 and RILs N18-1761 and N18-1627 from test 2. Of particular note are genotypes N18-1632-1 from test 1 and N18-1761 from test 2. On average, genotype N18-1632-1 had a protein content that was 113.9% of the check average while maintaining a yield average that was 101.5% that of the check average. 
 
 
 
@@ -161,7 +163,7 @@ Among these genotypes are several with both average seed protein and average see
 ```{=tex}
 \begin{figure}[H]
 \centering
-\includegraphics[width=3 cm]{logo-mdpi}
+\includegraphics[width=15 cm]{C:/Users/Jay/Documents/R/Projects/Jay_yield/exports/plots/supplemental/supplemental_figure_1.pdf}
 \caption{This is a figure, Schemes follow the same formatting. If there are multiple panels, they should be listed as: (\textbf{a}) Description of what is contained in the first panel. (\textbf{b}) Description of what is contained in the second panel. Figures should be placed in the main text near to the first time they are cited. A caption on a single line should be centered.}
 \end{figure}
 ```

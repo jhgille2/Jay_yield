@@ -163,6 +163,11 @@ tar_plan(
                                       all_data   = all_yield_data$two_year, 
                                       util_tables)),
   
+  # A supplementary table with all the contrasts data
+  tar_target(contrast_export, 
+             export_contrasts(genotype_contrasts_mixed, util_tables, exportdir = here("exports", "data", "supplementary")), 
+             format = "file"),
+  
 # A example latex table to use for testing targets with the manuscript template
   tar_target(example_table, 
              make_example_table()),
@@ -218,8 +223,11 @@ tar_target(elite_genotype_tables,
              export_phenotype_plots(BLUE_plots_two_years, 
                                     phenotype_scatterplots, 
                                     labelled_test_histograms,
+                                    correlation_plots,
                                     export_dir = here("exports", "plots")), 
              format = "file"),
+
+
 
 
   

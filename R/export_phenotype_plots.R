@@ -5,7 +5,7 @@
 #' @title
 #' @param BLUE_plots_two_years
 #' @param phenotype_scatterplots
-export_phenotype_plots <- function(BLUE_plots_two_years, phenotype_scatterplots, labelled_test_histograms, export_dir = here("exports", "plots")) {
+export_phenotype_plots <- function(BLUE_plots_two_years, phenotype_scatterplots, labelled_test_histograms, correlation_plots, export_dir = here("exports", "plots")) {
 
   
   ## Section: Scatterplots
@@ -37,6 +37,16 @@ export_phenotype_plots <- function(BLUE_plots_two_years, phenotype_scatterplots,
   
   # All filepaths to the saved scatterplots
   all_scatterplots <- export_scatterplots(phenotype_scatterplots$side_by_side)
+  
+  both_plots_scatter_filepath <- paste0(export_dir, "/supplemental/", "supplemental_figure_1.pdf")
+  
+  ggsave(filename = both_plots_scatter_filepath, 
+         plot = phenotype_scatterplots$combined, 
+         device = "pdf", 
+         width = 12, 
+         height = 10, 
+         units = "in", 
+         dpi = 800)
   
   
   ## Section: Labelled histograms
@@ -96,6 +106,27 @@ export_phenotype_plots <- function(BLUE_plots_two_years, phenotype_scatterplots,
     return(current_filename)
   }
   
+  # Correlation plots
+  export_correlation_plots <- function(correlation_data, test_name, file_ext = "pdf"){
+    
+    # Get a filepath to save the plot to
+    current_filename <- paste0(export_dir, "/supplemental/", test_name, "correlation_plot.", file_ext)
+    
+    current_plot <- pluck(correlation_data, "correlation_plot")
+    
+    # Save the plot to the filepath
+    ggsave(filename = current_filename, 
+           plot = current_plot, 
+           device = file_ext, 
+           width = 8, 
+           height = 8, 
+           units = "in")
+    
+    # And return the path
+    return(current_filename)
+  }
+  
+  all_correlation_plots <- map2_chr(correlation_plots, names(correlation_plots), export_correlation_plots)
   
   # Export all plots
   all_scatter_heatmaps <- map2_chr(scatter_heatmap_all, names(scatter_heatmap_all), export_scatter_heatmaps)
@@ -103,5 +134,7 @@ export_phenotype_plots <- function(BLUE_plots_two_years, phenotype_scatterplots,
   # Return all the filepaths of the saved plots
   return(c(all_scatter_heatmaps, 
            all_scatterplots, 
-           all_histograms))
+           all_histograms, 
+           both_plots_scatter_filepath, 
+           all_correlation_plots))
 }

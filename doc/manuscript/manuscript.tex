@@ -328,6 +328,9 @@ above model using the emmeans
 package\citep{lenthEmmeansEstimatedMarginal2022} in R. The emmeans
 package was also used to calculate contrasts as a post-hoc test to
 compare RIL phenotype means to check means for all collected phenotypes.
+A sidak adjustment was used to account for multiple comparisons in the
+calculation of contrasts.
+
 Pearson correlation coefficients between each phenotype were calculated
 with the metan package.
 
@@ -339,8 +342,8 @@ Where \(x\) and \(y\) are measurements of the two phenotypes, \(m_x\)
 and \(m_y\) are the means of each phenotype, and \(r\) is the
 correlation coefficient.
 
-\hypertarget{results}{%
-\section{Results}\label{results}}
+\hypertarget{results-and-discussion}{%
+\section{Results and discussion}\label{results-and-discussion}}
 
 \hypertarget{phenotypic-correlations}{%
 \subsection{Phenotypic correlations}\label{phenotypic-correlations}}
@@ -354,13 +357,15 @@ either population. A weak positive correlation was observed between seed
 oil and seed yield in both populations. A correlation coefficient of r =
 0.24 was observed in Test 1 while a coefficient of r = 0.28 was observed
 in Test 2. These correlation coefficients were not statistically
-significant in either population.
+significant in either population. Visualizations of the pairwise
+correlation coefficients for Tests 1 and 2 can be seen in supplementary
+figures 2 and 3, respectively.
 
 \hypertarget{yield-contrasts}{%
 \subsection{Yield contrasts}\label{yield-contrasts}}
 
 Several RILs in each of the tests had yield that was comparable to that
-of their check cultivars. This was determined both quanititatively
+of their check cultivars. This was determined both quantitatively
 through the use of contrasts between the mean of each RIL with the
 average of the yield check means, and qualitatively by inspecting the
 standard errors on the estimation of the genotype marginal means for
@@ -373,10 +378,13 @@ oil content as well as superior protein content.
 
 RILs were also evaluated for lodging and seed quality. All RILs had seed
 quality that was on par with that of the high-yielding checks however,
-however 11 genotypes had lodging scores that were significantly greater
-than the checks on the basis of contrasts. These RILs were removed from
-consideration for recommendation on the basis of their relatively poor
-agronomic performance.
+however 11 genotypes had lodging scores that were statistically
+significantly greater than the checks on the basis of contrasts. These
+RILs were removed from consideration for recommendation on the basis of
+their relatively poor agronomic performance.
+
+A detailed summary of all contrasts can be seen in supplementary table
+1.
 
 \hypertarget{genotypes-with-comparable-yield-and-oil-and-superior-protein}{%
 \subsection{Genotypes with comparable yield and oil and superior
@@ -385,7 +393,8 @@ protein}\label{genotypes-with-comparable-yield-and-oil-and-superior-protein}}
 Four genotypes had yield and oil that was similar to that of the yield
 checks, and seed protein that was greater than the average of the
 checks. These genotypes are N18-1635 from Test 1 and genotypes N18-1627,
-N18-1643, and N18-1783 from Test 2.
+N18-1643, and N18-1783 from Test 2. Summary data for these lines is
+given in table 1.
 
 \begin{table}[H]
 
@@ -420,12 +429,20 @@ N18-1643 & \multirow{-3}{*}{\raggedright\arraybackslash Jay Test 2} & 44.35 (103
 \end{tabular}}
 \end{table}
 
+A strong negative correlation was observed in both populations betweeen
+seed oil and seed protein. This observation matches well with previous
+findings on the inverse correlation between seed protein and seed oil.
+Many RILs had high protein when compared with the check cultivars so it
+was not surprising that relatively few had both a superior seed protein
+content, and a comparable seed oil content.
+
 \hypertarget{genotypes-with-comparable-yield-and-superior-protein}{%
 \subsection{Genotypes with comparable yield and superior
 protein}\label{genotypes-with-comparable-yield-and-superior-protein}}
 
-Seventeen out of the thirty RILs had a similar yield and superior
-protein content to the check cultivars.
+Seventeen RILs had a similar yield and superior protein content to the
+check cultivars. Summary data for the seed protein and seed yield of
+these lines is given in table 2. The maximum yielding line
 
 \begin{table}[H]
 
@@ -510,14 +527,20 @@ N18-1643 & \multirow{-6}{*}{\raggedright\arraybackslash Jay Test 2} & 44.35 (103
 \end{tabular}}
 \end{table}
 
+Among these genotypes are several with both average seed protein and
+average seed yield that were greater than the averages of the checks for
+each test. These N18-1632-1, N18-1620, N18-1635 from test 1 and RILs
+N18-1761 and N18-1627 from test 2. Of particular note are genotypes
+N18-1632-1 from test 1 and N18-1761 from test 2. On average, genotype
+N18-1632-1 had a protein content that was 113.9\% of the check average
+while maintaining a yield average that was 101.5\% that of the check
+average.
+
 \begin{figure}[H]
 \centering
-\includegraphics[width=3 cm]{logo-mdpi}
+\includegraphics[width=15 cm]{C:/Users/Jay/Documents/R/Projects/Jay_yield/exports/plots/supplemental/supplemental_figure_1.pdf}
 \caption{This is a figure, Schemes follow the same formatting. If there are multiple panels, they should be listed as: (\textbf{a}) Description of what is contained in the first panel. (\textbf{b}) Description of what is contained in the second panel. Figures should be placed in the main text near to the first time they are cited. A caption on a single line should be centered.}
 \end{figure}
-
-\hypertarget{discussion}{%
-\section{Discussion}\label{discussion}}
 
 \hypertarget{conclusion}{%
 \section{Conclusion}\label{conclusion}}
@@ -558,17 +581,7 @@ Y.Y. wrote the paper.'\,' Authorship must be limited to those who have
 contributed substantially to the work reported.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\conflictsofinterest{Declare conflicts of interest or state `The authors
-declare no conflict of interest.' Authors must identify and declare any
-personal circumstances or interest that may be perceived as
-inappropriately influencing the representation or interpretation of
-reported research results. Any role of the funding sponsors in the
-design of the study; in the collection, analyses or interpretation of
-data in the writing of the manuscript, or in the decision to publish the
-results must be declared in this section. If there is no role, please
-state `The founding sponsors had no role in the design of the study; in
-the collection, analyses, or interpretation of data; in the writing of
-the manuscript, an in the decision to publish the results'.}
+\conflictsofinterest{The authors declare no conflict of interest.}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% optional
