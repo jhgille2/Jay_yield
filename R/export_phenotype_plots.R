@@ -38,7 +38,7 @@ export_phenotype_plots <- function(BLUE_plots_two_years, phenotype_scatterplots,
   # All filepaths to the saved scatterplots
   all_scatterplots <- export_scatterplots(phenotype_scatterplots$side_by_side)
   
-  both_plots_scatter_filepath <- paste0(export_dir, "/supplemental/", "supplemental_figure_1.pdf")
+  both_plots_scatter_filepath <- paste0(export_dir, "/", "lsmean_scatterplot.pdf")
   
   ggsave(filename = both_plots_scatter_filepath, 
          plot = phenotype_scatterplots$combined, 

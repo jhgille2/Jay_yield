@@ -79,7 +79,8 @@ make_phenotype_scatterplots <- function(mixed_models_two_years, util_tables, phe
       geom_vline(xintercept = pheno_check_avg, lty = 2, size = 1.1) + 
       scale_fill_manual(values = c("blue", "red")) + 
       theme(legend.title = element_blank(), 
-                    panel.grid.major.y = element_line(colour = "light grey", size = 0.25)) + 
+            panel.grid.major.y = element_line(colour = "light grey", size = 0.25), 
+            legend.text = element_text(size = 20)) + 
       theme_jay_yield_base()
     
     return(p)
@@ -102,14 +103,16 @@ make_phenotype_scatterplots <- function(mixed_models_two_years, util_tables, phe
     split_data <- test_data %>% 
       metan::split_factors(test_name)
     
-    arrange_pheno_plots <- function(split_test_data = split_data){
+    arrange_pheno_plots <- function(split_test_data = split_data, keep_legend = TRUE){
+      
+      legend_string <- ifelse(keep_legend, "bottom", "none")
       
       # Arrange the scatterplots horizontally beside each other
       p <- ggarrange(plotlist      = split_test_data$scatterplot, 
                      nrow          = 1, 
                      ncol          = nrow(split_test_data), 
                      common.legend = TRUE, 
-                     legend        = "bottom")
+                     legend        = legend_string)
       
       # Add a title that is just the test name
       # annotate_figure(p, top = text_grob(test_name, face = "bold", size = 16))
@@ -118,9 +121,23 @@ make_phenotype_scatterplots <- function(mixed_models_two_years, util_tables, phe
     
     # Apply the function to the split data to make a set of side-by-side plots
     # for each phenotype
-    split_data_plots <- map(split_data, arrange_pheno_plots)
+    split_data_plots <- map(split_data, arrange_pheno_plots) %>% 
+      set_names(names(split_data))
     
-    return(split_data_plots)
+    # And do this separately for each plot so that the first one has no legend
+    test_1_no_legend <- arrange_pheno_plots(split_data[[1]], keep_legend = FALSE)
+    test_2           <- arrange_pheno_plots(split_data[[2]])
+    
+    both_tests <- list(test_1_no_legend, test_2)
+    
+    combined_plot <- plot_grid(plotlist = both_tests, 
+                               labels = list("A", "B"), 
+                               ncol = 1, nrow = 2) 
+    
+    res <- list("side_by_side" = split_data_plots, 
+                "combined"     = combined_plot)
+    
+    return(res)
   }
   
   # Use the function above to make two plots (one for each test) that have all
@@ -129,7 +146,8 @@ make_phenotype_scatterplots <- function(mixed_models_two_years, util_tables, phe
   
   # Organize the side-by-side plot list and the full plot dataframe into a list
   # that is then returned
-  res <- list("side_by_side" = side_by_side_plots, 
+  res <- list("side_by_side" = side_by_side_plots$side_by_side,
+              "combined"     = side_by_side_plots$combined,
               "all_plots"    = plot_df)
   
   return(res)

@@ -14,8 +14,6 @@ firstnote: |
   Current address: Updated affiliation
 secondnote: |
   These authors contributed equally to this work.
-correspondence: |
-  leutnant@fh-muenster.de; Tel.: +XX-000-00-0000.
 journal: Agronomy
 type: article
 status: submit
@@ -51,14 +49,16 @@ conflictsofinterest: |
 sampleavailability: |
   Samples of the compounds ...... are available from the authors.
 abbreviations:
-  - short: MDPI
-    long: Multidisciplinary Digital Publishing Institute
-  - short: DOAJ
-    long: Directory of open access journals
-  - short: TLA
-    long: Three letter acronym
-  - short: LD 
-    long: linear dichroism
+  - short: RIL
+    long: Recombinant inbred line
+  - short: RCBD
+    long: Randomized complete block design
+  - short: CLA
+    long: Central crops research station
+  - short: CAS
+    long: Caswell research farm
+  - short: PLY  
+    long: Tidewater research station
 output: rticles::mdpi_article
 ---
 
@@ -67,7 +67,8 @@ library(here)
 source(here("packages.R"))
 tar_load(c(example_table, 
            yield_summary_tables, 
-           elite_genotype_tables))
+           elite_genotype_tables, 
+           phenotype_summary_plots))
 ```
 
 # Introduction
@@ -94,13 +95,15 @@ To select lines for the 2019 growing season, lines with abnormally low bulk weig
 
 Eighty unique lines were selected from each population which satisfied these criteria, and each yield test was comprised of 40 RILs. Three high-yielding check cultivars and the two parents of the respective population were also included in each test. Yield check cultivars Dunphy, Osage[@Osage], and Roy were used in tests 1 and 2, while Dunphy, Dilday, and NC-Raleigh[@NCRaleighregistration] were used for tests 3 and 4. These lines were selected to represent the estimated maturities of the RILs in each test. The parents for tests 1 and 2 were cultivars LMN09-119 and N09-09, and the parents for tests 3 and 4 were LMN09-19 and N13-47.
 
+## Experimental design
+
 These four tests were grown in two locations in 2019: the Tidewater Research Station in Plymouth, NC (PLY) and the Caswell Research Farm in Kinston, NC (CAS). The same data was collected for each test in this season that was collected in the previous season.
 
 Using the data collected from the 2019 season season, further selections were done to identify high-yielding lines from the four tests. This was done by identifying the RILs with a yield within or above a least significant difference (LSD) of the average yield of the checks for each test. Further selection was done using the seed composition traits by identifying the thirty RILs with the highest protein + oil content on a dry basis from among the RILs which had passed the yield selection threshold.
 
 These thirty lines were then grouped into two new tests of 15 RILs each based on maturity date. These two new tests are named Test 1 and Test 2. Yield check cultivars were again assigned to each test to match the maturity dates of the RILs that were in each test. Cultivars Dunphy, DIlday, and NC-Raleigh were used as checks in Test 1 and Dunphy, Ellis, N10-697, and Osage were used as checks in Test 2.
 
-These two tests were grown in both the 2020 and 2021 seasons. These tests were grown in CLA and CAS in 2020 and CAS and PLY in 2021. The same phenotypes were evaluated for each genotype in the 2020 and 2021 seasons using the same methodology that was employed in the 2019 season.
+These two tests were grown in both the 2020 and 2021 seasons. These tests were grown in CLA and CAS in 2020 and CAS and PLY in 2021. RILs were grown in a randomized complete block design with four replications in each location. The same phenotypes were evaluated for each genotype in the 2020 and 2021 seasons using the same methodology that was employed in the 2019 season.
 
 ## Statistical Analysis
 
@@ -110,11 +113,9 @@ $$y_{ijk} = \mu + E_i + B(E_i) + G_k + GE_{ik} + \epsilon_{ijk}$$
 
 Where $y_{ijk}$ is the phenotypic measurement for rep$j$ of genotype $k$ in environment $i$, $E_i$ is the effect of environment $i$, $B(E_i)$ is the effect of replication nested within environment, $G_k$ is the effect of genotype $G$, $GE_{ik}$ is the interaction effect of environment $E$ and genotype $G$, and $\epsilon_{ijk}$ is the measurement error. The genotype effect was treated as fixed and all other factors were treated as random.
 
-Models were fit using the gamem_met function from the metan package[@olivotoMetanPackageMultienvironment2020]. Least-square means (LS Means) for each genotype and trait were calculated using the above model using the emmeans package[@lenthEmmeansEstimatedMarginal2022] in R. The emmeans package was also used to calculate contrasts as a post-hoc test to compare RIL phenotype means to check means for all collected phenotypes. A sidak adjustment was used to account for multiple comparisons in the calculation of contrasts.
+Models were fit using the gamem_met function from the metan package[@olivotoMetanPackageMultienvironment2020]. Least-square means (LS Means) for each genotype and trait were calculated using the above model using the emmeans package[@lenthEmmeansEstimatedMarginal2022] in R. The emmeans package was also used to calculate contrasts as a post-hoc test to compare RIL phenotype means to check means for all collected phenotypes. A sidak adjustment was used to account for multiple comparisons in the calculation of contrasts.Pearson correlation coefficients between each phenotype were calculated with the metan package. Pearson correlation coefficients between each phenotype were calculated with the metan package as well.
 
-Pearson correlation coefficients between each phenotype were calculated with the metan package.
-
-Pearson correlation is calculated for each pair of traits as:
+The pearson correlation is calculated for each pair of traits as:
 
 $$r = \frac{\sum{(x-m_x)(y-m_y)}}{\sqrt{\sum{(x-m_x)^2}\sum{(y-m_y)^2}}}$$
 
@@ -125,6 +126,24 @@ Where $x$ and $y$ are measurements of the two phenotypes, $m_x$ and $m_y$ are th
 ## Phenotypic correlations
 A strong negative correlation was observed in both tests between seed protein and seed oil content. A coefficient of r = -0.93 was observed in both populations. A negative correlation was observed between seed protein and yield with correlation coefficient of r = -0.29 was observed in both tests. This correlation was not statistically significant in either population. A weak positive correlation was observed between seed oil and seed yield in both populations. A correlation coefficient of r = 0.24 was observed in Test 1 while a coefficient of r = 0.28 was observed in Test 2. These correlation coefficients were not statistically significant in either population. Visualizations of the pairwise correlation coefficients for Tests 1 and 2 can be seen in supplementary figures 2 and 3, respectively.
 
+```{r, lsmean_plot_link, echo = FALSE}
+
+# Get the link to the lsmean scatterplot
+mean_plot_link <- phenotype_summary_plots[grepl("lsmean_scatterplot", phenotype_summary_plots)]
+
+```
+
+
+
+
+```{=tex}
+\begin{figure}[H]
+\centering
+\includegraphics[width=15 cm]{`r mean_plot_link`}
+\caption{Genotype Least square means for seed oil, seed protein, and seed yield for soybean RILs in Test 1 (\textbf{A}) and Test 2 (\textbf{B}). Points indicate the least square means and error bars indicate the standard errors in the estimation of least square means. Blue dots indicate that a RIL has a least square mean above the average of the checks in the test and a color of red indicates that the RIL has a mean value below the check average. The check average is shown with the vertical dashed line.}
+\end{figure}
+```
+
 ## Yield contrasts
 Several RILs in each of the tests had yield that was comparable to that of their check cultivars. This was determined both quantitatively through the use of contrasts between the mean of each RIL with the average of the yield check means, and qualitatively by inspecting the standard errors on the estimation of the genotype marginal means for yield. No genotypes had yield that was quantitatively higher than that of the yield checks, however many had comparable yield. Many of these genotypes with comparable yield also had protein content that was superior to the check average in each test. No genotypes had oil that was superior to the check cultivars, but some had comparable yield and oil content as well as superior protein content. 
 
@@ -132,7 +151,7 @@ RILs were also evaluated for lodging and seed quality. All RILs had seed quality
 
 A detailed summary of all contrasts can be seen in supplementary table 1.
 
-## Genotypes with comparable yield and oil and superior protein
+## Genotypes with comparable seed yield and seed oil and superior seed protein content
 Four genotypes had yield and oil that was similar to that of the yield checks, and seed protein that was greater than the average of the checks. These genotypes are N18-1635 from Test 1 and genotypes N18-1627, N18-1643, and N18-1783 from Test 2.  Summary data for these lines is given in table 1. 
 
 
@@ -155,21 +174,6 @@ print(elite_genotype_tables$hp_sy_table)
 ```
 
 Among these genotypes are several with both average seed protein and average seed yield that were greater than the averages of the checks for each test. These N18-1632-1, N18-1620, N18-1635 from test 1 and RILs N18-1761 and N18-1627 from test 2. Of particular note are genotypes N18-1632-1 from test 1 and N18-1761 from test 2. On average, genotype N18-1632-1 had a protein content that was 113.9% of the check average while maintaining a yield average that was 101.5% that of the check average. 
-
-
-
-
-
-```{=tex}
-\begin{figure}[H]
-\centering
-\includegraphics[width=15 cm]{C:/Users/Jay/Documents/R/Projects/Jay_yield/exports/plots/supplemental/supplemental_figure_1.pdf}
-\caption{This is a figure, Schemes follow the same formatting. If there are multiple panels, they should be listed as: (\textbf{a}) Description of what is contained in the first panel. (\textbf{b}) Description of what is contained in the second panel. Figures should be placed in the main text near to the first time they are cited. A caption on a single line should be centered.}
-\end{figure}
-```
-
-
-
 
 # Conclusion
 

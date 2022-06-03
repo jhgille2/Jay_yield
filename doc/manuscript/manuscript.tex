@@ -88,8 +88,7 @@ $^{1}$ \quad Department of Crop and Soil Sciences, NCSU, Raleigh, NC,
 USA; \href{mailto:jhgille2@ncsu.edu}{\nolinkurl{jhgille2@ncsu.edu}}\\
 }
 % Contact information of the corresponding author
-\corres{Correspondence: \href{mailto:leutnant@fh-muenster.de}{\nolinkurl{leutnant@fh-muenster.de}};
-Tel.: +XX-000-00-0000.}
+\corres{Correspondence: }
 
 % Current address and/or shared authorship
 \firstnote{Current address: Updated affiliation}
@@ -279,6 +278,9 @@ maturities of the RILs in each test. The parents for tests 1 and 2 were
 cultivars LMN09-119 and N09-09, and the parents for tests 3 and 4 were
 LMN09-19 and N13-47.
 
+\hypertarget{experimental-design}{%
+\subsection{Experimental design}\label{experimental-design}}
+
 These four tests were grown in two locations in 2019: the Tidewater
 Research Station in Plymouth, NC (PLY) and the Caswell Research Farm in
 Kinston, NC (CAS). The same data was collected for each test in this
@@ -301,9 +303,11 @@ DIlday, and NC-Raleigh were used as checks in Test 1 and Dunphy, Ellis,
 N10-697, and Osage were used as checks in Test 2.
 
 These two tests were grown in both the 2020 and 2021 seasons. These
-tests were grown in CLA and CAS in 2020 and CAS and PLY in 2021. The
-same phenotypes were evaluated for each genotype in the 2020 and 2021
-seasons using the same methodology that was employed in the 2019 season.
+tests were grown in CLA and CAS in 2020 and CAS and PLY in 2021. RILs
+were grown in a randomized complete block design with four replications
+in each location. The same phenotypes were evaluated for each genotype
+in the 2020 and 2021 seasons using the same methodology that was
+employed in the 2019 season.
 
 \hypertarget{statistical-analysis}{%
 \subsection{Statistical Analysis}\label{statistical-analysis}}
@@ -329,12 +333,12 @@ package\citep{lenthEmmeansEstimatedMarginal2022} in R. The emmeans
 package was also used to calculate contrasts as a post-hoc test to
 compare RIL phenotype means to check means for all collected phenotypes.
 A sidak adjustment was used to account for multiple comparisons in the
-calculation of contrasts.
+calculation of contrasts.Pearson correlation coefficients between each
+phenotype were calculated with the metan package. Pearson correlation
+coefficients between each phenotype were calculated with the metan
+package as well.
 
-Pearson correlation coefficients between each phenotype were calculated
-with the metan package.
-
-Pearson correlation is calculated for each pair of traits as:
+The pearson correlation is calculated for each pair of traits as:
 
 \[r = \frac{\sum{(x-m_x)(y-m_y)}}{\sqrt{\sum{(x-m_x)^2}\sum{(y-m_y)^2}}}\]
 
@@ -361,6 +365,12 @@ significant in either population. Visualizations of the pairwise
 correlation coefficients for Tests 1 and 2 can be seen in supplementary
 figures 2 and 3, respectively.
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=15 cm]{C:/Users/Jay/Documents/R/Projects/Jay_yield/exports/plots/lsmean_scatterplot.pdf}
+\caption{Genotype Least square means for seed oil, seed protein, and seed yield for soybean RILs in Test 1 (\textbf{A}) and Test 2 (\textbf{B}). Points indicate the least square means and error bars indicate the standard errors in the estimation of least square means. Blue dots indicate that a RIL has a least square mean above the average of the checks in the test and a color of red indicates that the RIL has a mean value below the check average. The check average is shown with the vertical dashed line.}
+\end{figure}
+
 \hypertarget{yield-contrasts}{%
 \subsection{Yield contrasts}\label{yield-contrasts}}
 
@@ -386,9 +396,10 @@ their relatively poor agronomic performance.
 A detailed summary of all contrasts can be seen in supplementary table
 1.
 
-\hypertarget{genotypes-with-comparable-yield-and-oil-and-superior-protein}{%
-\subsection{Genotypes with comparable yield and oil and superior
-protein}\label{genotypes-with-comparable-yield-and-oil-and-superior-protein}}
+\hypertarget{genotypes-with-comparable-seed-yield-and-seed-oil-and-superior-seed-protein-content}{%
+\subsection{Genotypes with comparable seed yield and seed oil and
+superior seed protein
+content}\label{genotypes-with-comparable-seed-yield-and-seed-oil-and-superior-seed-protein-content}}
 
 Four genotypes had yield and oil that was similar to that of the yield
 checks, and seed protein that was greater than the average of the
@@ -536,12 +547,6 @@ N18-1632-1 had a protein content that was 113.9\% of the check average
 while maintaining a yield average that was 101.5\% that of the check
 average.
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=15 cm]{C:/Users/Jay/Documents/R/Projects/Jay_yield/exports/plots/supplemental/supplemental_figure_1.pdf}
-\caption{This is a figure, Schemes follow the same formatting. If there are multiple panels, they should be listed as: (\textbf{a}) Description of what is contained in the first panel. (\textbf{b}) Description of what is contained in the second panel. Figures should be placed in the main text near to the first time they are cited. A caption on a single line should be centered.}
-\end{figure}
-
 \hypertarget{conclusion}{%
 \section{Conclusion}\label{conclusion}}
 
@@ -589,10 +594,11 @@ contributed substantially to the work reported.}
 
 \noindent
 \begin{tabular}{@{}ll}
-MDPI & Multidisciplinary Digital Publishing Institute \\
-DOAJ & Directory of open access journals \\
-TLA & Three letter acronym \\
-LD & linear dichroism \\
+RIL & Recombinant inbred line \\
+RCBD & Randomized complete block design \\
+CLA & Central crops research station \\
+CAS & Caswell research farm \\
+PLY & Tidewater research station \\
 \end{tabular}}
 
 \input{"appendix.tex"}
