@@ -65,8 +65,7 @@ output: rticles::mdpi_article
 ```{r setup, warning=FALSE,echo = FALSE, message=FALSE}
 library(here)
 source(here("packages.R"))
-tar_load(c(example_table, 
-           yield_summary_tables, 
+tar_load(c(yield_summary_tables, 
            elite_genotype_tables, 
            phenotype_summary_plots))
 ```
@@ -91,9 +90,9 @@ The agronomic traits recorded in the field were height, lodging, maturity date, 
 
 Following harvest, yield, seed weight, protein, and oil content were measured after seed was air dried to approximately 7% moisture content in a greenhouse. Protein and oil contents were measured on a dry basis using a Perten DA 7250 NIR®instrument. Yield and seed weight were measured after seed had been sifted and cleaned of debris and cracked seed.
 
-To select lines for the 2019 growing season, lines with abnormally low bulk weights or extreme maturity dates from 2018 were first removed from consideration. Two yield trials were then developed for each mapping population. The maturity dates of RILs were considered when forming tests such that the lines of each test would have a maturity date range approximately half that of the total mapping population from which it was derived. RILs were selected for each test which were also representative of the distribution of seed protein and seed oil traits for each population.
+To select lines for the 2019 growing season, lines with abnormally low bulk weights or extreme maturity dates from 2018 were first removed from consideration. Two yield trials were then developed for each mapping population. The maturity dates of RILs were considered when forming tests such that the lines of each test would have a maturity date range approximately half that of the total mapping population from which it was derived. RILs were selected for each test which were also representative of the distribution of seed protein and seed oil traits for each population. 
 
-Eighty unique lines were selected from each population which satisfied these criteria, and each yield test was comprised of 40 RILs. Three high-yielding check cultivars and the two parents of the respective population were also included in each test. Yield check cultivars Dunphy, Osage[@Osage], and Roy were used in tests 1 and 2, while Dunphy, Dilday, and NC-Raleigh[@NCRaleighregistration] were used for tests 3 and 4. These lines were selected to represent the estimated maturities of the RILs in each test. The parents for tests 1 and 2 were cultivars LMN09-119 and N09-09, and the parents for tests 3 and 4 were LMN09-19 and N13-47.
+Eighty unique lines were selected from each population which satisfied these criteria, and each yield test was comprised of 40 RILs. Three high-yielding check cultivars and the two parents of the respective population were also included in each test. These yield tests were named test 1 and test 2 for RILs derived from mapping population 201 and test 3 and 4 for RILs derived from mapping population 202. Yield check cultivars Dunphy, Osage[@Osage], and Roy were used in tests 1 and 2, while Dunphy, Dilday, and NC-Raleigh[@NCRaleighregistration] were used for tests 3 and 4. These lines were selected to represent the estimated maturities of the RILs in each test. The parents for tests 1 and 2 were cultivars LMN09-119 and N09-09, and the parents for tests 3 and 4 were LMN09-19 and N13-47.
 
 ## Experimental design
 
@@ -101,7 +100,7 @@ These four tests were grown in two locations in 2019: the Tidewater Research Sta
 
 Using the data collected from the 2019 season season, further selections were done to identify high-yielding lines from the four tests. This was done by identifying the RILs with a yield within or above a least significant difference (LSD) of the average yield of the checks for each test. Further selection was done using the seed composition traits by identifying the thirty RILs with the highest protein + oil content on a dry basis from among the RILs which had passed the yield selection threshold.
 
-These thirty lines were then grouped into two new tests of 15 RILs each based on maturity date. These two new tests are named Test 1 and Test 2. Yield check cultivars were again assigned to each test to match the maturity dates of the RILs that were in each test. Cultivars Dunphy, DIlday, and NC-Raleigh were used as checks in Test 1 and Dunphy, Ellis, N10-697, and Osage were used as checks in Test 2.
+These thirty lines were then grouped into two new tests of 15 RILs each based on maturity date. These two new tests are named Test 1 and Test 2. Yield check cultivars were again assigned to each test to match the maturity dates of the RILs that were in each test. Cultivars Dunphy, Dilday, and NC-Raleigh were used as checks in Test 1 and Dunphy, Ellis, N10-697, and Osage were used as checks in Test 2.
 
 These two tests were grown in both the 2020 and 2021 seasons. These tests were grown in CLA and CAS in 2020 and CAS and PLY in 2021. RILs were grown in a randomized complete block design with four replications in each location. The same phenotypes were evaluated for each genotype in the 2020 and 2021 seasons using the same methodology that was employed in the 2019 season.
 
@@ -133,9 +132,6 @@ mean_plot_link <- phenotype_summary_plots[grepl("lsmean_scatterplot", phenotype_
 
 ```
 
-
-
-
 ```{=tex}
 \begin{figure}[H]
 \centering
@@ -144,8 +140,11 @@ mean_plot_link <- phenotype_summary_plots[grepl("lsmean_scatterplot", phenotype_
 \end{figure}
 ```
 
+Genotype least square means were calculated for all RILs in both tests. A visualization of these least square means and the standard error on the estimation of these means for seed protein, seed oil, and seed yield can be seen in figure 1. Both tests tended to have more RILs with high protein rather than high oil when compared to the average of the checks, and a moderate number had a yield average greater than the average of the checks. Qualitatively, many RILs had a comparable yield to the checks following the relatively large standard error associated with the estimating the yield, and a qualitatively larger seed protein content given the relatively small standard error associated with the estimation of seed protein content. To separate means quantitatively, we performed contrasts between each RIL mean and the average of the checks for each test.
+
+
 ## Yield contrasts
-Several RILs in each of the tests had yield that was comparable to that of their check cultivars. This was determined both quantitatively through the use of contrasts between the mean of each RIL with the average of the yield check means, and qualitatively by inspecting the standard errors on the estimation of the genotype marginal means for yield. No genotypes had yield that was quantitatively higher than that of the yield checks, however many had comparable yield. Many of these genotypes with comparable yield also had protein content that was superior to the check average in each test. No genotypes had oil that was superior to the check cultivars, but some had comparable yield and oil content as well as superior protein content. 
+Several RILs in each of the tests had yield that was comparable to that of their check cultivars as per contrasts between RIL means and the average of the check cultivars for each test. No genotypes had yield that was quantitatively higher than that of the yield checks, however many had comparable yield. Many of these genotypes with comparable yield also had protein content that was superior to the check average in each test. No genotypes had oil that was superior to the check cultivars, but some had comparable yield and oil content as well as superior protein content. 
 
 RILs were also evaluated for lodging and seed quality. All RILs had seed quality that was on par with that of the high-yielding checks however, however 11 genotypes had lodging scores that were statistically significantly greater than the checks on the basis of contrasts. These RILs were removed from consideration for recommendation on the basis of their relatively poor agronomic performance. 
 
@@ -161,10 +160,12 @@ print(elite_genotype_tables$elite_genos)
 
 ```
 
-A strong negative correlation was observed in both populations betweeen seed oil and seed protein. This observation matches well with previous findings on the inverse correlation between seed protein and seed oil. Many RILs had high protein when compared with the check cultivars so it was not surprising that relatively few had both a superior seed protein content, and a comparable seed oil content. 
+A strong negative correlation was observed in both populations between seed oil and seed protein, and a weak inverse correlation was observed between seed protein and seed yield. This observation matches well with previous findings on the inverse correlation between seed protein and seed oil, and between seed protein and seed yield. Many RILs had high protein when compared with the check cultivars so it was not surprising that relatively few had both a superior seed protein content, and a comparable seed oil content. 
+
+These RILs can provide valuable germplasm that can be used to simultaneously improve both seed oil and seed protein content without compromising seed yield or agronomics. This can be of use both to breeders that are looking to improve seed composition traits in soybean and for growers who are seeking options for novel soybean varieties with seed composition that is superior to that of cultivars that are already used in production.
 
 ## Genotypes with comparable yield and superior protein
-Seventeen RILs had a similar yield and superior protein content to the check cultivars. Summary data for the seed protein and seed yield of these lines is given in table 2. The maximum yielding line 
+Seventeen RILs had a similar yield and superior protein content to the check cultivars. Summary data for the seed protein and seed yield of these lines is given in table 2. From among these RILs, N18-1627 had the highest seed yield relative to the checks included in the test with an average yield that was 105.9% that of the check average of Test 2. Genotype N18-1763 had the highest seed protein content on average with a protein content that was 116.8% that of the check average of Test 1. We observed a negative correlation between seed protein and seed yield in both tests so RILs with seed protein content that was above the check average tended to have a seed yield content that was comparatively lower.
 
 
 ```{r high_po_table, results = "asis", echo = FALSE}
@@ -173,7 +174,7 @@ print(elite_genotype_tables$hp_sy_table)
 
 ```
 
-Among these genotypes are several with both average seed protein and average seed yield that were greater than the averages of the checks for each test. These N18-1632-1, N18-1620, N18-1635 from test 1 and RILs N18-1761 and N18-1627 from test 2. Of particular note are genotypes N18-1632-1 from test 1 and N18-1761 from test 2. On average, genotype N18-1632-1 had a protein content that was 113.9% of the check average while maintaining a yield average that was 101.5% that of the check average. 
+However, among these genotypes are several with both average seed protein and average seed yield that were greater than the averages of the checks for each test. These N18-1632-1, N18-1620, N18-1635 from test 1 and RILs N18-1761 and N18-1627 from test 2. Of particular note are genotypes N18-1632-1 from test 1 and N18-1761 from test 2. These two RILs have a seed protein content that is substantially above that of the average protein content of he checks while also maintaining an average yield that is above the average yield of the checks. These RILs are ideal candidates for use in breeding programs which seek to improve seed protein content in particular without compromising seed yield or argonomics.
 
 # Conclusion
 
