@@ -165,7 +165,9 @@ tar_plan(
   
   # A supplementary table with all the contrasts data
   tar_target(contrast_export, 
-             export_contrasts(genotype_contrasts_mixed, util_tables, exportdir = here("exports", "data", "supplementary")), 
+             export_contrasts(genotype_contrasts_mixed, 
+                              util_tables, 
+                              exportdir = here("exports", "data", "supplementary")), 
              format = "file"),
   
 # A example latex table to use for testing targets with the manuscript template

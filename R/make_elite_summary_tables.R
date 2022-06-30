@@ -151,7 +151,13 @@ make_elite_summary_tables <- function(blue_data = genotype_BLUEs,
   py_comparison_tables <- full_comparison_table(blue_data = blue_data$BLUEs, lsd_data,keep_phenos = c("yield", "protein"))
   
   # Protein oil yield comparison tables
-  poy_comparison_tables <- full_comparison_table(blue_data = blue_data$BLUEs, lsd_data,keep_phenos = c("yield", "protein", "oil"))
+  poy_comparison_tables <- full_comparison_table(blue_data = blue_data$BLUEs, lsd_data, keep_phenos = c("yield", "protein", "oil"))
+  
+  # Protein meal comparison tables
+  meal_comparison_tables <- full_comparison_table(blue_data = blue_data$BLUEs, lsd_data, keep_phenos = c("protein_meal"))
+  
+  # Agronomic comparison tables
+  ag_comparison_tables <- full_comparison_table(blue_data = blue_data$BLUEs, lsd_data, keep_phenos = c("ht", "lod", "sdwt", "sq"))
   
   # TODO:
   # Need to make a function that takes this data and converts it to a more 
@@ -302,7 +308,7 @@ make_elite_summary_tables <- function(blue_data = genotype_BLUEs,
     #                                   footnote_marker_symbol(5, format = "latex"))
 
     
-    knitr::kable(current_table, "latex", booktabs = TRUE, caption = table_caption) %>% 
+    knitr::kable(current_table, "html", booktabs = TRUE, caption = table_caption) %>% 
       kable_styling(latex_options=c("scale_down", "HOLD_position")) %>%
       collapse_rows(columns = collapse_indices) %>%
       add_header_above(column_groups, escape = FALSE) %>% 
@@ -329,6 +335,13 @@ make_elite_summary_tables <- function(blue_data = genotype_BLUEs,
              "N18-1674", "N18-1682", "N18-1731", "N18-1751", "N18-1763", 
              "N18-1855", "N18-1575", "N18-1627", "N18-1643", "N18-1761", 
              "N18-1769", "N18-1783")
+  
+  # All genotypes
+  all_genos <- blue_data$BLUEs %>% 
+    bind_rows() %>% 
+    pluck("genotype") %>% 
+    unique() %>% 
+    as.character()
 
   
   elite_geno_table <- make_phenotype_comparison_table(poy_comparison_tables, 
@@ -348,9 +361,23 @@ make_elite_summary_tables <- function(blue_data = genotype_BLUEs,
                                                  pheno_names = c("yield", "protein"),
                                                  table_caption = "Soybean RILs with superior protein content and comparable yield performance to high-yielding check cultivars.")
   
+  protein_meal_table <- make_phenotype_comparison_table(meal_comparison_tables, 
+                                                        keep_msd = FALSE, 
+                                                        keep_genos = elite_genos, 
+                                                        pheno_names = "protein_meal", 
+                                                        table_caption = "Protein meal values of soybean genotypes with yield and seed oil comparable to check cultivars, and seed protein superior to check cultivars.")
+  
+  agronomics_table <- make_phenotype_comparison_table(ag_comparison_tables, 
+                                                        keep_msd = FALSE, 
+                                                        keep_genos = all_genos, 
+                                                        pheno_names = c("ht", "lod", "sdwt", "sq"), 
+                                                        table_caption = "Agronomic traits of soybean genotypes in yield tests 1 and 2.")
+  
   res <- list("elite_genos" = elite_geno_table, 
               "po_top_ten"  = high_po_table, 
-              "hp_sy_table" = hp_sy_table)
+              "hp_sy_table" = hp_sy_table, 
+              "meal_table"  = protein_meal_table, 
+              "ag_table"    = agronomics_table)
   
   return(res)
 }
