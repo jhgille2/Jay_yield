@@ -12,7 +12,12 @@ pacman::p_load(conflicted,
                tarchetypes)
 
 # Data wrangling
-pacman::p_load(tidyverse, 
+pacman::p_load(dplyr,
+               purrr, 
+               stringr,
+               tidyr,
+               forcats,
+               readr,
                here, 
                readxl, 
                janitor, 
