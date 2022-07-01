@@ -110,7 +110,7 @@ export_phenotype_plots <- function(BLUE_plots_two_years, phenotype_scatterplots,
   export_correlation_plots <- function(correlation_data, test_name, file_ext = "pdf"){
     
     # Get a filepath to save the plot to
-    current_filename <- paste0(export_dir, "/supplemental/", test_name, "correlation_plot.", file_ext)
+    current_filename <- paste0(export_dir, "/supplemental/", test_name, file_ext)
     
     current_plot <- pluck(correlation_data, "correlation_plot")
     
@@ -126,7 +126,10 @@ export_phenotype_plots <- function(BLUE_plots_two_years, phenotype_scatterplots,
     return(current_filename)
   }
   
-  all_correlation_plots <- map2_chr(correlation_plots, names(correlation_plots), export_correlation_plots)
+  # all_correlation_plots <- map2_chr(correlation_plots, names(correlation_plots), export_correlation_plots)
+  
+  Corr_plot_test1 <- export_correlation_plots(correlation_plots$`Jay Test 1`, test_name = "supplemental_figure_1.")
+  Corr_plot_test2 <- export_correlation_plots(correlation_plots$`Jay Test 2`, test_name = "supplemental_figure_2.")
   
   # Export all plots
   all_scatter_heatmaps <- map2_chr(scatter_heatmap_all, names(scatter_heatmap_all), export_scatter_heatmaps)
@@ -136,5 +139,6 @@ export_phenotype_plots <- function(BLUE_plots_two_years, phenotype_scatterplots,
            all_scatterplots, 
            all_histograms, 
            both_plots_scatter_filepath, 
-           all_correlation_plots))
+           Corr_plot_test1, 
+           Corr_plot_test2))
 }

@@ -136,9 +136,15 @@ Genotype least square means were calculated for all RILs in both tests. A visual
 
 
 ## Yield contrasts
-Several RILs in each of the tests had yield that was comparable to that of their check cultivars as per contrasts between RIL means and the average of the check cultivars for each test. No genotypes had yield that was higher than that of the yield checks, however many had comparable yield. Many of these genotypes with comparable yield also had protein content that was superior to the check average in each test. No genotypes had oil that was superior to the check cultivars, but some had comparable yield and oil content as well as superior protein content. Such genotypes are extremely valuable for production of soybean meal with higher protein. As mentioned earlier, the meal protein of current U.S. cultivars is mostly below the minimum market standard of 47.5%. The meal protein is calculated by a formula that takes both seed protein and oil contents into account (reference from Pantalone). The meal protein contents of these lines with high protein and normal oil contents ranged from xx – xx% compared to the meal protein contents of the checks (Supplementary table XX).
+Several RILs in each of the tests had yield that was comparable to that of their check cultivars as per contrasts between RIL means and the average of the check cultivars for each test. No genotypes had yield that was higher than that of the yield checks, however many had comparable yield. Many of these genotypes with comparable yield also had protein content that was superior to the check average in each test. No genotypes had oil that was superior to the check cultivars, but some had comparable yield and oil content as well as superior protein content. Such genotypes are extremely valuable for production of soybean meal with higher protein. As mentioned earlier, the meal protein of current U.S. cultivars is mostly below the minimum market standard of 47.5%. The meal protein is calculated by the following formula that takes both seed protein and oil contents into account:
 
-RILs were also evaluated for lodging and seed quality (data not shown?). All RILs had seed quality that was on par with that of the high-yielding checks however, however 11 genotypes had lodging scores that were statistically significantly greater than the checks on the basis of contrasts. These RILs were removed from consideration for recommendation on the basis of their relatively poor agronomic performance
+$$Meal\ protein = \frac{Pro13}{1-\frac{Oil13}{100}}/0.92 $$
+
+Where Pro13 and Oil13 are seed protein and oil contents on a 13% moisture basis, respectively[@pantaloneRegistrationTN115102Soybean2018].
+
+The meal protein contents of these lines with high protein and normal oil contents ranged from 103.8% – 108.5% compared to the meal protein contents of the checks. Breeding line N18-1783 from test 2 had the maximum protein meal from among these lines. (Supplementary table 2).
+
+RILs were also evaluated for lodging and seed quality (Supplementary table 3). All RILs had seed quality that was on par with that of the high-yielding checks however, however 11 genotypes had lodging scores that were statistically significantly greater than the checks on the basis of contrasts (Supplementary table 4). These RILs were removed from consideration for recommendation on the basis of their relatively poor agronomic performance
 
 A detailed summary of all contrasts can be seen in supplementary table 1.
 

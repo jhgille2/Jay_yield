@@ -159,7 +159,6 @@ make_elite_summary_tables <- function(blue_data = genotype_BLUEs,
   # Agronomic comparison tables
   ag_comparison_tables <- full_comparison_table(blue_data = blue_data$BLUEs, lsd_data, keep_phenos = c("ht", "lod", "sdwt", "sq"))
   
-  # TODO:
   # Need to make a function that takes this data and converts it to a more 
   # reader-friendly format. I think that this will specifically involve writing
   # a function that can make hierarchical headings based on the current column 
@@ -169,7 +168,7 @@ make_elite_summary_tables <- function(blue_data = genotype_BLUEs,
   # genotype BLUE, genotype rank, overall test average, 
   # check average, and MSD.
   #
-  # Im imagining a table layout where each trait included in the table can have
+  # I'm imagining a table layout where each trait included in the table can have
   # a layout something like this: 
   #
   #     |                 Yield                    |
@@ -177,7 +176,7 @@ make_elite_summary_tables <- function(blue_data = genotype_BLUEs,
   #     | BLUE | Rank | Test Avg | Check Avg | MSD |
   #     
   # I can think this can be done in a fairly straightforward way by finding the 
-  # iundexes of the columns that match each phenotype name eg
+  # indexes of the columns that match each phenotype name eg
   # str_detect(colnames(x), "phenotype name") %>% which() and then use other
   # string processing functions to split the variable category (BLUE, rank, etc..)
   # from the phenotype, and then use lookup tables to clean up the names. 
@@ -292,6 +291,9 @@ make_elite_summary_tables <- function(blue_data = genotype_BLUEs,
         sort()
     }
     
+    
+    # TODO: This part needs to be fixed so that the footnote symbols can be 
+    # added to the column headings
     # names(current_table)[1] <- paste0(names(current_table)[1],
     #                                   footnote_marker_symbol(1, format = "latex"))
     # 
@@ -308,7 +310,7 @@ make_elite_summary_tables <- function(blue_data = genotype_BLUEs,
     #                                   footnote_marker_symbol(5, format = "latex"))
 
     
-    knitr::kable(current_table, "html", booktabs = TRUE, caption = table_caption) %>% 
+    knitr::kable(current_table, "latex", booktabs = TRUE, caption = table_caption) %>% 
       kable_styling(latex_options=c("scale_down", "HOLD_position")) %>%
       collapse_rows(columns = collapse_indices) %>%
       add_header_above(column_groups, escape = FALSE) %>% 

@@ -163,11 +163,16 @@ tar_plan(
                                       all_data   = all_yield_data$two_year, 
                                       util_tables)),
   
-  # A supplementary table with all the contrasts data
-  tar_target(contrast_export, 
-             export_contrasts(genotype_contrasts_mixed, 
-                              util_tables, 
-                              exportdir = here("exports", "data", "supplementary")), 
+  # Make supplementary tables 
+  tar_target(supplementary_table_data, 
+             make_supplementary_tables(genotype_BLUEs, 
+                                       genotype_contrasts_mixed, 
+                                       util_tables)),
+  
+  # A Export supplementary tables
+  tar_target(supplementary_tables_export, 
+             export_supplementary_tables(supplementary_table_data,
+                                         exportdir = here("exports", "data", "supplementary")), 
              format = "file"),
   
 # A example latex table to use for testing targets with the manuscript template
@@ -193,7 +198,7 @@ tar_plan(
   # Correlation plots
   tar_target(correlation_plots, 
              make_correlation_plots(genotype_BLUEs, 
-                                    pheno = c("protein", "oil", "yield", "sdwt", "md", "ht"), 
+                                    pheno = c("protein", "oil", "yield", "sdwt", "md", "ht", "protein_meal"), 
                                     util_tables)),
 
   # Latex tables of summary data for the yield marginal means

@@ -105,16 +105,16 @@ merge_yield_data <- function(yield_2019_file, cas_maturity_file,
   all_merged <- map(all_yield, function(x) filter_fn(x, keep_cols)) %>% 
     reduce(bind_rows) %>% 
     mutate(across(any_of(num_cols), as.numeric), 
-           protein = ifelse(as.numeric(rep) > 2, NA, protein), 
-           oil     = ifelse(as.numeric(rep) > 2, NA, oil),
+           protein          = ifelse(as.numeric(rep) > 2, NA, protein), 
+           oil              = ifelse(as.numeric(rep) > 2, NA, oil),
            protein_plus_oil = protein + oil, 
-           yield = ifelse(year %in% c("2020"), yield*0.033, 
-                          ifelse(year == "2019", yield/67.2510693716674, 
-                            ifelse(loc %in% c("PLY", "SAN"), yield*0.0252, yield*0.0228))), 
-           ENV = paste(loc, year, sep = " - "), 
-           protein_13_pct = protein*0.87, 
-           oil_13_pct = oil*0.87, 
-           protein_meal = snfR::calc_protein_meal(oil_13_pct, protein_13_pct)) %>% 
+           yield            = ifelse(year %in% c("2020"), yield*0.033,                          # Adjust yield from kg/ha to bu/acre
+                               ifelse(year == "2019", yield/67.2510693716674,                   # Adjust yield from grams to bu/acre
+                                ifelse(loc %in% c("PLY", "SAN"), yield*0.0252, yield*0.0228))), # Adjust from grams to bu/acre
+           ENV              = paste(loc, year, sep = " - "), 
+           protein_13_pct   = protein*0.87, # Adjust protein/oil to a 13% moisture basis so that protein meal can be calculated
+           oil_13_pct       = oil*0.87, 
+           protein_meal     = snfR::calc_protein_meal(oil_13_pct, protein_13_pct)) %>% 
     distinct() %>% 
     select(-any_of(c("protein_13_pct", "oil_13_pct")))
   
