@@ -115,7 +115,7 @@ Where $x$ and $y$ are measurements of the two phenotypes, $m_x$ and $m_y$ are th
 # Results and discussion
 
 ## Phenotypic correlations
-A strong negative correlation (r = -0.93) was observed in both tests between seed protein and seed oil content. A weak negative correlation (r = -0.29) was observed between seed protein and yield in both tests which was statistically insignificant in either population. Weak positive correlations were also observed between seed oil and seed yield in both populations. A correlation coefficient of r = 0.24 was observed in Test 1 while a coefficient of r = 0.28 was observed in Test 2. These correlation coefficients were not statistically significant in either population. The pairwise correlation coefficients for Tests 1 and 2 are presented in supplementary figures 2 and 3, respectively.
+A strong negative correlation (r = -0.93) was observed in both tests between seed protein and seed oil content. A weak negative correlation (r = -0.29) was observed between seed protein and yield in both tests which was statistically insignificant in either population. Weak positive correlations were also observed between seed oil and seed yield in both populations. A correlation coefficient of r = 0.24 was observed in Test 1 while a coefficient of r = 0.28 was observed in Test 2. These correlation coefficients were not statistically significant in either population. The pairwise correlation coefficients for Tests 1 and 2 are presented in supplementary figures 1 and 2, respectively.
 
 ```{r, lsmean_plot_link, echo = FALSE}
 
