@@ -159,6 +159,9 @@ make_elite_summary_tables <- function(blue_data = genotype_BLUEs,
   # Agronomic comparison tables
   ag_comparison_tables <- full_comparison_table(blue_data = blue_data$BLUEs, lsd_data, keep_phenos = c("ht", "lod", "sdwt", "sq"))
   
+  # Lodging comparison tales
+  lodging_comparison_tables <- full_comparison_table(blue_data = blue_data$BLUEs, lsd_data, keep_phenos = c("lod"))
+  
   # Need to make a function that takes this data and converts it to a more 
   # reader-friendly format. I think that this will specifically involve writing
   # a function that can make hierarchical headings based on the current column 
@@ -308,18 +311,63 @@ make_elite_summary_tables <- function(blue_data = genotype_BLUEs,
     # 
     # names(current_table)[5] <- paste0(names(current_table)[5],
     #                                   footnote_marker_symbol(5, format = "latex"))
-
     
-    knitr::kable(current_table, "latex", booktabs = TRUE, caption = table_caption) %>% 
-      kable_styling(latex_options=c("scale_down", "HOLD_position")) %>%
-      collapse_rows(columns = collapse_indices) %>%
-      add_header_above(column_groups, escape = FALSE) %>% 
-      footnote(symbol = c("The genotype name.", 
+    table_footnotes <-  c("The genotype name.", 
+                          "The test name",
                           "The genotype marginal mean for the phenotype (value divided by check average).", 
                           "The ranking of this genotype for the phenotype within its test.", 
                           "The average phenotype value for all genotypes in the test.",
-                          "The average value of the checks in the test."))
+                          "The average value of the checks in the test.")
+
     
+    # Export two copies of the table, one that uses the kable package to make a latex table, and another that
+    # uses the flextable package to make tables that can be exported to word. 
+    kable_table <- knitr::kable(current_table, "latex", booktabs = TRUE, caption = table_caption) %>% 
+      kable_styling(latex_options=c("scale_down", "HOLD_position")) %>%
+      collapse_rows(columns = collapse_indices) %>%
+      add_header_above(column_groups, escape = FALSE) %>% 
+      kableExtra::footnote(symbol = table_footnotes)
+    
+    
+    # Flextable doesn't like it if column names are repeated. I'll first
+    # remove them and then put them back later as a header row. 
+    current_table_names <- colnames(current_table)
+    colnames(current_table) <- letters[1:length(current_table_names)]
+    
+    # Replace the empty elements of the column_groups vector with widths of 1
+    column_groups[which(is.na(as.numeric(column_groups)))] <- 1
+    
+    FitFlextableToPage <- function(ft, pgwidth = 8){
+      
+      ft_out <- ft %>% autofit()
+      
+      ft_out <- width(ft_out, width = dim(ft_out)$widths*pgwidth /(flextable_dim(ft_out)$widths))
+      return(ft_out)
+    }
+    
+    # Make the flextable
+    flextable_table <- flextable(current_table) %>% 
+      delete_part() %>% 
+      add_header_row(values = current_table_names) %>% 
+      theme_box() %>% 
+      add_header_row(colwidths = as.numeric(column_groups), values = names(column_groups)) %>% 
+      merge_v(j = collapse_indices) %>%
+      flextable::footnote(i = 2, j = 1:6, 
+                          value = as_paragraph(table_footnotes), 
+                          ref_symbols = letters[1:6], 
+                          part = "header") %>% 
+      set_caption(table_caption) %>%
+      align(align = "center", part = "header") %>%
+      align(align = "center", part = "body") %>% 
+      FitFlextableToPage() %>% 
+      fontsize(size = 8, part = "all") %>% 
+      flextable::font(fontname = "Cambria (body)", part = "all")
+
+    # And return a list of both tables. 
+    res <- list("tex_table"  = kable_table, 
+                "word_table" = flextable_table)
+    
+    return(res)
   }
   
   # Genotypes with similar oil and yield, high protein
@@ -337,6 +385,11 @@ make_elite_summary_tables <- function(blue_data = genotype_BLUEs,
              "N18-1674", "N18-1682", "N18-1731", "N18-1751", "N18-1763", 
              "N18-1855", "N18-1575", "N18-1627", "N18-1643", "N18-1761", 
              "N18-1769", "N18-1783")
+  
+  # High lodging genotypes
+  high_lodging <- c("N18-1604", "N18-1641", "N18-1956", "N18-1577", "N18-1579", 
+                    "N18-1586", "N18-1628", "N18-1659", "N18-1661", "N18-1796", 
+                    "N18-1820")
   
   # All genotypes
   all_genos <- blue_data$BLUEs %>% 
@@ -375,11 +428,18 @@ make_elite_summary_tables <- function(blue_data = genotype_BLUEs,
                                                         pheno_names = c("ht", "lod", "sdwt", "sq"), 
                                                         table_caption = "Agronomic traits of soybean genotypes in yield tests 1 and 2.")
   
+  lodging_table <- make_phenotype_comparison_table(lodging_comparison_tables, 
+                                                   keep_msd = FALSE, 
+                                                   keep_genos = high_lodging, 
+                                                   pheno_names = "lod", 
+                                                   table_caption = "Lodging values of genotypes with significantly higher lodging scores than the yield checks of their respective test.")
+  
   res <- list("elite_genos" = elite_geno_table, 
               "po_top_ten"  = high_po_table, 
               "hp_sy_table" = hp_sy_table, 
               "meal_table"  = protein_meal_table, 
-              "ag_table"    = agronomics_table)
+              "ag_table"    = agronomics_table, 
+              "lod_table"   = lodging_table)
   
   return(res)
 }

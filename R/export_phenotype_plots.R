@@ -38,7 +38,8 @@ export_phenotype_plots <- function(BLUE_plots_two_years, phenotype_scatterplots,
   # All filepaths to the saved scatterplots
   all_scatterplots <- export_scatterplots(phenotype_scatterplots$side_by_side)
   
-  both_plots_scatter_filepath <- paste0(export_dir, "/", "lsmean_scatterplot.pdf")
+  both_plots_scatter_filepath     <- paste0(export_dir, "/", "lsmean_scatterplot.pdf")
+  both_plots_scatter_filepath_png <- paste0(export_dir, "/", "lsmean_scatterplot.png")
   
   ggsave(filename = both_plots_scatter_filepath, 
          plot = phenotype_scatterplots$combined, 
@@ -47,6 +48,14 @@ export_phenotype_plots <- function(BLUE_plots_two_years, phenotype_scatterplots,
          height = 10, 
          units = "in", 
          dpi = 800)
+  
+  ggsave(filename = both_plots_scatter_filepath_png, 
+         plot = phenotype_scatterplots$combined, 
+         device = "png", 
+         width = 12, 
+         height = 10, 
+         units = "in", 
+         dpi = 1800)
   
   
   ## Section: Labelled histograms
@@ -116,11 +125,11 @@ export_phenotype_plots <- function(BLUE_plots_two_years, phenotype_scatterplots,
     
     # Save the plot to the filepath
     ggsave(filename = current_filename, 
-           plot = current_plot, 
-           device = file_ext, 
-           width = 8, 
-           height = 8, 
-           units = "in")
+           plot     = current_plot, 
+           device   = file_ext, 
+           width    = 8, 
+           height   = 8, 
+           units    = "in")
     
     # And return the path
     return(current_filename)
@@ -138,7 +147,8 @@ export_phenotype_plots <- function(BLUE_plots_two_years, phenotype_scatterplots,
   return(c(all_scatter_heatmaps, 
            all_scatterplots, 
            all_histograms, 
-           both_plots_scatter_filepath, 
+           both_plots_scatter_filepath,
+           both_plots_scatter_filepath_png,
            Corr_plot_test1, 
            Corr_plot_test2))
 }

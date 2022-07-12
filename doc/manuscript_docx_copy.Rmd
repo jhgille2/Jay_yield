@@ -1,59 +1,9 @@
 ---
-title: Identification of high-yielding soybean lines with exceptional seed composition qualities
-author:
-  - name: Jay Gillenwater
-    affil: 1,\ddagger,*
-    orcid: 0000-0002-3477-6291
-affiliation:
-  - num: 1
-    address: |
-      Department of Crop and Soil Sciences, NCSU, Raleigh, NC, USA
-    email: jhgille2@ncsu.edu
-# firstnote to eighthnote
-firstnote: |
-  Current address: Updated affiliation
-secondnote: |
-  These authors contributed equally to this work.
-journal: Agronomy
-type: article
-status: submit
-bibliography: mybibfile.bib
-appendix: appendix.tex
-simplesummary: |
-  A Simple summary goes here.
-abstract: |
- In current markets, the primary uses for soybean seed are in products derived from it’s oil or protein content. However, growers are compensated based on seed yield  so a more valuable crop is the one that is high yielding with an optimum combination of protein and oil. A negative correlation of seed protein with seed yield and oil makes simultaneous improvement of  these traits difficult but not impossible through conventional breeding. A selection of lines with exceptional yield and seed composition qualities was made from two recombinant inbred line (RIL) soybean mapping populations to identify high protein and/or high oil lines with yield comparable to elite cultivars.  The performance of these RILs were evaluated in multiple environments and several genotypes were identified with yield comparable to that of high yielding check cultivars with seed protein and/or oil superior to the checks. These genotypes will provide breeders with additional sources of germplasm for continuing efforts to improve seed composition traits without compromising seed yield, and provide growers with more profitable varieties.
-keywords: |
-  yield; protein; oil;soybean; protein meal
-acknowledgement: |
-  All sources of funding of the study should be disclosed. Please clearly 
-  indicate grants that you have received in support of your research work. 
-  Clearly state if you received funds for covering the costs to publish in open 
-  access.
-authorcontributions: |
-  For research articles with several authors, a short paragraph specifying their 
-  individual contributions must be provided. The following statements should be 
-  used ``X.X. and Y.Y. conceive and designed the experiments; X.X. performed the 
-  experiments; X.X. and Y.Y. analyzed the data; W.W. contributed 
-  reagents/materials/analysis tools; Y.Y. wrote the paper.'' Authorship must be
-  limited to those who have contributed substantially to the work reported.
-conflictsofinterest: |
-  The authors declare no conflict of 
-  interest.
-sampleavailability: |
-  Samples of the compounds ...... are available from the authors.
-abbreviations:
-  - short: RIL
-    long: Recombinant inbred line
-  - short: RCBD
-    long: Randomized complete block design
-  - short: CLA
-    long: Central crops research station
-  - short: CAS
-    long: Caswell research farm
-  - short: PLY  
-    long: Tidewater research station
-output: rticles::mdpi_article
+title: "Identification of high-yielding soybean lines with exceptional seed composition qualities"
+author: "Jay Gillenwater"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: word_document
+bibliography: ./manuscript/mybibfile.bib  
 ---
 
 ```{r setup, warning=FALSE,echo = FALSE, message=FALSE}
@@ -63,6 +13,10 @@ tar_load(c(yield_summary_tables,
            elite_genotype_tables, 
            phenotype_summary_plots))
 ```
+
+# Abstract
+
+ In current markets, the primary uses for soybean seed are in products derived from it’s oil or protein content. However, growers are compensated based on seed yield  so a more valuable crop is the one that is high yielding with an optimum combination of protein and oil. A negative correlation of seed protein with seed yield and oil makes simultaneous improvement of  these traits difficult but not impossible through conventional breeding. A selection of lines with exceptional yield and seed composition qualities was made from two recombinant inbred line (RIL) soybean mapping populations to identify high protein and/or high oil lines with yield comparable to elite cultivars.  The performance of these RILs were evaluated in multiple environments and several genotypes were identified with yield comparable to that of high yielding check cultivars with seed protein and/or oil superior to the checks. These genotypes will provide breeders with additional sources of germplasm for continuing efforts to improve seed composition traits without compromising seed yield, and provide growers with more profitable varieties.
 
 # Introduction
 
@@ -121,17 +75,13 @@ A strong negative correlation (r = -0.93) was observed in both tests between see
 ```{r, lsmean_plot_link, echo = FALSE}
 
 # Get the link to the lsmean scatterplot
-mean_plot_link <- phenotype_summary_plots[grepl("lsmean_scatterplot", phenotype_summary_plots)]
+mean_plot_link <- phenotype_summary_plots[grepl("lsmean_scatterplot.png", phenotype_summary_plots)]
 
 ```
 
-```{=tex}
-\begin{figure}[H]
-\centering
-\includegraphics[width=15 cm]{`r mean_plot_link`}
-\caption{Genotype Least square means for seed oil, seed protein, and seed yield for soybean RILs in Test 1 (\textbf{A}) and Test 2 (\textbf{B}). Points indicate the least square means and error bars indicate the standard errors in the estimation of least square means. Blue dots indicate that a RIL has a least square mean above the average of the checks in the test and a color of red indicates that the RIL has a mean value below the check average. The check average is shown with the vertical dashed line.}
-\end{figure}
-```
+![**Figure 1**: Genotype Least square means for seed oil, seed protein, and seed yield for soybean RILs in Test 1 (**A**) and Test 2 (**B**). Points indicate the least square means and error bars indicate the standard errors in the estimation of least square means. Blue dots indicate that a RIL has a least square mean above the average of the checks in the test and a color of red indicates that the RIL has a mean value below the check average. The check average is shown with the vertical dashed line.](`r mean_plot_link`)
+
+
 Genotype least square means were calculated for all RILs in both tests. A visualization of these least square means and the standard error on the estimation of these means for seed protein, seed oil, and seed yield can be seen in figure 1. Both tests tended to have more RILs with high protein rather than high oil when compared to the average of the checks, and a moderate number had a yield average greater than the average of the checks. Qualitatively, many RILs had a comparable yield to the checks following the relatively large standard error associated with the estimating the yield, and a qualitatively larger seed protein content given the relatively small standard error associated with the estimation of seed protein content. To separate means quantitatively, we performed contrasts between each RIL mean and the average of the checks for each test.
 
 ## Yield contrasts
@@ -152,9 +102,9 @@ A detailed summary of all contrasts can be seen in supplementary table 1.
 
 Four genotypes had yield and oil that was similar to that of the yield checks, and seed protein that was greater than the average of the checks. These genotypes are N18-1635 from Test 1 and genotypes N18-1627, N18-1643, and N18-1783 from Test 2. Summary data for these lines is given in table 1.
 
-```{r elite_geno_table, results = "asis", echo = FALSE}
+```{r elite_geno_table, echo = FALSE}
 
-print(elite_genotype_tables$elite_genos$tex_table)
+knitr::knit_print(elite_genotype_tables$elite_genos$word_table)
 
 ```
 
@@ -166,9 +116,9 @@ These RILs can provide valuable germplasm that can be used to simultaneously imp
 
 Seventeen RILs had a similar yield and superior protein content to the check cultivars. Summary data for the seed protein and seed yield of these lines is given in table 2. From among these RILs, N18-1627 had the highest seed yield relative to the checks included in the test with an average yield that was 105.9% that of the check average of Test 2. Genotype N18-1763 had the highest seed protein content on average with a protein content that was 116.8% that of the check average of Test 1. We observed a negative correlation between seed protein and seed yield in both tests so RILs with seed protein content that was above the check average tended to have a seed yield content that was comparatively lower.
 
-```{r high_po_table, results = "asis", echo = FALSE}
+```{r high_po_table, echo = FALSE}
 
-print(elite_genotype_tables$hp_sy_table$tex_table)
+knitr::knit_print(elite_genotype_tables$hp_sy_table$word_table)
 
 ```
 

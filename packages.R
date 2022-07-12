@@ -50,10 +50,13 @@ pacman::p_load(metan,
 pacman::p_load(rmdformats, 
                kableExtra, 
                pander, 
+               flextable,
                kableExtra, 
                rmarkdown, 
-               rticles)
+               rticles, 
+               officer)
 
 # Function conflict preferences
 conflicted::conflict_prefer("filter", "dplyr", "base")
 
+library(rmarkdown)

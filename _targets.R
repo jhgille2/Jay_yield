@@ -169,12 +169,6 @@ tar_plan(
                                        genotype_contrasts_mixed, 
                                        util_tables)),
   
-  # A Export supplementary tables
-  tar_target(supplementary_tables_export, 
-             export_supplementary_tables(supplementary_table_data,
-                                         exportdir = here("exports", "data", "supplementary")), 
-             format = "file"),
-  
 # A example latex table to use for testing targets with the manuscript template
   tar_target(example_table, 
              make_example_table()),
@@ -214,9 +208,12 @@ tar_target(elite_genotype_tables,
            make_elite_summary_tables(blue_data      = genotype_BLUEs,
                                      utility_tables = util_tables, 
                                      lsd_data       = least_sig_differences)),
-             
-             
-  
+
+# Export all of these tables as word documents
+tar_target(elite_genotype_table_exports, 
+           export_elite_genotype_tables(elite_genotype_tables, dir = here("exports", "tables", "elite_genos")), 
+           format = "file"),
+            
   # Histograms for each test with a selection of genotypes labelled for each test
   tar_target(labelled_test_histograms, 
              make_test_histograms(geno_means = genotype_BLUEs$BLUEs, 
@@ -234,6 +231,13 @@ tar_target(elite_genotype_tables,
                                     export_dir = here("exports", "plots")), 
              format = "file"),
 
+# A Export supplementary tables
+tar_target(supplementary_tables_export, 
+           export_supplementary_tables(supplementary_table_data,
+                                       elite_genotype_tables,
+                                       exportdir = here("exports", "data", "supplementary")), 
+           format = "file"),
+
 
 
 
@@ -244,6 +248,7 @@ tar_target(elite_genotype_tables,
 
   # tar_render(overview_document, here("doc", "overview_document.Rmd")),
   
-  tar_render(manuscript_document, here("doc", "manuscript", "manuscript.Rmd"))
-  
+  tar_render(manuscript_document, here("doc", "manuscript", "manuscript.Rmd")), 
+
+  tar_render(manuscript_docx_copy, here("doc", "manuscript_docx_copy.Rmd"))
 )
