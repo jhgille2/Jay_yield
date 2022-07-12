@@ -92,11 +92,11 @@ $$Meal\ protein = \frac{Pro13}{1-\frac{Oil13}{100}}/0.92 $$
 
 Where Pro13 and Oil13 are seed protein and oil contents on a 13% moisture basis, respectively[@pantaloneRegistrationTN115102Soybean2018].
 
-The meal protein contents of these lines with high protein and normal oil contents ranged from 103.8% -- 108.5% compared to the meal protein contents of the checks. Breeding line N18-1783 from test 2 had the maximum protein meal from among these lines. (Supplementary table 2).
+The meal protein contents of these lines with high protein and normal oil contents ranged from 103.8% -- 108.5% compared to the meal protein contents of the checks. This corresponds to protein meal concentrations between 50.8%-53.9%. Breeding line N18-1783 from test 2 had the maximum protein meal from among these lines. (Supplementary table 2).
 
 RILs were also evaluated for lodging and seed quality (Supplementary table 3). All RILs had seed quality that was on par with that of the high-yielding checks however, however 11 genotypes had lodging scores that were statistically significantly greater than the checks on the basis of contrasts (Supplementary table 4). These RILs were removed from consideration for recommendation on the basis of their relatively poor agronomic performance
 
-A detailed summary of all contrasts can be seen in supplementary table 1.
+A detailed summary of all contrasts can be seen in Supplementary table 1.
 
 ## Genotypes with comparable seed yield and seed oil and superior seed protein content
 
